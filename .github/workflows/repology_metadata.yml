@@ -18,14 +18,16 @@ jobs:
       run: |
         sudo apt update
         sudo apt install -yq jq
-    - name: Clone termux-packages
+    - name: Clone TUR
       run: |
         mkdir -p /tmp/repos
+        git clone https://github.com/termux-user-repository/tur.git /tmp/repos/tur
         git clone https://github.com/termux/termux-packages.git /tmp/repos/termux-packages
+        cp -r /tmp/repos/termux-packages/scripts /tmp/repos/tur/
     - name: Generate packages.json
       run: |
-        export TERMUX_SCRIPTDIR=/tmp/repos/termux-packages
-        bash ./generate-repology-metadata.sh /tmp/repos/termux-packages > ./packages.json
+        export TERMUX_SCRIPTDIR=/tmp/repos/tur
+        bash ./generate-repology-metadata.sh /tmp/repos/tur > ./packages.json
 
         if ! jq . ./packages.json > /dev/null; then
           echo "Error: invalid packages.json" > /dev/stderr
