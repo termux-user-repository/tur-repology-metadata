@@ -4651,6 +4651,25 @@
     "auto_updated": false
   },
   {
+    "name": "sdlpal",
+    "version": "2.0.2024.08.06",
+    "description": "SDL-based reimplementation of the classic Chinese-language RPG known as PAL",
+    "homepage": "https://sdlpal.github.io/sdlpal/",
+    "depends": [
+      "libc++",
+      "opengl",
+      "sdl2"
+    ],
+    "srcurl": "git+https://github.com/sdlpal/sdlpal",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cc5e467/tur/sdlpal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cc5e467/tur/sdlpal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cc5e467/tur/sdlpal/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "seledroid-app",
     "version": "1.1.1",
     "description": "Chromium-based android webdriver application used by seledroid.",
