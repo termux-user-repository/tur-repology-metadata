@@ -35,8 +35,8 @@ jobs:
         fi
 
         if [ $(git diff ./packages.json | wc -l) -gt 0 ]; then
-          git config --global user.name "Termux Github Actions"
-          git config --global user.email "contact@termux.org"
+          git config --global user.name "TUR Github Actions"
+          git config --global user.email "abc@example.com"
           git add ./packages.json
           git commit -m "Generate new metadata for Repology"
           git push
