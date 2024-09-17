@@ -535,7 +535,7 @@
   },
   {
     "name": "darktable",
-    "version": "4.6.1",
+    "version": "4.8.1",
     "description": "virtual lighttable and darkroom for photographers",
     "homepage": "https://www.darktable.org/",
     "depends": [
@@ -572,20 +572,18 @@
       "portmidi",
       "zlib"
     ],
-    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-4.6.1/darktable-4.6.1.tar.xz",
+    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-4.8.1/darktable-4.8.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fc8646f/tur/darktable",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fc8646f/tur/darktable/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fc8646f/tur/darktable/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/43b681f/tur/darktable",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/43b681f/tur/darktable/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/43b681f/tur/darktable/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/fc8646f/tur/darktable/0001-cmake-libm.patch",
-      "https://github.com/termux-user-repository/tur/blob/fc8646f/tur/darktable/0002-jobs-pthread.patch",
-      "https://github.com/termux-user-repository/tur/blob/fc8646f/tur/darktable/0003-darktable-x86_64-lld-error.patch"
+      "https://github.com/termux-user-repository/tur/blob/43b681f/tur/darktable/0001-cmake-libm.patch",
+      "https://github.com/termux-user-repository/tur/blob/43b681f/tur/darktable/0002-jobs-pthread.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fc8646f/tur/darktable/0001-cmake-libm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fc8646f/tur/darktable/0002-jobs-pthread.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fc8646f/tur/darktable/0003-darktable-x86_64-lld-error.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/43b681f/tur/darktable/0001-cmake-libm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/43b681f/tur/darktable/0002-jobs-pthread.patch"
     ],
     "auto_updated": true
   },
