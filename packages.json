@@ -302,25 +302,25 @@
   },
   {
     "name": "cfitsio",
-    "version": "4.3.1",
+    "version": "4.5.0",
     "description": "a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format",
     "homepage": "https://heasarc.gsfc.nasa.gov/fitsio/",
     "depends": [
       "curl",
       "zlib"
     ],
-    "srcurl": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.3.1.tar.gz",
+    "srcurl": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.5.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/338325d/tur/cfitsio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/338325d/tur/cfitsio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/338325d/tur/cfitsio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4d3a50c/tur/cfitsio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4d3a50c/tur/cfitsio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4d3a50c/tur/cfitsio/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/338325d/tur/cfitsio/0001-cmake-libm.patch"
+      "https://github.com/termux-user-repository/tur/blob/4d3a50c/tur/cfitsio/0001-cmake-libm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/338325d/tur/cfitsio/0001-cmake-libm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4d3a50c/tur/cfitsio/0001-cmake-libm.patch"
     ],
-    "auto_updated": false
+    "auto_updated": true
   },
   {
     "name": "chromium",
@@ -392,30 +392,30 @@
     ],
     "srcurl": "https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4f1f4a5/tur/clucene",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/61fc4f9/tur/clucene",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0001-clucene-core-2.3.3.4-install_contribs_lib.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0002-clucene-core-2.3.3.4-pkgconfig.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0003-fix_zlib_detections.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0004-Fix-missing-include-time.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0005-clucene-multimap-put.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0006-clucene-narrowing-conversions.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0007-clucene-debug.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0008-do-not-use-try-run.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f1f4a5/tur/clucene/0009-pthread_t.patch"
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0001-clucene-core-2.3.3.4-install_contribs_lib.patch",
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0002-clucene-core-2.3.3.4-pkgconfig.patch",
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0003-fix_zlib_detections.patch",
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0004-Fix-missing-include-time.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0005-clucene-multimap-put.patch",
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0006-clucene-narrowing-conversions.patch",
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0007-clucene-debug.patch",
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0008-do-not-use-try-run.patch",
+      "https://github.com/termux-user-repository/tur/blob/61fc4f9/tur/clucene/0009-pthread_t.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0001-clucene-core-2.3.3.4-install_contribs_lib.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0002-clucene-core-2.3.3.4-pkgconfig.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0003-fix_zlib_detections.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0004-Fix-missing-include-time.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0005-clucene-multimap-put.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0006-clucene-narrowing-conversions.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0007-clucene-debug.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0008-do-not-use-try-run.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f1f4a5/tur/clucene/0009-pthread_t.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0001-clucene-core-2.3.3.4-install_contribs_lib.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0002-clucene-core-2.3.3.4-pkgconfig.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0003-fix_zlib_detections.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0004-Fix-missing-include-time.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0005-clucene-multimap-put.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0006-clucene-narrowing-conversions.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0007-clucene-debug.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0008-do-not-use-try-run.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/61fc4f9/tur/clucene/0009-pthread_t.patch"
     ],
     "auto_updated": false
   },
@@ -4881,22 +4881,22 @@
   },
   {
     "name": "surreal",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.0.0.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.0.1.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/deb9ac0/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/deb9ac0/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/deb9ac0/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9687986/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9687986/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9687986/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/deb9ac0/tur/surreal/jemalloc-sys.diff",
-      "https://github.com/termux-user-repository/tur/blob/deb9ac0/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/9687986/tur/surreal/jemalloc-sys.diff",
+      "https://github.com/termux-user-repository/tur/blob/9687986/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/deb9ac0/tur/surreal/jemalloc-sys.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/deb9ac0/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9687986/tur/surreal/jemalloc-sys.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9687986/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
