@@ -795,7 +795,7 @@
   },
   {
     "name": "dpp",
-    "version": "10.0.30",
+    "version": "10.0.31",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
     "homepage": "https://dpp.dev",
     "depends": [
@@ -805,11 +805,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.30.tar.gz",
+    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.31.tar.gz",
     "maintainer": "@OrdinaryEnder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5f294aa/tur/dpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5f294aa/tur/dpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5f294aa/tur/dpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/11f28d8/tur/dpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/11f28d8/tur/dpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/11f28d8/tur/dpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3741,18 +3741,18 @@
   },
   {
     "name": "playit",
-    "version": "0.15.11",
+    "version": "0.15.23",
     "description": "playit is a global proxy that allows anyone to host a server without port forwarding.",
     "homepage": "https://playit.gg",
     "depends": [],
-    "srcurl": "https://github.com/playit-cloud/playit-agent/archive/v0.15.11.tar.gz",
+    "srcurl": "https://github.com/playit-cloud/playit-agent/archive/v0.15.23.tar.gz",
     "maintainer": "@nisheri-ascar",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ac34cc6/tur/playit",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/playit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/playit/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/72bffc7/tur/playit",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/72bffc7/tur/playit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/72bffc7/tur/playit/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
-    "auto_updated": false
+    "auto_updated": true
   },
   {
     "name": "pybind11",
@@ -3910,7 +3910,7 @@
   },
   {
     "name": "python-pandas",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "description": "Powerful Python data analysis toolkit",
     "homepage": "https://pandas.pydata.org/",
     "depends": [
@@ -3921,9 +3921,9 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/369bb0d/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/369bb0d/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/369bb0d/tur/python-pandas/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2047554/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2047554/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2047554/tur/python-pandas/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
