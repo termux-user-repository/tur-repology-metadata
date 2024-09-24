@@ -3743,15 +3743,15 @@
   },
   {
     "name": "playit",
-    "version": "0.15.23",
+    "version": "0.15.24",
     "description": "playit is a global proxy that allows anyone to host a server without port forwarding.",
     "homepage": "https://playit.gg",
     "depends": [],
-    "srcurl": "https://github.com/playit-cloud/playit-agent/archive/v0.15.23.tar.gz",
+    "srcurl": "https://github.com/playit-cloud/playit-agent/archive/v0.15.24.tar.gz",
     "maintainer": "@nisheri-ascar",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/72bffc7/tur/playit",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/72bffc7/tur/playit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/72bffc7/tur/playit/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7fa304a/tur/playit",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7fa304a/tur/playit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7fa304a/tur/playit/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3932,27 +3932,27 @@
   },
   {
     "name": "python-polars",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.8.0/polars-1.8.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.8.1/polars-1.8.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7d626ba/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7d626ba/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7d626ba/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c52351a/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c52351a/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c52351a/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7d626ba/tur/python-polars/arboard-dummy-platform.diff",
-      "https://github.com/termux-user-repository/tur/blob/7d626ba/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://github.com/termux-user-repository/tur/blob/7d626ba/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://github.com/termux-user-repository/tur/blob/c52351a/tur/python-polars/arboard-dummy-platform.diff",
+      "https://github.com/termux-user-repository/tur/blob/c52351a/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://github.com/termux-user-repository/tur/blob/c52351a/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7d626ba/tur/python-polars/arboard-dummy-platform.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7d626ba/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7d626ba/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c52351a/tur/python-polars/arboard-dummy-platform.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c52351a/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c52351a/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "auto_updated": true
   },
