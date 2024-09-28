@@ -4157,7 +4157,7 @@
   },
   {
     "name": "python-yt-dlp",
-    "version": "2024.08.06",
+    "version": "2024.09.27",
     "description": "A youtube-dl fork with additional features and fixes",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "depends": [
@@ -4169,11 +4169,11 @@
       "python-pip",
       "python-pycryptodomex"
     ],
-    "srcurl": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.08.06.tar.gz",
+    "srcurl": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.09.27.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b42990f/tur/python-yt-dlp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b42990f/tur/python-yt-dlp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b42990f/tur/python-yt-dlp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/959c5f4/tur/python-yt-dlp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/959c5f4/tur/python-yt-dlp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/959c5f4/tur/python-yt-dlp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
