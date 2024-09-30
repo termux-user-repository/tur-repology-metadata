@@ -3976,7 +3976,7 @@
   },
   {
     "name": "python-pygame",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "description": "pygame is a python game library",
     "homepage": "https://pygame.org/",
     "depends": [
@@ -3989,11 +3989,11 @@
       "sdl2-mixer",
       "sdl2-ttf"
     ],
-    "srcurl": "https://github.com/pygame/pygame/archive/refs/tags/2.6.0.tar.gz",
+    "srcurl": "https://github.com/pygame/pygame/archive/refs/tags/2.6.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/57a3f31/tur/python-pygame",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/57a3f31/tur/python-pygame/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/57a3f31/tur/python-pygame/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/aa1fe12/tur/python-pygame",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/aa1fe12/tur/python-pygame/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/aa1fe12/tur/python-pygame/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
