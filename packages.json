@@ -3932,44 +3932,44 @@
   },
   {
     "name": "python-polars",
-    "version": "1.8.2",
+    "version": "1.9.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.8.2/polars-1.8.2.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.9.0/polars-1.9.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/35d01dd/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/35d01dd/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/35d01dd/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/59778b2/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/59778b2/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/59778b2/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/35d01dd/tur/python-polars/arboard-dummy-platform.diff",
-      "https://github.com/termux-user-repository/tur/blob/35d01dd/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://github.com/termux-user-repository/tur/blob/35d01dd/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://github.com/termux-user-repository/tur/blob/59778b2/tur/python-polars/arboard-dummy-platform.diff",
+      "https://github.com/termux-user-repository/tur/blob/59778b2/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://github.com/termux-user-repository/tur/blob/59778b2/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35d01dd/tur/python-polars/arboard-dummy-platform.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35d01dd/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35d01dd/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/59778b2/tur/python-polars/arboard-dummy-platform.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/59778b2/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/59778b2/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "auto_updated": true
   },
   {
     "name": "python-pycryptodomex",
-    "version": "3.20.0",
+    "version": "3.21.0",
     "description": "A self-contained Python package of low-level cryptographic primitives",
     "homepage": "https://www.pycryptodome.org/",
     "depends": [
       "python",
       "python-pip"
     ],
-    "srcurl": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v3.20.0x.tar.gz",
+    "srcurl": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v3.21.0x.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2eaddda/tur/python-pycryptodomex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2eaddda/tur/python-pycryptodomex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2eaddda/tur/python-pycryptodomex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7d4a315/tur/python-pycryptodomex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7d4a315/tur/python-pycryptodomex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7d4a315/tur/python-pycryptodomex/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5038,15 +5038,15 @@
   },
   {
     "name": "typioca",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "Cozy typing speed tester",
     "homepage": "https://github.com/bloznelis/typioca",
     "depends": [],
-    "srcurl": "https://github.com/bloznelis/typioca/archive/refs/tags/3.0.0.tar.gz",
+    "srcurl": "https://github.com/bloznelis/typioca/archive/refs/tags/3.1.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6e12777/tur/typioca",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6e12777/tur/typioca/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6e12777/tur/typioca/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f20812c/tur/typioca",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f20812c/tur/typioca/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f20812c/tur/typioca/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
