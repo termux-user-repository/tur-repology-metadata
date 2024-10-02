@@ -4618,35 +4618,35 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.67.1-2023.02.27-nightly",
+    "version": "1.83.0-2024.09.27-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org",
     "depends": [
-      "libc++",
       "clang",
-      "openssl",
+      "libc++",
+      "libllvm",
       "lld",
-      "zlib",
-      "libllvm"
+      "openssl",
+      "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2023-02-27/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2024-09-27/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ec5130/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8863920/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8863920/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8863920/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/rustc-nightly/compiler-rustc_driver-src-lib.rs.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/rustc-nightly/dlopen.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/rustc-nightly/fix-build-target.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/rustc-nightly/os-tmpdir.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/rustc-nightly/src-librustc_llvm-build.rs.patch"
+      "https://github.com/termux-user-repository/tur/blob/8863920/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/8863920/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/8863920/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/8863920/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/8863920/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/rustc-nightly/compiler-rustc_driver-src-lib.rs.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/rustc-nightly/dlopen.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/rustc-nightly/fix-build-target.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/rustc-nightly/os-tmpdir.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/rustc-nightly/src-librustc_llvm-build.rs.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8863920/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8863920/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8863920/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8863920/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8863920/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "auto_updated": false
   },
