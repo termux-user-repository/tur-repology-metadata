@@ -4557,7 +4557,7 @@
   },
   {
     "name": "rife-ncnn-vulkan-tntwise",
-    "version": "20241003",
+    "version": "20241005",
     "description": "TNTwise's fork of rife-ncnn-vulkan: RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library",
     "homepage": "https://github.com/TNTwise/rife-ncnn-vulkan",
     "depends": [
@@ -4565,9 +4565,9 @@
     ],
     "srcurl": "git+https://github.com/TNTwise/rife-ncnn-vulkan",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6b01523/tur/rife-ncnn-vulkan-tntwise",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6b01523/tur/rife-ncnn-vulkan-tntwise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6b01523/tur/rife-ncnn-vulkan-tntwise/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a35a7b1/tur/rife-ncnn-vulkan-tntwise",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a35a7b1/tur/rife-ncnn-vulkan-tntwise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a35a7b1/tur/rife-ncnn-vulkan-tntwise/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
