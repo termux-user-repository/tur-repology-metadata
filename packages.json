@@ -6319,14 +6319,14 @@
     ],
     "srcurl": "git+https://github.com/blender/blender.git",
     "maintainer": "@T-Dynamos",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/39f5bdf/tur-on-device/blender",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/39f5bdf/tur-on-device/blender/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/39f5bdf/tur-on-device/blender/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4ff7fef/tur-on-device/blender",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4ff7fef/tur-on-device/blender/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4ff7fef/tur-on-device/blender/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/39f5bdf/tur-on-device/blender/blender_android.patch"
+      "https://github.com/termux-user-repository/tur/blob/4ff7fef/tur-on-device/blender/blender_android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/39f5bdf/tur-on-device/blender/blender_android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ff7fef/tur-on-device/blender/blender_android.patch"
     ],
     "auto_updated": false
   },
