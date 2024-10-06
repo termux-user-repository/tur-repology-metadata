@@ -771,11 +771,15 @@
     ],
     "srcurl": "https://github.com/davisking/dlib/archive/refs/tags/v19.24.6.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/998eb39/tur/dlib",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/998eb39/tur/dlib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/998eb39/tur/dlib/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/05079e1/tur/dlib",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/05079e1/tur/dlib/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/05079e1/tur/dlib/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/05079e1/tur/dlib/0001-drop-distutils.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05079e1/tur/dlib/0001-drop-distutils.patch"
+    ],
     "auto_updated": true
   },
   {
@@ -3322,7 +3326,7 @@
     "homepage": "http://www.openimageio.org/",
     "depends": [
       "openexr",
-      "boost-headers",
+      "boost",
       "openjpeg",
       "glew",
       "libtiff",
@@ -3346,16 +3350,16 @@
     ],
     "srcurl": "https://github.com/OpenImageIO/oiio/archive/refs/tags/v2.5.6.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/98a3651/tur/openimageio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/98a3651/tur/openimageio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/98a3651/tur/openimageio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/53d96f0/tur/openimageio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/53d96f0/tur/openimageio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/53d96f0/tur/openimageio/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/98a3651/tur/openimageio/disable-neon.patch",
-      "https://github.com/termux-user-repository/tur/blob/98a3651/tur/openimageio/prefix.patch"
+      "https://github.com/termux-user-repository/tur/blob/53d96f0/tur/openimageio/disable-neon.patch",
+      "https://github.com/termux-user-repository/tur/blob/53d96f0/tur/openimageio/prefix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/98a3651/tur/openimageio/disable-neon.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/98a3651/tur/openimageio/prefix.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/53d96f0/tur/openimageio/disable-neon.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/53d96f0/tur/openimageio/prefix.patch"
     ],
     "auto_updated": false
   },
@@ -3766,9 +3770,9 @@
     ],
     "srcurl": "https://github.com/pybind/pybind11/archive/v2.13.6/pybind11-2.13.6.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a620a42/tur/pybind11",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a620a42/tur/pybind11/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a620a42/tur/pybind11/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7d55742/tur/pybind11",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7d55742/tur/pybind11/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7d55742/tur/pybind11/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3784,9 +3788,9 @@
     ],
     "srcurl": "https://github.com/google/brotli/archive/v1.1.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f5a124d/tur/python-brotli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f5a124d/tur/python-brotli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f5a124d/tur/python-brotli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8675d97/tur/python-brotli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8675d97/tur/python-brotli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8675d97/tur/python-brotli/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3802,9 +3806,9 @@
     ],
     "srcurl": "https://github.com/pygobject/pycairo/releases/download/v1.26.1/pycairo-1.26.1.tar.gz",
     "maintainer": "@fervi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d129764/tur/python-cairo",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d129764/tur/python-cairo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d129764/tur/python-cairo/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6a13d70/tur/python-cairo",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6a13d70/tur/python-cairo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6a13d70/tur/python-cairo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3821,9 +3825,9 @@
     ],
     "srcurl": "https://github.com/esheldon/fitsio/archive/refs/tags/1.2.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/67d1908/tur/python-fitsio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/67d1908/tur/python-fitsio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/67d1908/tur/python-fitsio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/885cc76/tur/python-fitsio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/885cc76/tur/python-fitsio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/885cc76/tur/python-fitsio/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3838,9 +3842,9 @@
     ],
     "srcurl": "https://github.com/PythonCharmers/python-future/archive/refs/tags/v0.18.2.tar.gz",
     "maintainer": "@fervi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2de3319/tur/python-future",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2de3319/tur/python-future/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2de3319/tur/python-future/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d994ae8/tur/python-future",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d994ae8/tur/python-future/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d994ae8/tur/python-future/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3885,9 +3889,9 @@
     ],
     "srcurl": "https://github.com/decathorpe/mitmproxy_wireguard/archive/refs/tags/0.1.23.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ec5130/tur/python-mitmproxy-wireguard",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/python-mitmproxy-wireguard/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/python-mitmproxy-wireguard/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a8d861b/tur/python-mitmproxy-wireguard",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a8d861b/tur/python-mitmproxy-wireguard/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a8d861b/tur/python-mitmproxy-wireguard/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3903,9 +3907,9 @@
     ],
     "srcurl": "https://files.pythonhosted.org/packages/5b/01/f8fd986bc7f456f1a925ee0239f0391838ade92cdb6e5b674ffb8b86cfd6/PyOpenGL-3.1.6.tar.gz",
     "maintainer": "@fervi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1678c8b/tur/python-opengl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1678c8b/tur/python-opengl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1678c8b/tur/python-opengl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e3fc26f/tur/python-opengl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e3fc26f/tur/python-opengl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e3fc26f/tur/python-opengl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3923,9 +3927,9 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2047554/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2047554/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2047554/tur/python-pandas/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/72ce69b/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/72ce69b/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/72ce69b/tur/python-pandas/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3941,18 +3945,18 @@
     ],
     "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.9.0/polars-1.9.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/59778b2/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/59778b2/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/59778b2/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/208450e/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/208450e/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/208450e/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/59778b2/tur/python-polars/arboard-dummy-platform.diff",
-      "https://github.com/termux-user-repository/tur/blob/59778b2/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://github.com/termux-user-repository/tur/blob/59778b2/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://github.com/termux-user-repository/tur/blob/208450e/tur/python-polars/arboard-dummy-platform.diff",
+      "https://github.com/termux-user-repository/tur/blob/208450e/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://github.com/termux-user-repository/tur/blob/208450e/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/59778b2/tur/python-polars/arboard-dummy-platform.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/59778b2/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/59778b2/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/208450e/tur/python-polars/arboard-dummy-platform.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/208450e/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/208450e/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "auto_updated": true
   },
@@ -3967,9 +3971,9 @@
     ],
     "srcurl": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v3.21.0x.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7d4a315/tur/python-pycryptodomex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7d4a315/tur/python-pycryptodomex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7d4a315/tur/python-pycryptodomex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/530bd55/tur/python-pycryptodomex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/530bd55/tur/python-pycryptodomex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/530bd55/tur/python-pycryptodomex/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3991,9 +3995,9 @@
     ],
     "srcurl": "https://github.com/pygame/pygame/archive/refs/tags/2.6.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/aa1fe12/tur/python-pygame",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/aa1fe12/tur/python-pygame/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/aa1fe12/tur/python-pygame/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/33a6ce5/tur/python-pygame",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/33a6ce5/tur/python-pygame/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/33a6ce5/tur/python-pygame/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4011,9 +4015,9 @@
     ],
     "srcurl": "https://github.com/PyWavelets/pywt/archive/refs/tags/v1.7.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/26c94be/tur/python-pywavelets",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/26c94be/tur/python-pywavelets/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/26c94be/tur/python-pywavelets/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/12e1ead/tur/python-pywavelets",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/12e1ead/tur/python-pywavelets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/12e1ead/tur/python-pywavelets/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4072,9 +4076,9 @@
     ],
     "srcurl": "https://github.com/nacho00112/seledroid/archive/refs/heads/main.zip",
     "maintainer": "@nacho00112",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fed5ccc/tur/python-seledroid",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fed5ccc/tur/python-seledroid/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fed5ccc/tur/python-seledroid/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/327f082/tur/python-seledroid",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/327f082/tur/python-seledroid/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/327f082/tur/python-seledroid/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -4085,12 +4089,13 @@
     "description": "A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.",
     "homepage": "https://github.com/nacho00112/tur",
     "depends": [
+      "python",
       "python-seledroid"
     ],
     "maintainer": "@nacho00112",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8877bb3/tur/python-selenium-is-seledroid",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8877bb3/tur/python-selenium-is-seledroid/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8877bb3/tur/python-selenium-is-seledroid/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2a3c63d/tur/python-selenium-is-seledroid",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2a3c63d/tur/python-selenium-is-seledroid/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2a3c63d/tur/python-selenium-is-seledroid/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -4106,9 +4111,9 @@
     ],
     "srcurl": "https://github.com/openai/tiktoken/archive/refs/tags/0.8.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/561f3bc/tur/python-tiktoken",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/561f3bc/tur/python-tiktoken/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/561f3bc/tur/python-tiktoken/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/36af8e2/tur/python-tiktoken",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/36af8e2/tur/python-tiktoken/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/36af8e2/tur/python-tiktoken/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4125,14 +4130,14 @@
     ],
     "srcurl": "https://github.com/FlorianREGAZ/Python-Tls-Client/archive/refs/tags/1.0.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/391b969/tur/python-tls-client",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/391b969/tur/python-tls-client/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/391b969/tur/python-tls-client/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0d1df3f/tur/python-tls-client",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0d1df3f/tur/python-tls-client/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0d1df3f/tur/python-tls-client/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/391b969/tur/python-tls-client/0001-fix-library-path.patch"
+      "https://github.com/termux-user-repository/tur/blob/0d1df3f/tur/python-tls-client/0001-fix-library-path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/391b969/tur/python-tls-client/0001-fix-library-path.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0d1df3f/tur/python-tls-client/0001-fix-library-path.patch"
     ],
     "auto_updated": true
   },
@@ -4148,9 +4153,9 @@
     ],
     "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.20.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/50cb58c/tur/python-tokenizers",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/50cb58c/tur/python-tokenizers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/50cb58c/tur/python-tokenizers/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6037cb9/tur/python-tokenizers",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6037cb9/tur/python-tokenizers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6037cb9/tur/python-tokenizers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4171,9 +4176,9 @@
     ],
     "srcurl": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.09.27.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/959c5f4/tur/python-yt-dlp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/959c5f4/tur/python-yt-dlp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/959c5f4/tur/python-yt-dlp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/59c8228/tur/python-yt-dlp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/59c8228/tur/python-yt-dlp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/59c8228/tur/python-yt-dlp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
