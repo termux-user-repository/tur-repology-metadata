@@ -4030,6 +4030,7 @@
     "description": "Image processing in Python",
     "homepage": "https://github.com/scikit-image/scikit-image",
     "depends": [
+      "libandroid-complex-math",
       "libc++",
       "python",
       "python-pip",
@@ -4040,9 +4041,9 @@
     ],
     "srcurl": "https://github.com/scikit-image/scikit-image/archive/refs/tags/v0.24.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9879588/tur/python-scikit-image",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9879588/tur/python-scikit-image/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9879588/tur/python-scikit-image/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9719ca7/tur/python-scikit-image",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9719ca7/tur/python-scikit-image/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9719ca7/tur/python-scikit-image/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4776,18 +4777,18 @@
   },
   {
     "name": "stern",
-    "version": "1.30.0",
+    "version": "1.31.0",
     "description": "Multi pod and container log tailing for Kubernetes - Fork of https://github.com/wercker/stern",
     "homepage": "https://github.com/stern/stern",
     "depends": [
       "pacman",
       "kubectl"
     ],
-    "srcurl": "https://github.com/stern/stern/archive/refs/tags/v1.30.0.tar.gz",
+    "srcurl": "https://github.com/stern/stern/archive/refs/tags/v1.31.0.tar.gz",
     "maintainer": "@idj0",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0b99292/tur/stern",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0b99292/tur/stern/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0b99292/tur/stern/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d68b940/tur/stern",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d68b940/tur/stern/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d68b940/tur/stern/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6286,7 +6287,7 @@
   },
   {
     "name": "blender",
-    "version": "1:3.6.11",
+    "version": "1:3.6.16",
     "description": "A fully integrated 3D graphics creation suite",
     "homepage": "https://www.blender.org",
     "depends": [
@@ -6325,15 +6326,19 @@
       "shaderc"
     ],
     "srcurl": "git+https://github.com/blender/blender.git",
-    "maintainer": "@T-Dynamos",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4ff7fef/tur-on-device/blender",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4ff7fef/tur-on-device/blender/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4ff7fef/tur-on-device/blender/build.sh",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/67735c1/tur-on-device/blender",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/67735c1/tur-on-device/blender/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/67735c1/tur-on-device/blender/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/4ff7fef/tur-on-device/blender/blender_android.patch"
+      "https://github.com/termux-user-repository/tur/blob/67735c1/tur-on-device/blender/0001-blender_android.patch",
+      "https://github.com/termux-user-repository/tur/blob/67735c1/tur-on-device/blender/0002-python-3.12-head-compat.patch",
+      "https://github.com/termux-user-repository/tur/blob/67735c1/tur-on-device/blender/0003-python-3.12-pylong.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4ff7fef/tur-on-device/blender/blender_android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/67735c1/tur-on-device/blender/0001-blender_android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/67735c1/tur-on-device/blender/0002-python-3.12-head-compat.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/67735c1/tur-on-device/blender/0003-python-3.12-pylong.patch"
     ],
     "auto_updated": false
   },
