@@ -136,20 +136,20 @@
     ],
     "srcurl": "https://github.com/dstndstn/astrometry.net/releases/download/0.96/astrometry.net-0.96.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/33e1b24/tur/astrometry.net",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/33e1b24/tur/astrometry.net/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/33e1b24/tur/astrometry.net/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7fc5eec/tur/astrometry.net",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/33e1b24/tur/astrometry.net/0001-gsl-an-configure-cross-compile.patch",
-      "https://github.com/termux-user-repository/tur/blob/33e1b24/tur/astrometry.net/0002-solver-landroid-glob.patch",
-      "https://github.com/termux-user-repository/tur/blob/33e1b24/tur/astrometry.net/0003-ioutils-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/33e1b24/tur/astrometry.net/0004-bypass-netpbm-test.patch"
+      "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/0001-gsl-an-configure-cross-compile.patch",
+      "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/0002-solver-landroid-glob.patch",
+      "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/0003-ioutils-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/0004-bypass-netpbm-test.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/33e1b24/tur/astrometry.net/0001-gsl-an-configure-cross-compile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/33e1b24/tur/astrometry.net/0002-solver-landroid-glob.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/33e1b24/tur/astrometry.net/0003-ioutils-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/33e1b24/tur/astrometry.net/0004-bypass-netpbm-test.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/0001-gsl-an-configure-cross-compile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/0002-solver-landroid-glob.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/0003-ioutils-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/0004-bypass-netpbm-test.patch"
     ],
     "auto_updated": true
   },
@@ -311,14 +311,16 @@
     ],
     "srcurl": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.5.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4d3a50c/tur/cfitsio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4d3a50c/tur/cfitsio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4d3a50c/tur/cfitsio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/25762b8/tur/cfitsio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/25762b8/tur/cfitsio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/25762b8/tur/cfitsio/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/4d3a50c/tur/cfitsio/0001-cmake-libm.patch"
+      "https://github.com/termux-user-repository/tur/blob/25762b8/tur/cfitsio/0001-cmake-libm.patch",
+      "https://github.com/termux-user-repository/tur/blob/25762b8/tur/cfitsio/0002-fix-libdir.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4d3a50c/tur/cfitsio/0001-cmake-libm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/25762b8/tur/cfitsio/0001-cmake-libm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/25762b8/tur/cfitsio/0002-fix-libdir.patch"
     ],
     "auto_updated": true
   },
@@ -3851,7 +3853,7 @@
   },
   {
     "name": "python-kivy",
-    "version": "2.2.0.dev0",
+    "version": "2.3.0",
     "description": "Open source UI framework written in Python",
     "homepage": "https://kivy.org/",
     "depends": [
@@ -3866,14 +3868,14 @@
     ],
     "srcurl": "git+https://github.com/kivy/kivy",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1dc2078/tur/python-kivy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1dc2078/tur/python-kivy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1dc2078/tur/python-kivy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/86ec2e9/tur/python-kivy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/86ec2e9/tur/python-kivy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/86ec2e9/tur/python-kivy/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1dc2078/tur/python-kivy/kivy-lib-mtdev.py.patch"
+      "https://github.com/termux-user-repository/tur/blob/86ec2e9/tur/python-kivy/kivy-lib-mtdev.py.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1dc2078/tur/python-kivy/kivy-lib-mtdev.py.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/86ec2e9/tur/python-kivy/kivy-lib-mtdev.py.patch"
     ],
     "auto_updated": false
   },
@@ -4058,9 +4060,9 @@
     ],
     "srcurl": "git+https://github.com/scipy/scipy",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f474242/tur/python-scipy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f474242/tur/python-scipy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f474242/tur/python-scipy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/32defa0/tur/python-scipy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/32defa0/tur/python-scipy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/32defa0/tur/python-scipy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
