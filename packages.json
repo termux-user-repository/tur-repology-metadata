@@ -4050,7 +4050,7 @@
   },
   {
     "name": "python-scipy",
-    "version": "1:1.14.0",
+    "version": "1:1.14.1",
     "description": "Fundamental algorithms for scientific computing in Python",
     "homepage": "https://scipy.org/",
     "depends": [
@@ -4061,9 +4061,9 @@
     ],
     "srcurl": "git+https://github.com/scipy/scipy",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/32defa0/tur/python-scipy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/32defa0/tur/python-scipy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/32defa0/tur/python-scipy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fcee1cd/tur/python-scipy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fcee1cd/tur/python-scipy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fcee1cd/tur/python-scipy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
