@@ -4891,22 +4891,22 @@
   },
   {
     "name": "surreal",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.0.3.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.0.4.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d9c02de/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d9c02de/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d9c02de/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/282a475/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/282a475/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/282a475/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d9c02de/tur/surreal/jemalloc-sys.diff",
-      "https://github.com/termux-user-repository/tur/blob/d9c02de/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/282a475/tur/surreal/jemalloc-sys.diff",
+      "https://github.com/termux-user-repository/tur/blob/282a475/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d9c02de/tur/surreal/jemalloc-sys.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d9c02de/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/282a475/tur/surreal/jemalloc-sys.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/282a475/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
