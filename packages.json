@@ -4146,7 +4146,7 @@
   },
   {
     "name": "python-tokenizers",
-    "version": "0.20.0",
+    "version": "0.20.1",
     "description": "Fast State-of-the-Art Tokenizers optimized for Research and Production",
     "homepage": "https://github.com/huggingface/tokenizers",
     "depends": [
@@ -4154,11 +4154,11 @@
       "python",
       "python-pip"
     ],
-    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.20.0.tar.gz",
+    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.20.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6037cb9/tur/python-tokenizers",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6037cb9/tur/python-tokenizers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6037cb9/tur/python-tokenizers/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4881f2f/tur/python-tokenizers",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4881f2f/tur/python-tokenizers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4881f2f/tur/python-tokenizers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5785,6 +5785,27 @@
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7513732/tur-hacking/shark/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "slowhttptest",
+    "version": "1.9.0",
+    "description": "Application Layer DoS attack simulator",
+    "homepage": "https://github.com/shekyan/slowhttptest",
+    "depends": [
+      "openssl"
+    ],
+    "srcurl": "https://github.com/shekyan/slowhttptest/archive/refs/tags/v1.9.0.tar.gz",
+    "maintainer": "github@1q23lyc45",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0bca6bd/tur-hacking/slowhttptest",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0bca6bd/tur-hacking/slowhttptest/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0bca6bd/tur-hacking/slowhttptest/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/0bca6bd/tur-hacking/slowhttptest/1-configure-fix-prefix.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0bca6bd/tur-hacking/slowhttptest/1-configure-fix-prefix.patch"
+    ],
     "auto_updated": false
   },
   {
