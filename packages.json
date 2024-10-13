@@ -3279,7 +3279,7 @@
   },
   {
     "name": "ollama",
-    "version": "0.3.12",
+    "version": "0.3.13",
     "description": "Get up and running with large language models. ",
     "homepage": "https://ollama.com/",
     "depends": [
@@ -3287,9 +3287,9 @@
     ],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a6251f2/tur/ollama",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a6251f2/tur/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a6251f2/tur/ollama/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d83bcc0/tur/ollama",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d83bcc0/tur/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d83bcc0/tur/ollama/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
