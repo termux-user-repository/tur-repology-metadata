@@ -673,17 +673,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.7.0",
+    "version": "6.7.1",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.7.0.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.7.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1e7a1a/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1e7a1a/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1e7a1a/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/61b354b/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/61b354b/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/61b354b/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -803,7 +803,7 @@
   },
   {
     "name": "dpp",
-    "version": "10.0.31",
+    "version": "10.0.32",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
     "homepage": "https://dpp.dev",
     "depends": [
@@ -813,11 +813,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.31.tar.gz",
+    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.32.tar.gz",
     "maintainer": "@OrdinaryEnder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/11f28d8/tur/dpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/11f28d8/tur/dpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/11f28d8/tur/dpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1bdf3fe/tur/dpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1bdf3fe/tur/dpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1bdf3fe/tur/dpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4869,15 +4869,15 @@
   },
   {
     "name": "sttr",
-    "version": "0.2.23",
+    "version": "0.2.24",
     "description": "Cli app to perform various operations on string",
     "homepage": "https://github.com/abhimanyu003/sttr",
     "depends": [],
-    "srcurl": "https://github.com/abhimanyu003/sttr/archive/refs/tags/v0.2.23.tar.gz",
+    "srcurl": "https://github.com/abhimanyu003/sttr/archive/refs/tags/v0.2.24.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f8184d0/tur/sttr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f8184d0/tur/sttr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f8184d0/tur/sttr/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d1efb67/tur/sttr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d1efb67/tur/sttr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d1efb67/tur/sttr/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
