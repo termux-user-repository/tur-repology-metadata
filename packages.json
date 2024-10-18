@@ -3278,6 +3278,23 @@
     "auto_updated": false
   },
   {
+    "name": "ograph-rs",
+    "version": "0.3.0",
+    "description": "A simple command-line utility to extract and print OpenGraph metadata from a given URL.",
+    "homepage": "https://git.average.name/AverageHelper/ograph-rs",
+    "depends": [
+      "openssl"
+    ],
+    "srcurl": "https://git.average.name/AverageHelper/ograph-rs/archive/v0.3.0.tar.gz",
+    "maintainer": "@AverageHelper",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fcd5a4e/tur/ograph-rs",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fcd5a4e/tur/ograph-rs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fcd5a4e/tur/ograph-rs/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "ollama",
     "version": "0.3.13",
     "description": "Get up and running with large language models. ",
