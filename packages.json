@@ -3279,17 +3279,17 @@
   },
   {
     "name": "ograph-rs",
-    "version": "0.3.0",
+    "version": "0.3.2",
     "description": "A simple command-line utility to extract and print OpenGraph metadata from a given URL.",
     "homepage": "https://git.average.name/AverageHelper/ograph-rs",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://git.average.name/AverageHelper/ograph-rs/archive/v0.3.0.tar.gz",
+    "srcurl": "https://git.average.name/AverageHelper/ograph-rs/archive/v0.3.2.tar.gz",
     "maintainer": "@AverageHelper",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fcd5a4e/tur/ograph-rs",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fcd5a4e/tur/ograph-rs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fcd5a4e/tur/ograph-rs/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4c50895/tur/ograph-rs",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4c50895/tur/ograph-rs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4c50895/tur/ograph-rs/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
