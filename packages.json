@@ -3955,27 +3955,27 @@
   },
   {
     "name": "python-polars",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.9.0/polars-1.9.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.10.0/polars-1.10.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/208450e/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/208450e/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/208450e/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c156eee/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c156eee/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c156eee/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/208450e/tur/python-polars/arboard-dummy-platform.diff",
-      "https://github.com/termux-user-repository/tur/blob/208450e/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://github.com/termux-user-repository/tur/blob/208450e/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://github.com/termux-user-repository/tur/blob/c156eee/tur/python-polars/arboard-dummy-platform.diff",
+      "https://github.com/termux-user-repository/tur/blob/c156eee/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://github.com/termux-user-repository/tur/blob/c156eee/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/208450e/tur/python-polars/arboard-dummy-platform.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/208450e/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/208450e/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c156eee/tur/python-polars/arboard-dummy-platform.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c156eee/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c156eee/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "auto_updated": true
   },
@@ -4656,7 +4656,7 @@
   },
   {
     "name": "rife-ncnn-vulkan-tntwise",
-    "version": "20241005",
+    "version": "20241020",
     "description": "TNTwise's fork of rife-ncnn-vulkan: RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library",
     "homepage": "https://github.com/TNTwise/rife-ncnn-vulkan",
     "depends": [
@@ -4664,9 +4664,9 @@
     ],
     "srcurl": "git+https://github.com/TNTwise/rife-ncnn-vulkan",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a35a7b1/tur/rife-ncnn-vulkan-tntwise",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a35a7b1/tur/rife-ncnn-vulkan-tntwise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a35a7b1/tur/rife-ncnn-vulkan-tntwise/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/03c4e7f/tur/rife-ncnn-vulkan-tntwise",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/03c4e7f/tur/rife-ncnn-vulkan-tntwise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/03c4e7f/tur/rife-ncnn-vulkan-tntwise/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
