@@ -2348,14 +2348,14 @@
     ],
     "srcurl": "https://github.com/MITRECND/libnids/archive/1.26/libnids-1.26.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/042eb56/tur/libnids",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/042eb56/tur/libnids/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/042eb56/tur/libnids/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e90e317/tur/libnids",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e90e317/tur/libnids/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e90e317/tur/libnids/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/042eb56/tur/libnids/0001-respect-LDFLAGS.patch"
+      "https://github.com/termux-user-repository/tur/blob/e90e317/tur/libnids/0001-respect-LDFLAGS.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/042eb56/tur/libnids/0001-respect-LDFLAGS.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e90e317/tur/libnids/0001-respect-LDFLAGS.patch"
     ],
     "auto_updated": false
   },
@@ -2369,14 +2369,14 @@
     ],
     "srcurl": "https://github.com/thkukuk/libnsl/archive/v2.0.1/libnsl-v2.0.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1316a94/tur/libnsl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1316a94/tur/libnsl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1316a94/tur/libnsl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8ea9765/tur/libnsl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8ea9765/tur/libnsl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8ea9765/tur/libnsl/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1316a94/tur/libnsl/0001-getdomainname.patch"
+      "https://github.com/termux-user-repository/tur/blob/8ea9765/tur/libnsl/0001-getdomainname.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1316a94/tur/libnsl/0001-getdomainname.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8ea9765/tur/libnsl/0001-getdomainname.patch"
     ],
     "auto_updated": false
   },
