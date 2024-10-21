@@ -622,15 +622,15 @@
   },
   {
     "name": "dcfldd",
-    "version": "1.9.1",
+    "version": "1.9.2",
     "description": "dd(1) added features for forensics and security",
     "homepage": "https://github.com/resurrecting-open-source-projects/dcfldd",
     "depends": [],
-    "srcurl": "https://github.com/resurrecting-open-source-projects/dcfldd/archive/refs/tags/v1.9.1.tar.gz",
+    "srcurl": "https://github.com/resurrecting-open-source-projects/dcfldd/archive/refs/tags/v1.9.2.tar.gz",
     "maintainer": "@flosnvjx",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c12217f/tur/dcfldd",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c12217f/tur/dcfldd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c12217f/tur/dcfldd/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0283612/tur/dcfldd",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0283612/tur/dcfldd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0283612/tur/dcfldd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -803,7 +803,7 @@
   },
   {
     "name": "dpp",
-    "version": "10.0.32",
+    "version": "10.0.33",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
     "homepage": "https://dpp.dev",
     "depends": [
@@ -813,11 +813,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.32.tar.gz",
+    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.33.tar.gz",
     "maintainer": "@OrdinaryEnder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1bdf3fe/tur/dpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1bdf3fe/tur/dpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1bdf3fe/tur/dpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ae1c3a7/tur/dpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ae1c3a7/tur/dpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ae1c3a7/tur/dpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
