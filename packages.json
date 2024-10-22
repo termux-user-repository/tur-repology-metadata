@@ -5627,18 +5627,18 @@
     ],
     "srcurl": "https://monkey.org/~dugsong/dsniff/beta/dsniff-2.4b1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/48ed3a2/tur-hacking/dsniff",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/48ed3a2/tur-hacking/dsniff/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/48ed3a2/tur-hacking/dsniff/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6976a92/tur-hacking/dsniff",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6976a92/tur-hacking/dsniff/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6976a92/tur-hacking/dsniff/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/48ed3a2/tur-hacking/dsniff/0001-tirpc.patch",
-      "https://github.com/termux-user-repository/tur/blob/48ed3a2/tur-hacking/dsniff/0002-csin.patch",
-      "https://github.com/termux-user-repository/tur/blob/48ed3a2/tur-hacking/dsniff/0003-httppostfix.patch"
+      "https://github.com/termux-user-repository/tur/blob/6976a92/tur-hacking/dsniff/0001-tirpc.patch",
+      "https://github.com/termux-user-repository/tur/blob/6976a92/tur-hacking/dsniff/0002-csin.patch",
+      "https://github.com/termux-user-repository/tur/blob/6976a92/tur-hacking/dsniff/0003-httppostfix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/48ed3a2/tur-hacking/dsniff/0001-tirpc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/48ed3a2/tur-hacking/dsniff/0002-csin.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/48ed3a2/tur-hacking/dsniff/0003-httppostfix.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6976a92/tur-hacking/dsniff/0001-tirpc.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6976a92/tur-hacking/dsniff/0002-csin.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6976a92/tur-hacking/dsniff/0003-httppostfix.patch"
     ],
     "auto_updated": false
   },
