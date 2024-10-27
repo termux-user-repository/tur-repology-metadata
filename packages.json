@@ -803,7 +803,7 @@
   },
   {
     "name": "dpp",
-    "version": "10.0.33",
+    "version": "10.0.34",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
     "homepage": "https://dpp.dev",
     "depends": [
@@ -813,11 +813,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.33.tar.gz",
+    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.34.tar.gz",
     "maintainer": "@OrdinaryEnder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ae1c3a7/tur/dpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ae1c3a7/tur/dpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ae1c3a7/tur/dpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/57a1223/tur/dpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/57a1223/tur/dpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/57a1223/tur/dpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3184,7 +3184,7 @@
   },
   {
     "name": "octave",
-    "version": "1:8.4.0",
+    "version": "1:9.2.0",
     "description": "GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)",
     "homepage": "https://octave.org",
     "depends": [
@@ -3211,26 +3211,26 @@
       "sundials",
       "zlib"
     ],
-    "srcurl": "https://ftpmirror.gnu.org/octave/octave-8.4.0.tar.xz",
+    "srcurl": "https://ftpmirror.gnu.org/octave/octave-9.2.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6815232/tur/octave",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6815232/tur/octave/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/octave/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/05ed40b/tur/octave",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/05ed40b/tur/octave/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/05ed40b/tur/octave/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6815232/tur/octave/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/6815232/tur/octave/0002-append-rpath-flag-to-pkg-config-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/6815232/tur/octave/0003-undefine-the-macro-in-pwd.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/05ed40b/tur/octave/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/05ed40b/tur/octave/0002-append-rpath-flag-to-pkg-config-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/05ed40b/tur/octave/0003-undefine-the-macro-in-pwd.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/octave/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/octave/0002-append-rpath-flag-to-pkg-config-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/octave/0003-undefine-the-macro-in-pwd.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05ed40b/tur/octave/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05ed40b/tur/octave/0002-append-rpath-flag-to-pkg-config-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05ed40b/tur/octave/0003-undefine-the-macro-in-pwd.h.patch"
     ],
     "auto_updated": false
   },
   {
     "name": "octave-x",
-    "version": "1:8.4.0",
+    "version": "1:9.2.0",
     "description": "GNU Octave is a high-level language, primarily intended for numerical computations. (with X11 support)",
     "homepage": "https://octave.org",
     "depends": [
@@ -3254,26 +3254,29 @@
       "portaudio",
       "qhull",
       "qrupdate-ng",
+      "qt6-qtbase",
+      "qt6-qttools",
+      "qt6-qt5compat",
       "rapidjson",
       "readline",
       "suitesparse",
       "sundials",
       "zlib"
     ],
-    "srcurl": "https://ftpmirror.gnu.org/octave/octave-8.4.0.tar.xz",
+    "srcurl": "https://ftpmirror.gnu.org/octave/octave-9.2.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6815232/tur/octave-x",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6815232/tur/octave-x/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/octave-x/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/05ed40b/tur/octave-x",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/05ed40b/tur/octave-x/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/05ed40b/tur/octave-x/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6815232/tur/octave-x/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/6815232/tur/octave-x/0002-append-rpath-flag-to-pkg-config-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/6815232/tur/octave-x/0003-undefine-the-macro-in-pwd.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/05ed40b/tur/octave-x/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/05ed40b/tur/octave-x/0002-append-rpath-flag-to-pkg-config-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/05ed40b/tur/octave-x/0003-undefine-the-macro-in-pwd.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/octave-x/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/octave-x/0002-append-rpath-flag-to-pkg-config-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/octave-x/0003-undefine-the-macro-in-pwd.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05ed40b/tur/octave-x/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05ed40b/tur/octave-x/0002-append-rpath-flag-to-pkg-config-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05ed40b/tur/octave-x/0003-undefine-the-macro-in-pwd.h.patch"
     ],
     "auto_updated": false
   },
@@ -3955,27 +3958,27 @@
   },
   {
     "name": "python-polars",
-    "version": "1.11.0",
+    "version": "1.12.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.11.0/polars-1.11.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.12.0/polars-1.12.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/216113f/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/216113f/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/216113f/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/153c675/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/153c675/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/153c675/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/216113f/tur/python-polars/arboard-dummy-platform.diff",
-      "https://github.com/termux-user-repository/tur/blob/216113f/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://github.com/termux-user-repository/tur/blob/216113f/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://github.com/termux-user-repository/tur/blob/153c675/tur/python-polars/arboard-dummy-platform.diff",
+      "https://github.com/termux-user-repository/tur/blob/153c675/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://github.com/termux-user-repository/tur/blob/153c675/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/216113f/tur/python-polars/arboard-dummy-platform.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/216113f/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/216113f/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/153c675/tur/python-polars/arboard-dummy-platform.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/153c675/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/153c675/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "auto_updated": true
   },
@@ -4901,7 +4904,7 @@
   },
   {
     "name": "suitesparse",
-    "version": "1:7.8.2",
+    "version": "1:7.8.3",
     "description": "A Suite of Sparse matrix packages.",
     "homepage": "https://github.com/DrTimothyAldenDavis/SuiteSparse",
     "depends": [
@@ -4911,18 +4914,18 @@
       "libgmp",
       "libmpfr"
     ],
-    "srcurl": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.8.2.tar.gz",
+    "srcurl": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.8.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc2f939/tur/suitesparse",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc2f939/tur/suitesparse/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc2f939/tur/suitesparse/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8b4549f/tur/suitesparse",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8b4549f/tur/suitesparse/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8b4549f/tur/suitesparse/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bc2f939/tur/suitesparse/0001-android-complex-math.patch",
-      "https://github.com/termux-user-repository/tur/blob/bc2f939/tur/suitesparse/0002-libm.patch"
+      "https://github.com/termux-user-repository/tur/blob/8b4549f/tur/suitesparse/0001-android-complex-math.patch",
+      "https://github.com/termux-user-repository/tur/blob/8b4549f/tur/suitesparse/0002-libm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc2f939/tur/suitesparse/0001-android-complex-math.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc2f939/tur/suitesparse/0002-libm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8b4549f/tur/suitesparse/0001-android-complex-math.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8b4549f/tur/suitesparse/0002-libm.patch"
     ],
     "auto_updated": true
   },
@@ -4937,9 +4940,9 @@
     ],
     "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.1.1/sundials-7.1.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/860b336/tur/sundials",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/860b336/tur/sundials/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/860b336/tur/sundials/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a3b21af/tur/sundials",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a3b21af/tur/sundials/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a3b21af/tur/sundials/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
