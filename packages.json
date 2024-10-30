@@ -5423,7 +5423,7 @@
   },
   {
     "name": "zerotier-one",
-    "version": "1.14.1",
+    "version": "1.14.2",
     "description": "Creates virtual Ethernet networks of almost unlimited size.",
     "homepage": "https://www.zerotier.com",
     "depends": [
@@ -5431,30 +5431,30 @@
       "natpmpc",
       "openssl"
     ],
-    "srcurl": "https://github.com/zerotier/ZeroTierOne/archive/refs/tags/1.14.1.tar.gz",
+    "srcurl": "https://github.com/zerotier/ZeroTierOne/archive/refs/tags/1.14.2.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e7aad74/tur/zerotier-one",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/246b37d/tur/zerotier-one",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/0001-mask-setattr.patch",
-      "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/0002-rust-target-os.patch",
-      "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/0003-osutils-termux-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/0004-makefile-arm-workaround.patch",
-      "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/0005-makefile-cargo-target-name.patch",
-      "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/0006-dummy-pthread-affinity.patch",
-      "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/0007-makefile-checkdep-destdir.patch",
-      "https://github.com/termux-user-repository/tur/blob/e7aad74/tur/zerotier-one/0008-makefile-install-add-selftest.patch"
+      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0001-mask-setattr.patch",
+      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0002-rust-target-os.patch",
+      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0003-osutils-termux-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0004-makefile-arm-workaround.patch",
+      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0005-makefile-cargo-target-name.patch",
+      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0006-dummy-pthread-affinity.patch",
+      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0007-makefile-checkdep-destdir.patch",
+      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0008-makefile-install-add-selftest.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/0001-mask-setattr.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/0002-rust-target-os.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/0003-osutils-termux-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/0004-makefile-arm-workaround.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/0005-makefile-cargo-target-name.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/0006-dummy-pthread-affinity.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/0007-makefile-checkdep-destdir.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e7aad74/tur/zerotier-one/0008-makefile-install-add-selftest.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0001-mask-setattr.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0002-rust-target-os.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0003-osutils-termux-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0004-makefile-arm-workaround.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0005-makefile-cargo-target-name.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0006-dummy-pthread-affinity.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0007-makefile-checkdep-destdir.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0008-makefile-install-add-selftest.patch"
     ],
     "auto_updated": true
   },
