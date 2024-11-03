@@ -1483,6 +1483,54 @@
     "auto_updated": true
   },
   {
+    "name": "hangover-wine",
+    "version": "9.20",
+    "description": "A compatibility layer for running Windows programs (Hangover fork)",
+    "homepage": "https://github.com/AndreRH/hangover",
+    "depends": [
+      "fontconfig",
+      "freetype",
+      "krb5",
+      "libandroid-spawn",
+      "libc++",
+      "libgmp",
+      "libgnutls",
+      "libxcb",
+      "libxcomposite",
+      "libxcursor",
+      "libxfixes",
+      "libxrender",
+      "mesa",
+      "opengl",
+      "pulseaudio",
+      "sdl2",
+      "vulkan-loader",
+      "xorg-xrandr"
+    ],
+    "srcurl": "https://github.com/AndreRH/wine/archive/refs/tags/hangover-9.20.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cab5af4/tur/hangover-wine",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cab5af4/tur/hangover-wine/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cab5af4/tur/hangover-wine/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/cab5af4/tur/hangover-wine/0001-fix-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/cab5af4/tur/hangover-wine/0002-fix-defines.patch",
+      "https://github.com/termux-user-repository/tur/blob/cab5af4/tur/hangover-wine/0003-fix-socket-ipx.patch",
+      "https://github.com/termux-user-repository/tur/blob/cab5af4/tur/hangover-wine/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://github.com/termux-user-repository/tur/blob/cab5af4/tur/hangover-wine/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/cab5af4/tur/hangover-wine/9999-fix-winebuild-as-type.patch.beforehostbuild"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cab5af4/tur/hangover-wine/0001-fix-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cab5af4/tur/hangover-wine/0002-fix-defines.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cab5af4/tur/hangover-wine/0003-fix-socket-ipx.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cab5af4/tur/hangover-wine/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cab5af4/tur/hangover-wine/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cab5af4/tur/hangover-wine/9999-fix-winebuild-as-type.patch.beforehostbuild"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "hare",
     "version": "20230423",
     "description": "The Hare programming language",
@@ -5866,54 +5914,6 @@
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7513732/tur-hacking/zphisher/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "hangover-wine",
-    "version": "9.20",
-    "description": "A compatibility layer for running Windows programs (Hangover fork)",
-    "homepage": "https://github.com/AndreRH/wine",
-    "depends": [
-      "fontconfig",
-      "freetype",
-      "krb5",
-      "libandroid-spawn",
-      "libc++",
-      "libgmp",
-      "libgnutls",
-      "libxcb",
-      "libxcomposite",
-      "libxcursor",
-      "libxfixes",
-      "libxrender",
-      "mesa",
-      "opengl",
-      "pulseaudio",
-      "sdl2",
-      "vulkan-loader",
-      "xorg-xrandr"
-    ],
-    "srcurl": "https://github.com/AndreRH/wine/archive/refs/tags/hangover-9.20.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f03bb90/tur-multilib/hangover-wine",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f03bb90/tur-multilib/hangover-wine/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f03bb90/tur-multilib/hangover-wine/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f03bb90/tur-multilib/hangover-wine/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/f03bb90/tur-multilib/hangover-wine/0002-fix-defines.patch",
-      "https://github.com/termux-user-repository/tur/blob/f03bb90/tur-multilib/hangover-wine/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/f03bb90/tur-multilib/hangover-wine/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/f03bb90/tur-multilib/hangover-wine/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/f03bb90/tur-multilib/hangover-wine/9999-fix-winebuild-as-type.patch.beforehostbuild"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f03bb90/tur-multilib/hangover-wine/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f03bb90/tur-multilib/hangover-wine/0002-fix-defines.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f03bb90/tur-multilib/hangover-wine/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f03bb90/tur-multilib/hangover-wine/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f03bb90/tur-multilib/hangover-wine/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f03bb90/tur-multilib/hangover-wine/9999-fix-winebuild-as-type.patch.beforehostbuild"
-    ],
     "auto_updated": false
   },
   {
