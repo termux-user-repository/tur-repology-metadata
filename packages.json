@@ -4216,7 +4216,7 @@
   },
   {
     "name": "python-tokenizers",
-    "version": "0.20.1",
+    "version": "0.20.2",
     "description": "Fast State-of-the-Art Tokenizers optimized for Research and Production",
     "homepage": "https://github.com/huggingface/tokenizers",
     "depends": [
@@ -4224,11 +4224,11 @@
       "python",
       "python-pip"
     ],
-    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.20.1.tar.gz",
+    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.20.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4881f2f/tur/python-tokenizers",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4881f2f/tur/python-tokenizers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4881f2f/tur/python-tokenizers/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b0e4806/tur/python-tokenizers",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b0e4806/tur/python-tokenizers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b0e4806/tur/python-tokenizers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
