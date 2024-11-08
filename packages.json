@@ -1309,30 +1309,30 @@
     ],
     "srcurl": "https://ftp.gnu.org/gnu/gcc/gcc-13.3.0/gcc-13.3.0.tar.gz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a8c0810/tur/gcc-13",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3d37542/tur/gcc-13",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0001-android-related-modifications.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0002-fix-missing-_L.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0003-disable-call-ssp-local.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0004-avoid-hard-link-install.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0005-check-both-android-and-bionic-macro.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0008-explicitly-some-headers.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0009-remove-sys-sysctl.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8c0810/tur/gcc-13/0010-fix-ginclude-limits.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0001-android-related-modifications.patch",
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0002-fix-missing-_L.patch",
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0003-disable-call-ssp-local.patch",
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0004-avoid-hard-link-install.patch",
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0005-check-both-android-and-bionic-macro.patch",
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0008-explicitly-some-headers.patch",
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0009-remove-sys-sysctl.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0010-fix-ginclude-limits.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0001-android-related-modifications.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0002-fix-missing-_L.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0003-disable-call-ssp-local.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0004-avoid-hard-link-install.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0005-check-both-android-and-bionic-macro.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0008-explicitly-some-headers.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0009-remove-sys-sysctl.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8c0810/tur/gcc-13/0010-fix-ginclude-limits.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0001-android-related-modifications.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0002-fix-missing-_L.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0003-disable-call-ssp-local.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0004-avoid-hard-link-install.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0005-check-both-android-and-bionic-macro.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0008-explicitly-some-headers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0009-remove-sys-sysctl.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0010-fix-ginclude-limits.h.patch"
     ],
     "auto_updated": false
   },
@@ -2695,6 +2695,37 @@
     "auto_updated": false
   },
   {
+    "name": "luanti",
+    "version": "2024.11.03",
+    "description": "An open source voxel game engine.",
+    "homepage": "https://www.luanti.org",
+    "depends": [
+      "sdl2",
+      "libc++",
+      "openal-soft",
+      "libvorbis",
+      "libsqlite",
+      "freetype",
+      "libpng",
+      "libcurl",
+      "libandroid-spawn"
+    ],
+    "srcurl": "git+https://github.com/minetest/minetest.git",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2cc96c7/tur/luanti",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2cc96c7/tur/luanti/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2cc96c7/tur/luanti/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/2cc96c7/tur/luanti/minetest-bionic-libc-x11-wsi-opengl-es-2.patch",
+      "https://github.com/termux-user-repository/tur/blob/2cc96c7/tur/luanti/minetest-fix-elf-directory-for-cross-compiling.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cc96c7/tur/luanti/minetest-bionic-libc-x11-wsi-opengl-es-2.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cc96c7/tur/luanti/minetest-fix-elf-directory-for-cross-compiling.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "mdds",
     "version": "2.1.1",
     "description": "A collection of multi-dimensional data structures and indexing algorithms",
@@ -3349,19 +3380,21 @@
   },
   {
     "name": "ollama",
-    "version": "0.3.14",
-    "description": "Get up and running with large language models. ",
+    "version": "0.4.0",
+    "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
-    "depends": [
-      "libopenblas"
-    ],
+    "depends": [],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d504359/tur/ollama",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d504359/tur/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d504359/tur/ollama/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a14266a/tur/ollama",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a14266a/tur/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a14266a/tur/ollama/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/a14266a/tur/ollama/0001-cgo-flags.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a14266a/tur/ollama/0001-cgo-flags.patch"
+    ],
     "auto_updated": true
   },
   {
@@ -6078,7 +6111,7 @@
   },
   {
     "name": "wine-devel",
-    "version": "9.7",
+    "version": "9.20",
     "description": "A compatibility layer for running Windows programs",
     "homepage": "https://www.winehq.org/",
     "depends": [
@@ -6101,26 +6134,26 @@
       "vulkan-loader",
       "xorg-xrandr"
     ],
-    "srcurl": "https://dl.winehq.org/wine/source/9.x/wine-9.7.tar.xz",
+    "srcurl": "https://dl.winehq.org/wine/source/9.x/wine-9.20.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ac34cc6/tur-multilib/wine-devel",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-multilib/wine-devel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-multilib/wine-devel/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9adffb7/tur-multilib/wine-devel",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9adffb7/tur-multilib/wine-devel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9adffb7/tur-multilib/wine-devel/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-multilib/wine-devel/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-multilib/wine-devel/0002-fix-defines.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-multilib/wine-devel/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-multilib/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-multilib/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-multilib/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/9adffb7/tur-multilib/wine-devel/0001-fix-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/9adffb7/tur-multilib/wine-devel/0002-fix-defines.patch",
+      "https://github.com/termux-user-repository/tur/blob/9adffb7/tur-multilib/wine-devel/0003-fix-socket-ipx.patch",
+      "https://github.com/termux-user-repository/tur/blob/9adffb7/tur-multilib/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://github.com/termux-user-repository/tur/blob/9adffb7/tur-multilib/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/9adffb7/tur-multilib/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-multilib/wine-devel/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-multilib/wine-devel/0002-fix-defines.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-multilib/wine-devel/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-multilib/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-multilib/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-multilib/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9adffb7/tur-multilib/wine-devel/0001-fix-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9adffb7/tur-multilib/wine-devel/0002-fix-defines.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9adffb7/tur-multilib/wine-devel/0003-fix-socket-ipx.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9adffb7/tur-multilib/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9adffb7/tur-multilib/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9adffb7/tur-multilib/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "auto_updated": false
   },
