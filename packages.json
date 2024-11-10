@@ -2523,24 +2523,6 @@
     "auto_updated": false
   },
   {
-    "name": "libraw",
-    "version": "0.21.1",
-    "description": "A library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others",
-    "homepage": "https://www.libraw.org",
-    "depends": [
-      "littlecms",
-      "libjasper"
-    ],
-    "srcurl": "https://www.libraw.org/data/LibRaw-0.21.1.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ec5130/tur/libraw",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/libraw/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/libraw/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "librevenge",
     "version": "0.0.5",
     "description": "library for REVerses ENGineered formats filters",
