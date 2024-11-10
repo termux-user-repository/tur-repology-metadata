@@ -4144,9 +4144,9 @@
     ],
     "srcurl": "https://github.com/scikit-image/scikit-image/archive/refs/tags/v0.24.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9719ca7/tur/python-scikit-image",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9719ca7/tur/python-scikit-image/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9719ca7/tur/python-scikit-image/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ecbdcc3/tur/python-scikit-image",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ecbdcc3/tur/python-scikit-image/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ecbdcc3/tur/python-scikit-image/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
