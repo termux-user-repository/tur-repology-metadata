@@ -2678,7 +2678,7 @@
   },
   {
     "name": "luanti",
-    "version": "2024.11.03",
+    "version": "1:5.10.0",
     "description": "An open source voxel game engine.",
     "homepage": "https://www.luanti.org",
     "depends": [
@@ -2692,20 +2692,20 @@
       "libcurl",
       "libandroid-spawn"
     ],
-    "srcurl": "git+https://github.com/minetest/minetest.git",
+    "srcurl": "https://github.com/minetest/minetest/archive/refs/tags/5.10.0.zip",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2cc96c7/tur/luanti",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2cc96c7/tur/luanti/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2cc96c7/tur/luanti/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/32cf79f/tur/luanti",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/32cf79f/tur/luanti/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/32cf79f/tur/luanti/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/2cc96c7/tur/luanti/minetest-bionic-libc-x11-wsi-opengl-es-2.patch",
-      "https://github.com/termux-user-repository/tur/blob/2cc96c7/tur/luanti/minetest-fix-elf-directory-for-cross-compiling.patch"
+      "https://github.com/termux-user-repository/tur/blob/32cf79f/tur/luanti/minetest-bionic-libc-x11-wsi-opengl-es-2.patch",
+      "https://github.com/termux-user-repository/tur/blob/32cf79f/tur/luanti/minetest-fix-elf-directory-for-cross-compiling.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2cc96c7/tur/luanti/minetest-bionic-libc-x11-wsi-opengl-es-2.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2cc96c7/tur/luanti/minetest-fix-elf-directory-for-cross-compiling.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/32cf79f/tur/luanti/minetest-bionic-libc-x11-wsi-opengl-es-2.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/32cf79f/tur/luanti/minetest-fix-elf-directory-for-cross-compiling.patch"
     ],
-    "auto_updated": false
+    "auto_updated": true
   },
   {
     "name": "mdds",
