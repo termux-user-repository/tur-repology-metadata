@@ -4798,22 +4798,22 @@
     ],
     "srcurl": "https://static.rust-lang.org/dist/2024-10-16/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/636cbcd/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/636cbcd/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/636cbcd/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc168b9/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc168b9/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/636cbcd/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/636cbcd/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/636cbcd/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/636cbcd/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/636cbcd/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/636cbcd/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/636cbcd/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/636cbcd/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/636cbcd/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/636cbcd/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "auto_updated": true
   },
@@ -5564,24 +5564,24 @@
     ],
     "srcurl": "git+https://github.com/electron/electron",
     "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a9a7e9a/tur-continuous/electron",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a9a7e9a/tur-continuous/electron/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a9a7e9a/tur-continuous/electron/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc168b9/tur-continuous/electron",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a9a7e9a/tur-continuous/electron/0001-electron-getversion-from-file.patch",
-      "https://github.com/termux-user-repository/tur/blob/a9a7e9a/tur-continuous/electron/0002-v8-fix-trap-handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/a9a7e9a/tur-continuous/electron/0003-cares-config.patch",
-      "https://github.com/termux-user-repository/tur/blob/a9a7e9a/tur-continuous/electron/0004-electron-disable-sandbox.patch",
-      "https://github.com/termux-user-repository/tur/blob/a9a7e9a/tur-continuous/electron/0005-node-as-posix.patch",
-      "https://github.com/termux-user-repository/tur/blob/a9a7e9a/tur-continuous/electron/0006-gtk-fix-dynamic-loaded-libraries.patch"
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0001-electron-getversion-from-file.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0002-v8-fix-trap-handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0003-cares-config.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0004-electron-disable-sandbox.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0005-node-as-posix.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0006-gtk-fix-dynamic-loaded-libraries.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a9a7e9a/tur-continuous/electron/0001-electron-getversion-from-file.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a9a7e9a/tur-continuous/electron/0002-v8-fix-trap-handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a9a7e9a/tur-continuous/electron/0003-cares-config.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a9a7e9a/tur-continuous/electron/0004-electron-disable-sandbox.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a9a7e9a/tur-continuous/electron/0005-node-as-posix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a9a7e9a/tur-continuous/electron/0006-gtk-fix-dynamic-loaded-libraries.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0001-electron-getversion-from-file.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0002-v8-fix-trap-handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0003-cares-config.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0004-electron-disable-sandbox.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0005-node-as-posix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0006-gtk-fix-dynamic-loaded-libraries.patch"
     ],
     "auto_updated": false
   },
