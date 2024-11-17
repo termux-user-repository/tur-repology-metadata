@@ -5220,20 +5220,20 @@
   },
   {
     "name": "uutils-coreutils",
-    "version": "0.0.27",
+    "version": "0.0.28",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
     "homepage": "https://uutils.github.io/",
     "depends": [],
-    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.0.27.tar.gz",
+    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.0.28.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ac55e86/tur/uutils-coreutils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ac55e86/tur/uutils-coreutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ac55e86/tur/uutils-coreutils/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/62f9a20/tur/uutils-coreutils",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/62f9a20/tur/uutils-coreutils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/62f9a20/tur/uutils-coreutils/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ac55e86/tur/uutils-coreutils/0001-cross-compile.patch"
+      "https://github.com/termux-user-repository/tur/blob/62f9a20/tur/uutils-coreutils/0001-cross-compile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac55e86/tur/uutils-coreutils/0001-cross-compile.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/62f9a20/tur/uutils-coreutils/0001-cross-compile.patch"
     ],
     "auto_updated": true
   },
