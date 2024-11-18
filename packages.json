@@ -1161,22 +1161,22 @@
   },
   {
     "name": "ffplayout",
-    "version": "0.24.1",
+    "version": "0.24.2",
     "description": "Rust and ffmpeg based playout",
     "homepage": "https://ffplayout.github.io",
     "depends": [],
     "srcurl": "git+https://github.com/ffplayout/ffplayout",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7c6480b/tur/ffplayout",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7c6480b/tur/ffplayout/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7c6480b/tur/ffplayout/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9641f76/tur/ffplayout",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9641f76/tur/ffplayout/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9641f76/tur/ffplayout/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7c6480b/tur/ffplayout/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/7c6480b/tur/ffplayout/0002-use-pre-generated-html.patch"
+      "https://github.com/termux-user-repository/tur/blob/9641f76/tur/ffplayout/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/9641f76/tur/ffplayout/0002-use-pre-generated-html.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7c6480b/tur/ffplayout/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7c6480b/tur/ffplayout/0002-use-pre-generated-html.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9641f76/tur/ffplayout/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9641f76/tur/ffplayout/0002-use-pre-generated-html.patch"
     ],
     "auto_updated": true
   },
