@@ -3362,20 +3362,20 @@
   },
   {
     "name": "ollama",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/27aea18/tur/ollama",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/27aea18/tur/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/27aea18/tur/ollama/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/adf7dcc/tur/ollama",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/adf7dcc/tur/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/adf7dcc/tur/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/27aea18/tur/ollama/0001-cgo-flags.patch"
+      "https://github.com/termux-user-repository/tur/blob/adf7dcc/tur/ollama/0001-cgo-flags.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/27aea18/tur/ollama/0001-cgo-flags.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/adf7dcc/tur/ollama/0001-cgo-flags.patch"
     ],
     "auto_updated": true
   },
