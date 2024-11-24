@@ -2682,30 +2682,40 @@
     "description": "An open source voxel game engine.",
     "homepage": "https://www.luanti.org",
     "depends": [
-      "sdl2",
-      "libc++",
-      "openal-soft",
-      "libvorbis",
-      "libsqlite",
       "freetype",
-      "libpng",
+      "libandroid-spawn",
+      "libc++",
       "libcurl",
-      "libandroid-spawn"
+      "libglvnd-dev",
+      "libjpeg-turbo",
+      "libiconv",
+      "libpng",
+      "libsqlite",
+      "libvorbis",
+      "libxi",
+      "openal-soft",
+      "zstd"
     ],
     "srcurl": "https://github.com/minetest/minetest/archive/refs/tags/5.10.0.zip",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3ee3cd9/tur/luanti",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3ee3cd9/tur/luanti/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3ee3cd9/tur/luanti/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/045705d/tur/luanti",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/045705d/tur/luanti/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/045705d/tur/luanti/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/3ee3cd9/tur/luanti/0001-fix-elf-directory-for-cross-compiling.patch",
-      "https://github.com/termux-user-repository/tur/blob/3ee3cd9/tur/luanti/0002-bionic-libc-x11-wsi-opengl-es-2.patch",
-      "https://github.com/termux-user-repository/tur/blob/3ee3cd9/tur/luanti/0003-prepend-termux-prefix-to-tmp-path.patch"
+      "https://github.com/termux-user-repository/tur/blob/045705d/tur/luanti/0001-enable-egl-without-sdl2.patch",
+      "https://github.com/termux-user-repository/tur/blob/045705d/tur/luanti/0002-fix-elf-directory-for-cross-compiling.patch",
+      "https://github.com/termux-user-repository/tur/blob/045705d/tur/luanti/0003-bionic-libc-x11-wsi-opengl-es-2.patch",
+      "https://github.com/termux-user-repository/tur/blob/045705d/tur/luanti/0004-prepend-termux-prefix-to-tmp-path.patch",
+      "https://github.com/termux-user-repository/tur/blob/045705d/tur/luanti/0005-toggle-on-the-recent-upstream-migration-away-from-sdl2.patch",
+      "https://github.com/termux-user-repository/tur/blob/045705d/tur/luanti/0006-fix-incompatible-type-ekey-code.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3ee3cd9/tur/luanti/0001-fix-elf-directory-for-cross-compiling.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3ee3cd9/tur/luanti/0002-bionic-libc-x11-wsi-opengl-es-2.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3ee3cd9/tur/luanti/0003-prepend-termux-prefix-to-tmp-path.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/045705d/tur/luanti/0001-enable-egl-without-sdl2.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/045705d/tur/luanti/0002-fix-elf-directory-for-cross-compiling.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/045705d/tur/luanti/0003-bionic-libc-x11-wsi-opengl-es-2.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/045705d/tur/luanti/0004-prepend-termux-prefix-to-tmp-path.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/045705d/tur/luanti/0005-toggle-on-the-recent-upstream-migration-away-from-sdl2.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/045705d/tur/luanti/0006-fix-incompatible-type-ekey-code.patch"
     ],
     "auto_updated": true
   },
