@@ -2694,16 +2694,18 @@
     ],
     "srcurl": "https://github.com/minetest/minetest/archive/refs/tags/5.10.0.zip",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/32cf79f/tur/luanti",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/32cf79f/tur/luanti/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/32cf79f/tur/luanti/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3ee3cd9/tur/luanti",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3ee3cd9/tur/luanti/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3ee3cd9/tur/luanti/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/32cf79f/tur/luanti/minetest-bionic-libc-x11-wsi-opengl-es-2.patch",
-      "https://github.com/termux-user-repository/tur/blob/32cf79f/tur/luanti/minetest-fix-elf-directory-for-cross-compiling.patch"
+      "https://github.com/termux-user-repository/tur/blob/3ee3cd9/tur/luanti/0001-fix-elf-directory-for-cross-compiling.patch",
+      "https://github.com/termux-user-repository/tur/blob/3ee3cd9/tur/luanti/0002-bionic-libc-x11-wsi-opengl-es-2.patch",
+      "https://github.com/termux-user-repository/tur/blob/3ee3cd9/tur/luanti/0003-prepend-termux-prefix-to-tmp-path.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/32cf79f/tur/luanti/minetest-bionic-libc-x11-wsi-opengl-es-2.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/32cf79f/tur/luanti/minetest-fix-elf-directory-for-cross-compiling.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3ee3cd9/tur/luanti/0001-fix-elf-directory-for-cross-compiling.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3ee3cd9/tur/luanti/0002-bionic-libc-x11-wsi-opengl-es-2.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3ee3cd9/tur/luanti/0003-prepend-termux-prefix-to-tmp-path.patch"
     ],
     "auto_updated": true
   },
