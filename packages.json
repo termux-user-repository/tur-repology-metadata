@@ -361,9 +361,9 @@
     ],
     "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-125.0.6422.141.tar.xz",
     "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/626e8a8/tur/chromium",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/626e8a8/tur/chromium/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/626e8a8/tur/chromium/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e8a1c34/tur/chromium",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e8a1c34/tur/chromium/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e8a1c34/tur/chromium/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -379,6 +379,27 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dd854db/tur/cksfv",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dd854db/tur/cksfv/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dd854db/tur/cksfv/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "clanbomber",
+    "version": "2.3",
+    "description": "The goal of ClanBomber is to blow away your opponents using bombs, but avoid being blown up yourself.",
+    "homepage": "https://www.nongnu.org/clanbomber",
+    "depends": [
+      "boost",
+      "sdl2",
+      "sdl2-image",
+      "sdl2-mixer",
+      "sdl2-ttf"
+    ],
+    "srcurl": "https://github.com/viti95/ClanBomber2/archive/refs/tags/v2.3.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f9e0371/tur/clanbomber",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f9e0371/tur/clanbomber/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f9e0371/tur/clanbomber/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
