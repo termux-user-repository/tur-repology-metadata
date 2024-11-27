@@ -4264,7 +4264,7 @@
   },
   {
     "name": "python-tokenizers",
-    "version": "0.20.3",
+    "version": "0.20.4",
     "description": "Fast State-of-the-Art Tokenizers optimized for Research and Production",
     "homepage": "https://github.com/huggingface/tokenizers",
     "depends": [
@@ -4272,11 +4272,11 @@
       "python",
       "python-pip"
     ],
-    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.20.3.tar.gz",
+    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.20.4.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/29341da/tur/python-tokenizers",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/29341da/tur/python-tokenizers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/29341da/tur/python-tokenizers/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/98c8ba8/tur/python-tokenizers",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/98c8ba8/tur/python-tokenizers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/98c8ba8/tur/python-tokenizers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5083,22 +5083,22 @@
   },
   {
     "name": "surreal",
-    "version": "2.1.0",
+    "version": "2.1.2",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.1.0.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.1.2.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2585379/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2585379/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2585379/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/258306e/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/258306e/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/258306e/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/2585379/tur/surreal/jemalloc-sys.diff",
-      "https://github.com/termux-user-repository/tur/blob/2585379/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/258306e/tur/surreal/jemalloc-sys.diff",
+      "https://github.com/termux-user-repository/tur/blob/258306e/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2585379/tur/surreal/jemalloc-sys.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2585379/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/258306e/tur/surreal/jemalloc-sys.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/258306e/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
