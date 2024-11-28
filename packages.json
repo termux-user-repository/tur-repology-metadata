@@ -2757,7 +2757,7 @@
   },
   {
     "name": "meli",
-    "version": "0.8.8",
+    "version": "0.8.9",
     "description": "Terminal e-mail client and e-mail client library",
     "homepage": "https://meli.delivery/",
     "depends": [
@@ -2770,16 +2770,16 @@
     ],
     "srcurl": "git+https://github.com/meli/meli",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c17dff1/tur/meli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c17dff1/tur/meli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c17dff1/tur/meli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a159f9a/tur/meli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a159f9a/tur/meli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a159f9a/tur/meli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/c17dff1/tur/meli/0001-disable-dbus.patch",
-      "https://github.com/termux-user-repository/tur/blob/c17dff1/tur/meli/0002-use-system-libsqlite.patch"
+      "https://github.com/termux-user-repository/tur/blob/a159f9a/tur/meli/0001-disable-dbus.patch",
+      "https://github.com/termux-user-repository/tur/blob/a159f9a/tur/meli/0002-use-system-libsqlite.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c17dff1/tur/meli/0001-disable-dbus.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c17dff1/tur/meli/0002-use-system-libsqlite.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a159f9a/tur/meli/0001-disable-dbus.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a159f9a/tur/meli/0002-use-system-libsqlite.patch"
     ],
     "auto_updated": true
   },
@@ -4264,7 +4264,7 @@
   },
   {
     "name": "python-tokenizers",
-    "version": "0.20.4",
+    "version": "0.21.0",
     "description": "Fast State-of-the-Art Tokenizers optimized for Research and Production",
     "homepage": "https://github.com/huggingface/tokenizers",
     "depends": [
@@ -4272,11 +4272,11 @@
       "python",
       "python-pip"
     ],
-    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.20.4.tar.gz",
+    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.21.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/98c8ba8/tur/python-tokenizers",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/98c8ba8/tur/python-tokenizers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/98c8ba8/tur/python-tokenizers/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ed4ea1b/tur/python-tokenizers",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ed4ea1b/tur/python-tokenizers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ed4ea1b/tur/python-tokenizers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
