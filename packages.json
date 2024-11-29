@@ -326,16 +326,18 @@
   },
   {
     "name": "chromium",
-    "version": "125.0.6422.141",
+    "version": "126.0.6478.182",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
       "atk",
       "cups",
       "dbus",
+      "fontconfig",
       "gtk3",
       "krb5",
       "libc++",
+      "libdrm",
       "libevdev",
       "libxkbcommon",
       "libminizip",
@@ -346,24 +348,13 @@
       "openssl",
       "pango",
       "pulseaudio",
-      "libdrm",
-      "libjpeg-turbo",
-      "libpng",
-      "libwebp",
-      "libflac",
-      "fontconfig",
-      "freetype",
-      "zlib",
-      "libxml2",
-      "libxslt",
-      "libopus",
-      "libsnappy"
+      "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-125.0.6422.141.tar.xz",
+    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-126.0.6478.182.tar.xz",
     "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e8a1c34/tur/chromium",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e8a1c34/tur/chromium/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e8a1c34/tur/chromium/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/954e099/tur/chromium",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/954e099/tur/chromium/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/954e099/tur/chromium/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -446,7 +437,7 @@
   },
   {
     "name": "code-oss",
-    "version": "1.90.0",
+    "version": "1.90.1",
     "description": "Visual Studio Code",
     "homepage": "https://github.com/microsoft/vscode",
     "depends": [
@@ -458,47 +449,47 @@
     ],
     "srcurl": "git+https://github.com/microsoft/vscode",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bef3759/tur/code-oss",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bef3759/tur/code-oss/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bef3759/tur/code-oss/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d520a28/tur/code-oss",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bef3759/tur/code-oss/0001-remove-more-telemetry.patch",
-      "https://github.com/termux-user-repository/tur/blob/bef3759/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
-      "https://github.com/termux-user-repository/tur/blob/bef3759/tur/code-oss/0003-vscode-fix-pathes.patch",
-      "https://github.com/termux-user-repository/tur/blob/bef3759/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
-      "https://github.com/termux-user-repository/tur/blob/bef3759/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch"
+      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0001-remove-more-telemetry.patch",
+      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
+      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0003-vscode-fix-pathes.patch",
+      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
+      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bef3759/tur/code-oss/0001-remove-more-telemetry.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bef3759/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bef3759/tur/code-oss/0003-vscode-fix-pathes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bef3759/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bef3759/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0001-remove-more-telemetry.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0003-vscode-fix-pathes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch"
     ],
     "auto_updated": true
   },
   {
     "name": "code-server",
-    "version": "4.89.1",
+    "version": "4.90.2",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
       "libandroid-spawn",
       "libsecret",
       "krb5",
-      "nodejs-18",
+      "nodejs-20",
       "ripgrep"
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9a47b9a/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9a47b9a/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9a47b9a/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/68cddcb/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/68cddcb/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/68cddcb/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9a47b9a/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/68cddcb/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9a47b9a/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/68cddcb/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -975,7 +966,7 @@
   },
   {
     "name": "electron22",
-    "version": "22.3.18",
+    "version": "22.3.27",
     "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
     "homepage": "https://github.com/electron/electron",
     "depends": [
@@ -983,9 +974,77 @@
     ],
     "srcurl": "git+https://github.com/electron/electron",
     "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/365fb92/tur/electron22",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/365fb92/tur/electron22/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/365fb92/tur/electron22/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6897db8/tur/electron22",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6897db8/tur/electron22/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6897db8/tur/electron22/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "electron23",
+    "version": "23.3.13",
+    "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+    "homepage": "https://github.com/electron/electron",
+    "depends": [
+      "electron-deps"
+    ],
+    "srcurl": "git+https://github.com/electron/electron",
+    "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2a1b16b/tur/electron23",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2a1b16b/tur/electron23/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2a1b16b/tur/electron23/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "electron24",
+    "version": "24.8.8",
+    "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+    "homepage": "https://github.com/electron/electron",
+    "depends": [
+      "electron-deps"
+    ],
+    "srcurl": "git+https://github.com/electron/electron",
+    "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d3a0b57/tur/electron24",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d3a0b57/tur/electron24/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d3a0b57/tur/electron24/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "electron25",
+    "version": "25.9.8",
+    "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+    "homepage": "https://github.com/electron/electron",
+    "depends": [
+      "electron-deps"
+    ],
+    "srcurl": "git+https://github.com/electron/electron",
+    "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c167f99/tur/electron25",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c167f99/tur/electron25/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c167f99/tur/electron25/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "electron26",
+    "version": "26.6.10",
+    "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+    "homepage": "https://github.com/electron/electron",
+    "depends": [
+      "electron-deps"
+    ],
+    "srcurl": "git+https://github.com/electron/electron",
+    "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/44748b7/tur/electron26",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/44748b7/tur/electron26/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/44748b7/tur/electron26/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -4056,27 +4115,27 @@
   },
   {
     "name": "python-polars",
-    "version": "1.15.0",
+    "version": "1.16.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.15.0/polars-1.15.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.16.0/polars-1.16.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bd559c6/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bd559c6/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bd559c6/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d254a7a/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d254a7a/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d254a7a/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bd559c6/tur/python-polars/arboard-dummy-platform.diff",
-      "https://github.com/termux-user-repository/tur/blob/bd559c6/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://github.com/termux-user-repository/tur/blob/bd559c6/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://github.com/termux-user-repository/tur/blob/d254a7a/tur/python-polars/arboard-dummy-platform.diff",
+      "https://github.com/termux-user-repository/tur/blob/d254a7a/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://github.com/termux-user-repository/tur/blob/d254a7a/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bd559c6/tur/python-polars/arboard-dummy-platform.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bd559c6/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bd559c6/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d254a7a/tur/python-polars/arboard-dummy-platform.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d254a7a/tur/python-polars/cmake-0.1.50-src-lib.rs.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d254a7a/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "auto_updated": true
   },
@@ -4818,7 +4877,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.85.0-2024.11.27-nightly",
+    "version": "1.85.0-2024.11.28-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org",
     "depends": [
@@ -4829,24 +4888,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2024-11-27/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2024-11-28/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4f597c1/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4f597c1/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4f597c1/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ee72f36/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ee72f36/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ee72f36/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/4f597c1/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/4f597c1/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f597c1/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f597c1/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/4f597c1/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://github.com/termux-user-repository/tur/blob/ee72f36/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/ee72f36/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/ee72f36/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/ee72f36/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/ee72f36/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f597c1/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f597c1/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f597c1/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f597c1/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4f597c1/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ee72f36/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ee72f36/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ee72f36/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ee72f36/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ee72f36/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "auto_updated": true
   },
