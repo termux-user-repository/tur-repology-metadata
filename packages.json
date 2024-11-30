@@ -880,6 +880,20 @@
     "auto_updated": false
   },
   {
+    "name": "electron",
+    "version": "26",
+    "description": "A metapackage that provides electron",
+    "homepage": "https://github.com/electron/electron",
+    "depends": [],
+    "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4077d36/tur/electron",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4077d36/tur/electron/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4077d36/tur/electron/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "electron-deps",
     "version": "0.0.3",
     "description": "A metapackage that contains dependencies for electron",
@@ -5643,37 +5657,6 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-continuous/carbonyl/0004-render_frame_impl.cc.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-continuous/carbonyl/9998-upstream-dc9cc51019997830fd6b506f7577028203ec4efc.diff",
       "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-continuous/carbonyl/9999-fix-patch-for-headless-shell.diff"
-    ],
-    "auto_updated": false
-  },
-  {
-    "name": "electron",
-    "version": "23.0.0",
-    "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
-    "homepage": "https://github.com/electron/electron",
-    "depends": [
-      "electron-deps"
-    ],
-    "srcurl": "git+https://github.com/electron/electron",
-    "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc168b9/tur-continuous/electron",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0001-electron-getversion-from-file.patch",
-      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0002-v8-fix-trap-handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0003-cares-config.patch",
-      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0004-electron-disable-sandbox.patch",
-      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0005-node-as-posix.patch",
-      "https://github.com/termux-user-repository/tur/blob/bc168b9/tur-continuous/electron/0006-gtk-fix-dynamic-loaded-libraries.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0001-electron-getversion-from-file.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0002-v8-fix-trap-handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0003-cares-config.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0004-electron-disable-sandbox.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0005-node-as-posix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc168b9/tur-continuous/electron/0006-gtk-fix-dynamic-loaded-libraries.patch"
     ],
     "auto_updated": false
   },
