@@ -326,7 +326,7 @@
   },
   {
     "name": "chromium",
-    "version": "127.0.6533.119",
+    "version": "128.0.6613.137",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -350,11 +350,11 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-127.0.6533.119.tar.xz",
+    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-128.0.6613.137.tar.xz",
     "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/25ab701/tur/chromium",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/25ab701/tur/chromium/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/25ab701/tur/chromium/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/62df193/tur/chromium",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/62df193/tur/chromium/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/62df193/tur/chromium/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3468,20 +3468,20 @@
   },
   {
     "name": "ollama",
-    "version": "0.4.6",
+    "version": "0.4.7",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/efff453/tur/ollama",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/efff453/tur/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/efff453/tur/ollama/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/88442e0/tur/ollama",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/88442e0/tur/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/88442e0/tur/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/efff453/tur/ollama/0001-cgo-flags.patch"
+      "https://github.com/termux-user-repository/tur/blob/88442e0/tur/ollama/0001-cgo-flags.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/efff453/tur/ollama/0001-cgo-flags.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88442e0/tur/ollama/0001-cgo-flags.patch"
     ],
     "auto_updated": true
   },
