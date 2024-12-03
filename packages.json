@@ -114,7 +114,7 @@
   },
   {
     "name": "astrometry.net",
-    "version": "0.96",
+    "version": "0.97",
     "description": "automatic recognition of astronomical images",
     "homepage": "https://astrometry.net/",
     "depends": [
@@ -134,22 +134,22 @@
       "wcslib",
       "zlib"
     ],
-    "srcurl": "https://github.com/dstndstn/astrometry.net/releases/download/0.96/astrometry.net-0.96.tar.gz",
+    "srcurl": "https://github.com/dstndstn/astrometry.net/releases/download/0.97/astrometry.net-0.97.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7fc5eec/tur/astrometry.net",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/88bdbd0/tur/astrometry.net",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/88bdbd0/tur/astrometry.net/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/88bdbd0/tur/astrometry.net/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/0001-gsl-an-configure-cross-compile.patch",
-      "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/0002-solver-landroid-glob.patch",
-      "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/0003-ioutils-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/7fc5eec/tur/astrometry.net/0004-bypass-netpbm-test.patch"
+      "https://github.com/termux-user-repository/tur/blob/88bdbd0/tur/astrometry.net/0001-gsl-an-configure-cross-compile.patch",
+      "https://github.com/termux-user-repository/tur/blob/88bdbd0/tur/astrometry.net/0002-solver-landroid-glob.patch",
+      "https://github.com/termux-user-repository/tur/blob/88bdbd0/tur/astrometry.net/0003-ioutils-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/88bdbd0/tur/astrometry.net/0004-bypass-netpbm-test.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/0001-gsl-an-configure-cross-compile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/0002-solver-landroid-glob.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/0003-ioutils-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7fc5eec/tur/astrometry.net/0004-bypass-netpbm-test.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88bdbd0/tur/astrometry.net/0001-gsl-an-configure-cross-compile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88bdbd0/tur/astrometry.net/0002-solver-landroid-glob.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88bdbd0/tur/astrometry.net/0003-ioutils-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88bdbd0/tur/astrometry.net/0004-bypass-netpbm-test.patch"
     ],
     "auto_updated": true
   },
