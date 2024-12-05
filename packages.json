@@ -2771,49 +2771,6 @@
     "auto_updated": false
   },
   {
-    "name": "luanti",
-    "version": "1:5.10.0",
-    "description": "An open source voxel game engine.",
-    "homepage": "https://www.luanti.org",
-    "depends": [
-      "freetype",
-      "libandroid-spawn",
-      "libc++",
-      "libcurl",
-      "libglvnd-dev",
-      "libjpeg-turbo",
-      "libiconv",
-      "libpng",
-      "libsqlite",
-      "libvorbis",
-      "libxi",
-      "openal-soft",
-      "zstd"
-    ],
-    "srcurl": "https://github.com/minetest/minetest/archive/refs/tags/5.10.0.zip",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/863de07/tur/luanti",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/863de07/tur/luanti/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/863de07/tur/luanti/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/863de07/tur/luanti/0001-enable-egl-without-sdl2.patch",
-      "https://github.com/termux-user-repository/tur/blob/863de07/tur/luanti/0002-fix-elf-directory-for-cross-compiling.patch",
-      "https://github.com/termux-user-repository/tur/blob/863de07/tur/luanti/0003-bionic-libc-x11-wsi-opengl-es-2.patch",
-      "https://github.com/termux-user-repository/tur/blob/863de07/tur/luanti/0004-prepend-termux-prefix-to-tmp-path.patch",
-      "https://github.com/termux-user-repository/tur/blob/863de07/tur/luanti/0005-toggle-on-the-recent-upstream-migration-away-from-sdl2.patch",
-      "https://github.com/termux-user-repository/tur/blob/863de07/tur/luanti/0006-fix-incompatible-type-ekey-code.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/863de07/tur/luanti/0001-enable-egl-without-sdl2.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/863de07/tur/luanti/0002-fix-elf-directory-for-cross-compiling.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/863de07/tur/luanti/0003-bionic-libc-x11-wsi-opengl-es-2.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/863de07/tur/luanti/0004-prepend-termux-prefix-to-tmp-path.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/863de07/tur/luanti/0005-toggle-on-the-recent-upstream-migration-away-from-sdl2.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/863de07/tur/luanti/0006-fix-incompatible-type-ekey-code.patch"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "mdds",
     "version": "2.1.1",
     "description": "A collection of multi-dimensional data structures and indexing algorithms",
@@ -4197,7 +4154,7 @@
   },
   {
     "name": "python-pywavelets",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "description": "Wavelet Transforms in Python",
     "homepage": "https://github.com/PyWavelets/pywt",
     "depends": [
@@ -4206,11 +4163,11 @@
       "python-pip",
       "python-numpy"
     ],
-    "srcurl": "https://github.com/PyWavelets/pywt/archive/refs/tags/v1.7.0.tar.gz",
+    "srcurl": "https://github.com/PyWavelets/pywt/archive/refs/tags/v1.8.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/12e1ead/tur/python-pywavelets",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/12e1ead/tur/python-pywavelets/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/12e1ead/tur/python-pywavelets/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/11a5f51/tur/python-pywavelets",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/11a5f51/tur/python-pywavelets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/11a5f51/tur/python-pywavelets/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
