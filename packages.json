@@ -3425,20 +3425,20 @@
   },
   {
     "name": "ollama",
-    "version": "0.4.7",
+    "version": "0.5.0",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/88442e0/tur/ollama",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/88442e0/tur/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/88442e0/tur/ollama/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/98b3280/tur/ollama",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/98b3280/tur/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/98b3280/tur/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/88442e0/tur/ollama/0001-cgo-flags.patch"
+      "https://github.com/termux-user-repository/tur/blob/98b3280/tur/ollama/0001-cgo-flags.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/88442e0/tur/ollama/0001-cgo-flags.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/98b3280/tur/ollama/0001-cgo-flags.patch"
     ],
     "auto_updated": true
   },
@@ -4313,7 +4313,7 @@
   },
   {
     "name": "python-yt-dlp",
-    "version": "2024.12.03",
+    "version": "2024.12.06",
     "description": "A youtube-dl fork with additional features and fixes",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "depends": [
@@ -4325,11 +4325,11 @@
       "python-pip",
       "python-pycryptodomex"
     ],
-    "srcurl": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.12.03.tar.gz",
+    "srcurl": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.12.06.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/eca4965/tur/python-yt-dlp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/eca4965/tur/python-yt-dlp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/eca4965/tur/python-yt-dlp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1a46374/tur/python-yt-dlp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1a46374/tur/python-yt-dlp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1a46374/tur/python-yt-dlp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
