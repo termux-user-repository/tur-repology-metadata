@@ -919,9 +919,9 @@
       "pulseaudio"
     ],
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0d8c3ec/tur/electron-deps",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0d8c3ec/tur/electron-deps/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0d8c3ec/tur/electron-deps/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cdcd260/tur/electron-deps",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cdcd260/tur/electron-deps/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cdcd260/tur/electron-deps/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
