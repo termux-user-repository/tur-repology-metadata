@@ -1375,22 +1375,22 @@
   },
   {
     "name": "ffplayout",
-    "version": "0.24.2",
+    "version": "0.24.3",
     "description": "Rust and ffmpeg based playout",
     "homepage": "https://ffplayout.github.io",
     "depends": [],
     "srcurl": "git+https://github.com/ffplayout/ffplayout",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9641f76/tur/ffplayout",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9641f76/tur/ffplayout/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9641f76/tur/ffplayout/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/35dc60a/tur/ffplayout",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/35dc60a/tur/ffplayout/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/35dc60a/tur/ffplayout/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9641f76/tur/ffplayout/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/9641f76/tur/ffplayout/0002-use-pre-generated-html.patch"
+      "https://github.com/termux-user-repository/tur/blob/35dc60a/tur/ffplayout/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/35dc60a/tur/ffplayout/0002-use-pre-generated-html.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9641f76/tur/ffplayout/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9641f76/tur/ffplayout/0002-use-pre-generated-html.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/35dc60a/tur/ffplayout/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/35dc60a/tur/ffplayout/0002-use-pre-generated-html.patch"
     ],
     "auto_updated": true
   },
@@ -4968,7 +4968,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.85.0-2024.12.09-nightly",
+    "version": "1.85.0-2024.12.10-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org",
     "depends": [
@@ -4979,24 +4979,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2024-12-09/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2024-12-10/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fa6c390/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fa6c390/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fa6c390/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/64553ea/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/64553ea/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/64553ea/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/fa6c390/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/fa6c390/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/fa6c390/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/fa6c390/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/fa6c390/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://github.com/termux-user-repository/tur/blob/64553ea/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/64553ea/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/64553ea/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/64553ea/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/64553ea/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fa6c390/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fa6c390/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fa6c390/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fa6c390/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fa6c390/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/64553ea/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/64553ea/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/64553ea/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/64553ea/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/64553ea/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "auto_updated": true
   },
@@ -5179,18 +5179,18 @@
   },
   {
     "name": "sundials",
-    "version": "1:7.1.1",
+    "version": "1:7.2.0",
     "description": "SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.",
     "homepage": "https://computing.llnl.gov/projects/sundials",
     "depends": [
       "libopenblas",
       "suitesparse"
     ],
-    "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.1.1/sundials-7.1.1.tar.gz",
+    "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.2.0/sundials-7.2.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a3b21af/tur/sundials",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a3b21af/tur/sundials/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a3b21af/tur/sundials/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f7eea65/tur/sundials",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f7eea65/tur/sundials/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f7eea65/tur/sundials/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
