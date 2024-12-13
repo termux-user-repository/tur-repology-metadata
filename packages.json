@@ -4433,7 +4433,7 @@
   },
   {
     "name": "python-yt-dlp",
-    "version": "2024.12.06",
+    "version": "2024.12.13",
     "description": "A youtube-dl fork with additional features and fixes",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "depends": [
@@ -4445,11 +4445,11 @@
       "python-pip",
       "python-pycryptodomex"
     ],
-    "srcurl": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.12.06.tar.gz",
+    "srcurl": "https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.12.13.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1a46374/tur/python-yt-dlp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1a46374/tur/python-yt-dlp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1a46374/tur/python-yt-dlp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fe61d1b/tur/python-yt-dlp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fe61d1b/tur/python-yt-dlp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fe61d1b/tur/python-yt-dlp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4968,7 +4968,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.85.0-2024.12.11-nightly",
+    "version": "1.85.0-2024.12.12-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org",
     "depends": [
@@ -4979,24 +4979,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2024-12-11/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2024-12-12/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fd1c399/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fd1c399/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fd1c399/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/02500ea/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/02500ea/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/02500ea/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/fd1c399/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/fd1c399/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/fd1c399/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/fd1c399/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/fd1c399/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://github.com/termux-user-repository/tur/blob/02500ea/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/02500ea/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/02500ea/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/02500ea/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/02500ea/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fd1c399/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fd1c399/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fd1c399/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fd1c399/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fd1c399/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/02500ea/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/02500ea/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/02500ea/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/02500ea/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/02500ea/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "auto_updated": true
   },
@@ -5233,22 +5233,22 @@
   },
   {
     "name": "surreal",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.1.2.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.1.3.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/258306e/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/258306e/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/258306e/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1a32f2a/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1a32f2a/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1a32f2a/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/258306e/tur/surreal/jemalloc-sys.diff",
-      "https://github.com/termux-user-repository/tur/blob/258306e/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/1a32f2a/tur/surreal/jemalloc-sys.diff",
+      "https://github.com/termux-user-repository/tur/blob/1a32f2a/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/258306e/tur/surreal/jemalloc-sys.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/258306e/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1a32f2a/tur/surreal/jemalloc-sys.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1a32f2a/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
