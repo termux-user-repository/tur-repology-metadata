@@ -437,7 +437,7 @@
   },
   {
     "name": "code-oss",
-    "version": "1.90.1",
+    "version": "1.95.3",
     "description": "Visual Studio Code",
     "homepage": "https://github.com/microsoft/vscode",
     "depends": [
@@ -449,22 +449,26 @@
     ],
     "srcurl": "git+https://github.com/microsoft/vscode",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d520a28/tur/code-oss",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8353be7/tur/code-oss",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8353be7/tur/code-oss/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8353be7/tur/code-oss/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0001-remove-more-telemetry.patch",
-      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
-      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0003-vscode-fix-pathes.patch",
-      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
-      "https://github.com/termux-user-repository/tur/blob/d520a28/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch"
+      "https://github.com/termux-user-repository/tur/blob/8353be7/tur/code-oss/0001-remove-more-telemetry.patch",
+      "https://github.com/termux-user-repository/tur/blob/8353be7/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
+      "https://github.com/termux-user-repository/tur/blob/8353be7/tur/code-oss/0003-vscode-fix-pathes.patch",
+      "https://github.com/termux-user-repository/tur/blob/8353be7/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
+      "https://github.com/termux-user-repository/tur/blob/8353be7/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch",
+      "https://github.com/termux-user-repository/tur/blob/8353be7/tur/code-oss/0006-reset-nodedir-for-host-build.patch",
+      "https://github.com/termux-user-repository/tur/blob/8353be7/tur/code-oss/0007-unset-more-compiler-flags-for-host-build.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0001-remove-more-telemetry.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0003-vscode-fix-pathes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d520a28/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8353be7/tur/code-oss/0001-remove-more-telemetry.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8353be7/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8353be7/tur/code-oss/0003-vscode-fix-pathes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8353be7/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8353be7/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8353be7/tur/code-oss/0006-reset-nodedir-for-host-build.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8353be7/tur/code-oss/0007-unset-more-compiler-flags-for-host-build.patch"
     ],
     "auto_updated": true
   },
@@ -4968,7 +4972,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.85.0-2024.12.13-nightly",
+    "version": "1.85.0-2024.12.14-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org",
     "depends": [
@@ -4979,24 +4983,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2024-12-13/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2024-12-14/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/acb88c5/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/acb88c5/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/acb88c5/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d42f032/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d42f032/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d42f032/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/acb88c5/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/acb88c5/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/acb88c5/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/acb88c5/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/acb88c5/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://github.com/termux-user-repository/tur/blob/d42f032/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/d42f032/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/d42f032/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/d42f032/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/d42f032/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/acb88c5/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/acb88c5/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/acb88c5/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/acb88c5/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/acb88c5/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d42f032/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d42f032/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d42f032/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d42f032/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d42f032/tur/rustc-nightly/0005-no-RTLD_DEEPBIND.patch"
     ],
     "auto_updated": true
   },
