@@ -1379,22 +1379,22 @@
   },
   {
     "name": "ffplayout",
-    "version": "0.24.3",
+    "version": "0.24.4",
     "description": "Rust and ffmpeg based playout",
     "homepage": "https://ffplayout.github.io",
     "depends": [],
     "srcurl": "git+https://github.com/ffplayout/ffplayout",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/944503f/tur/ffplayout",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/944503f/tur/ffplayout/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/944503f/tur/ffplayout/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f19b553/tur/ffplayout",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f19b553/tur/ffplayout/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f19b553/tur/ffplayout/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/944503f/tur/ffplayout/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/944503f/tur/ffplayout/0002-use-pre-generated-html.patch"
+      "https://github.com/termux-user-repository/tur/blob/f19b553/tur/ffplayout/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/f19b553/tur/ffplayout/0002-use-pre-generated-html.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/944503f/tur/ffplayout/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/944503f/tur/ffplayout/0002-use-pre-generated-html.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f19b553/tur/ffplayout/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f19b553/tur/ffplayout/0002-use-pre-generated-html.patch"
     ],
     "auto_updated": true
   },
@@ -3549,20 +3549,20 @@
   },
   {
     "name": "ollama",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "Get up and running with large language models",
     "homepage": "https://ollama.com/",
     "depends": [],
     "srcurl": "git+https://github.com/ollama/ollama",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d8adae1/tur/ollama",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d8adae1/tur/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d8adae1/tur/ollama/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/82a1bde/tur/ollama",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/82a1bde/tur/ollama/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/82a1bde/tur/ollama/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d8adae1/tur/ollama/0001-cgo-flags.patch"
+      "https://github.com/termux-user-repository/tur/blob/82a1bde/tur/ollama/0001-cgo-flags.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d8adae1/tur/ollama/0001-cgo-flags.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82a1bde/tur/ollama/0001-cgo-flags.patch"
     ],
     "auto_updated": true
   },
