@@ -5283,14 +5283,14 @@
     ],
     "srcurl": "git+https://github.com/TabbyML/tabby",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/144bc0f/tur/tabby",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/144bc0f/tur/tabby/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/144bc0f/tur/tabby/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7224ddf/tur/tabby",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7224ddf/tur/tabby/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7224ddf/tur/tabby/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/144bc0f/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://github.com/termux-user-repository/tur/blob/7224ddf/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/144bc0f/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7224ddf/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "auto_updated": true
   },
