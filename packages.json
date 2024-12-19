@@ -5237,22 +5237,22 @@
   },
   {
     "name": "surreal",
-    "version": "2.1.3",
+    "version": "2.1.4",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.1.3.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.1.4.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1a32f2a/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1a32f2a/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1a32f2a/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/895c8fd/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/895c8fd/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/895c8fd/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1a32f2a/tur/surreal/jemalloc-sys.diff",
-      "https://github.com/termux-user-repository/tur/blob/1a32f2a/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/895c8fd/tur/surreal/jemalloc-sys.diff",
+      "https://github.com/termux-user-repository/tur/blob/895c8fd/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1a32f2a/tur/surreal/jemalloc-sys.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1a32f2a/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/895c8fd/tur/surreal/jemalloc-sys.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/895c8fd/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
@@ -5273,7 +5273,7 @@
   },
   {
     "name": "tabby",
-    "version": "0.21.1",
+    "version": "0.21.2",
     "description": "Self-hosted AI coding assistant",
     "homepage": "https://tabby.tabbyml.com/",
     "depends": [
@@ -5283,14 +5283,14 @@
     ],
     "srcurl": "git+https://github.com/TabbyML/tabby",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ef414c5/tur/tabby",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ef414c5/tur/tabby/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ef414c5/tur/tabby/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/144bc0f/tur/tabby",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/144bc0f/tur/tabby/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/144bc0f/tur/tabby/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ef414c5/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://github.com/termux-user-repository/tur/blob/144bc0f/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ef414c5/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/144bc0f/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "auto_updated": true
   },
