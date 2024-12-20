@@ -5509,7 +5509,7 @@
   },
   {
     "name": "vkmark",
-    "version": "0.0.1-r139.ab6e6f3",
+    "version": "2023.04.12-r139.ab6e6f3",
     "description": "Vulkan Benchmark",
     "homepage": "https://github.com/vkmark/vkmark",
     "depends": [
@@ -5522,14 +5522,14 @@
     ],
     "srcurl": "git+https://github.com/vkmark/vkmark",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b60a40a/tur/vkmark",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b60a40a/tur/vkmark/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b60a40a/tur/vkmark/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f61bab6/tur/vkmark",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f61bab6/tur/vkmark/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f61bab6/tur/vkmark/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b60a40a/tur/vkmark/0001-fix-log.patch"
+      "https://github.com/termux-user-repository/tur/blob/f61bab6/tur/vkmark/0001-fix-log.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b60a40a/tur/vkmark/0001-fix-log.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f61bab6/tur/vkmark/0001-fix-log.patch"
     ],
     "auto_updated": false
   },
