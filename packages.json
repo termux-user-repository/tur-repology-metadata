@@ -474,7 +474,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.96.1",
+    "version": "4.96.2",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -486,14 +486,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/80e61a9/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/80e61a9/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/80e61a9/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3942e99/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3942e99/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3942e99/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/80e61a9/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/3942e99/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80e61a9/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3942e99/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -5183,18 +5183,18 @@
   },
   {
     "name": "sundials",
-    "version": "1:7.2.0",
+    "version": "1:7.2.1",
     "description": "SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.",
     "homepage": "https://computing.llnl.gov/projects/sundials",
     "depends": [
       "libopenblas",
       "suitesparse"
     ],
-    "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.2.0/sundials-7.2.0.tar.gz",
+    "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.2.1/sundials-7.2.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f7eea65/tur/sundials",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f7eea65/tur/sundials/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f7eea65/tur/sundials/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f98b566/tur/sundials",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f98b566/tur/sundials/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f98b566/tur/sundials/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
