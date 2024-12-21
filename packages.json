@@ -6615,18 +6615,24 @@
     ],
     "srcurl": "git+https://github.com/blender/blender.git",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/67735c1/tur-on-device/blender",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/67735c1/tur-on-device/blender/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/67735c1/tur-on-device/blender/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a05fe07/tur-on-device/blender",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a05fe07/tur-on-device/blender/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a05fe07/tur-on-device/blender/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/67735c1/tur-on-device/blender/0001-blender_android.patch",
-      "https://github.com/termux-user-repository/tur/blob/67735c1/tur-on-device/blender/0002-python-3.12-head-compat.patch",
-      "https://github.com/termux-user-repository/tur/blob/67735c1/tur-on-device/blender/0003-python-3.12-pylong.patch"
+      "https://github.com/termux-user-repository/tur/blob/a05fe07/tur-on-device/blender/0001-blender_android.patch",
+      "https://github.com/termux-user-repository/tur/blob/a05fe07/tur-on-device/blender/0002-python-3.12-head-compat.patch",
+      "https://github.com/termux-user-repository/tur/blob/a05fe07/tur-on-device/blender/0003-python-3.12-pylong.patch",
+      "https://github.com/termux-user-repository/tur/blob/a05fe07/tur-on-device/blender/0004-ffmpeg-7-channels.patch",
+      "https://github.com/termux-user-repository/tur/blob/a05fe07/tur-on-device/blender/0005-ffmpeg-7-duration.patch",
+      "https://github.com/termux-user-repository/tur/blob/a05fe07/tur-on-device/blender/0006-ffmpeg-7-read_seek.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/67735c1/tur-on-device/blender/0001-blender_android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/67735c1/tur-on-device/blender/0002-python-3.12-head-compat.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/67735c1/tur-on-device/blender/0003-python-3.12-pylong.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a05fe07/tur-on-device/blender/0001-blender_android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a05fe07/tur-on-device/blender/0002-python-3.12-head-compat.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a05fe07/tur-on-device/blender/0003-python-3.12-pylong.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a05fe07/tur-on-device/blender/0004-ffmpeg-7-channels.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a05fe07/tur-on-device/blender/0005-ffmpeg-7-duration.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a05fe07/tur-on-device/blender/0006-ffmpeg-7-read_seek.patch"
     ],
     "auto_updated": false
   },
