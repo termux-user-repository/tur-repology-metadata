@@ -524,6 +524,23 @@
     "auto_updated": true
   },
   {
+    "name": "comcom64",
+    "version": "0.2",
+    "description": "64bit command.com",
+    "homepage": "https://github.com/dosemu2/comcom64",
+    "depends": [
+      "dj64dev"
+    ],
+    "srcurl": "https://github.com/dosemu2/comcom64/archive/refs/tags/0.2.tar.gz",
+    "maintainer": "@stsp",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6d602b1/tur/comcom64",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6d602b1/tur/comcom64/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6d602b1/tur/comcom64/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "cppunit",
     "version": "1.15.1",
     "description": "A C++ unit testing framework",
@@ -534,6 +551,21 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b0731ae/tur/cppunit",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b0731ae/tur/cppunit/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b0731ae/tur/cppunit/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "ctags-cross",
+    "version": "2:6.1.0",
+    "description": "Universal ctags: Source code index builder",
+    "homepage": "https://ctags.io/",
+    "depends": [],
+    "srcurl": "https://github.com/universal-ctags/ctags/archive/refs/tags/v6.1.0.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3ccce69/tur/ctags-cross",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3ccce69/tur/ctags-cross/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3ccce69/tur/ctags-cross/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -777,6 +809,39 @@
     "auto_updated": false
   },
   {
+    "name": "dj64dev",
+    "version": "0.3",
+    "description": "development suite that allows to cross-build 64-bit programs for DOS",
+    "homepage": "https://github.com/stsp/dj64dev",
+    "depends": [
+      "djstub",
+      "thunk-gen"
+    ],
+    "srcurl": "https://github.com/stsp/dj64dev/archive/refs/tags/0.3.tar.gz",
+    "maintainer": "@stsp",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6c3949d/tur/dj64dev",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6c3949d/tur/dj64dev/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6c3949d/tur/dj64dev/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "djstub",
+    "version": "0.3",
+    "description": "go32-compatible stub that supports COFF, PE and ELF payloads",
+    "homepage": "https://github.com/stsp/djstub",
+    "depends": [],
+    "srcurl": "https://github.com/stsp/djstub/archive/refs/tags/0.3.tar.gz",
+    "maintainer": "@stsp",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2e60816/tur/djstub",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2e60816/tur/djstub/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2e60816/tur/djstub/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "dlib",
     "version": "19.24.6",
     "description": "a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems",
@@ -799,6 +864,25 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/05079e1/tur/dlib/0001-drop-distutils.patch"
     ],
     "auto_updated": true
+  },
+  {
+    "name": "dosemu2",
+    "version": "2.0pre9-git",
+    "description": "Run DOS programs under linux.",
+    "homepage": "https://github.com/dosemu2/dosemu2",
+    "depends": [
+      "fdpp",
+      "dj64dev",
+      "comcom64"
+    ],
+    "srcurl": "git+https://github.com/dosemu2/dosemu2",
+    "maintainer": "@stsp",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/039b79f/tur/dosemu2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/039b79f/tur/dosemu2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/039b79f/tur/dosemu2/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
   },
   {
     "name": "dotload",
@@ -1267,6 +1351,21 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/992c6ce/tur/fakepkg/01-android-chdir-fsroot-eperm-gnutar-dieout-fix.patch"
     ],
     "auto_updated": false
+  },
+  {
+    "name": "fdpp",
+    "version": "1.9",
+    "description": "64-bit DOS core",
+    "homepage": "https://github.com/dosemu2/fdpp",
+    "depends": [],
+    "srcurl": "https://github.com/dosemu2/fdpp/archive/refs/tags/1.9.tar.gz",
+    "maintainer": "@stsp",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b95de11/tur/fdpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b95de11/tur/fdpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b95de11/tur/fdpp/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
   },
   {
     "name": "feed2imap-go",
@@ -1877,6 +1976,23 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/9d2c92a/tur/icewm/termux.patch"
     ],
     "auto_updated": false
+  },
+  {
+    "name": "instfd",
+    "version": "0.3",
+    "description": "FreeDOS installed for dosemu2",
+    "homepage": "https://github.com/dosemu2/install-freedos",
+    "depends": [
+      "python"
+    ],
+    "srcurl": "https://github.com/dosemu2/install-freedos/archive/refs/tags/0.3.tar.gz",
+    "maintainer": "@stsp",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/79484b4/tur/instfd",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/79484b4/tur/instfd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/79484b4/tur/instfd/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
   },
   {
     "name": "juice-shop",
@@ -3076,6 +3192,21 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
+  },
+  {
+    "name": "nasm-segelf",
+    "version": "2.16.01-3",
+    "description": "nasm fork with segelf patches",
+    "homepage": "https://github.com/stsp/nasm-segelf",
+    "depends": [],
+    "srcurl": "https://github.com/stsp/nasm-segelf/archive/refs/tags/nasm-segelf-2.16.01-3.tar.gz",
+    "maintainer": "@stsp",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/049147c/tur/nasm-segelf",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/049147c/tur/nasm-segelf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/049147c/tur/nasm-segelf/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
   },
   {
     "name": "ndk-sysroot-gcc-compact",
@@ -5057,6 +5188,27 @@
     "auto_updated": true
   },
   {
+    "name": "smallerc",
+    "version": "1.0.2",
+    "description": "Simple and small C compiler for DOS, Windows, Linux and MacOS",
+    "homepage": "https://github.com/alexfru/SmallerC",
+    "depends": [
+      "nasm"
+    ],
+    "srcurl": "https://github.com/alexfru/SmallerC/archive/refs/tags/v1.0.2+dos.win.b120a9c.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2d371a7/tur/smallerc",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2d371a7/tur/smallerc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2d371a7/tur/smallerc/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/2d371a7/tur/smallerc/makefile.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d371a7/tur/smallerc/makefile.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "smartdns",
     "version": "46",
     "description": "A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH",
@@ -5324,6 +5476,21 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/600e80d/tur/termux-install",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/600e80d/tur/termux-install/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/600e80d/tur/termux-install/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "thunk-gen",
+    "version": "1.3",
+    "description": "thunk generator for C and assembler",
+    "homepage": "https://github.com/stsp/thunk_gen",
+    "depends": [],
+    "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.3.tar.gz",
+    "maintainer": "@stsp",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fc74971/tur/thunk-gen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fc74971/tur/thunk-gen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fc74971/tur/thunk-gen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5743,15 +5910,15 @@
   },
   {
     "name": "afrog",
-    "version": "3.1.3",
+    "version": "3.1.5",
     "description": "A tool for finding vulnerabilities",
     "homepage": "https://github.com/zan8in/afrog",
     "depends": [],
-    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.1.3.tar.gz",
+    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.1.5.tar.gz",
     "maintainer": "@UtermuxBlog",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4107c1a/tur-hacking/afrog",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4107c1a/tur-hacking/afrog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4107c1a/tur-hacking/afrog/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ecd324a/tur-hacking/afrog",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ecd324a/tur-hacking/afrog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ecd324a/tur-hacking/afrog/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
