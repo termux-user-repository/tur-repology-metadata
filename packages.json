@@ -815,13 +815,14 @@
     "homepage": "https://github.com/stsp/dj64dev",
     "depends": [
       "djstub",
-      "thunk-gen"
+      "thunk-gen",
+      "libelf"
     ],
     "srcurl": "https://github.com/stsp/dj64dev/archive/refs/tags/0.3.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ed8af39/tur/dj64dev",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ed8af39/tur/dj64dev/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ed8af39/tur/dj64dev/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7faee1d/tur/dj64dev",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7faee1d/tur/dj64dev/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7faee1d/tur/dj64dev/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -871,15 +872,27 @@
     "description": "Run DOS programs under linux.",
     "homepage": "https://github.com/dosemu2/dosemu2",
     "depends": [
+      "comcom64",
+      "libandroid-posix-semaphore",
+      "libandroid-glob",
+      "slang",
+      "libao",
+      "fluidsynth",
+      "ladspa-sdk",
+      "libslirp",
+      "libbsd",
+      "readline",
+      "json-c",
+      "libseccomp",
+      "libsearpc",
       "fdpp",
-      "dj64dev",
-      "comcom64"
+      "dj64dev"
     ],
     "srcurl": "git+https://github.com/dosemu2/dosemu2",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/039b79f/tur/dosemu2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/039b79f/tur/dosemu2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/039b79f/tur/dosemu2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c435650/tur/dosemu2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c435650/tur/dosemu2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c435650/tur/dosemu2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -1357,12 +1370,14 @@
     "version": "1.9",
     "description": "64-bit DOS core",
     "homepage": "https://github.com/dosemu2/fdpp",
-    "depends": [],
+    "depends": [
+      "libelf"
+    ],
     "srcurl": "https://github.com/dosemu2/fdpp/archive/refs/tags/1.9.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ec98347/tur/fdpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ec98347/tur/fdpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ec98347/tur/fdpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7f9aee0/tur/fdpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7f9aee0/tur/fdpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7f9aee0/tur/fdpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
