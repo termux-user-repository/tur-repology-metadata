@@ -873,6 +873,7 @@
     "homepage": "https://github.com/dosemu2/dosemu2",
     "depends": [
       "comcom64",
+      "instfd",
       "libandroid-posix-semaphore",
       "libandroid-glob",
       "slang",
@@ -890,9 +891,9 @@
     ],
     "srcurl": "git+https://github.com/dosemu2/dosemu2",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c435650/tur/dosemu2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c435650/tur/dosemu2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c435650/tur/dosemu2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f26afb/tur/dosemu2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f26afb/tur/dosemu2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f26afb/tur/dosemu2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
