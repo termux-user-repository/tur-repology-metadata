@@ -5966,7 +5966,7 @@
   },
   {
     "name": "bettercap",
-    "version": "2.33.0",
+    "version": "2.40.0",
     "description": "The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks. ",
     "homepage": "https://www.bettercap.org/",
     "depends": [
@@ -5975,11 +5975,11 @@
       "root-repo",
       "libnetfilter-queue"
     ],
-    "srcurl": "https://github.com/bettercap/bettercap/archive/refs/tags/v2.33.0.tar.gz",
-    "maintainer": "https://github.com/1q23lyc45",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/785939a/tur-hacking/bettercap",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/785939a/tur-hacking/bettercap/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/785939a/tur-hacking/bettercap/build.sh",
+    "srcurl": "https://github.com/bettercap/bettercap/archive/refs/tags/v2.40.0.tar.gz",
+    "maintainer": "1q23lyc45",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e4bd2eb/tur-hacking/bettercap",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e4bd2eb/tur-hacking/bettercap/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e4bd2eb/tur-hacking/bettercap/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
