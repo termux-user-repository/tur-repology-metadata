@@ -2003,9 +2003,9 @@
     ],
     "srcurl": "https://github.com/dosemu2/install-freedos/archive/refs/tags/0.3.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/79484b4/tur/instfd",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/79484b4/tur/instfd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/79484b4/tur/instfd/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/99fb465/tur/instfd",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/99fb465/tur/instfd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/99fb465/tur/instfd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
