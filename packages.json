@@ -5691,32 +5691,6 @@
     "auto_updated": false
   },
   {
-    "name": "vkmark",
-    "version": "2023.04.12-r139.ab6e6f3",
-    "description": "Vulkan Benchmark",
-    "homepage": "https://github.com/vkmark/vkmark",
-    "depends": [
-      "assimp",
-      "libc++",
-      "libxcb",
-      "glm",
-      "vulkan-loader-generic",
-      "xcb-util-wm"
-    ],
-    "srcurl": "git+https://github.com/vkmark/vkmark",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f61bab6/tur/vkmark",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f61bab6/tur/vkmark/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f61bab6/tur/vkmark/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f61bab6/tur/vkmark/0001-fix-log.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f61bab6/tur/vkmark/0001-fix-log.patch"
-    ],
-    "auto_updated": false
-  },
-  {
     "name": "vomit",
     "version": "0.4.0",
     "description": "Utility to manage your local emails in Maildir++ format with IMAP synchronization support",
