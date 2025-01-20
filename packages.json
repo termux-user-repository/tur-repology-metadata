@@ -700,22 +700,23 @@
   },
   {
     "name": "ddclient",
-    "version": "3.11.2",
+    "version": "4.0.0",
     "description": "Update dynamic DNS entries for accounts on many dynamic DNS services",
     "homepage": "https://github.com/ddclient/ddclient",
     "depends": [
+      "curl",
       "perl"
     ],
-    "srcurl": "https://github.com/ddclient/ddclient/archive/refs/tags/v3.11.2.tar.gz",
+    "srcurl": "https://github.com/ddclient/ddclient/archive/refs/tags/v4.0.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/95bfe7f/tur/ddclient",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/95bfe7f/tur/ddclient/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/95bfe7f/tur/ddclient/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/363aaa1/tur/ddclient",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/363aaa1/tur/ddclient/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/363aaa1/tur/ddclient/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/95bfe7f/tur/ddclient/0001-fix-hardcoded-pathes.patch"
+      "https://github.com/termux-user-repository/tur/blob/363aaa1/tur/ddclient/0001-fix-hardcoded-pathes.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/95bfe7f/tur/ddclient/0001-fix-hardcoded-pathes.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/363aaa1/tur/ddclient/0001-fix-hardcoded-pathes.patch"
     ],
     "auto_updated": true
   },
