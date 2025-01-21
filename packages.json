@@ -5292,18 +5292,18 @@
   },
   {
     "name": "stern",
-    "version": "1.31.0",
+    "version": "1.32.0",
     "description": "Multi pod and container log tailing for Kubernetes - Fork of https://github.com/wercker/stern",
     "homepage": "https://github.com/stern/stern",
     "depends": [
       "pacman",
       "kubectl"
     ],
-    "srcurl": "https://github.com/stern/stern/archive/refs/tags/v1.31.0.tar.gz",
+    "srcurl": "https://github.com/stern/stern/archive/refs/tags/v1.32.0.tar.gz",
     "maintainer": "@idj0",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d68b940/tur/stern",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d68b940/tur/stern/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d68b940/tur/stern/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/415c3a8/tur/stern",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/415c3a8/tur/stern/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/415c3a8/tur/stern/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
