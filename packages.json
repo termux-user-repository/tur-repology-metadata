@@ -4237,7 +4237,7 @@
   },
   {
     "name": "python-fitsio",
-    "version": "1.2.3",
+    "version": "1.2.5",
     "description": "A python package for FITS input/output wrapping cfitsio",
     "homepage": "https://github.com/esheldon/fitsio",
     "depends": [
@@ -4245,11 +4245,11 @@
       "python",
       "python-numpy"
     ],
-    "srcurl": "https://github.com/esheldon/fitsio/archive/refs/tags/1.2.3.tar.gz",
+    "srcurl": "https://github.com/esheldon/fitsio/archive/refs/tags/1.2.5.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/885cc76/tur/python-fitsio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/885cc76/tur/python-fitsio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/885cc76/tur/python-fitsio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3a99037/tur/python-fitsio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3a99037/tur/python-fitsio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3a99037/tur/python-fitsio/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
