@@ -3979,22 +3979,22 @@
   },
   {
     "name": "pacman-contrib",
-    "version": "1.10.6",
+    "version": "1.11.0",
     "description": "Additional libalpm utilities contributed by Arch community",
     "homepage": "https://gitlab.archlinux.org/pacman/pacman-contrib",
     "depends": [
       "pacman"
     ],
-    "srcurl": "https://gitlab.archlinux.org/pacman/pacman-contrib/-/archive/v1.10.6/pacman-contrib-v1.10.6.tar.gz",
+    "srcurl": "https://gitlab.archlinux.org/pacman/pacman-contrib/-/archive/v1.11.0/pacman-contrib-v1.11.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b515539/tur/pacman-contrib",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b515539/tur/pacman-contrib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b515539/tur/pacman-contrib/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9091b68/tur/pacman-contrib",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9091b68/tur/pacman-contrib/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9091b68/tur/pacman-contrib/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b515539/tur/pacman-contrib/sudo.patch"
+      "https://github.com/termux-user-repository/tur/blob/9091b68/tur/pacman-contrib/sudo.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b515539/tur/pacman-contrib/sudo.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9091b68/tur/pacman-contrib/sudo.patch"
     ],
     "auto_updated": true
   },
