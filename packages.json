@@ -498,32 +498,6 @@
     "auto_updated": true
   },
   {
-    "name": "codon",
-    "version": "0.17.0",
-    "description": "A high-performance, zero-overhead, extensible Python compiler using LLVM",
-    "homepage": "https://github.com/exaloop/codon",
-    "depends": [
-      "libc++",
-      "libxml2",
-      "zlib",
-      "zstd"
-    ],
-    "srcurl": "https://github.com/exaloop/codon/archive/refs/tags/v0.17.0.tar.gz",
-    "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0c17626/tur/codon",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0c17626/tur/codon/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0c17626/tur/codon/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0c17626/tur/codon/0001-use-custom-openmp-for-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/0c17626/tur/codon/0002-do-not-pass-no-pie-to-c-compiler.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0c17626/tur/codon/0001-use-custom-openmp-for-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0c17626/tur/codon/0002-do-not-pass-no-pie-to-c-compiler.patch"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "comcom64",
     "version": "0.2",
     "description": "64bit command.com",
