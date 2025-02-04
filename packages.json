@@ -3207,9 +3207,9 @@
     "depends": [],
     "srcurl": "https://github.com/stsp/nasm-segelf/archive/refs/tags/nasm-segelf-2.16.01-3.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/049147c/tur/nasm-segelf",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/049147c/tur/nasm-segelf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/049147c/tur/nasm-segelf/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/079a383/tur/nasm-segelf",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/079a383/tur/nasm-segelf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/079a383/tur/nasm-segelf/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
