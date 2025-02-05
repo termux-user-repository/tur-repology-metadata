@@ -5431,7 +5431,7 @@
   },
   {
     "name": "tabby",
-    "version": "0.23.1",
+    "version": "0.24.0",
     "description": "Self-hosted AI coding assistant",
     "homepage": "https://tabby.tabbyml.com/",
     "depends": [
@@ -5441,14 +5441,14 @@
     ],
     "srcurl": "git+https://github.com/TabbyML/tabby",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc64e5c/tur/tabby",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc64e5c/tur/tabby/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc64e5c/tur/tabby/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/70659d7/tur/tabby",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/70659d7/tur/tabby/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/70659d7/tur/tabby/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/dc64e5c/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://github.com/termux-user-repository/tur/blob/70659d7/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/dc64e5c/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/70659d7/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "auto_updated": true
   },
