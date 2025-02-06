@@ -341,7 +341,7 @@
   },
   {
     "name": "chromium",
-    "version": "130.0.6723.116",
+    "version": "131.0.6778.264",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -365,11 +365,11 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-130.0.6723.116.tar.xz",
-    "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d4f45a1/tur/chromium",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d4f45a1/tur/chromium/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d4f45a1/tur/chromium/build.sh",
+    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-131.0.6778.264.tar.xz",
+    "maintainer": "@licy183",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/95b3bac/tur/chromium",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/95b3bac/tur/chromium/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/95b3bac/tur/chromium/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
