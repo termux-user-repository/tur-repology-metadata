@@ -3704,25 +3704,6 @@
     "auto_updated": true
   },
   {
-    "name": "ollama",
-    "version": "0.5.7",
-    "description": "Get up and running with large language models",
-    "homepage": "https://ollama.com/",
-    "depends": [],
-    "srcurl": "git+https://github.com/ollama/ollama",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/90a84c4/tur/ollama",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/90a84c4/tur/ollama/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/90a84c4/tur/ollama/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/90a84c4/tur/ollama/0001-cgo-flags.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/90a84c4/tur/ollama/0001-cgo-flags.patch"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "openalut",
     "version": "1.1.0",
     "description": "A free implementation of OpenAL's ALUT standard",
