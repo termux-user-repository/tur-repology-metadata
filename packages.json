@@ -4347,27 +4347,25 @@
   },
   {
     "name": "python-polars",
-    "version": "1.19.0",
+    "version": "1.22.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.19.0/polars-1.19.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.22.0/polars-1.22.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/45688f6/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/45688f6/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/45688f6/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/20d68f3/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/20d68f3/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/20d68f3/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/45688f6/tur/python-polars/arboard-dummy-platform.diff",
-      "https://github.com/termux-user-repository/tur/blob/45688f6/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff",
-      "https://github.com/termux-user-repository/tur/blob/45688f6/tur/python-polars/patch-root-Cargo.diff"
+      "https://github.com/termux-user-repository/tur/blob/20d68f3/tur/python-polars/arboard-dummy-platform.diff",
+      "https://github.com/termux-user-repository/tur/blob/20d68f3/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/45688f6/tur/python-polars/arboard-dummy-platform.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/45688f6/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/45688f6/tur/python-polars/patch-root-Cargo.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/20d68f3/tur/python-polars/arboard-dummy-platform.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/20d68f3/tur/python-polars/jemalloc-sys-0.5.4+5.3.0-patched-src-lib.rs.diff"
     ],
     "auto_updated": true
   },
@@ -6816,9 +6814,9 @@
     "homepage": "https://github.com/termux-user-repository/tur-on-device",
     "depends": [],
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8b8a7fd/tur-on-device/hello-tur-on-device",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8b8a7fd/tur-on-device/hello-tur-on-device/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8b8a7fd/tur-on-device/hello-tur-on-device/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fa19920/tur-on-device/hello-tur-on-device",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fa19920/tur-on-device/hello-tur-on-device/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fa19920/tur-on-device/hello-tur-on-device/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
