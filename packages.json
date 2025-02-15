@@ -4535,18 +4535,18 @@
   },
   {
     "name": "python-tiktoken",
-    "version": "0.8.0",
+    "version": "0.9.0",
     "description": "A fast BPE tokeniser for use with OpenAI's models",
     "homepage": "https://github.com/openai/tiktoken",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/openai/tiktoken/archive/refs/tags/0.8.0.tar.gz",
+    "srcurl": "https://github.com/openai/tiktoken/archive/refs/tags/0.9.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/36af8e2/tur/python-tiktoken",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/36af8e2/tur/python-tiktoken/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/36af8e2/tur/python-tiktoken/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2bb74e8/tur/python-tiktoken",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2bb74e8/tur/python-tiktoken/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2bb74e8/tur/python-tiktoken/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
