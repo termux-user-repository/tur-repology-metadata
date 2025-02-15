@@ -948,6 +948,35 @@
     "auto_updated": true
   },
   {
+    "name": "doukutsu-rs",
+    "version": "0.101.0-beta6",
+    "description": "A faithful and open-source remake of Cave Story's engine written in Rust",
+    "homepage": "https://github.com/doukutsu-rs/doukutsu-rs",
+    "depends": [
+      "libc++",
+      "sdl2",
+      "sdl2-image"
+    ],
+    "srcurl": "https://github.com/doukutsu-rs/doukutsu-rs/archive/refs/tags/0.101.0-beta6.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c4a4e60/tur/doukutsu-rs",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/0001-no-jni.patch",
+      "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/0002-use-system-sdl2.patch",
+      "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/9998-cpal-no-jni.diff",
+      "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/9999-webbrowser-no-jni.diff"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/0001-no-jni.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/0002-use-system-sdl2.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/9998-cpal-no-jni.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/9999-webbrowser-no-jni.diff"
+    ],
+    "auto_updated": true
+  },
+  {
     "name": "dpp",
     "version": "10.0.35",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
@@ -1846,54 +1875,6 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
-  },
-  {
-    "name": "hangover-wine",
-    "version": "10.0",
-    "description": "A compatibility layer for running Windows programs (Hangover fork)",
-    "homepage": "https://github.com/AndreRH/hangover",
-    "depends": [
-      "fontconfig",
-      "freetype",
-      "krb5",
-      "libandroid-spawn",
-      "libc++",
-      "libgmp",
-      "libgnutls",
-      "libxcb",
-      "libxcomposite",
-      "libxcursor",
-      "libxfixes",
-      "libxrender",
-      "mesa",
-      "opengl",
-      "pulseaudio",
-      "sdl2",
-      "vulkan-loader",
-      "xorg-xrandr"
-    ],
-    "srcurl": "https://github.com/AndreRH/wine/archive/refs/tags/hangover-10.0.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/eea91ca/tur/hangover-wine",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/eea91ca/tur/hangover-wine/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/eea91ca/tur/hangover-wine/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/eea91ca/tur/hangover-wine/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/eea91ca/tur/hangover-wine/0002-fix-defines.patch",
-      "https://github.com/termux-user-repository/tur/blob/eea91ca/tur/hangover-wine/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/eea91ca/tur/hangover-wine/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/eea91ca/tur/hangover-wine/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/eea91ca/tur/hangover-wine/9999-fix-winebuild-as-type.patch.beforehostbuild"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/eea91ca/tur/hangover-wine/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/eea91ca/tur/hangover-wine/0002-fix-defines.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/eea91ca/tur/hangover-wine/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/eea91ca/tur/hangover-wine/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/eea91ca/tur/hangover-wine/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/eea91ca/tur/hangover-wine/9999-fix-winebuild-as-type.patch.beforehostbuild"
-    ],
-    "auto_updated": false
   },
   {
     "name": "hare",
