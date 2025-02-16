@@ -978,7 +978,7 @@
   },
   {
     "name": "dpp",
-    "version": "10.0.35",
+    "version": "10.1.0",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
     "homepage": "https://dpp.dev",
     "depends": [
@@ -988,11 +988,11 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.0.35.tar.gz",
+    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.1.0.tar.gz",
     "maintainer": "@OrdinaryEnder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8af1a23/tur/dpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8af1a23/tur/dpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8af1a23/tur/dpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7dd961c/tur/dpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7dd961c/tur/dpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7dd961c/tur/dpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5397,22 +5397,23 @@
   },
   {
     "name": "surreal",
-    "version": "2.1.4",
+    "version": "2.2.0",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
-    "depends": [],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.1.4.tar.gz",
+    "depends": [
+      "openssl",
+      "zlib"
+    ],
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.2.0.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/895c8fd/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/895c8fd/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/895c8fd/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/734b646/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/734b646/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/734b646/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/895c8fd/tur/surreal/jemalloc-sys.diff",
-      "https://github.com/termux-user-repository/tur/blob/895c8fd/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/734b646/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/895c8fd/tur/surreal/jemalloc-sys.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/895c8fd/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/734b646/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
