@@ -4437,7 +4437,7 @@
   },
   {
     "name": "python-scikit-image",
-    "version": "0.25.1",
+    "version": "0.25.2",
     "description": "Image processing in Python",
     "homepage": "https://github.com/scikit-image/scikit-image",
     "depends": [
@@ -4450,11 +4450,11 @@
       "python-pywavelets",
       "python-scipy"
     ],
-    "srcurl": "https://github.com/scikit-image/scikit-image/archive/refs/tags/v0.25.1.tar.gz",
+    "srcurl": "https://github.com/scikit-image/scikit-image/archive/refs/tags/v0.25.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d1982dc/tur/python-scikit-image",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d1982dc/tur/python-scikit-image/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d1982dc/tur/python-scikit-image/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0130abc/tur/python-scikit-image",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0130abc/tur/python-scikit-image/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0130abc/tur/python-scikit-image/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5397,23 +5397,23 @@
   },
   {
     "name": "surreal",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.2.0.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.2.1.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/734b646/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/734b646/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/734b646/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a7170c1/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a7170c1/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a7170c1/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/734b646/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/a7170c1/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/734b646/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a7170c1/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
