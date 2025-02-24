@@ -5316,7 +5316,7 @@
   },
   {
     "name": "suitesparse",
-    "version": "1:7.8.3",
+    "version": "1:7.9.0",
     "description": "A Suite of Sparse matrix packages.",
     "homepage": "https://github.com/DrTimothyAldenDavis/SuiteSparse",
     "depends": [
@@ -5326,18 +5326,18 @@
       "libgmp",
       "libmpfr"
     ],
-    "srcurl": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.8.3.tar.gz",
+    "srcurl": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.9.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8b4549f/tur/suitesparse",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8b4549f/tur/suitesparse/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8b4549f/tur/suitesparse/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9217613/tur/suitesparse",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9217613/tur/suitesparse/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9217613/tur/suitesparse/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8b4549f/tur/suitesparse/0001-android-complex-math.patch",
-      "https://github.com/termux-user-repository/tur/blob/8b4549f/tur/suitesparse/0002-libm.patch"
+      "https://github.com/termux-user-repository/tur/blob/9217613/tur/suitesparse/0001-android-complex-math.patch",
+      "https://github.com/termux-user-repository/tur/blob/9217613/tur/suitesparse/0002-libm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8b4549f/tur/suitesparse/0001-android-complex-math.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8b4549f/tur/suitesparse/0002-libm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9217613/tur/suitesparse/0001-android-complex-math.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9217613/tur/suitesparse/0002-libm.patch"
     ],
     "auto_updated": true
   },
