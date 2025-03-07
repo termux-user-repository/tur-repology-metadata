@@ -4015,6 +4015,29 @@
     "auto_updated": false
   },
   {
+    "name": "payload-dumper-go",
+    "version": "1.3.0",
+    "description": "An android OTA payload dumper written in Go",
+    "homepage": "https://github.com/ssut/payload-dumper-go",
+    "depends": [
+      "liblzma"
+    ],
+    "srcurl": "https://github.com/ssut/payload-dumper-go/archive/refs/tags/1.3.0.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4342276/tur/payload-dumper-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4342276/tur/payload-dumper-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4342276/tur/payload-dumper-go/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/4342276/tur/payload-dumper-go/0001-gozstd-fetch-source.patch",
+      "https://github.com/termux-user-repository/tur/blob/4342276/tur/payload-dumper-go/0002-gozstd-support-i686.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4342276/tur/payload-dumper-go/0001-gozstd-fetch-source.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4342276/tur/payload-dumper-go/0002-gozstd-support-i686.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "php7",
     "version": "7.4.33",
     "description": "Server-side, HTML-embedded scripting language",
@@ -5111,7 +5134,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.87.0-2025.03.05-nightly",
+    "version": "1.87.0-2025.03.06-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -5123,24 +5146,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-03-05/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-03-06/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5a16e46/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5a16e46/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5a16e46/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7f13028/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7f13028/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7f13028/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/5a16e46/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/5a16e46/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/5a16e46/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/5a16e46/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/5a16e46/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://github.com/termux-user-repository/tur/blob/7f13028/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/7f13028/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/7f13028/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/7f13028/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/7f13028/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5a16e46/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5a16e46/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5a16e46/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5a16e46/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5a16e46/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7f13028/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7f13028/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7f13028/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7f13028/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7f13028/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "auto_updated": true
   },
@@ -6131,6 +6154,24 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/45cbc9f/tur-hacking/nbtscan",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/45cbc9f/tur-hacking/nbtscan/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/45cbc9f/tur-hacking/nbtscan/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "reaver",
+    "version": "1.6.6-r317.926eb14",
+    "description": "Reaver performs a brute force attack against an access point’s Wi-Fi Protected Setup pin number.",
+    "homepage": "https://github.com/t6x/reaver-wps-fork-t6x",
+    "depends": [
+      "libpcap",
+      "libnl"
+    ],
+    "srcurl": "git+https://github.com/t6x/reaver-wps-fork-t6x",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1b5f6bc/tur-hacking/reaver",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1b5f6bc/tur-hacking/reaver/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1b5f6bc/tur-hacking/reaver/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
