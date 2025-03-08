@@ -949,7 +949,7 @@
   },
   {
     "name": "doukutsu-rs",
-    "version": "0.101.0-beta6",
+    "version": "0.102.0-beta7",
     "description": "A faithful and open-source remake of Cave Story's engine written in Rust",
     "homepage": "https://github.com/doukutsu-rs/doukutsu-rs",
     "depends": [
@@ -957,22 +957,22 @@
       "sdl2",
       "sdl2-image"
     ],
-    "srcurl": "https://github.com/doukutsu-rs/doukutsu-rs/archive/refs/tags/0.101.0-beta6.tar.gz",
+    "srcurl": "https://github.com/doukutsu-rs/doukutsu-rs/archive/refs/tags/0.102.0-beta7.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c4a4e60/tur/doukutsu-rs",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1804a4d/tur/doukutsu-rs",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1804a4d/tur/doukutsu-rs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1804a4d/tur/doukutsu-rs/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/0001-no-jni.patch",
-      "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/0002-use-system-sdl2.patch",
-      "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/9998-cpal-no-jni.diff",
-      "https://github.com/termux-user-repository/tur/blob/c4a4e60/tur/doukutsu-rs/9999-webbrowser-no-jni.diff"
+      "https://github.com/termux-user-repository/tur/blob/1804a4d/tur/doukutsu-rs/0001-no-jni.patch",
+      "https://github.com/termux-user-repository/tur/blob/1804a4d/tur/doukutsu-rs/0002-use-system-sdl2.patch",
+      "https://github.com/termux-user-repository/tur/blob/1804a4d/tur/doukutsu-rs/9998-cpal-no-jni.diff",
+      "https://github.com/termux-user-repository/tur/blob/1804a4d/tur/doukutsu-rs/9999-webbrowser-no-jni.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/0001-no-jni.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/0002-use-system-sdl2.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/9998-cpal-no-jni.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c4a4e60/tur/doukutsu-rs/9999-webbrowser-no-jni.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1804a4d/tur/doukutsu-rs/0001-no-jni.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1804a4d/tur/doukutsu-rs/0002-use-system-sdl2.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1804a4d/tur/doukutsu-rs/9998-cpal-no-jni.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1804a4d/tur/doukutsu-rs/9999-webbrowser-no-jni.diff"
     ],
     "auto_updated": true
   },
