@@ -1590,6 +1590,23 @@
     "auto_updated": true
   },
   {
+    "name": "gawk-reclen",
+    "version": "1.0.1",
+    "description": "gawk(1) extension library for parsing input records in a fix-length manner",
+    "homepage": "https://gawkextlib.sourceforge.net/",
+    "depends": [
+      "gawk"
+    ],
+    "srcurl": "https://downloads.sourceforge.net/gawkextlib/-1.0.1.tar.gz",
+    "maintainer": "@flosnvjx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/33cf954/tur/gawk-reclen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/33cf954/tur/gawk-reclen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/33cf954/tur/gawk-reclen/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "gcc-11",
     "version": "11.5.0",
     "description": "GNU C compiler",
