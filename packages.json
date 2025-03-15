@@ -512,7 +512,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.98.0",
+    "version": "4.98.2",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -524,14 +524,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/37402fc/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/37402fc/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/37402fc/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2b33fb8/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2b33fb8/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2b33fb8/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/37402fc/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/2b33fb8/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/37402fc/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2b33fb8/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -5169,7 +5169,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.87.0-2025.03.13-nightly",
+    "version": "1.87.0-2025.03.14-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -5181,24 +5181,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-03-13/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-03-14/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/10d16f4/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/10d16f4/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/10d16f4/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6258501/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6258501/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6258501/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/10d16f4/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/10d16f4/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/10d16f4/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/10d16f4/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/10d16f4/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://github.com/termux-user-repository/tur/blob/6258501/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/6258501/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/6258501/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/6258501/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/6258501/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/10d16f4/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/10d16f4/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/10d16f4/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/10d16f4/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/10d16f4/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6258501/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6258501/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6258501/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6258501/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6258501/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "auto_updated": true
   },
