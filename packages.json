@@ -276,17 +276,17 @@
   },
   {
     "name": "bililive-go",
-    "version": "0.7.34",
+    "version": "0.7.35",
     "description": "A live streaming recording tool",
     "homepage": "https://github.com/hr3lxphr6j/bililive-go",
     "depends": [
       "ffmpeg"
     ],
-    "srcurl": "https://github.com/hr3lxphr6j/bililive-go/archive/refs/tags/v0.7.34.tar.gz",
+    "srcurl": "https://github.com/hr3lxphr6j/bililive-go/archive/refs/tags/v0.7.35.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/718a8a2/tur/bililive-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/718a8a2/tur/bililive-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/718a8a2/tur/bililive-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4be988e/tur/bililive-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4be988e/tur/bililive-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4be988e/tur/bililive-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -317,6 +317,23 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5059f26/tur/bitmagnet",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5059f26/tur/bitmagnet/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5059f26/tur/bitmagnet/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "blueprint-compiler",
+    "version": "0.16.0",
+    "description": "A markup language for GTK user interface files",
+    "homepage": "https://gitlab.gnome.org/jwestman/blueprint-compiler/",
+    "depends": [
+      "python"
+    ],
+    "srcurl": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.16.0/blueprint-compiler-v0.16.0.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/493524b/tur/blueprint-compiler",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/493524b/tur/blueprint-compiler/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/493524b/tur/blueprint-compiler/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
