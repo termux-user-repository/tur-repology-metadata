@@ -51,7 +51,7 @@ fi
 
 print_json_element() {
 	entry="$1" # For example "name"
-	value="$2" # For example "libandroid-support"
+	value="${2//\"/\\\"}" # For example "libandroid-support"
 	print_comma="$3"  # boolean, determines whether or not to print trailing ","
 
 	echo -n "    \"${entry}\": \"${value}\""
