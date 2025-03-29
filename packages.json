@@ -6979,6 +6979,30 @@
     "auto_updated": false
   },
   {
+    "name": "gnome-sudoku",
+    "version": "48.0",
+    "description": "GNOME Sudoku game",
+    "homepage": "https://wiki.gnome.org/Apps(2f)Sudoku.html",
+    "depends": [
+      "glib",
+      "gtk4",
+      "json-glib",
+      "libadwaita",
+      "libcairo",
+      "libgee",
+      "opengl",
+      "qqwing"
+    ],
+    "srcurl": "https://download.gnome.org/sources/gnome-sudoku/48/gnome-sudoku-48.0.tar.xz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/76c10f6/tur-on-device/gnome-sudoku",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/76c10f6/tur-on-device/gnome-sudoku/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/76c10f6/tur-on-device/gnome-sudoku/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "hello-tur-on-device",
     "version": "1:0.1",
     "description": "Dummy test for TUR on Device",
