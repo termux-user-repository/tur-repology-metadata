@@ -3258,7 +3258,7 @@
   },
   {
     "name": "moarvm",
-    "version": "2023.08",
+    "version": "2025.03",
     "description": "Virtual machine for Rakudo Perl 6 and NQP",
     "homepage": "https://moarvm.org/",
     "depends": [
@@ -3267,16 +3267,16 @@
       "libuv",
       "zstd"
     ],
-    "srcurl": "https://github.com/MoarVM/MoarVM/releases/download/2023.08/MoarVM-2023.08.tar.gz",
+    "srcurl": "https://github.com/MoarVM/MoarVM/releases/download/2025.03/MoarVM-2025.03.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e326bc3/tur/moarvm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e326bc3/tur/moarvm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e326bc3/tur/moarvm/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6d8d2fb/tur/moarvm",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6d8d2fb/tur/moarvm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6d8d2fb/tur/moarvm/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e326bc3/tur/moarvm/0001-no-pthread_yield.patch"
+      "https://github.com/termux-user-repository/tur/blob/6d8d2fb/tur/moarvm/0001-no-pthread_yield.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e326bc3/tur/moarvm/0001-no-pthread_yield.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6d8d2fb/tur/moarvm/0001-no-pthread_yield.patch"
     ],
     "auto_updated": false
   },
@@ -7085,17 +7085,17 @@
   },
   {
     "name": "nqp",
-    "version": "2023.08",
+    "version": "2025.03",
     "description": "Lightweight Raku-like environment for virtual machines",
     "homepage": "https://github.com/Raku/nqp",
     "depends": [
       "moarvm"
     ],
-    "srcurl": "https://github.com/Raku/nqp/releases/download/2023.08/nqp-2023.08.tar.gz",
+    "srcurl": "https://github.com/Raku/nqp/releases/download/2025.03/nqp-2025.03.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ee99e5a/tur-on-device/nqp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ee99e5a/tur-on-device/nqp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ee99e5a/tur-on-device/nqp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bb16fef/tur-on-device/nqp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bb16fef/tur-on-device/nqp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bb16fef/tur-on-device/nqp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -7178,7 +7178,7 @@
   },
   {
     "name": "rakudo",
-    "version": "2023.08",
+    "version": "2025.03",
     "description": "Mature, production-ready implementation of the Raku language",
     "homepage": "https://rakudo.org",
     "depends": [
@@ -7186,11 +7186,11 @@
       "moarvm",
       "nqp"
     ],
-    "srcurl": "https://github.com/rakudo/rakudo/releases/download/2023.08/rakudo-2023.08.tar.gz",
+    "srcurl": "https://github.com/rakudo/rakudo/releases/download/2025.03/rakudo-2025.03.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/392e386/tur-on-device/rakudo",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/392e386/tur-on-device/rakudo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/392e386/tur-on-device/rakudo/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/aa45275/tur-on-device/rakudo",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/aa45275/tur-on-device/rakudo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/aa45275/tur-on-device/rakudo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
