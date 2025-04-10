@@ -595,20 +595,20 @@
   },
   {
     "name": "codesnap",
-    "version": "0.10.7",
+    "version": "0.10.8",
     "description": "Pure Rust tool to generate beautiful code snapshots, provide CLI and Library",
     "homepage": "https://github.com/mistricky/CodeSnap",
     "depends": [],
-    "srcurl": "https://github.com/mistricky/CodeSnap/archive/refs/tags/v0.10.7.tar.gz",
+    "srcurl": "https://github.com/mistricky/CodeSnap/archive/refs/tags/v0.10.8.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/10e6d77/tur/codesnap",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/10e6d77/tur/codesnap/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/10e6d77/tur/codesnap/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/185085b/tur/codesnap",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/185085b/tur/codesnap/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/185085b/tur/codesnap/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/10e6d77/tur/codesnap/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/185085b/tur/codesnap/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/10e6d77/tur/codesnap/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/185085b/tur/codesnap/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
@@ -2320,15 +2320,15 @@
   },
   {
     "name": "libdicom",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "C library for reading DICOM files",
     "homepage": "https://libdicom.readthedocs.io",
     "depends": [],
-    "srcurl": "https://github.com/ImagingDataCommons/libdicom/releases/download/v1.1.0/libdicom-1.1.0.tar.xz",
+    "srcurl": "https://github.com/ImagingDataCommons/libdicom/releases/download/v1.2.0/libdicom-1.2.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/357da32/tur/libdicom",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/357da32/tur/libdicom/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/357da32/tur/libdicom/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b3a9150/tur/libdicom",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b3a9150/tur/libdicom/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b3a9150/tur/libdicom/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4489,23 +4489,23 @@
   },
   {
     "name": "python-polars",
-    "version": "1.26.0",
+    "version": "1.27.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.26.0/polars-1.26.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.27.0/polars-1.27.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/df1a38a/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/df1a38a/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/df1a38a/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/python-polars/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/df1a38a/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/python-polars/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/df1a38a/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
