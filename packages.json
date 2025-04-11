@@ -1,5 +1,34 @@
 [
   {
+    "name": "3dstool",
+    "version": "1.2.6",
+    "description": "An all-in-one tool for extracting/creating 3ds roms",
+    "homepage": "https://github.com/dnasdw/3dstool",
+    "depends": [
+      "capstone",
+      "libc++",
+      "libcurl",
+      "libiconv",
+      "openssl"
+    ],
+    "srcurl": "https://github.com/dnasdw/3dstool/archive/refs/tags/v1.2.6.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2b02a47/tur/3dstool",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2b02a47/tur/3dstool/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2b02a47/tur/3dstool/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/2b02a47/tur/3dstool/0001-Handle-readdir-DT_UNKNOWN.patch",
+      "https://github.com/termux-user-repository/tur/blob/2b02a47/tur/3dstool/0002-link-against-capstone.patch",
+      "https://github.com/termux-user-repository/tur/blob/2b02a47/tur/3dstool/0003-drop-some-flags.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2b02a47/tur/3dstool/0001-Handle-readdir-DT_UNKNOWN.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2b02a47/tur/3dstool/0002-link-against-capstone.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2b02a47/tur/3dstool/0003-drop-some-flags.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "64tass",
     "version": "1.59.3120",
     "description": "Cross (turbo) assembler targeting the MOS 65xx series of micro processors",
@@ -4518,23 +4547,23 @@
   },
   {
     "name": "python-polars",
-    "version": "1.27.0",
+    "version": "1.27.1",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.27.0/polars-1.27.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.27.1/polars-1.27.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/df1a38a/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/df1a38a/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/df1a38a/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a722340/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a722340/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a722340/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/df1a38a/tur/python-polars/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/a722340/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/df1a38a/tur/python-polars/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a722340/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
