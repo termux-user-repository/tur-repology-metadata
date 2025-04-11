@@ -5252,7 +5252,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.88.0-2025.04.10-nightly",
+    "version": "1.88.0-2025.04.11-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -5264,24 +5264,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-04-10/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-04-11/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ea482f3/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ea482f3/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ea482f3/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/12608a8/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/12608a8/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/12608a8/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ea482f3/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/ea482f3/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea482f3/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea482f3/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea482f3/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://github.com/termux-user-repository/tur/blob/12608a8/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/12608a8/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/12608a8/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/12608a8/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/12608a8/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea482f3/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea482f3/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea482f3/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea482f3/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea482f3/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/12608a8/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/12608a8/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/12608a8/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/12608a8/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/12608a8/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "auto_updated": true
   },
@@ -5591,7 +5591,7 @@
   },
   {
     "name": "tabby",
-    "version": "0.27.0",
+    "version": "0.27.1",
     "description": "Self-hosted AI coding assistant",
     "homepage": "https://tabby.tabbyml.com/",
     "depends": [
@@ -5601,14 +5601,14 @@
     ],
     "srcurl": "git+https://github.com/TabbyML/tabby",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/tabby",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/tabby/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/tabby/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6c763dd/tur/tabby",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6c763dd/tur/tabby/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6c763dd/tur/tabby/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://github.com/termux-user-repository/tur/blob/6c763dd/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6c763dd/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "auto_updated": true
   },
