@@ -718,16 +718,16 @@
     ],
     "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-5.0.1/darktable-5.0.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/darktable",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/darktable/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/darktable/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0b7f2b8/tur/darktable",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0b7f2b8/tur/darktable/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0b7f2b8/tur/darktable/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/darktable/0001-cmake-libm.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/darktable/0002-jobs-pthread.patch"
+      "https://github.com/termux-user-repository/tur/blob/0b7f2b8/tur/darktable/0001-cmake-libm.patch",
+      "https://github.com/termux-user-repository/tur/blob/0b7f2b8/tur/darktable/0002-jobs-pthread.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/darktable/0001-cmake-libm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/darktable/0002-jobs-pthread.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b7f2b8/tur/darktable/0001-cmake-libm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b7f2b8/tur/darktable/0002-jobs-pthread.patch"
     ],
     "auto_updated": true
   },
@@ -2278,6 +2278,25 @@
     "auto_updated": false
   },
   {
+    "name": "libbson",
+    "version": "1.30.3",
+    "description": "A library providing useful routines related to building, parsing, and iterating BSON documents",
+    "homepage": "https://github.com/mongodb/mongo-c-driver",
+    "depends": [],
+    "srcurl": "https://github.com/mongodb/mongo-c-driver/releases/download/1.30.3/mongo-c-driver-1.30.3.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/739de89/tur/libbson",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/739de89/tur/libbson/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/739de89/tur/libbson/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/739de89/tur/libbson/0001-libmongoc-android-no-shm.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/739de89/tur/libbson/0001-libmongoc-android-no-shm.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "libcdr",
     "version": "0.1.7",
     "description": "CorelDraw file format importer library for LibreOffice",
@@ -2780,53 +2799,54 @@
   },
   {
     "name": "libmongoc",
-    "version": "1.22.2",
+    "version": "1.30.3",
     "description": "A high-performance MongoDB driver for C",
     "homepage": "https://github.com/mongodb/mongo-c-driver",
     "depends": [
+      "libbson",
       "libicu",
-      "libsasl",
       "libmongocrypt",
+      "libsasl",
+      "libsnappy",
       "openssl",
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/mongodb/mongo-c-driver/releases/download/1.22.2/mongo-c-driver-1.22.2.tar.gz",
+    "srcurl": "https://github.com/mongodb/mongo-c-driver/releases/download/1.30.3/mongo-c-driver-1.30.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6d7024d/tur/libmongoc",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6d7024d/tur/libmongoc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6d7024d/tur/libmongoc/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/15f6e36/tur/libmongoc",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/15f6e36/tur/libmongoc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/15f6e36/tur/libmongoc/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6d7024d/tur/libmongoc/0001-libbson-android-no-shm.patch",
-      "https://github.com/termux-user-repository/tur/blob/6d7024d/tur/libmongoc/0002-libbson-pointer-conversion.patch"
+      "https://github.com/termux-user-repository/tur/blob/15f6e36/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6d7024d/tur/libmongoc/0001-libbson-android-no-shm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6d7024d/tur/libmongoc/0002-libbson-pointer-conversion.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/15f6e36/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
     ],
     "auto_updated": false
   },
   {
     "name": "libmongocrypt",
-    "version": "2.3.0",
+    "version": "1:1.13.2",
     "description": "The companion C library for MongoDB client side encryption in drivers",
     "homepage": "https://github.com/mongodb/libmongocrypt",
     "depends": [
+      "libbson",
       "libicu",
-      "libsnappy",
       "libsasl",
+      "libsnappy",
       "openssl"
     ],
-    "srcurl": "https://github.com/mongodb/libmongocrypt/archive/refs/tags/node-v2.3.0.tar.gz",
+    "srcurl": "https://github.com/mongodb/libmongocrypt/archive/refs/tags/1.13.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6d7024d/tur/libmongocrypt",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6d7024d/tur/libmongocrypt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6d7024d/tur/libmongocrypt/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0d18847/tur/libmongocrypt",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0d18847/tur/libmongocrypt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0d18847/tur/libmongocrypt/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6d7024d/tur/libmongocrypt/0001-android-no-dlinfo.patch"
+      "https://github.com/termux-user-repository/tur/blob/0d18847/tur/libmongocrypt/0001-android-no-dlinfo.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6d7024d/tur/libmongocrypt/0001-android-no-dlinfo.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0d18847/tur/libmongocrypt/0001-android-no-dlinfo.patch"
     ],
     "auto_updated": false
   },
