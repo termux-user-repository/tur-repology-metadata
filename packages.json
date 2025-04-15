@@ -4428,6 +4428,21 @@
     "auto_updated": false
   },
   {
+    "name": "optivorbis",
+    "version": "0.3.0",
+    "description": "Vorbis optimizer that reconstruct ogg files to a smaller size, without losing any audio quality",
+    "homepage": "https://github.com/OptiVorbis/OptiVorbis",
+    "depends": [],
+    "srcurl": "https://github.com/OptiVorbis/OptiVorbis/archive/refs/tags/v0.3.0.tar.gz",
+    "maintainer": "@flosnvjx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8dd5708/tur/optivorbis",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8dd5708/tur/optivorbis/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8dd5708/tur/optivorbis/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "pacman-contrib",
     "version": "1.11.0",
     "description": "Additional libalpm utilities contributed by Arch community",
@@ -5565,7 +5580,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.88.0-2025.04.14-nightly",
+    "version": "1.88.0-2025.04.15-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -5577,24 +5592,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-04-14/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-04-15/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ec68daa/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ec68daa/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ec68daa/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a1e17ca/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a1e17ca/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a1e17ca/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ec68daa/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/ec68daa/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/ec68daa/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/ec68daa/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/ec68daa/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://github.com/termux-user-repository/tur/blob/a1e17ca/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/a1e17ca/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/a1e17ca/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/a1e17ca/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/a1e17ca/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec68daa/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec68daa/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec68daa/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec68daa/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec68daa/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a1e17ca/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a1e17ca/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a1e17ca/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a1e17ca/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a1e17ca/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "auto_updated": true
   },
