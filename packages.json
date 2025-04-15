@@ -6619,6 +6619,26 @@
     "auto_updated": false
   },
   {
+    "name": "openbullet2",
+    "version": "0.3.2",
+    "description": "Cross-platform automation suite",
+    "homepage": "https://openbullet.dev/",
+    "depends": [
+      "aspnetcore-runtime-8.0",
+      "dotnet-host",
+      "dotnet-runtime-8.0",
+      "libsqlite"
+    ],
+    "srcurl": "https://github.com/openbullet/OpenBullet2/archive/refs/tags/0.3.2.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9b614b8/tur-hacking/openbullet2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9b614b8/tur-hacking/openbullet2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9b614b8/tur-hacking/openbullet2/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "reaver",
     "version": "1.6.6-r317.926eb14",
     "description": "Reaver performs a brute force attack against an access point’s Wi-Fi Protected Setup pin number.",
