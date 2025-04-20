@@ -1928,6 +1928,23 @@
     "auto_updated": true
   },
   {
+    "name": "gawk-mbs",
+    "version": "1.0.0.git20240116",
+    "description": "gawk(1) extension library providing functions for working with strings in a byte-oriented manner (in case of running under multibyte locales)",
+    "homepage": "https://gawkextlib.sourceforge.net/mbs/mbs.html",
+    "depends": [
+      "gawk"
+    ],
+    "srcurl": "git+https://git.code.sf.net/p/gawkextlib/code",
+    "maintainer": "@flosnvjx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ae4c8c7/tur/gawk-mbs",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ae4c8c7/tur/gawk-mbs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ae4c8c7/tur/gawk-mbs/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "gawk-reclen",
     "version": "1.0.1",
     "description": "gawk(1) extension library for parsing input records in a fix-length manner",
