@@ -3509,7 +3509,7 @@
   },
   {
     "name": "meli",
-    "version": "0.8.10",
+    "version": "0.8.11",
     "description": "Terminal e-mail client and e-mail client library",
     "homepage": "https://meli.delivery/",
     "depends": [
@@ -3522,16 +3522,16 @@
     ],
     "srcurl": "git+https://github.com/meli/meli",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/meli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/meli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/meli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/458f7b4/tur/meli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/458f7b4/tur/meli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/458f7b4/tur/meli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/meli/0001-disable-dbus.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/meli/0002-use-system-libsqlite.patch"
+      "https://github.com/termux-user-repository/tur/blob/458f7b4/tur/meli/0001-disable-dbus.patch",
+      "https://github.com/termux-user-repository/tur/blob/458f7b4/tur/meli/0002-use-system-libsqlite.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/meli/0001-disable-dbus.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/meli/0002-use-system-libsqlite.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/458f7b4/tur/meli/0001-disable-dbus.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/458f7b4/tur/meli/0002-use-system-libsqlite.patch"
     ],
     "auto_updated": true
   },
