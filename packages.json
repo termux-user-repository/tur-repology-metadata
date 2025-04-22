@@ -468,7 +468,7 @@
   },
   {
     "name": "chromium",
-    "version": "132.0.6834.159",
+    "version": "133.0.6943.141",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -492,18 +492,18 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-132.0.6834.159.tar.xz",
+    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-133.0.6943.141.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/15843e5/tur/chromium",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/15843e5/tur/chromium/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/15843e5/tur/chromium/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/af705c7/tur/chromium",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/af705c7/tur/chromium/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/af705c7/tur/chromium/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "chromium-jumbo",
-    "version": "122.0.6261.128",
+    "version": "135.0.7049.84",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -527,26 +527,22 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-122.0.6261.128.tar.xz",
+    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-135.0.7049.84.tar.xz",
     "maintainer": "Chongyun Lee <uchkks@protonmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/732c8fd/tur/chromium-jumbo",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/732c8fd/tur/chromium-jumbo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/732c8fd/tur/chromium-jumbo/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/89f6ac6/tur/chromium-jumbo",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/89f6ac6/tur/chromium-jumbo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/89f6ac6/tur/chromium-jumbo/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/732c8fd/tur/chromium-jumbo/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/732c8fd/tur/chromium-jumbo/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/732c8fd/tur/chromium-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/732c8fd/tur/chromium-jumbo/9004-use-prebuilt-pdfium.patch",
-      "https://github.com/termux-user-repository/tur/blob/732c8fd/tur/chromium-jumbo/sysroot-patches/libstdcxx3-10-lwg3545.diff",
-      "https://github.com/termux-user-repository/tur/blob/732c8fd/tur/chromium-jumbo/sysroot-patches/libstdcxx3-10-optional-struct.diff"
+      "https://github.com/termux-user-repository/tur/blob/89f6ac6/tur/chromium-jumbo/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/89f6ac6/tur/chromium-jumbo/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/89f6ac6/tur/chromium-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/89f6ac6/tur/chromium-jumbo/9004-use-prebuilt-pdfium.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/732c8fd/tur/chromium-jumbo/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/732c8fd/tur/chromium-jumbo/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/732c8fd/tur/chromium-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/732c8fd/tur/chromium-jumbo/9004-use-prebuilt-pdfium.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/732c8fd/tur/chromium-jumbo/sysroot-patches/libstdcxx3-10-lwg3545.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/732c8fd/tur/chromium-jumbo/sysroot-patches/libstdcxx3-10-optional-struct.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89f6ac6/tur/chromium-jumbo/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89f6ac6/tur/chromium-jumbo/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89f6ac6/tur/chromium-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89f6ac6/tur/chromium-jumbo/9004-use-prebuilt-pdfium.patch"
     ],
     "auto_updated": false
   },
