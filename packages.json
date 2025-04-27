@@ -4803,23 +4803,23 @@
   },
   {
     "name": "python-polars",
-    "version": "1.27.1",
+    "version": "1.28.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.27.1/polars-1.27.1.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.28.0/polars-1.28.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a722340/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a722340/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a722340/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/780d987/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/780d987/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/780d987/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a722340/tur/python-polars/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/780d987/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a722340/tur/python-polars/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/780d987/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
