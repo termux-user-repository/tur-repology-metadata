@@ -1079,6 +1079,28 @@
     "auto_updated": true
   },
   {
+    "name": "depotdownloader",
+    "version": "3.2.0",
+    "description": "depotdownloader",
+    "homepage": "https://github.com/SteamRE/DepotDownloader",
+    "depends": [
+      "dotnet-host",
+      "dotnet-runtime-9.0"
+    ],
+    "srcurl": "git+https://github.com/SteamRE/DepotDownloader",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/01db3b1/tur/depotdownloader",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/01db3b1/tur/depotdownloader/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/01db3b1/tur/depotdownloader/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/01db3b1/tur/depotdownloader/0001-fix-perm-on-old-android.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01db3b1/tur/depotdownloader/0001-fix-perm-on-old-android.patch"
+    ],
+    "auto_updated": true
+  },
+  {
     "name": "detchar",
     "version": "0.1.0",
     "description": "Minimal CLI utility of chardetng crate, which is a successor to universalchardet (uchardet)",
@@ -5906,23 +5928,23 @@
   },
   {
     "name": "surreal",
-    "version": "2.2.2",
+    "version": "2.3.0",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.2.2.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.3.0.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b583e74/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b583e74/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b583e74/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9bc8201/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9bc8201/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9bc8201/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b583e74/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/9bc8201/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b583e74/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9bc8201/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
