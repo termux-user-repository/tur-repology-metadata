@@ -1082,7 +1082,7 @@
   },
   {
     "name": "depotdownloader",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "description": "depotdownloader",
     "homepage": "https://github.com/SteamRE/DepotDownloader",
     "depends": [
@@ -1091,14 +1091,14 @@
     ],
     "srcurl": "git+https://github.com/SteamRE/DepotDownloader",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b6d22f5/tur/depotdownloader",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b6d22f5/tur/depotdownloader/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b6d22f5/tur/depotdownloader/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/baf5f98/tur/depotdownloader",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/baf5f98/tur/depotdownloader/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/baf5f98/tur/depotdownloader/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b6d22f5/tur/depotdownloader/0001-fix-perm-on-old-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/baf5f98/tur/depotdownloader/0001-fix-perm-on-old-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b6d22f5/tur/depotdownloader/0001-fix-perm-on-old-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/baf5f98/tur/depotdownloader/0001-fix-perm-on-old-android.patch"
     ],
     "auto_updated": true
   },
