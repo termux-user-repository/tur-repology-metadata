@@ -849,20 +849,20 @@
   },
   {
     "name": "codesnap",
-    "version": "0.11.7",
+    "version": "0.12.1",
     "description": "Pure Rust tool to generate beautiful code snapshots, provide CLI and Library",
     "homepage": "https://github.com/mistricky/CodeSnap",
     "depends": [],
-    "srcurl": "https://github.com/mistricky/CodeSnap/archive/refs/tags/v0.11.7.tar.gz",
+    "srcurl": "https://github.com/mistricky/CodeSnap/archive/refs/tags/v0.12.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/be6bf3e/tur/codesnap",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/be6bf3e/tur/codesnap/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/be6bf3e/tur/codesnap/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cc1622e/tur/codesnap",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cc1622e/tur/codesnap/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cc1622e/tur/codesnap/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/be6bf3e/tur/codesnap/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/cc1622e/tur/codesnap/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/be6bf3e/tur/codesnap/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1622e/tur/codesnap/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
