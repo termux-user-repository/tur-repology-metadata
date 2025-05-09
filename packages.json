@@ -849,20 +849,20 @@
   },
   {
     "name": "codesnap",
-    "version": "0.12.3",
+    "version": "0.12.4",
     "description": "Pure Rust tool to generate beautiful code snapshots, provide CLI and Library",
     "homepage": "https://github.com/mistricky/CodeSnap",
     "depends": [],
-    "srcurl": "https://github.com/mistricky/CodeSnap/archive/refs/tags/v0.12.3.tar.gz",
+    "srcurl": "https://github.com/mistricky/CodeSnap/archive/refs/tags/v0.12.4.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b36c461/tur/codesnap",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b36c461/tur/codesnap/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b36c461/tur/codesnap/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d1e7f01/tur/codesnap",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d1e7f01/tur/codesnap/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d1e7f01/tur/codesnap/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b36c461/tur/codesnap/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/d1e7f01/tur/codesnap/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b36c461/tur/codesnap/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d1e7f01/tur/codesnap/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
@@ -4984,7 +4984,7 @@
   },
   {
     "name": "python-scipy",
-    "version": "1:1.15.2",
+    "version": "1:1.15.3",
     "description": "Fundamental algorithms for scientific computing in Python",
     "homepage": "https://scipy.org/",
     "depends": [
@@ -4995,9 +4995,9 @@
     ],
     "srcurl": "git+https://github.com/scipy/scipy",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/10aacf6/tur/python-scipy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/10aacf6/tur/python-scipy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/10aacf6/tur/python-scipy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/895abba/tur/python-scipy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/895abba/tur/python-scipy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/895abba/tur/python-scipy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
