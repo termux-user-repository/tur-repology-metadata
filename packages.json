@@ -155,9 +155,9 @@
     ],
     "srcurl": "https://github.com/REAndroid/APKEditor/releases/download/V1.4.3/APKEditor-1.4.3.jar",
     "maintainer": "@Veha0001",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8e3d4f0/tur/apkeditor",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8e3d4f0/tur/apkeditor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8e3d4f0/tur/apkeditor/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/39d2340/tur/apkeditor",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/39d2340/tur/apkeditor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/39d2340/tur/apkeditor/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
