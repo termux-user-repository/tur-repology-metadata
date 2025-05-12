@@ -6057,23 +6057,23 @@
   },
   {
     "name": "surreal",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.3.1.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.3.2.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f74341c/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f74341c/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f74341c/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/eb1c541/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/eb1c541/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/eb1c541/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f74341c/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/eb1c541/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f74341c/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/eb1c541/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
