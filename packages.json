@@ -1598,6 +1598,53 @@
     "auto_updated": false
   },
   {
+    "name": "electron-jumbo",
+    "version": "32.2.6",
+    "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+    "homepage": "https://github.com/electron/electron",
+    "depends": [
+      "atk",
+      "cups",
+      "dbus",
+      "fontconfig",
+      "gtk3",
+      "krb5",
+      "libc++",
+      "libdrm",
+      "libevdev",
+      "libxkbcommon",
+      "libminizip",
+      "libnss",
+      "libwayland",
+      "libx11",
+      "mesa",
+      "openssl",
+      "pango",
+      "pulseaudio",
+      "zlib"
+    ],
+    "srcurl": "git+https://github.com/electron/electron",
+    "maintainer": "@licy183",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7e3ddc5/tur/electron-jumbo",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9004-use-prebuilt-pdfium.patch",
+      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9005-use-prebuilt-js2c-binary.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9004-use-prebuilt-pdfium.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9005-use-prebuilt-js2c-binary.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "electron-jumbo-host-tools",
     "version": "32.2.6",
     "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS (Host Tools)",
