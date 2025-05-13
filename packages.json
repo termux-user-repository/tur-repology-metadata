@@ -801,43 +801,6 @@
     "auto_updated": false
   },
   {
-    "name": "code-oss",
-    "version": "1.95.3",
-    "description": "Visual Studio Code",
-    "homepage": "https://github.com/microsoft/vscode",
-    "depends": [
-      "electron-deps",
-      "libx11",
-      "libxkbfile",
-      "libsecret",
-      "ripgrep"
-    ],
-    "srcurl": "git+https://github.com/microsoft/vscode",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/code-oss",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/code-oss/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/code-oss/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/code-oss/0001-remove-more-telemetry.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/code-oss/0003-vscode-fix-pathes.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/code-oss/0006-reset-nodedir-for-host-build.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/code-oss/0007-unset-more-compiler-flags-for-host-build.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/code-oss/0001-remove-more-telemetry.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/code-oss/0002-native-keymap-no-pthread_cancel.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/code-oss/0003-vscode-fix-pathes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/code-oss/0004-set-enableTelemetry-to-false-by-default.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/code-oss/0005-use-open-vsx.org-as-extensions-gallery.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/code-oss/0006-reset-nodedir-for-host-build.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/code-oss/0007-unset-more-compiler-flags-for-host-build.patch"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "code-server",
     "version": "4.100.0",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
