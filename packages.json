@@ -802,7 +802,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.100.0",
+    "version": "4.100.1",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -814,14 +814,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/19e1c39/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/19e1c39/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/19e1c39/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e3761e2/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e3761e2/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e3761e2/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/19e1c39/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/e3761e2/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/19e1c39/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e3761e2/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -1407,7 +1407,7 @@
   },
   {
     "name": "electron-jumbo",
-    "version": "32.2.6",
+    "version": "34.5.1",
     "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
     "homepage": "https://github.com/electron/electron",
     "depends": [
@@ -1433,22 +1433,22 @@
     ],
     "srcurl": "git+https://github.com/electron/electron",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7e3ddc5/tur/electron-jumbo",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0399597/tur/electron-jumbo",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0399597/tur/electron-jumbo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0399597/tur/electron-jumbo/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9004-use-prebuilt-pdfium.patch",
-      "https://github.com/termux-user-repository/tur/blob/7e3ddc5/tur/electron-jumbo/9005-use-prebuilt-js2c-binary.patch"
+      "https://github.com/termux-user-repository/tur/blob/0399597/tur/electron-jumbo/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/0399597/tur/electron-jumbo/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/0399597/tur/electron-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/0399597/tur/electron-jumbo/9004-use-prebuilt-pdfium.patch",
+      "https://github.com/termux-user-repository/tur/blob/0399597/tur/electron-jumbo/9005-use-prebuilt-js2c-binary.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9004-use-prebuilt-pdfium.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7e3ddc5/tur/electron-jumbo/9005-use-prebuilt-js2c-binary.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0399597/tur/electron-jumbo/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0399597/tur/electron-jumbo/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0399597/tur/electron-jumbo/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0399597/tur/electron-jumbo/9004-use-prebuilt-pdfium.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0399597/tur/electron-jumbo/9005-use-prebuilt-js2c-binary.patch"
     ],
     "auto_updated": false
   },
