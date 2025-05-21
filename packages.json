@@ -459,26 +459,20 @@
   },
   {
     "name": "cfitsio",
-    "version": "4.5.0",
+    "version": "4.6.2",
     "description": "a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format",
     "homepage": "https://heasarc.gsfc.nasa.gov/fitsio/",
     "depends": [
       "curl",
       "zlib"
     ],
-    "srcurl": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.5.0.tar.gz",
+    "srcurl": "https://github.com/HEASARC/cfitsio/archive/refs/tags/cfitsio-4.6.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/25762b8/tur/cfitsio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/25762b8/tur/cfitsio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/25762b8/tur/cfitsio/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/25762b8/tur/cfitsio/0001-cmake-libm.patch",
-      "https://github.com/termux-user-repository/tur/blob/25762b8/tur/cfitsio/0002-fix-libdir.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/25762b8/tur/cfitsio/0001-cmake-libm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/25762b8/tur/cfitsio/0002-fix-libdir.patch"
-    ],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0625e81/tur/cfitsio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0625e81/tur/cfitsio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0625e81/tur/cfitsio/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
@@ -2574,17 +2568,17 @@
   },
   {
     "name": "juice-shop",
-    "version": "17.1.1",
+    "version": "17.3.0",
     "description": "A modern and sophisticated insecure web application",
     "homepage": "https://owasp.org/www-project-juice-shop/",
     "depends": [
       "nodejs-lts"
     ],
-    "srcurl": "https://github.com/juice-shop/juice-shop/archive/refs/tags/v17.1.1.tar.gz",
+    "srcurl": "https://github.com/juice-shop/juice-shop/archive/refs/tags/v17.3.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/juice-shop",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/juice-shop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/juice-shop/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/58d7cec/tur/juice-shop",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/58d7cec/tur/juice-shop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/58d7cec/tur/juice-shop/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -2678,17 +2672,21 @@
   },
   {
     "name": "lib-tls-client",
-    "version": "1.8.0",
-    "description": "Shared library for catopen/catgets/catclose of Bionic Libc",
+    "version": "1.9.1",
+    "description": "A net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests",
     "homepage": "https://github.com/bogdanfinn/tls-client/",
     "depends": [],
-    "srcurl": "https://github.com/bogdanfinn/tls-client/archive/refs/tags/v1.8.0.tar.gz",
+    "srcurl": "https://github.com/bogdanfinn/tls-client/archive/refs/tags/v1.9.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8ff26ac/tur/lib-tls-client",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8ff26ac/tur/lib-tls-client/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8ff26ac/tur/lib-tls-client/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e845e5c/tur/lib-tls-client",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e845e5c/tur/lib-tls-client/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e845e5c/tur/lib-tls-client/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/e845e5c/tur/lib-tls-client/0001-bump-internal-version.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e845e5c/tur/lib-tls-client/0001-bump-internal-version.patch"
+    ],
     "auto_updated": true
   },
   {
