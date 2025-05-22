@@ -277,6 +277,71 @@
     "auto_updated": false
   },
   {
+    "name": "bazel",
+    "version": "7.6.1",
+    "description": "Correct, reproducible, and fast builds for everyone",
+    "homepage": "https://bazel.build/",
+    "depends": [
+      "libarchive",
+      "openjdk-21",
+      "patch",
+      "unzip",
+      "zip"
+    ],
+    "srcurl": "https://github.com/bazelbuild/bazel/releases/download/7.6.1/bazel-7.6.1-dist.zip",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2d3cc77/tur/bazel",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0001-strerror_r.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0002-impl-wait3.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0003-disable-sandbox.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0004-spawn.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0005-bazelrc-path.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0006-force-use-external-patch_tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0007-disable-module_maps.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0008-run-elf-cleaner-for-bundled-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0009-compile-cpu_profiler-with-fPIC.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0010-import-termux-patches.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/0101-import-termux-cross-deps.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/cares-config.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/cares.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/grpc.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/protobuf.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/upb-config.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/z-cares-config.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/z-cares.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/z-grpc.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/z-protobuf.patch",
+      "https://github.com/termux-user-repository/tur/blob/2d3cc77/tur/bazel/dep-patches/z-upb.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0001-strerror_r.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0002-impl-wait3.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0003-disable-sandbox.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0004-spawn.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0005-bazelrc-path.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0006-force-use-external-patch_tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0007-disable-module_maps.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0008-run-elf-cleaner-for-bundled-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0009-compile-cpu_profiler-with-fPIC.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0010-import-termux-patches.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/0101-import-termux-cross-deps.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/cares-config.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/cares.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/grpc.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/protobuf.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/upb-config.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/z-cares-config.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/z-cares.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/z-grpc.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/z-protobuf.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2d3cc77/tur/bazel/dep-patches/z-upb.patch"
+    ],
+    "auto_updated": true
+  },
+  {
     "name": "bfm",
     "version": "2023.08.02",
     "description": "🌼 ez file manager slokes in bash",
@@ -4996,23 +5061,23 @@
   },
   {
     "name": "python-polars",
-    "version": "1.29.0",
+    "version": "1.30.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.29.0/polars-1.29.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.30.0/polars-1.30.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2589843/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2589843/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2589843/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/66a279c/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/66a279c/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/66a279c/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/2589843/tur/python-polars/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/66a279c/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2589843/tur/python-polars/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66a279c/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
@@ -5730,7 +5795,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.89.0-2025.05.21-nightly",
+    "version": "1.89.0-2025.05.22-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -5742,24 +5807,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-05-21/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-05-22/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ea4f66a/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ea4f66a/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ea4f66a/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/382a843/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/382a843/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/382a843/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ea4f66a/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/ea4f66a/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea4f66a/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea4f66a/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea4f66a/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://github.com/termux-user-repository/tur/blob/382a843/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/382a843/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/382a843/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/382a843/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/382a843/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea4f66a/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea4f66a/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea4f66a/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea4f66a/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea4f66a/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/382a843/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/382a843/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/382a843/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/382a843/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/382a843/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "auto_updated": true
   },
@@ -6069,24 +6134,27 @@
   },
   {
     "name": "tabby",
-    "version": "0.28.0",
+    "version": "0.29.0",
     "description": "Self-hosted AI coding assistant",
     "homepage": "https://tabby.tabbyml.com/",
     "depends": [
       "graphviz",
+      "libc++",
       "libopenblas",
       "libsqlite"
     ],
     "srcurl": "git+https://github.com/TabbyML/tabby",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/840e828/tur/tabby",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/840e828/tur/tabby/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/840e828/tur/tabby/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc6ac98/tur/tabby",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc6ac98/tur/tabby/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc6ac98/tur/tabby/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/840e828/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://github.com/termux-user-repository/tur/blob/bc6ac98/tur/tabby/0001-llama-cpp-crosscompiling.patch",
+      "https://github.com/termux-user-repository/tur/blob/bc6ac98/tur/tabby/0002-llama-cpp-no-stdcxxfs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/840e828/tur/tabby/0001-llama-cpp-crosscompiling.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc6ac98/tur/tabby/0001-llama-cpp-crosscompiling.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc6ac98/tur/tabby/0002-llama-cpp-no-stdcxxfs.patch"
     ],
     "auto_updated": true
   },
@@ -7226,57 +7294,6 @@
     ],
     "package_patch_raw_urls": [
       "https://raw.githubusercontent.com/termux-user-repository/tur/daa7f88/tur-multilib/lib32-libunistring/lib-stdio-impl.h.patch"
-    ],
-    "auto_updated": false
-  },
-  {
-    "name": "bazel",
-    "version": "7.5.0",
-    "description": "Correct, reproducible, and fast builds for everyone",
-    "homepage": "https://bazel.build/",
-    "depends": [
-      "libarchive",
-      "openjdk-21",
-      "patch",
-      "unzip",
-      "zip"
-    ],
-    "srcurl": "https://github.com/bazelbuild/bazel/releases/download/7.5.0/bazel-7.5.0-dist.zip",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur-on-device/bazel",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0001-strerror_r.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0002-impl-wait3.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0003-disable-sandbox.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0004-spawn.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0005-import-termux-patches.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0006-force-use-external-patch_tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0007-disable-module_maps.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0008-run-elf-cleaner-for-bazel-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/0009-bazelrc-path.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/dep-patches/cares-config.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/dep-patches/cares.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/dep-patches/grpc.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/dep-patches/protobuf.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur-on-device/bazel/dep-patches/upb-config.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0001-strerror_r.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0002-impl-wait3.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0003-disable-sandbox.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0004-spawn.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0005-import-termux-patches.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0006-force-use-external-patch_tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0007-disable-module_maps.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0008-run-elf-cleaner-for-bazel-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/0009-bazelrc-path.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/dep-patches/cares-config.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/dep-patches/cares.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/dep-patches/grpc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/dep-patches/protobuf.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur-on-device/bazel/dep-patches/upb-config.patch"
     ],
     "auto_updated": false
   },
