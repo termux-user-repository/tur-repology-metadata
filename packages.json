@@ -6515,17 +6515,21 @@
   },
   {
     "name": "uutils-coreutils",
-    "version": "0.0.30",
+    "version": "0.1.0",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
     "homepage": "https://uutils.github.io/",
     "depends": [],
-    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.0.30.tar.gz",
+    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.1.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d6fff3d/tur/uutils-coreutils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d6fff3d/tur/uutils-coreutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d6fff3d/tur/uutils-coreutils/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/216b76c/tur/uutils-coreutils",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/216b76c/tur/uutils-coreutils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/216b76c/tur/uutils-coreutils/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/216b76c/tur/uutils-coreutils/0001-selinux.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/216b76c/tur/uutils-coreutils/0001-selinux.patch"
+    ],
     "auto_updated": true
   },
   {
