@@ -1457,7 +1457,7 @@
   },
   {
     "name": "dlib",
-    "version": "19.24.9",
+    "version": "20.0",
     "description": "a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems",
     "homepage": "http://dlib.net/",
     "depends": [
@@ -1466,16 +1466,16 @@
       "libopenblas",
       "python"
     ],
-    "srcurl": "https://github.com/davisking/dlib/archive/refs/tags/v19.24.9.tar.gz",
+    "srcurl": "https://github.com/davisking/dlib/archive/refs/tags/v20.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3d5a291/tur/dlib",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3d5a291/tur/dlib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3d5a291/tur/dlib/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/77f0d61/tur/dlib",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/77f0d61/tur/dlib/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/77f0d61/tur/dlib/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/3d5a291/tur/dlib/0001-drop-distutils.patch"
+      "https://github.com/termux-user-repository/tur/blob/77f0d61/tur/dlib/0001-drop-distutils.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d5a291/tur/dlib/0001-drop-distutils.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/77f0d61/tur/dlib/0001-drop-distutils.patch"
     ],
     "auto_updated": true
   },
@@ -5945,7 +5945,7 @@
   },
   {
     "name": "rife-ncnn-vulkan-tntwise",
-    "version": "20250112",
+    "version": "20250527",
     "description": "TNTwise's fork of rife-ncnn-vulkan: RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library",
     "homepage": "https://github.com/TNTwise/rife-ncnn-vulkan",
     "depends": [
@@ -5953,9 +5953,9 @@
     ],
     "srcurl": "git+https://github.com/TNTwise/rife-ncnn-vulkan",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/79227bc/tur/rife-ncnn-vulkan-tntwise",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/79227bc/tur/rife-ncnn-vulkan-tntwise/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/79227bc/tur/rife-ncnn-vulkan-tntwise/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/972818c/tur/rife-ncnn-vulkan-tntwise",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/972818c/tur/rife-ncnn-vulkan-tntwise/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/972818c/tur/rife-ncnn-vulkan-tntwise/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
