@@ -647,22 +647,20 @@
   },
   {
     "name": "box2d",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "2D rigid body simulation library for games",
     "homepage": "http://www.box2d.org/",
     "depends": [],
-    "srcurl": "https://github.com/erincatto/Box2D/archive/v3.0.0.tar.gz",
+    "srcurl": "https://github.com/erincatto/Box2D/archive/v3.1.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/999310c/tur/box2d",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/999310c/tur/box2d/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/999310c/tur/box2d/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9707a81/tur/box2d",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9707a81/tur/box2d/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9707a81/tur/box2d/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/999310c/tur/box2d/0001-aligned_alloc.patch",
-      "https://github.com/termux-user-repository/tur/blob/999310c/tur/box2d/0002-unsupported-cpu.patch"
+      "https://github.com/termux-user-repository/tur/blob/9707a81/tur/box2d/0001-aligned_alloc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/999310c/tur/box2d/0001-aligned_alloc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/999310c/tur/box2d/0002-unsupported-cpu.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9707a81/tur/box2d/0001-aligned_alloc.patch"
     ],
     "auto_updated": true
   },
@@ -1065,20 +1063,20 @@
   },
   {
     "name": "codesnap",
-    "version": "0.12.5",
+    "version": "0.12.8",
     "description": "Pure Rust tool to generate beautiful code snapshots, provide CLI and Library",
     "homepage": "https://github.com/mistricky/CodeSnap",
     "depends": [],
-    "srcurl": "https://github.com/mistricky/CodeSnap/archive/refs/tags/v0.12.5.tar.gz",
+    "srcurl": "https://github.com/mistricky/CodeSnap/archive/refs/tags/v0.12.8.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b968249/tur/codesnap",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b968249/tur/codesnap/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b968249/tur/codesnap/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a6d5869/tur/codesnap",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a6d5869/tur/codesnap/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a6d5869/tur/codesnap/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b968249/tur/codesnap/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/a6d5869/tur/codesnap/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b968249/tur/codesnap/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a6d5869/tur/codesnap/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
