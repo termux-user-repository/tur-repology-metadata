@@ -537,21 +537,6 @@
     "auto_updated": true
   },
   {
-    "name": "bfm",
-    "version": "2023.08.02",
-    "description": "🌼 ez file manager slokes in bash",
-    "homepage": "https://github.com/codedsprit/bfm",
-    "depends": [],
-    "srcurl": "git+https://github.com/codedsprit/bfm",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6e3c2d0/tur/bfm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6e3c2d0/tur/bfm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6e3c2d0/tur/bfm/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "biber-installer",
     "version": "2.20",
     "description": "A Unicode-capable BibTeX replacement for biblatex users",
@@ -972,22 +957,6 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/4cef1d6/tur/chromium-beta-host-tools/sysroot-patches/libstdcxx3-10-lwg3545.diff",
       "https://raw.githubusercontent.com/termux-user-repository/tur/4cef1d6/tur/chromium-beta-host-tools/sysroot-patches/libstdcxx3-10-optional-struct.diff"
     ],
-    "auto_updated": false
-  },
-  {
-    "name": "chromium-jumbo-host-tools",
-    "version": "137.0.7151.27",
-    "description": "Chromium web browser (Host tools, Transition Package)",
-    "homepage": "https://www.chromium.org/Home",
-    "depends": [
-      "libc++"
-    ],
-    "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4cef1d6/tur/chromium-jumbo-host-tools",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4cef1d6/tur/chromium-jumbo-host-tools/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4cef1d6/tur/chromium-jumbo-host-tools/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
     "auto_updated": false
   },
   {
