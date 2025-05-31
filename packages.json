@@ -1208,20 +1208,22 @@
     ],
     "srcurl": "https://github.com/davidjoffe/dave_gnukem/releases/download/1.0.3/davegnukem_1.0.3.orig.tar.xz",
     "maintainer": "@fervi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ec5130/tur/davegnukem",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/davegnukem/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/davegnukem/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/baab0b0/tur/davegnukem",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/baab0b0/tur/davegnukem/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/baab0b0/tur/davegnukem/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/davegnukem/0001-add-appstream-metadata.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/davegnukem/0002-build-reproducibly.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/davegnukem/0003-build-on-big-endian-systems.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/davegnukem/0004-allow-flags-injection.patch"
+      "https://github.com/termux-user-repository/tur/blob/baab0b0/tur/davegnukem/0001-add-appstream-metadata.patch",
+      "https://github.com/termux-user-repository/tur/blob/baab0b0/tur/davegnukem/0002-build-reproducibly.patch",
+      "https://github.com/termux-user-repository/tur/blob/baab0b0/tur/davegnukem/0003-build-on-big-endian-systems.patch",
+      "https://github.com/termux-user-repository/tur/blob/baab0b0/tur/davegnukem/0004-allow-flags-injection.patch",
+      "https://github.com/termux-user-repository/tur/blob/baab0b0/tur/davegnukem/0005-allow-space-in-find.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/davegnukem/0001-add-appstream-metadata.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/davegnukem/0002-build-reproducibly.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/davegnukem/0003-build-on-big-endian-systems.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/davegnukem/0004-allow-flags-injection.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/baab0b0/tur/davegnukem/0001-add-appstream-metadata.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/baab0b0/tur/davegnukem/0002-build-reproducibly.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/baab0b0/tur/davegnukem/0003-build-on-big-endian-systems.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/baab0b0/tur/davegnukem/0004-allow-flags-injection.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/baab0b0/tur/davegnukem/0005-allow-space-in-find.patch"
     ],
     "auto_updated": false
   },
