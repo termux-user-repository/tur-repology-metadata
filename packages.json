@@ -5973,7 +5973,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.89.0-2025.05.30-nightly",
+    "version": "1.89.0-2025.05.31-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -5985,24 +5985,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-05-30/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-05-31/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/92b10b8/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/92b10b8/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/92b10b8/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f8eb5fb/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f8eb5fb/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f8eb5fb/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/92b10b8/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/92b10b8/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/92b10b8/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/92b10b8/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/92b10b8/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://github.com/termux-user-repository/tur/blob/f8eb5fb/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/f8eb5fb/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/f8eb5fb/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/f8eb5fb/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/f8eb5fb/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/92b10b8/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/92b10b8/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/92b10b8/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/92b10b8/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/92b10b8/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f8eb5fb/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f8eb5fb/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f8eb5fb/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f8eb5fb/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f8eb5fb/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "auto_updated": true
   },
@@ -7733,9 +7733,9 @@
     "depends": [],
     "srcurl": "https://github.com/vasi/pixz/releases/download/v1.0.7/pixz-1.0.7.tar.xz",
     "maintainer": "@flosnvjx",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5a300ed/tur-on-device/pixz",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5a300ed/tur-on-device/pixz/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5a300ed/tur-on-device/pixz/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/802c519/tur-on-device/pixz",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/802c519/tur-on-device/pixz/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/802c519/tur-on-device/pixz/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7752,14 +7752,14 @@
     ],
     "srcurl": "https://files.pythonhosted.org/packages/b7/6f/24647f014eef9b67a24adfcbcd4f4928349b4a0f8393b3d7fe648d4d2de3/numpy-1.16.6.zip",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/98e80ea/tur-on-device/python2-numpy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/98e80ea/tur-on-device/python2-numpy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/98e80ea/tur-on-device/python2-numpy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/25f8b48/tur-on-device/python2-numpy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/25f8b48/tur-on-device/python2-numpy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/25f8b48/tur-on-device/python2-numpy/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/98e80ea/tur-on-device/python2-numpy/site.cfg.patch"
+      "https://github.com/termux-user-repository/tur/blob/25f8b48/tur-on-device/python2-numpy/site.cfg.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/98e80ea/tur-on-device/python2-numpy/site.cfg.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/25f8b48/tur-on-device/python2-numpy/site.cfg.patch"
     ],
     "auto_updated": false
   },
@@ -7776,9 +7776,9 @@
     ],
     "srcurl": "https://files.pythonhosted.org/packages/62/4f/7e95c5000c411164d5ca6f55ac54cda5d200a3b6719dafd215ee0bd61578/scipy-1.2.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/58a89e2/tur-on-device/python2-scipy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/58a89e2/tur-on-device/python2-scipy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/58a89e2/tur-on-device/python2-scipy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a339852/tur-on-device/python2-scipy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a339852/tur-on-device/python2-scipy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a339852/tur-on-device/python2-scipy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
