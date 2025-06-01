@@ -683,20 +683,22 @@
     ],
     "srcurl": "git+https://github.com/danoon2/Boxedwine",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/boxedwine",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/boxedwine/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/boxedwine/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/11a4ef1/tur/boxedwine",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/11a4ef1/tur/boxedwine/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/11a4ef1/tur/boxedwine/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/boxedwine/for-clang16.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/boxedwine/lib-tiny-process-process_unix.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/boxedwine/project-linux-makefile.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/boxedwine/source-sdl-startupArgs.cpp.patch"
+      "https://github.com/termux-user-repository/tur/blob/11a4ef1/tur/boxedwine/for-clang16.patch",
+      "https://github.com/termux-user-repository/tur/blob/11a4ef1/tur/boxedwine/issue-1776.patch",
+      "https://github.com/termux-user-repository/tur/blob/11a4ef1/tur/boxedwine/lib-tiny-process-process_unix.cpp.patch",
+      "https://github.com/termux-user-repository/tur/blob/11a4ef1/tur/boxedwine/project-linux-makefile.patch",
+      "https://github.com/termux-user-repository/tur/blob/11a4ef1/tur/boxedwine/source-sdl-startupArgs.cpp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/boxedwine/for-clang16.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/boxedwine/lib-tiny-process-process_unix.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/boxedwine/project-linux-makefile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/boxedwine/source-sdl-startupArgs.cpp.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/11a4ef1/tur/boxedwine/for-clang16.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/11a4ef1/tur/boxedwine/issue-1776.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/11a4ef1/tur/boxedwine/lib-tiny-process-process_unix.cpp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/11a4ef1/tur/boxedwine/project-linux-makefile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/11a4ef1/tur/boxedwine/source-sdl-startupArgs.cpp.patch"
     ],
     "auto_updated": false
   },
