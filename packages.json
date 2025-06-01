@@ -2879,17 +2879,17 @@
   },
   {
     "name": "leanify",
-    "version": "0.4.3+20231217",
+    "version": "0.4.3+20250520",
     "description": "Lightweight lossless file minifier/optimize",
-    "homepage": "https://github.com/JayXon/Leanify.git",
+    "homepage": "https://github.com/JayXon/Leanify",
     "depends": [
       "libiconv"
     ],
     "srcurl": "git+https://github.com/JayXon/Leanify.git",
-    "maintainer": "Joshua Kahn @TomJo2000",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/78dc840/tur/leanify",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/78dc840/tur/leanify/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/78dc840/tur/leanify/build.sh",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/02dd65e/tur/leanify",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/02dd65e/tur/leanify/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/02dd65e/tur/leanify/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
