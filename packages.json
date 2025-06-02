@@ -2683,11 +2683,15 @@
     "depends": [],
     "srcurl": "https://github.com/Orange-OpenSource/hurl/archive/refs/tags/6.1.1.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ae4047b/tur/hurl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ae4047b/tur/hurl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ae4047b/tur/hurl/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0d4e7c9/tur/hurl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0d4e7c9/tur/hurl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0d4e7c9/tur/hurl/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/0d4e7c9/tur/hurl/0001-libxml2-ErrorFunc.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0d4e7c9/tur/hurl/0001-libxml2-ErrorFunc.patch"
+    ],
     "auto_updated": true
   },
   {
@@ -2951,21 +2955,6 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libabw",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libabw/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libabw/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "libandroid-mathlib",
-    "version": "0.1",
-    "description": "Shared library for some missing libm functions of Bionic Libc",
-    "homepage": "https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm",
-    "depends": [],
-    "srcurl": "https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm/upstream-freebsd/lib/msun/src/math_private.h",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ec5130/tur/libandroid-mathlib",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ec5130/tur/libandroid-mathlib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ec5130/tur/libandroid-mathlib/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -5977,7 +5966,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.89.0-2025.06.01-nightly",
+    "version": "1.89.0-2025.06.02-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -5989,24 +5978,24 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-06-01/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-06-02/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4cdf565/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4cdf565/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4cdf565/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7186673/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7186673/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7186673/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/4cdf565/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/4cdf565/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/4cdf565/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/4cdf565/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/4cdf565/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://github.com/termux-user-repository/tur/blob/7186673/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/7186673/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/7186673/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/7186673/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/7186673/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4cdf565/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4cdf565/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4cdf565/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4cdf565/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4cdf565/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7186673/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7186673/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7186673/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7186673/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7186673/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch"
     ],
     "auto_updated": true
   },
