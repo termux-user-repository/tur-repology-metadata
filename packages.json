@@ -2696,7 +2696,7 @@
   },
   {
     "name": "hurrican",
-    "version": "1.0.9.3-r756.67da195",
+    "version": "1.0.9.3-r780.3f4bfd3",
     "description": "Freeware jump and shoot game created by Poke53280, based on the Turrican game series by Manfred Trenz",
     "homepage": "https://github.com/HurricanGame/Hurrican",
     "depends": [
@@ -2708,14 +2708,14 @@
     ],
     "srcurl": "git+https://github.com/HurricanGame/Hurrican",
     "maintainer": "@fervi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9f97f97/tur/hurrican",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9f97f97/tur/hurrican/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9f97f97/tur/hurrican/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8fbe964/tur/hurrican",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8fbe964/tur/hurrican/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8fbe964/tur/hurrican/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9f97f97/tur/hurrican/0001-do-not-include-timeb.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/8fbe964/tur/hurrican/0001-do-not-include-timeb.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9f97f97/tur/hurrican/0001-do-not-include-timeb.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8fbe964/tur/hurrican/0001-do-not-include-timeb.h.patch"
     ],
     "auto_updated": false
   },
@@ -3173,26 +3173,30 @@
     ],
     "srcurl": "https://github.com/frankheckenbach/ftgl/archive/refs/tags/v2.4.0.tar.gz",
     "maintainer": "@fervi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8bceb82/tur/libftgl2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8bceb82/tur/libftgl2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8bceb82/tur/libftgl2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0b8d980/tur/libftgl2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8bceb82/tur/libftgl2/0001-upstream-bf07517ded4704be37eef39b758b5206fc6f4f0d.patch",
-      "https://github.com/termux-user-repository/tur/blob/8bceb82/tur/libftgl2/0002-upstream-835f2ba7911a6c15a1a314d5e3267fa089b5a319.patch",
-      "https://github.com/termux-user-repository/tur/blob/8bceb82/tur/libftgl2/0003-upstream-778b8f21ba0b71289aef37e3422d008456445971.patch",
-      "https://github.com/termux-user-repository/tur/blob/8bceb82/tur/libftgl2/0004-upstream-8763fa4e413e015e46376697fb8ab59ed31c2ff5.patch",
-      "https://github.com/termux-user-repository/tur/blob/8bceb82/tur/libftgl2/0005-upstream-a867c7a2e02ab8b47b1322f2903cfaa44c756b9b.patch",
-      "https://github.com/termux-user-repository/tur/blob/8bceb82/tur/libftgl2/0006-no-eps.patch"
+      "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/0001-upstream-bf07517ded4704be37eef39b758b5206fc6f4f0d.patch",
+      "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/0002-upstream-835f2ba7911a6c15a1a314d5e3267fa089b5a319.patch",
+      "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/0003-upstream-778b8f21ba0b71289aef37e3422d008456445971.patch",
+      "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/0004-upstream-8763fa4e413e015e46376697fb8ab59ed31c2ff5.patch",
+      "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/0005-upstream-a867c7a2e02ab8b47b1322f2903cfaa44c756b9b.patch",
+      "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/0006-upstream-d546aefd73dcbb0d0d1e0f3c916770d7f9f98169.patch",
+      "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/0007-no-eps.patch",
+      "https://github.com/termux-user-repository/tur/blob/0b8d980/tur/libftgl2/0008-soversion-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8bceb82/tur/libftgl2/0001-upstream-bf07517ded4704be37eef39b758b5206fc6f4f0d.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8bceb82/tur/libftgl2/0002-upstream-835f2ba7911a6c15a1a314d5e3267fa089b5a319.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8bceb82/tur/libftgl2/0003-upstream-778b8f21ba0b71289aef37e3422d008456445971.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8bceb82/tur/libftgl2/0004-upstream-8763fa4e413e015e46376697fb8ab59ed31c2ff5.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8bceb82/tur/libftgl2/0005-upstream-a867c7a2e02ab8b47b1322f2903cfaa44c756b9b.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8bceb82/tur/libftgl2/0006-no-eps.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/0001-upstream-bf07517ded4704be37eef39b758b5206fc6f4f0d.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/0002-upstream-835f2ba7911a6c15a1a314d5e3267fa089b5a319.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/0003-upstream-778b8f21ba0b71289aef37e3422d008456445971.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/0004-upstream-8763fa4e413e015e46376697fb8ab59ed31c2ff5.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/0005-upstream-a867c7a2e02ab8b47b1322f2903cfaa44c756b9b.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/0006-upstream-d546aefd73dcbb0d0d1e0f3c916770d7f9f98169.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/0007-no-eps.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980/tur/libftgl2/0008-soversion-fix.patch"
     ],
-    "auto_updated": false
+    "auto_updated": true
   },
   {
     "name": "libicu69",
@@ -3511,14 +3515,14 @@
     ],
     "srcurl": "https://github.com/mongodb/mongo-c-driver/releases/download/1.30.3/mongo-c-driver-1.30.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/15f6e36/tur/libmongoc",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/15f6e36/tur/libmongoc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/15f6e36/tur/libmongoc/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9748ddc/tur/libmongoc",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9748ddc/tur/libmongoc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9748ddc/tur/libmongoc/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/15f6e36/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
+      "https://github.com/termux-user-repository/tur/blob/9748ddc/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/15f6e36/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9748ddc/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
     ],
     "auto_updated": false
   },
@@ -3746,24 +3750,24 @@
   },
   {
     "name": "libspnav",
-    "version": "1.0",
+    "version": "1.2",
     "description": "Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices",
     "homepage": "https://github.com/FreeSpacenav/libspnav",
     "depends": [
       "libx11"
     ],
-    "srcurl": "https://github.com/FreeSpacenav/libspnav/archive/refs/tags/v1.0.tar.gz",
+    "srcurl": "https://github.com/FreeSpacenav/libspnav/archive/refs/tags/v1.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/872be32/tur/libspnav",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/872be32/tur/libspnav/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/872be32/tur/libspnav/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/49a75f1/tur/libspnav",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/49a75f1/tur/libspnav/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/49a75f1/tur/libspnav/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/872be32/tur/libspnav/makefile.patch"
+      "https://github.com/termux-user-repository/tur/blob/49a75f1/tur/libspnav/makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/872be32/tur/libspnav/makefile.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/49a75f1/tur/libspnav/makefile.patch"
     ],
-    "auto_updated": false
+    "auto_updated": true
   },
   {
     "name": "libstaroffice",
