@@ -7801,16 +7801,16 @@
     ],
     "srcurl": "https://cran.r-project.org/src/base/R-4/R-4.4.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/034f37c/tur-on-device/r-base",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/034f37c/tur-on-device/r-base/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/034f37c/tur-on-device/r-base/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7fd39da/tur-on-device/r-base",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7fd39da/tur-on-device/r-base/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7fd39da/tur-on-device/r-base/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/034f37c/tur-on-device/r-base/0001-wctrans-impl.patch",
-      "https://github.com/termux-user-repository/tur/blob/034f37c/tur-on-device/r-base/0002-fix-link-libraries.patch"
+      "https://github.com/termux-user-repository/tur/blob/7fd39da/tur-on-device/r-base/0001-wctrans-impl.patch",
+      "https://github.com/termux-user-repository/tur/blob/7fd39da/tur-on-device/r-base/0002-fix-link-libraries.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/034f37c/tur-on-device/r-base/0001-wctrans-impl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/034f37c/tur-on-device/r-base/0002-fix-link-libraries.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7fd39da/tur-on-device/r-base/0001-wctrans-impl.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7fd39da/tur-on-device/r-base/0002-fix-link-libraries.patch"
     ],
     "auto_updated": false
   },
