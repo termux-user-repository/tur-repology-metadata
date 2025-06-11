@@ -2680,6 +2680,20 @@
     "auto_updated": false
   },
   {
+    "name": "hello-tur",
+    "version": "0.1",
+    "description": "Dummy test for TUR",
+    "homepage": "https://github.com/termux-user-repository/tur",
+    "depends": [],
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1315301/tur/hello-tur",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1315301/tur/hello-tur/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1315301/tur/hello-tur/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "hurl",
     "version": "6.1.1",
     "description": "Hurl, run and test HTTP requests with plain text",
@@ -3472,33 +3486,6 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3cc/tur/libllvm-classic-flang/llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3cc/tur/libllvm-classic-flang/llvm-tools-llvm-shilib-CMakeLists.txt.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3cc/tur/libllvm-classic-flang/openmp.patch"
-    ],
-    "auto_updated": false
-  },
-  {
-    "name": "libllvm-codon",
-    "version": "20240121",
-    "description": "Modular compiler and toolchain technologies library (Version 17, Codon Fork)",
-    "homepage": "https://github.com/exaloop/llvm-project",
-    "depends": [
-      "libc++",
-      "ndk-sysroot",
-      "libffi"
-    ],
-    "srcurl": "https://github.com/exaloop/llvm-project/archive/c5a1d86495d28ab045258f120a8e2c9f3ef67a3b.zip",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e79ae9a/tur/libllvm-codon",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e79ae9a/tur/libllvm-codon/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e79ae9a/tur/libllvm-codon/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e79ae9a/tur/libllvm-codon/llvm-include-llvm-ADT-SmallVector.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/e79ae9a/tur/libllvm-codon/llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/e79ae9a/tur/libllvm-codon/openmp.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e79ae9a/tur/libllvm-codon/llvm-include-llvm-ADT-SmallVector.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e79ae9a/tur/libllvm-codon/llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e79ae9a/tur/libllvm-codon/openmp.patch"
     ],
     "auto_updated": false
   },
