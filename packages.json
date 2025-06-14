@@ -6398,6 +6398,21 @@
     "auto_updated": true
   },
   {
+    "name": "topiary",
+    "version": "0.6.1",
+    "description": "The universal code formatter",
+    "homepage": "https://topiary.tweag.io/",
+    "depends": [],
+    "srcurl": "https://github.com/tweag/topiary/archive/refs/tags/v0.6.1.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3ad7c0c/tur/topiary",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3ad7c0c/tur/topiary/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3ad7c0c/tur/topiary/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "trigger-rally",
     "version": "0.6.6.1",
     "description": "A free 3D rally car racing game",
@@ -6618,7 +6633,7 @@
   },
   {
     "name": "wine-devel",
-    "version": "10.9",
+    "version": "10.10",
     "description": "A compatibility layer for running Windows programs",
     "homepage": "https://www.winehq.org/",
     "depends": [
@@ -6640,28 +6655,28 @@
       "vulkan-loader",
       "xorg-xrandr"
     ],
-    "srcurl": "https://dl.winehq.org/wine/source/10.x/wine-10.9.tar.xz",
+    "srcurl": "https://dl.winehq.org/wine/source/10.x/wine-10.10.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ec30c0a/tur/wine-devel",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ec30c0a/tur/wine-devel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ec30c0a/tur/wine-devel/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/234e2e0/tur/wine-devel",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/234e2e0/tur/wine-devel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/234e2e0/tur/wine-devel/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ec30c0a/tur/wine-devel/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/ec30c0a/tur/wine-devel/0002-fix-defines.patch",
-      "https://github.com/termux-user-repository/tur/blob/ec30c0a/tur/wine-devel/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/ec30c0a/tur/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/ec30c0a/tur/wine-devel/9997-clang-as-arm.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/ec30c0a/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/ec30c0a/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/234e2e0/tur/wine-devel/0001-fix-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/234e2e0/tur/wine-devel/0002-fix-defines.patch",
+      "https://github.com/termux-user-repository/tur/blob/234e2e0/tur/wine-devel/0003-fix-socket-ipx.patch",
+      "https://github.com/termux-user-repository/tur/blob/234e2e0/tur/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://github.com/termux-user-repository/tur/blob/234e2e0/tur/wine-devel/9997-clang-as-arm.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/234e2e0/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/234e2e0/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec30c0a/tur/wine-devel/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec30c0a/tur/wine-devel/0002-fix-defines.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec30c0a/tur/wine-devel/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec30c0a/tur/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec30c0a/tur/wine-devel/9997-clang-as-arm.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec30c0a/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ec30c0a/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/234e2e0/tur/wine-devel/0001-fix-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/234e2e0/tur/wine-devel/0002-fix-defines.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/234e2e0/tur/wine-devel/0003-fix-socket-ipx.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/234e2e0/tur/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/234e2e0/tur/wine-devel/9997-clang-as-arm.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/234e2e0/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/234e2e0/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -6714,7 +6729,7 @@
   },
   {
     "name": "wine-staging",
-    "version": "10.9",
+    "version": "10.10",
     "description": "A compatibility layer for running Windows programs",
     "homepage": "https://www.winehq.org/",
     "depends": [
@@ -6736,30 +6751,30 @@
       "vulkan-loader",
       "xorg-xrandr"
     ],
-    "srcurl": "https://dl.winehq.org/wine/source/10.x/wine-10.9.tar.xz",
+    "srcurl": "https://dl.winehq.org/wine/source/10.x/wine-10.10.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5ea8889/tur/wine-staging",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/66b57bc/tur/wine-staging",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/0002-fix-defines.patch",
-      "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/0005-impl-posix-shm.patch",
-      "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/9997-clang-as-arm.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/5ea8889/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/0001-fix-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/0002-fix-defines.patch",
+      "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/0003-fix-socket-ipx.patch",
+      "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/0005-impl-posix-shm.patch",
+      "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/9997-clang-as-arm.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/66b57bc/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/0002-fix-defines.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/0005-impl-posix-shm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/9997-clang-as-arm.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ea8889/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/0001-fix-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/0002-fix-defines.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/0003-fix-socket-ipx.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/0005-impl-posix-shm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/9997-clang-as-arm.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/66b57bc/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
