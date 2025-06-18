@@ -3061,9 +3061,9 @@
     "depends": [],
     "srcurl": "https://github.com/ImagingDataCommons/libdicom/releases/download/v1.2.0/libdicom-1.2.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b3a9150/tur/libdicom",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b3a9150/tur/libdicom/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b3a9150/tur/libdicom/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f9b7bc/tur/libdicom",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f9b7bc/tur/libdicom/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f9b7bc/tur/libdicom/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
