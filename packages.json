@@ -2231,17 +2231,21 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.32.0",
+    "version": "2.32.1",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.32.0.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.32.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/88965f0/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/88965f0/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/88965f0/tur/filebrowser/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/91a543d/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/91a543d/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/91a543d/tur/filebrowser/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/91a543d/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91a543d/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
+    ],
     "auto_updated": true
   },
   {
@@ -5229,23 +5233,23 @@
   },
   {
     "name": "python-polars",
-    "version": "1.30.0",
+    "version": "1.31.0",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.30.0/polars-1.30.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.31.0/polars-1.31.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/66a279c/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/66a279c/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/66a279c/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/546e7a8/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/546e7a8/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/546e7a8/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/66a279c/tur/python-polars/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/546e7a8/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/66a279c/tur/python-polars/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/546e7a8/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
