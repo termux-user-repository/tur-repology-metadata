@@ -4587,7 +4587,7 @@
       "glew",
       "libhdf5",
       "libheif",
-      "libjpeg-turbo-static",
+      "libjpeg-turbo",
       "libpng",
       "libraw",
       "libtbb",
@@ -4605,16 +4605,16 @@
     ],
     "srcurl": "https://github.com/OpenImageIO/oiio/archive/refs/tags/v2.5.6.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a21b70e/tur/openimageio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a21b70e/tur/openimageio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a21b70e/tur/openimageio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7d73016/tur/openimageio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7d73016/tur/openimageio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7d73016/tur/openimageio/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a21b70e/tur/openimageio/disable-neon.patch",
-      "https://github.com/termux-user-repository/tur/blob/a21b70e/tur/openimageio/prefix.patch"
+      "https://github.com/termux-user-repository/tur/blob/7d73016/tur/openimageio/disable-neon.patch",
+      "https://github.com/termux-user-repository/tur/blob/7d73016/tur/openimageio/prefix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a21b70e/tur/openimageio/disable-neon.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a21b70e/tur/openimageio/prefix.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7d73016/tur/openimageio/disable-neon.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7d73016/tur/openimageio/prefix.patch"
     ],
     "auto_updated": false
   },
