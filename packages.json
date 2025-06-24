@@ -6304,18 +6304,18 @@
   },
   {
     "name": "sundials",
-    "version": "1:7.3.0",
+    "version": "1:7.4.0",
     "description": "SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.",
     "homepage": "https://computing.llnl.gov/projects/sundials",
     "depends": [
       "libopenblas",
       "suitesparse"
     ],
-    "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.3.0/sundials-7.3.0.tar.gz",
+    "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.4.0/sundials-7.4.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9347400/tur/sundials",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9347400/tur/sundials/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9347400/tur/sundials/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cb9fccc/tur/sundials",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cb9fccc/tur/sundials/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cb9fccc/tur/sundials/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
