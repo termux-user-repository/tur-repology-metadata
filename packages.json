@@ -2233,20 +2233,20 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.33.7",
+    "version": "2.33.8",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.33.7.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.33.8.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0df72bb/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0df72bb/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0df72bb/tur/filebrowser/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7c49cda/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7c49cda/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7c49cda/tur/filebrowser/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0df72bb/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
+      "https://github.com/termux-user-repository/tur/blob/7c49cda/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0df72bb/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7c49cda/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
     ],
     "auto_updated": true
   },
