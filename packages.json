@@ -2233,20 +2233,20 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.33.6",
+    "version": "2.33.7",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.33.6.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.33.7.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/455182e/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/455182e/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/455182e/tur/filebrowser/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0df72bb/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0df72bb/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0df72bb/tur/filebrowser/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/455182e/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
+      "https://github.com/termux-user-repository/tur/blob/0df72bb/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/455182e/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0df72bb/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
     ],
     "auto_updated": true
   },
@@ -6358,23 +6358,23 @@
   },
   {
     "name": "surreal",
-    "version": "2.3.5",
+    "version": "2.3.6",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.3.5.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.3.6.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7dfd2e8/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7dfd2e8/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7dfd2e8/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3c03720/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3c03720/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3c03720/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7dfd2e8/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/3c03720/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7dfd2e8/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c03720/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
