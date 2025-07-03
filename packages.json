@@ -629,18 +629,18 @@
   },
   {
     "name": "blueprint-compiler",
-    "version": "0.16.0",
+    "version": "0.18.0",
     "description": "A markup language for GTK user interface files",
     "homepage": "https://gitlab.gnome.org/jwestman/blueprint-compiler/",
     "depends": [
       "python",
       "pygobject"
     ],
-    "srcurl": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.16.0/blueprint-compiler-v0.16.0.tar.gz",
+    "srcurl": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.18.0/blueprint-compiler-v0.18.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/38ceb9f/tur/blueprint-compiler",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/38ceb9f/tur/blueprint-compiler/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/38ceb9f/tur/blueprint-compiler/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/af918fa/tur/blueprint-compiler",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/af918fa/tur/blueprint-compiler/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/af918fa/tur/blueprint-compiler/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
