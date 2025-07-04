@@ -4541,6 +4541,21 @@
     "auto_updated": false
   },
   {
+    "name": "nstool",
+    "version": "1.9.2",
+    "description": "General purpose read/extract tool for Switch dumps",
+    "homepage": "https://github.com/jakcron/nstool",
+    "depends": [],
+    "srcurl": "git+https://github.com/jakcron/nstool",
+    "maintainer": "@flosnvjx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b3f6476/tur/nstool",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b3f6476/tur/nstool/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b3f6476/tur/nstool/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "octave",
     "version": "1:9.2.0",
     "description": "GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)",
