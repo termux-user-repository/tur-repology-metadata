@@ -5332,7 +5332,7 @@
   },
   {
     "name": "python-pandas",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "Powerful Python data analysis toolkit",
     "homepage": "https://pandas.pydata.org/",
     "depends": [
@@ -5343,9 +5343,9 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/158d87b/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/158d87b/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/158d87b/tur/python-pandas/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b70ef26/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b70ef26/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b70ef26/tur/python-pandas/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
