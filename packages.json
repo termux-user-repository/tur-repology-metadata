@@ -2227,20 +2227,20 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.36.3",
+    "version": "2.37.0",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.36.3.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.37.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/62ac9d2/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/62ac9d2/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/62ac9d2/tur/filebrowser/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e888c7c/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e888c7c/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e888c7c/tur/filebrowser/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/62ac9d2/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
+      "https://github.com/termux-user-repository/tur/blob/e888c7c/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/62ac9d2/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e888c7c/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
     ],
     "auto_updated": true
   },
@@ -6181,14 +6181,16 @@
     ],
     "srcurl": "https://github.com/alexfru/SmallerC/archive/refs/tags/v1.0.2+dos.win.b120a9c.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2d371a7/tur/smallerc",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2d371a7/tur/smallerc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2d371a7/tur/smallerc/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fe0c2fc/tur/smallerc",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fe0c2fc/tur/smallerc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fe0c2fc/tur/smallerc/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/2d371a7/tur/smallerc/makefile.patch"
+      "https://github.com/termux-user-repository/tur/blob/fe0c2fc/tur/smallerc/0001-make-stop-mangling-PATH.patch",
+      "https://github.com/termux-user-repository/tur/blob/fe0c2fc/tur/smallerc/makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2d371a7/tur/smallerc/makefile.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fe0c2fc/tur/smallerc/0001-make-stop-mangling-PATH.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fe0c2fc/tur/smallerc/makefile.patch"
     ],
     "auto_updated": false
   },
