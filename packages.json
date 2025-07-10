@@ -1404,12 +1404,12 @@
     ],
     "srcurl": "https://github.com/stsp/dj64dev/archive/refs/tags/0.3.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7faee1d/tur/dj64dev",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7faee1d/tur/dj64dev/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7faee1d/tur/dj64dev/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9275f9e/tur/dj64dev",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9275f9e/tur/dj64dev/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9275f9e/tur/dj64dev/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
-    "auto_updated": true
+    "auto_updated": false
   },
   {
     "name": "djstub",
@@ -2088,12 +2088,12 @@
     ],
     "srcurl": "https://github.com/dosemu2/fdpp/archive/refs/tags/1.9.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7f9aee0/tur/fdpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7f9aee0/tur/fdpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7f9aee0/tur/fdpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9275f9e/tur/fdpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9275f9e/tur/fdpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9275f9e/tur/fdpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
-    "auto_updated": true
+    "auto_updated": false
   },
   {
     "name": "feed2imap-go",
@@ -3896,15 +3896,15 @@
   },
   {
     "name": "mdds",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "A collection of multi-dimensional data structures and indexing algorithms",
     "homepage": "https://gitlab.com/mdds/mdds",
     "depends": [],
-    "srcurl": "https://gitlab.com/api/v4/projects/mdds%2Fmdds/packages/generic/source/3.0.0/mdds-3.0.0.tar.xz",
+    "srcurl": "https://gitlab.com/api/v4/projects/mdds%2Fmdds/packages/generic/source/3.1.0/mdds-3.1.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/34d328d/tur/mdds",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/34d328d/tur/mdds/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/34d328d/tur/mdds/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f3892a9/tur/mdds",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f3892a9/tur/mdds/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f3892a9/tur/mdds/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6508,12 +6508,16 @@
     "version": "1.6",
     "description": "thunk generator for C and assembler",
     "homepage": "https://github.com/stsp/thunk_gen",
-    "depends": [],
+    "depends": [
+      "bash",
+      "autoconf",
+      "pkg-config"
+    ],
     "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.6.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4362549/tur/thunk-gen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4362549/tur/thunk-gen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4362549/tur/thunk-gen/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b8693e7/tur/thunk-gen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b8693e7/tur/thunk-gen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b8693e7/tur/thunk-gen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
