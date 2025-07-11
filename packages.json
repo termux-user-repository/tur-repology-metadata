@@ -5196,17 +5196,17 @@
   },
   {
     "name": "pybind11",
-    "version": "2.13.6",
+    "version": "3.0.0",
     "description": "A lightweight header-only library that exposes C++ types in Python and vice versa",
     "homepage": "https://pybind11.readthedocs.org",
     "depends": [
       "python"
     ],
-    "srcurl": "https://github.com/pybind/pybind11/archive/v2.13.6/pybind11-2.13.6.tar.gz",
+    "srcurl": "https://github.com/pybind/pybind11/archive/v3.0.0/pybind11-3.0.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7d55742/tur/pybind11",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7d55742/tur/pybind11/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7d55742/tur/pybind11/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b56d28e/tur/pybind11",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b56d28e/tur/pybind11/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b56d28e/tur/pybind11/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
