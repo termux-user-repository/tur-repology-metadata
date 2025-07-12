@@ -1090,12 +1090,12 @@
     ],
     "srcurl": "https://github.com/dosemu2/comcom64/archive/refs/tags/0.2.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ea6b204/tur/comcom64",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ea6b204/tur/comcom64/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ea6b204/tur/comcom64/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0a14bec/tur/comcom64",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0a14bec/tur/comcom64/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0a14bec/tur/comcom64/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
-    "auto_updated": true
+    "auto_updated": false
   },
   {
     "name": "cppunit",
