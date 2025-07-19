@@ -4870,26 +4870,6 @@
     "auto_updated": false
   },
   {
-    "name": "openvdb",
-    "version": "10.0.1",
-    "description": "A large suite of tools for the efficient storage and manipulation of sparse volumetric data discretized on three-dimensional grids",
-    "homepage": "https://github.com/dreamworksanimation/openvdb",
-    "depends": [
-      "boost",
-      "libblosc",
-      "libtbb",
-      "zlib"
-    ],
-    "srcurl": "https://github.com/AcademySoftwareFoundation/openvdb/archive/refs/tags/v10.0.1.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c15555d/tur/openvdb",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c15555d/tur/openvdb/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c15555d/tur/openvdb/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "optivorbis",
     "version": "0.3.0",
     "description": "Vorbis optimizer that reconstruct ogg files to a smaller size, without losing any audio quality",
