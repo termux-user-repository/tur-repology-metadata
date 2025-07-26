@@ -2757,32 +2757,6 @@
     "auto_updated": true
   },
   {
-    "name": "icewm",
-    "version": "3.4.1",
-    "description": "Wonderful Win95-OS/2-Motif-like window manager",
-    "homepage": "https://ice-wm.org/",
-    "depends": [
-      "imlib2",
-      "libandroid-wordexp",
-      "libandroid-glob",
-      "libxcomposite",
-      "libxdamage",
-      "libxpm"
-    ],
-    "srcurl": "https://github.com/ice-wm/icewm/releases/download/3.4.1/icewm-3.4.1.tar.lz",
-    "maintainer": "fervi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9d2c92a/tur/icewm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9d2c92a/tur/icewm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9d2c92a/tur/icewm/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9d2c92a/tur/icewm/termux.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9d2c92a/tur/icewm/termux.patch"
-    ],
-    "auto_updated": false
-  },
-  {
     "name": "instfd",
     "version": "0.3",
     "description": "FreeDOS installed for dosemu2",
