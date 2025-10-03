@@ -1096,15 +1096,15 @@
   },
   {
     "name": "crush",
-    "version": "0.8.1",
+    "version": "0.10.4",
     "description": "The glamourous AI coding agent for your favourite terminal",
     "homepage": "https://github.com/charmbracelet/crush",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.8.1.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.10.4.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b614643/tur/crush",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b614643/tur/crush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b614643/tur/crush/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/43d3f3b/tur/crush",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/43d3f3b/tur/crush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/43d3f3b/tur/crush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -2224,21 +2224,17 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.37.0",
+    "version": "2.44.0",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.37.0.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.44.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e888c7c/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e888c7c/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e888c7c/tur/filebrowser/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e888c7c/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e888c7c/tur/filebrowser/0001-bolt-missing-maxMapSize.patch"
-    ],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/03e0e39/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/03e0e39/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/03e0e39/tur/filebrowser/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
@@ -5258,23 +5254,23 @@
   },
   {
     "name": "python-polars",
-    "version": "1.31.0",
+    "version": "1.33.1",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.31.0/polars-1.31.0.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/releases/download/py-1.33.1/polars-1.33.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/546e7a8/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/546e7a8/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/546e7a8/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/deedcee/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/deedcee/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/deedcee/tur/python-polars/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/546e7a8/tur/python-polars/arboard-dummy-platform.diff"
+      "https://github.com/termux-user-repository/tur/blob/deedcee/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/546e7a8/tur/python-polars/arboard-dummy-platform.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/deedcee/tur/python-polars/arboard-dummy-platform.diff"
     ],
     "auto_updated": true
   },
@@ -6102,7 +6098,7 @@
   },
   {
     "name": "smartdns",
-    "version": "46",
+    "version": "47",
     "description": "A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH",
     "homepage": "https://github.com/pymumu/smartdns",
     "depends": [
@@ -6110,24 +6106,26 @@
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release46.tar.gz",
+    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release47.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ac34cc6/tur/smartdns",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/smartdns/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/smartdns/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a706295/tur/smartdns",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a706295/tur/smartdns/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a706295/tur/smartdns/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/smartdns/0005-avoid-pthread_cancel.patch"
+      "https://github.com/termux-user-repository/tur/blob/a706295/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/a706295/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://github.com/termux-user-repository/tur/blob/a706295/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://github.com/termux-user-repository/tur/blob/a706295/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/a706295/tur/smartdns/0005-avoid-pthread_cancel.patch",
+      "https://github.com/termux-user-repository/tur/blob/a706295/tur/smartdns/0006-fix-include-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/smartdns/0005-avoid-pthread_cancel.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a706295/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a706295/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a706295/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a706295/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a706295/tur/smartdns/0005-avoid-pthread_cancel.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a706295/tur/smartdns/0006-fix-include-on-android.patch"
     ],
     "auto_updated": true
   },
@@ -6296,23 +6294,23 @@
   },
   {
     "name": "surreal",
-    "version": "2.3.7",
+    "version": "2.3.10",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.3.7.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.3.10.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/075ea6b/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/075ea6b/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/075ea6b/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5089837/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5089837/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5089837/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/075ea6b/tur/surreal/librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/5089837/tur/surreal/librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/075ea6b/tur/surreal/librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5089837/tur/surreal/librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
@@ -6522,20 +6520,20 @@
   },
   {
     "name": "uutils-coreutils",
-    "version": "0.1.0",
+    "version": "0.2.2",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
     "homepage": "https://uutils.github.io/",
     "depends": [],
-    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.1.0.tar.gz",
+    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.2.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/216b76c/tur/uutils-coreutils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/216b76c/tur/uutils-coreutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/216b76c/tur/uutils-coreutils/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/339c40c/tur/uutils-coreutils",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/339c40c/tur/uutils-coreutils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/339c40c/tur/uutils-coreutils/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/216b76c/tur/uutils-coreutils/0001-selinux.patch"
+      "https://github.com/termux-user-repository/tur/blob/339c40c/tur/uutils-coreutils/0001-selinux.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/216b76c/tur/uutils-coreutils/0001-selinux.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/339c40c/tur/uutils-coreutils/0001-selinux.patch"
     ],
     "auto_updated": true
   },
@@ -6924,7 +6922,7 @@
   },
   {
     "name": "zerotier-one",
-    "version": "1.14.2",
+    "version": "1.16.0",
     "description": "Creates virtual Ethernet networks of almost unlimited size.",
     "homepage": "https://www.zerotier.com",
     "depends": [
@@ -6932,30 +6930,30 @@
       "natpmpc",
       "openssl"
     ],
-    "srcurl": "https://github.com/zerotier/ZeroTierOne/archive/refs/tags/1.14.2.tar.gz",
+    "srcurl": "https://github.com/zerotier/ZeroTierOne/archive/refs/tags/1.16.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/246b37d/tur/zerotier-one",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/69b6933/tur/zerotier-one",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0001-mask-setattr.patch",
-      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0002-rust-target-os.patch",
-      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0003-osutils-termux-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0004-makefile-arm-workaround.patch",
-      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0005-makefile-cargo-target-name.patch",
-      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0006-dummy-pthread-affinity.patch",
-      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0007-makefile-checkdep-destdir.patch",
-      "https://github.com/termux-user-repository/tur/blob/246b37d/tur/zerotier-one/0008-makefile-install-add-selftest.patch"
+      "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/0001-mask-setattr.patch",
+      "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/0002-rust-target-os.patch",
+      "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/0003-osutils-termux-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/0004-makefile-arm-workaround.patch",
+      "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/0005-makefile-cargo-target-name.patch",
+      "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/0006-dummy-pthread-affinity.patch",
+      "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/0007-makefile-checkdep-destdir.patch",
+      "https://github.com/termux-user-repository/tur/blob/69b6933/tur/zerotier-one/0008-makefile-install-add-selftest.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0001-mask-setattr.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0002-rust-target-os.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0003-osutils-termux-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0004-makefile-arm-workaround.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0005-makefile-cargo-target-name.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0006-dummy-pthread-affinity.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0007-makefile-checkdep-destdir.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/246b37d/tur/zerotier-one/0008-makefile-install-add-selftest.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/0001-mask-setattr.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/0002-rust-target-os.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/0003-osutils-termux-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/0004-makefile-arm-workaround.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/0005-makefile-cargo-target-name.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/0006-dummy-pthread-affinity.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/0007-makefile-checkdep-destdir.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69b6933/tur/zerotier-one/0008-makefile-install-add-selftest.patch"
     ],
     "auto_updated": true
   },
