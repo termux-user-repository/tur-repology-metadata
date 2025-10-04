@@ -58,14 +58,14 @@
     ],
     "srcurl": "https://github.com/Xenoveritas/abuse/archive/refs/tags/v0.9.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/17932f8/tur/abuse",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/17932f8/tur/abuse/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/17932f8/tur/abuse/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/abuse",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/abuse/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/abuse/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/17932f8/tur/abuse/0001-do-not-include-shm.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/abuse/0001-do-not-include-shm.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/17932f8/tur/abuse/0001-do-not-include-shm.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/abuse/0001-do-not-include-shm.h.patch"
     ],
     "auto_updated": true
   },
@@ -214,9 +214,9 @@
     ],
     "srcurl": "https://github.com/opencollab/arpack-ng/archive/refs/tags/3.9.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6815232/tur/arpack-ng",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6815232/tur/arpack-ng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/arpack-ng/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/arpack-ng",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/arpack-ng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/arpack-ng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -1072,9 +1072,9 @@
     ],
     "srcurl": "https://github.com/dosemu2/comcom64/archive/refs/tags/0.2.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0a14bec/tur/comcom64",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0a14bec/tur/comcom64/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0a14bec/tur/comcom64/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/comcom64",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/comcom64/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/comcom64/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -1401,9 +1401,9 @@
     ],
     "srcurl": "https://github.com/stsp/dj64dev/archive/refs/tags/0.3.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9275f9e/tur/dj64dev",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9275f9e/tur/dj64dev/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9275f9e/tur/dj64dev/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/dj64dev",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/dj64dev/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/dj64dev/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -1472,9 +1472,9 @@
     ],
     "srcurl": "git+https://github.com/dosemu2/dosemu2",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f26afb/tur/dosemu2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f26afb/tur/dosemu2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f26afb/tur/dosemu2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/360ac50/tur/dosemu2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/360ac50/tur/dosemu2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/360ac50/tur/dosemu2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -2085,9 +2085,9 @@
     ],
     "srcurl": "https://github.com/dosemu2/fdpp/archive/refs/tags/1.9.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9275f9e/tur/fdpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9275f9e/tur/fdpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9275f9e/tur/fdpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/fdpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/fdpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/fdpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -4048,9 +4048,9 @@
     "depends": [],
     "srcurl": "https://github.com/stsp/nasm-segelf/archive/refs/tags/nasm-segelf-2.16.01-4.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/89a8fe9/tur/nasm-segelf",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/89a8fe9/tur/nasm-segelf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/89a8fe9/tur/nasm-segelf/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/nasm-segelf",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/nasm-segelf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/nasm-segelf/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4569,18 +4569,18 @@
     ],
     "srcurl": "https://ftpmirror.gnu.org/octave/octave-9.2.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/octave",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/octave/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/octave/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/octave",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/octave/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/octave/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/octave/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/octave/0002-append-rpath-flag-to-pkg-config-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/octave/0003-undefine-the-macro-in-pwd.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/octave/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/octave/0002-append-rpath-flag-to-pkg-config-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/octave/0003-undefine-the-macro-in-pwd.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/octave/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/octave/0002-append-rpath-flag-to-pkg-config-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/octave/0003-undefine-the-macro-in-pwd.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/octave/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/octave/0002-append-rpath-flag-to-pkg-config-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/octave/0003-undefine-the-macro-in-pwd.h.patch"
     ],
     "auto_updated": false
   },
@@ -4621,18 +4621,18 @@
     ],
     "srcurl": "https://ftpmirror.gnu.org/octave/octave-9.2.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/512082f/tur/octave-x",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/512082f/tur/octave-x/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/octave-x/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/octave-x",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/octave-x/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/octave-x/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/octave-x/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/octave-x/0002-append-rpath-flag-to-pkg-config-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/512082f/tur/octave-x/0003-undefine-the-macro-in-pwd.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/octave-x/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/octave-x/0002-append-rpath-flag-to-pkg-config-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/octave-x/0003-undefine-the-macro-in-pwd.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/octave-x/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/octave-x/0002-append-rpath-flag-to-pkg-config-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/512082f/tur/octave-x/0003-undefine-the-macro-in-pwd.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/octave-x/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/octave-x/0002-append-rpath-flag-to-pkg-config-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/octave-x/0003-undefine-the-macro-in-pwd.h.patch"
     ],
     "auto_updated": false
   },
@@ -4815,14 +4815,14 @@
     "depends": [],
     "srcurl": "https://github.com/JuliaMath/openspecfun/archive/refs/tags/v0.5.7.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/02af28f/tur/openspecfun",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/02af28f/tur/openspecfun/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/02af28f/tur/openspecfun/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/openspecfun",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/openspecfun/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/openspecfun/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/02af28f/tur/openspecfun/0001-gfortran.patch"
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/openspecfun/0001-gfortran.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/02af28f/tur/openspecfun/0001-gfortran.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/openspecfun/0001-gfortran.patch"
     ],
     "auto_updated": true
   },
@@ -5355,9 +5355,9 @@
     ],
     "srcurl": "git+https://github.com/scipy/scipy",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/694ab01/tur/python-scipy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/694ab01/tur/python-scipy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/694ab01/tur/python-scipy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/python-scipy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/python-scipy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/python-scipy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5767,9 +5767,9 @@
     ],
     "srcurl": "https://github.com/mpimd-csc/qrupdate-ng/archive/refs/tags/v1.1.5.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6815232/tur/qrupdate-ng",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6815232/tur/qrupdate-ng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6815232/tur/qrupdate-ng/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/qrupdate-ng",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/qrupdate-ng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/qrupdate-ng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -6083,16 +6083,16 @@
     ],
     "srcurl": "https://github.com/alexfru/SmallerC/archive/refs/tags/v1.0.2+dos.win.b120a9c.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fe0c2fc/tur/smallerc",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fe0c2fc/tur/smallerc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fe0c2fc/tur/smallerc/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/smallerc",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/smallerc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/smallerc/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/fe0c2fc/tur/smallerc/0001-make-stop-mangling-PATH.patch",
-      "https://github.com/termux-user-repository/tur/blob/fe0c2fc/tur/smallerc/makefile.patch"
+      "https://github.com/termux-user-repository/tur/blob/09d6844/tur/smallerc/0001-make-stop-mangling-PATH.patch",
+      "https://github.com/termux-user-repository/tur/blob/09d6844/tur/smallerc/makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fe0c2fc/tur/smallerc/0001-make-stop-mangling-PATH.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fe0c2fc/tur/smallerc/makefile.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/smallerc/0001-make-stop-mangling-PATH.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/smallerc/makefile.patch"
     ],
     "auto_updated": false
   },
@@ -6225,16 +6225,16 @@
     ],
     "srcurl": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.9.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9217613/tur/suitesparse",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9217613/tur/suitesparse/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9217613/tur/suitesparse/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/suitesparse",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/suitesparse/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/suitesparse/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9217613/tur/suitesparse/0001-android-complex-math.patch",
-      "https://github.com/termux-user-repository/tur/blob/9217613/tur/suitesparse/0002-libm.patch"
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/suitesparse/0001-android-complex-math.patch",
+      "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/suitesparse/0002-libm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9217613/tur/suitesparse/0001-android-complex-math.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9217613/tur/suitesparse/0002-libm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/suitesparse/0001-android-complex-math.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/suitesparse/0002-libm.patch"
     ],
     "auto_updated": true
   },
@@ -6249,9 +6249,9 @@
     ],
     "srcurl": "https://github.com/LLNL/sundials/releases/download/v7.4.0/sundials-7.4.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cb9fccc/tur/sundials",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cb9fccc/tur/sundials/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cb9fccc/tur/sundials/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc12e4d/tur/sundials",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc12e4d/tur/sundials/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc12e4d/tur/sundials/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6419,9 +6419,9 @@
     ],
     "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.6.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b8693e7/tur/thunk-gen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b8693e7/tur/thunk-gen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b8693e7/tur/thunk-gen/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/thunk-gen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/thunk-gen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/thunk-gen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
