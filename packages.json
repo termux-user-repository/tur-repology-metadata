@@ -2338,7 +2338,7 @@
   },
   {
     "name": "gcc-12",
-    "version": "12.4.0",
+    "version": "12.5.0",
     "description": "GNU C compiler",
     "homepage": "http://gcc.gnu.org/",
     "depends": [
@@ -2350,38 +2350,38 @@
       "libisl",
       "zlib"
     ],
-    "srcurl": "https://ftp.gnu.org/gnu/gcc/gcc-12.4.0/gcc-12.4.0.tar.gz",
+    "srcurl": "https://mirrors.kernel.org/gnu/gcc/gcc-12.5.0/gcc-12.5.0.tar.gz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ae59efe/tur/gcc-12",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c9c228a/tur/gcc-12",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0001-android-related-modifications.patch",
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0002-fix-missing-_L.patch",
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0003-disable-call-ssp-local.patch",
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0004-avoid-hard-link-install.patch",
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0005-check-both-android-and-bionic-macro.patch",
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0008-explicitly-some-headers.patch",
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0009-remove-sys-sysctl.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/ae59efe/tur/gcc-12/0010-stop-using-PTR-macro.patch"
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0001-android-related-modifications.patch",
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0002-fix-missing-_L.patch",
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0003-disable-call-ssp-local.patch",
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0004-avoid-hard-link-install.patch",
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0005-check-both-android-and-bionic-macro.patch",
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0008-explicitly-some-headers.patch",
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0009-remove-sys-sysctl.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/c9c228a/tur/gcc-12/0010-stop-using-PTR-macro.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0001-android-related-modifications.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0002-fix-missing-_L.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0003-disable-call-ssp-local.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0004-avoid-hard-link-install.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0005-check-both-android-and-bionic-macro.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0008-explicitly-some-headers.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0009-remove-sys-sysctl.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae59efe/tur/gcc-12/0010-stop-using-PTR-macro.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0001-android-related-modifications.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0002-fix-missing-_L.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0003-disable-call-ssp-local.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0004-avoid-hard-link-install.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0005-check-both-android-and-bionic-macro.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0008-explicitly-some-headers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0009-remove-sys-sysctl.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c9c228a/tur/gcc-12/0010-stop-using-PTR-macro.patch"
     ],
     "auto_updated": false
   },
   {
     "name": "gcc-13",
-    "version": "13.3.0",
+    "version": "13.4.0",
     "description": "GNU C compiler",
     "homepage": "http://gcc.gnu.org/",
     "depends": [
@@ -2393,38 +2393,38 @@
       "libisl",
       "zlib"
     ],
-    "srcurl": "https://ftp.gnu.org/gnu/gcc/gcc-13.3.0/gcc-13.3.0.tar.gz",
+    "srcurl": "https://mirrors.kernel.org/gnu/gcc/gcc-13.4.0/gcc-13.4.0.tar.gz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3d37542/tur/gcc-13",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5e21fe4/tur/gcc-13",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0001-android-related-modifications.patch",
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0002-fix-missing-_L.patch",
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0003-disable-call-ssp-local.patch",
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0004-avoid-hard-link-install.patch",
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0005-check-both-android-and-bionic-macro.patch",
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0008-explicitly-some-headers.patch",
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0009-remove-sys-sysctl.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/3d37542/tur/gcc-13/0010-fix-ginclude-limits.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0001-android-related-modifications.patch",
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0002-fix-missing-_L.patch",
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0003-disable-call-ssp-local.patch",
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0004-avoid-hard-link-install.patch",
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0005-check-both-android-and-bionic-macro.patch",
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0008-explicitly-some-headers.patch",
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0009-remove-sys-sysctl.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/5e21fe4/tur/gcc-13/0010-fix-ginclude-limits.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0001-android-related-modifications.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0002-fix-missing-_L.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0003-disable-call-ssp-local.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0004-avoid-hard-link-install.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0005-check-both-android-and-bionic-macro.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0008-explicitly-some-headers.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0009-remove-sys-sysctl.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3d37542/tur/gcc-13/0010-fix-ginclude-limits.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0001-android-related-modifications.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0002-fix-missing-_L.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0003-disable-call-ssp-local.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0004-avoid-hard-link-install.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0005-check-both-android-and-bionic-macro.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0008-explicitly-some-headers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0009-remove-sys-sysctl.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5e21fe4/tur/gcc-13/0010-fix-ginclude-limits.h.patch"
     ],
     "auto_updated": false
   },
   {
     "name": "gcc-14",
-    "version": "14.2.0",
+    "version": "14.3.0",
     "description": "GNU C compiler",
     "homepage": "http://gcc.gnu.org/",
     "depends": [
@@ -2436,32 +2436,32 @@
       "libisl",
       "zlib"
     ],
-    "srcurl": "https://ftp.gnu.org/gnu/gcc/gcc-14.2.0/gcc-14.2.0.tar.gz",
+    "srcurl": "https://mirrors.kernel.org/gnu/gcc/gcc-14.3.0/gcc-14.3.0.tar.gz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/35c2986/tur/gcc-14",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d2dede3/tur/gcc-14",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0001-android-related-modifications.patch",
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0002-fix-missing-_L.patch",
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0003-disable-call-ssp-local.patch",
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0004-avoid-hard-link-install.patch",
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0005-check-both-android-and-bionic-macro.patch",
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0006-remove-sys-sysctl.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0008-explicitly-some-headers.patch",
-      "https://github.com/termux-user-repository/tur/blob/35c2986/tur/gcc-14/0009-fix-ginclude-limits.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0001-android-related-modifications.patch",
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0002-fix-missing-_L.patch",
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0003-disable-call-ssp-local.patch",
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0004-avoid-hard-link-install.patch",
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0005-check-both-android-and-bionic-macro.patch",
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0006-remove-sys-sysctl.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0008-explicitly-some-headers.patch",
+      "https://github.com/termux-user-repository/tur/blob/d2dede3/tur/gcc-14/0009-fix-ginclude-limits.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0001-android-related-modifications.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0002-fix-missing-_L.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0003-disable-call-ssp-local.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0004-avoid-hard-link-install.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0005-check-both-android-and-bionic-macro.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0006-remove-sys-sysctl.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0008-explicitly-some-headers.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/35c2986/tur/gcc-14/0009-fix-ginclude-limits.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0001-android-related-modifications.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0002-fix-missing-_L.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0003-disable-call-ssp-local.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0004-avoid-hard-link-install.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0005-check-both-android-and-bionic-macro.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0006-remove-sys-sysctl.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0008-explicitly-some-headers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d2dede3/tur/gcc-14/0009-fix-ginclude-limits.h.patch"
     ],
     "auto_updated": false
   },
@@ -6333,7 +6333,7 @@
   },
   {
     "name": "tabby",
-    "version": "0.30.0",
+    "version": "0.31.2",
     "description": "Self-hosted AI coding assistant",
     "homepage": "https://tabby.tabbyml.com/",
     "depends": [
@@ -6344,16 +6344,14 @@
     ],
     "srcurl": "git+https://github.com/TabbyML/tabby",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7a94a4d/tur/tabby",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7a94a4d/tur/tabby/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7a94a4d/tur/tabby/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d74bdb7/tur/tabby",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d74bdb7/tur/tabby/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d74bdb7/tur/tabby/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7a94a4d/tur/tabby/0001-llama-cpp-crosscompiling.patch",
-      "https://github.com/termux-user-repository/tur/blob/7a94a4d/tur/tabby/0002-llama-cpp-no-stdcxxfs.patch"
+      "https://github.com/termux-user-repository/tur/blob/d74bdb7/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7a94a4d/tur/tabby/0001-llama-cpp-crosscompiling.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7a94a4d/tur/tabby/0002-llama-cpp-no-stdcxxfs.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d74bdb7/tur/tabby/0001-llama-cpp-crosscompiling.patch"
     ],
     "auto_updated": true
   },
@@ -7019,7 +7017,7 @@
   },
   {
     "name": "bettercap",
-    "version": "2.41.0",
+    "version": "2.41.1",
     "description": "The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks. ",
     "homepage": "https://www.bettercap.org/",
     "depends": [
@@ -7028,11 +7026,11 @@
       "root-repo",
       "libnetfilter-queue"
     ],
-    "srcurl": "https://github.com/bettercap/bettercap/archive/refs/tags/v2.41.0.tar.gz",
+    "srcurl": "https://github.com/bettercap/bettercap/archive/refs/tags/v2.41.1.tar.gz",
     "maintainer": "1q23lyc45",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/89a8536/tur-hacking/bettercap",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/89a8536/tur-hacking/bettercap/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/89a8536/tur-hacking/bettercap/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3fd1436/tur-hacking/bettercap",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3fd1436/tur-hacking/bettercap/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3fd1436/tur-hacking/bettercap/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
