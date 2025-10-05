@@ -1410,15 +1410,15 @@
   },
   {
     "name": "djstub",
-    "version": "0.3",
+    "version": "0.7",
     "description": "go32-compatible stub that supports COFF, PE and ELF payloads",
     "homepage": "https://github.com/stsp/djstub",
     "depends": [],
-    "srcurl": "https://github.com/stsp/djstub/archive/refs/tags/0.3.tar.gz",
+    "srcurl": "https://github.com/stsp/djstub/archive/refs/tags/0.7.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d39c7ae/tur/djstub",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d39c7ae/tur/djstub/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d39c7ae/tur/djstub/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8a60422/tur/djstub",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8a60422/tur/djstub/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8a60422/tur/djstub/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6411,7 +6411,7 @@
   },
   {
     "name": "thunk-gen",
-    "version": "1.6",
+    "version": "1.8",
     "description": "thunk generator for C and assembler",
     "homepage": "https://github.com/stsp/thunk_gen",
     "depends": [
@@ -6419,11 +6419,11 @@
       "autoconf",
       "pkg-config"
     ],
-    "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.6.tar.gz",
+    "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.8.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/thunk-gen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/thunk-gen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/thunk-gen/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6d9552f/tur/thunk-gen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6d9552f/tur/thunk-gen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6d9552f/tur/thunk-gen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
