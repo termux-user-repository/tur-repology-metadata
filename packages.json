@@ -5442,7 +5442,7 @@
   },
   {
     "name": "python-tokenizers",
-    "version": "0.21.2",
+    "version": "0.22.1",
     "description": "Fast State-of-the-Art Tokenizers optimized for Research and Production",
     "homepage": "https://github.com/huggingface/tokenizers",
     "depends": [
@@ -5450,11 +5450,11 @@
       "python",
       "python-pip"
     ],
-    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.21.2.tar.gz",
+    "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.22.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/728d7c5/tur/python-tokenizers",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/728d7c5/tur/python-tokenizers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/728d7c5/tur/python-tokenizers/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ad83c05/tur/python-tokenizers",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ad83c05/tur/python-tokenizers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ad83c05/tur/python-tokenizers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6333,7 +6333,7 @@
   },
   {
     "name": "tabby",
-    "version": "0.29.0",
+    "version": "0.30.0",
     "description": "Self-hosted AI coding assistant",
     "homepage": "https://tabby.tabbyml.com/",
     "depends": [
@@ -6344,16 +6344,16 @@
     ],
     "srcurl": "git+https://github.com/TabbyML/tabby",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc6ac98/tur/tabby",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc6ac98/tur/tabby/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc6ac98/tur/tabby/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7a94a4d/tur/tabby",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7a94a4d/tur/tabby/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7a94a4d/tur/tabby/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bc6ac98/tur/tabby/0001-llama-cpp-crosscompiling.patch",
-      "https://github.com/termux-user-repository/tur/blob/bc6ac98/tur/tabby/0002-llama-cpp-no-stdcxxfs.patch"
+      "https://github.com/termux-user-repository/tur/blob/7a94a4d/tur/tabby/0001-llama-cpp-crosscompiling.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a94a4d/tur/tabby/0002-llama-cpp-no-stdcxxfs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc6ac98/tur/tabby/0001-llama-cpp-crosscompiling.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc6ac98/tur/tabby/0002-llama-cpp-no-stdcxxfs.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a94a4d/tur/tabby/0001-llama-cpp-crosscompiling.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a94a4d/tur/tabby/0002-llama-cpp-no-stdcxxfs.patch"
     ],
     "auto_updated": true
   },
@@ -7163,37 +7163,34 @@
   },
   {
     "name": "hashcat",
-    "version": "6.2.6",
+    "version": "7.1.2",
     "description": "World's fastest and most advanced password recovery utility",
     "homepage": "https://hashcat.net/hashcat/",
     "depends": [
-      "opencl-vendor-driver",
-      "libiconv"
+      "libc++",
+      "libiconv",
+      "opencl-vendor-driver"
     ],
-    "srcurl": "https://github.com/hashcat/hashcat/archive/refs/tags/v6.2.6.tar.gz",
+    "srcurl": "https://github.com/hashcat/hashcat/archive/refs/tags/v7.1.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ac34cc6/tur-hacking/hashcat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/822a2eb/tur-hacking/hashcat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/822a2eb/tur-hacking/hashcat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb/tur-hacking/hashcat/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/deps-unrar-ulinks.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/include-ext_lzma.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/include-types.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/lzma-disable_hardware_acceleration_support_on_arm.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/lzma-guard_armv8_feature_from_old_architectures.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/pthread.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/src-Makefile.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur-hacking/hashcat/src-filehandling.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/822a2eb/tur-hacking/hashcat/deps-unrar-ulinks.cpp.patch",
+      "https://github.com/termux-user-repository/tur/blob/822a2eb/tur-hacking/hashcat/include-ext_lzma.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/822a2eb/tur-hacking/hashcat/include-types.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/822a2eb/tur-hacking/hashcat/pthread.patch",
+      "https://github.com/termux-user-repository/tur/blob/822a2eb/tur-hacking/hashcat/src-Makefile.patch",
+      "https://github.com/termux-user-repository/tur/blob/822a2eb/tur-hacking/hashcat/src-filehandling.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/deps-unrar-ulinks.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/include-ext_lzma.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/include-types.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/lzma-disable_hardware_acceleration_support_on_arm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/lzma-guard_armv8_feature_from_old_architectures.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/pthread.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/src-Makefile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur-hacking/hashcat/src-filehandling.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb/tur-hacking/hashcat/deps-unrar-ulinks.cpp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb/tur-hacking/hashcat/include-ext_lzma.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb/tur-hacking/hashcat/include-types.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb/tur-hacking/hashcat/pthread.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb/tur-hacking/hashcat/src-Makefile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb/tur-hacking/hashcat/src-filehandling.c.patch"
     ],
     "auto_updated": true
   },
