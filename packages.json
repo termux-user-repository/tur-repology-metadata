@@ -2467,7 +2467,7 @@
   },
   {
     "name": "gcc-15",
-    "version": "15.1.0",
+    "version": "15.2.0",
     "description": "GNU C compiler",
     "homepage": "http://gcc.gnu.org/",
     "depends": [
@@ -2479,32 +2479,32 @@
       "libisl",
       "zlib"
     ],
-    "srcurl": "https://mirrors.ustc.edu.cn/gnu/gcc/gcc-15.1.0/gcc-15.1.0.tar.gz",
+    "srcurl": "https://mirrors.kernel.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.gz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a4c0438/tur/gcc-15",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9913546/tur/gcc-15",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0001-android-related-modifications.patch",
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0002-fix-missing-_L.patch",
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0003-disable-call-ssp-local.patch",
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0004-avoid-hard-link-install.patch",
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0005-check-both-android-and-bionic-macro.patch",
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0006-remove-sys-sysctl.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0008-explicitly-some-headers.patch",
-      "https://github.com/termux-user-repository/tur/blob/a4c0438/tur/gcc-15/0009-fix-ginclude-limits.h.patch"
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0001-android-related-modifications.patch",
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0002-fix-missing-_L.patch",
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0003-disable-call-ssp-local.patch",
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0004-avoid-hard-link-install.patch",
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0005-check-both-android-and-bionic-macro.patch",
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0006-remove-sys-sysctl.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0008-explicitly-some-headers.patch",
+      "https://github.com/termux-user-repository/tur/blob/9913546/tur/gcc-15/0009-fix-ginclude-limits.h.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0001-android-related-modifications.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0002-fix-missing-_L.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0003-disable-call-ssp-local.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0004-avoid-hard-link-install.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0005-check-both-android-and-bionic-macro.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0006-remove-sys-sysctl.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0007-override-CXXFLAGS-in-Makefile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0008-explicitly-some-headers.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a4c0438/tur/gcc-15/0009-fix-ginclude-limits.h.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0001-android-related-modifications.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0002-fix-missing-_L.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0003-disable-call-ssp-local.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0004-avoid-hard-link-install.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0005-check-both-android-and-bionic-macro.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0006-remove-sys-sysctl.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0008-explicitly-some-headers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9913546/tur/gcc-15/0009-fix-ginclude-limits.h.patch"
     ],
     "auto_updated": false
   },
@@ -7618,7 +7618,7 @@
   },
   {
     "name": "gnome-chess",
-    "version": "48.0",
+    "version": "49.2",
     "description": "GNOME Chess game",
     "homepage": "https://wiki.gnome.org/Apps(2f)Chess.html",
     "depends": [
@@ -7631,11 +7631,11 @@
       "opengl",
       "pango"
     ],
-    "srcurl": "https://download.gnome.org/sources/gnome-chess/48/gnome-chess-48.0.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/gnome-chess/49/gnome-chess-49.2.tar.xz",
     "maintainer": "@lunsokhasovan, @termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3de922d/tur-on-device/gnome-chess",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3de922d/tur-on-device/gnome-chess/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3de922d/tur-on-device/gnome-chess/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0537002/tur-on-device/gnome-chess",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0537002/tur-on-device/gnome-chess/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0537002/tur-on-device/gnome-chess/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7664,7 +7664,7 @@
   },
   {
     "name": "gnome-sudoku",
-    "version": "48.1",
+    "version": "49.0",
     "description": "GNOME Sudoku game",
     "homepage": "https://wiki.gnome.org/Apps(2f)Sudoku.html",
     "depends": [
@@ -7677,11 +7677,11 @@
       "opengl",
       "qqwing"
     ],
-    "srcurl": "https://download.gnome.org/sources/gnome-sudoku/48/gnome-sudoku-48.1.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/gnome-sudoku/49/gnome-sudoku-49.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d7792b3/tur-on-device/gnome-sudoku",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d7792b3/tur-on-device/gnome-sudoku/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d7792b3/tur-on-device/gnome-sudoku/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/692e5bb/tur-on-device/gnome-sudoku",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/692e5bb/tur-on-device/gnome-sudoku/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/692e5bb/tur-on-device/gnome-sudoku/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
