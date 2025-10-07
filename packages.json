@@ -1064,17 +1064,17 @@
   },
   {
     "name": "comcom64",
-    "version": "0.2",
+    "version": "0.4",
     "description": "64bit command.com",
     "homepage": "https://github.com/dosemu2/comcom64",
     "depends": [
       "dj64dev"
     ],
-    "srcurl": "https://github.com/dosemu2/comcom64/archive/refs/tags/0.2.tar.gz",
+    "srcurl": "https://github.com/dosemu2/comcom64/archive/refs/tags/0.4.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/comcom64",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/comcom64/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/comcom64/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc437d0/tur/comcom64",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc437d0/tur/comcom64/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc437d0/tur/comcom64/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -1391,19 +1391,18 @@
   },
   {
     "name": "dj64dev",
-    "version": "0.3",
+    "version": "0.4",
     "description": "development suite that allows to cross-build 64-bit programs for DOS",
     "homepage": "https://github.com/stsp/dj64dev",
     "depends": [
-      "djstub",
-      "thunk-gen",
+      "pkg-config",
       "libelf"
     ],
-    "srcurl": "https://github.com/stsp/dj64dev/archive/refs/tags/0.3.tar.gz",
+    "srcurl": "https://github.com/stsp/dj64dev/archive/refs/tags/0.4.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/dj64dev",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/dj64dev/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/dj64dev/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2d15fcd/tur/dj64dev",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2d15fcd/tur/dj64dev/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2d15fcd/tur/dj64dev/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -1467,14 +1466,17 @@
       "json-c",
       "libseccomp",
       "libsearpc",
+      "sdl3",
+      "sdl3-ttf",
+      "fontconfig",
       "fdpp",
       "dj64dev"
     ],
     "srcurl": "git+https://github.com/dosemu2/dosemu2",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/360ac50/tur/dosemu2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/360ac50/tur/dosemu2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/360ac50/tur/dosemu2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9ae165d/tur/dosemu2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9ae165d/tur/dosemu2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9ae165d/tur/dosemu2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -2077,17 +2079,17 @@
   },
   {
     "name": "fdpp",
-    "version": "1.9",
+    "version": "1.10",
     "description": "64-bit DOS core",
     "homepage": "https://github.com/dosemu2/fdpp",
     "depends": [
       "libelf"
     ],
-    "srcurl": "https://github.com/dosemu2/fdpp/archive/refs/tags/1.9.tar.gz",
+    "srcurl": "https://github.com/dosemu2/fdpp/archive/refs/tags/1.10.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/fdpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/fdpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/fdpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fa51379/tur/fdpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fa51379/tur/fdpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fa51379/tur/fdpp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -2747,17 +2749,17 @@
   },
   {
     "name": "instfd",
-    "version": "0.3",
+    "version": "0.4",
     "description": "FreeDOS installed for dosemu2",
     "homepage": "https://github.com/dosemu2/install-freedos",
     "depends": [
       "python"
     ],
-    "srcurl": "https://github.com/dosemu2/install-freedos/archive/refs/tags/0.3.tar.gz",
+    "srcurl": "https://github.com/dosemu2/install-freedos/archive/refs/tags/0.4.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/99fb465/tur/instfd",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/99fb465/tur/instfd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/99fb465/tur/instfd/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/19506d2/tur/instfd",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/19506d2/tur/instfd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/19506d2/tur/instfd/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6024,6 +6026,25 @@
     "auto_updated": true
   },
   {
+    "name": "sdl3-ttf",
+    "version": "3.2.2",
+    "description": "A library that allows you to use TrueType fonts in your SDL applications (version 3)",
+    "homepage": "https://github.com/libsdl-org/SDL_ttf",
+    "depends": [
+      "freetype",
+      "opengl",
+      "sdl3"
+    ],
+    "srcurl": "https://github.com/libsdl-org/SDL_ttf/archive/refs/tags/release-3.2.2.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f6cf104/tur/sdl3-ttf",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f6cf104/tur/sdl3-ttf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f6cf104/tur/sdl3-ttf/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "sdlpal",
     "version": "2.0.2024.08.06",
     "description": "SDL-based reimplementation of the classic Chinese-language RPG known as PAL",
@@ -6085,18 +6106,18 @@
     ],
     "srcurl": "https://github.com/alexfru/SmallerC/archive/refs/tags/v1.0.2+dos.win.b120a9c.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09d6844/tur/smallerc",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09d6844/tur/smallerc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/smallerc/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6fe82cb/tur/smallerc",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6fe82cb/tur/smallerc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6fe82cb/tur/smallerc/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/09d6844/tur/smallerc/0001-make-stop-mangling-PATH.patch",
-      "https://github.com/termux-user-repository/tur/blob/09d6844/tur/smallerc/makefile.patch"
+      "https://github.com/termux-user-repository/tur/blob/6fe82cb/tur/smallerc/0001-make-stop-mangling-PATH.patch",
+      "https://github.com/termux-user-repository/tur/blob/6fe82cb/tur/smallerc/makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/smallerc/0001-make-stop-mangling-PATH.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/09d6844/tur/smallerc/makefile.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6fe82cb/tur/smallerc/0001-make-stop-mangling-PATH.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6fe82cb/tur/smallerc/makefile.patch"
     ],
-    "auto_updated": false
+    "auto_updated": true
   },
   {
     "name": "smartdns",
