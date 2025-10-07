@@ -5357,9 +5357,9 @@
     ],
     "srcurl": "git+https://github.com/scipy/scipy",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6cdecf7/tur/python-scipy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6cdecf7/tur/python-scipy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6cdecf7/tur/python-scipy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bb21d9b/tur/python-scipy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bb21d9b/tur/python-scipy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bb21d9b/tur/python-scipy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
