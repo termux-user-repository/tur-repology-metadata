@@ -1072,11 +1072,15 @@
     ],
     "srcurl": "https://github.com/dosemu2/comcom64/archive/refs/tags/0.4.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc437d0/tur/comcom64",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc437d0/tur/comcom64/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc437d0/tur/comcom64/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/402dd12/tur/comcom64",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/402dd12/tur/comcom64/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/402dd12/tur/comcom64/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/402dd12/tur/comcom64/0001-make-set-prefix-for-termux.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/402dd12/tur/comcom64/0001-make-set-prefix-for-termux.patch"
+    ],
     "auto_updated": false
   },
   {
@@ -1400,11 +1404,17 @@
     ],
     "srcurl": "https://github.com/stsp/dj64dev/archive/refs/tags/0.4.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2d15fcd/tur/dj64dev",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2d15fcd/tur/dj64dev/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2d15fcd/tur/dj64dev/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ba127c3/tur/dj64dev",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ba127c3/tur/dj64dev/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ba127c3/tur/dj64dev/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/ba127c3/tur/dj64dev/0001-configure-set-correct-prefix-on-termux.patch",
+      "https://github.com/termux-user-repository/tur/blob/ba127c3/tur/dj64dev/0002-stub-disable-second-ldr-for-now.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba127c3/tur/dj64dev/0001-configure-set-correct-prefix-on-termux.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba127c3/tur/dj64dev/0002-stub-disable-second-ldr-for-now.patch"
+    ],
     "auto_updated": false
   },
   {
@@ -1474,9 +1484,9 @@
     ],
     "srcurl": "git+https://github.com/dosemu2/dosemu2",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9ae165d/tur/dosemu2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9ae165d/tur/dosemu2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9ae165d/tur/dosemu2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c609931/tur/dosemu2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c609931/tur/dosemu2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c609931/tur/dosemu2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
