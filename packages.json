@@ -1484,9 +1484,9 @@
     ],
     "srcurl": "git+https://github.com/dosemu2/dosemu2",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c609931/tur/dosemu2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c609931/tur/dosemu2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c609931/tur/dosemu2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8ece696/tur/dosemu2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8ece696/tur/dosemu2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8ece696/tur/dosemu2/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
