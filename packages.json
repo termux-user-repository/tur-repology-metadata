@@ -2142,7 +2142,7 @@
   },
   {
     "name": "ffmpeg5.1",
-    "version": "5.1.4",
+    "version": "5.1.7",
     "description": "Tools and libraries to manipulate a wide range of multimedia formats and protocols",
     "homepage": "https://ffmpeg.org",
     "depends": [
@@ -2172,24 +2172,24 @@
       "xvidcore",
       "zlib"
     ],
-    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-5.1.4.tar.xz",
+    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-5.1.7.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/52735ce/tur/ffmpeg5.1",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/52735ce/tur/ffmpeg5.1/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/52735ce/tur/ffmpeg5.1/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/65da3f4/tur/ffmpeg5.1",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/65da3f4/tur/ffmpeg5.1/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/65da3f4/tur/ffmpeg5.1/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/52735ce/tur/ffmpeg5.1/enable-soname-version.patch",
-      "https://github.com/termux-user-repository/tur/blob/52735ce/tur/ffmpeg5.1/libavutil-file_open.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/65da3f4/tur/ffmpeg5.1/enable-soname-version.patch",
+      "https://github.com/termux-user-repository/tur/blob/65da3f4/tur/ffmpeg5.1/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/52735ce/tur/ffmpeg5.1/enable-soname-version.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/52735ce/tur/ffmpeg5.1/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/65da3f4/tur/ffmpeg5.1/enable-soname-version.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/65da3f4/tur/ffmpeg5.1/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
   {
     "name": "ffmpeg7",
-    "version": "7.0.2",
+    "version": "7.1.2",
     "description": "Tools and libraries to manipulate a wide range of multimedia formats and protocols",
     "homepage": "https://ffmpeg.org",
     "depends": [
@@ -2219,18 +2219,18 @@
       "xvidcore",
       "zlib"
     ],
-    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-7.0.2.tar.xz",
+    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-7.1.2.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b949456/tur/ffmpeg7",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b949456/tur/ffmpeg7/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b949456/tur/ffmpeg7/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8161189/tur/ffmpeg7",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8161189/tur/ffmpeg7/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8161189/tur/ffmpeg7/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b949456/tur/ffmpeg7/enable-soname-version.patch",
-      "https://github.com/termux-user-repository/tur/blob/b949456/tur/ffmpeg7/libavutil-file_open.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/8161189/tur/ffmpeg7/enable-soname-version.patch",
+      "https://github.com/termux-user-repository/tur/blob/8161189/tur/ffmpeg7/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b949456/tur/ffmpeg7/enable-soname-version.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b949456/tur/ffmpeg7/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8161189/tur/ffmpeg7/enable-soname-version.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8161189/tur/ffmpeg7/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
@@ -6043,7 +6043,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.93.0-2025.10.27-nightly",
+    "version": "1.93.0-2025.10.28-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -6055,30 +6055,30 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-10-27/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-10-28/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/85bb004/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c3a1224/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/85bb004/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
+      "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/c3a1224/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/85bb004/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c3a1224/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
     ],
     "auto_updated": true
   },
