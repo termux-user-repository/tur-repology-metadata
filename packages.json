@@ -704,8 +704,8 @@
   },
   {
     "name": "chromium-beta",
-    "version": "139.0.7258.5",
-    "description": "Chromium web browser (Beta Version)",
+    "version": "142.0.7444.52",
+    "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
       "atk",
@@ -715,12 +715,10 @@
       "gtk3",
       "krb5",
       "libc++",
-      "libdrm",
       "libevdev",
       "libxkbcommon",
       "libminizip",
       "libnss",
-      "libwayland",
       "libx11",
       "mesa",
       "openssl",
@@ -728,22 +726,22 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-139.0.7258.5.tar.xz",
+    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-142.0.7444.52.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ea74d9d/tur/chromium-beta",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ea74d9d/tur/chromium-beta/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ea74d9d/tur/chromium-beta/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0e4880b/tur/chromium-beta",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0e4880b/tur/chromium-beta/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0e4880b/tur/chromium-beta/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ea74d9d/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea74d9d/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea74d9d/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/ea74d9d/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
+      "https://github.com/termux-user-repository/tur/blob/0e4880b/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/0e4880b/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/0e4880b/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/0e4880b/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea74d9d/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea74d9d/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea74d9d/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ea74d9d/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0e4880b/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0e4880b/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0e4880b/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0e4880b/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
     ],
     "auto_updated": false
   },
@@ -1121,15 +1119,15 @@
   },
   {
     "name": "crush",
-    "version": "0.13.0",
+    "version": "0.13.2",
     "description": "The glamourous AI coding agent for your favourite terminal",
     "homepage": "https://github.com/charmbracelet/crush",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.13.0.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.13.2.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b79f945/tur/crush",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b79f945/tur/crush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b79f945/tur/crush/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8fcf62b/tur/crush",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8fcf62b/tur/crush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8fcf62b/tur/crush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
