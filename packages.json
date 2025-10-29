@@ -2234,22 +2234,22 @@
   },
   {
     "name": "ffplayout",
-    "version": "0.24.4",
+    "version": "0.25.7",
     "description": "Rust and ffmpeg based playout",
     "homepage": "https://ffplayout.github.io",
-    "depends": [],
+    "depends": [
+      "ffmpeg"
+    ],
     "srcurl": "git+https://github.com/ffplayout/ffplayout",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f19b553/tur/ffplayout",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f19b553/tur/ffplayout/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f19b553/tur/ffplayout/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/89e898b/tur/ffplayout",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/89e898b/tur/ffplayout/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/89e898b/tur/ffplayout/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f19b553/tur/ffplayout/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/f19b553/tur/ffplayout/0002-use-pre-generated-html.patch"
+      "https://github.com/termux-user-repository/tur/blob/89e898b/tur/ffplayout/0001-fix-hardcoded-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f19b553/tur/ffplayout/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f19b553/tur/ffplayout/0002-use-pre-generated-html.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89e898b/tur/ffplayout/0001-fix-hardcoded-paths.patch"
     ],
     "auto_updated": true
   },
@@ -5397,7 +5397,7 @@
   },
   {
     "name": "python-scipy",
-    "version": "1:1.16.2",
+    "version": "1:1.16.3",
     "description": "Fundamental algorithms for scientific computing in Python",
     "homepage": "https://scipy.org/",
     "depends": [
@@ -5408,9 +5408,9 @@
     ],
     "srcurl": "git+https://github.com/scipy/scipy",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bb21d9b/tur/python-scipy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bb21d9b/tur/python-scipy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bb21d9b/tur/python-scipy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a41bcbb/tur/python-scipy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a41bcbb/tur/python-scipy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a41bcbb/tur/python-scipy/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
