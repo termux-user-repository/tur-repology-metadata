@@ -164,7 +164,7 @@
   },
   {
     "name": "archisteamfarm",
-    "version": "6.2.2.3",
+    "version": "6.2.3.1",
     "description": "ArchiSteamFarm",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
     "depends": [
@@ -174,14 +174,14 @@
     ],
     "srcurl": "git+https://github.com/JustArchiNET/ArchiSteamFarm",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/314f627/tur/archisteamfarm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/314f627/tur/archisteamfarm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/314f627/tur/archisteamfarm/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/413d215/tur/archisteamfarm",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/413d215/tur/archisteamfarm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/413d215/tur/archisteamfarm/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/314f627/tur/archisteamfarm/cc.sh.patch"
+      "https://github.com/termux-user-repository/tur/blob/413d215/tur/archisteamfarm/cc.sh.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/314f627/tur/archisteamfarm/cc.sh.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/413d215/tur/archisteamfarm/cc.sh.patch"
     ],
     "auto_updated": true
   },
@@ -1123,15 +1123,15 @@
   },
   {
     "name": "crush",
-    "version": "0.13.2",
+    "version": "0.13.7",
     "description": "The glamourous AI coding agent for your favourite terminal",
     "homepage": "https://github.com/charmbracelet/crush",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.13.2.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.13.7.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8fcf62b/tur/crush",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8fcf62b/tur/crush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8fcf62b/tur/crush/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3cff098/tur/crush",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3cff098/tur/crush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3cff098/tur/crush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -2259,15 +2259,15 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.44.2",
+    "version": "2.45.0",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.44.2.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.45.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/225e155/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/225e155/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/225e155/tur/filebrowser/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b888e78/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b888e78/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b888e78/tur/filebrowser/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
