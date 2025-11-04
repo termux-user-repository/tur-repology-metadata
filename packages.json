@@ -1086,6 +1086,28 @@
     "auto_updated": true
   },
   {
+    "name": "codex",
+    "version": "0.53.0",
+    "description": "Lightweight coding agent that runs in your terminal",
+    "homepage": "https://github.com/openai/codex",
+    "depends": [
+      "libc++",
+      "openssl"
+    ],
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.53.0.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/07434b6/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/07434b6/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/07434b6/tur/codex/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/07434b6/tur/codex/0001-fix-deps.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/07434b6/tur/codex/0001-fix-deps.patch"
+    ],
+    "auto_updated": true
+  },
+  {
     "name": "comcom64",
     "version": "0.4",
     "description": "64bit command.com",
@@ -6262,18 +6284,18 @@
   },
   {
     "name": "stern",
-    "version": "1.33.0",
+    "version": "1.33.1",
     "description": "Multi pod and container log tailing for Kubernetes - Fork of https://github.com/wercker/stern",
     "homepage": "https://github.com/stern/stern",
     "depends": [
       "pacman",
       "kubectl"
     ],
-    "srcurl": "https://github.com/stern/stern/archive/refs/tags/v1.33.0.tar.gz",
+    "srcurl": "https://github.com/stern/stern/archive/refs/tags/v1.33.1.tar.gz",
     "maintainer": "@idj0",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/672e015/tur/stern",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/672e015/tur/stern/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/672e015/tur/stern/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f2d89fe/tur/stern",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f2d89fe/tur/stern/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f2d89fe/tur/stern/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
