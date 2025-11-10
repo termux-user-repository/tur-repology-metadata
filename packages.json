@@ -1087,23 +1087,23 @@
   },
   {
     "name": "codex",
-    "version": "0.56.0",
+    "version": "0.57.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.56.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.57.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6c269bf/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6c269bf/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6c269bf/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/53034ef/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/53034ef/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/53034ef/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6c269bf/tur/codex/0001-fix-deps.patch"
+      "https://github.com/termux-user-repository/tur/blob/53034ef/tur/codex/0001-fix-deps.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6c269bf/tur/codex/0001-fix-deps.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/53034ef/tur/codex/0001-fix-deps.patch"
     ],
     "auto_updated": true
   },
@@ -6629,20 +6629,20 @@
   },
   {
     "name": "uutils-coreutils",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
     "homepage": "https://uutils.github.io/",
     "depends": [],
-    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.3.0.tar.gz",
+    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.4.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/559fa98/tur/uutils-coreutils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/559fa98/tur/uutils-coreutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/559fa98/tur/uutils-coreutils/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0fbdc34/tur/uutils-coreutils",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0fbdc34/tur/uutils-coreutils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0fbdc34/tur/uutils-coreutils/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/559fa98/tur/uutils-coreutils/0001-selinux.patch"
+      "https://github.com/termux-user-repository/tur/blob/0fbdc34/tur/uutils-coreutils/0001-selinux.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/559fa98/tur/uutils-coreutils/0001-selinux.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0fbdc34/tur/uutils-coreutils/0001-selinux.patch"
     ],
     "auto_updated": true
   },
