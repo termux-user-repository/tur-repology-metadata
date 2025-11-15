@@ -1087,23 +1087,23 @@
   },
   {
     "name": "codex",
-    "version": "0.57.0",
+    "version": "0.58.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.57.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.58.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/53034ef/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/53034ef/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/53034ef/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4924d11/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4924d11/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4924d11/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/53034ef/tur/codex/0001-fix-deps.patch"
+      "https://github.com/termux-user-repository/tur/blob/4924d11/tur/codex/0001-fix-deps.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/53034ef/tur/codex/0001-fix-deps.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4924d11/tur/codex/0001-fix-deps.patch"
     ],
     "auto_updated": true
   },
@@ -2281,15 +2281,15 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.45.1",
+    "version": "2.45.3",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.45.1.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.45.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/24bbc1d/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/24bbc1d/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/24bbc1d/tur/filebrowser/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/68599df/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/68599df/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/68599df/tur/filebrowser/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
