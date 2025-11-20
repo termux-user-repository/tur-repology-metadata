@@ -1025,7 +1025,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.106.0",
+    "version": "4.106.2",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -1037,14 +1037,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e54c086/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e54c086/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e54c086/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d19768c/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d19768c/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d19768c/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e54c086/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/d19768c/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e54c086/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d19768c/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -6092,22 +6092,22 @@
   },
   {
     "name": "rumdl",
-    "version": "0.0.179",
+    "version": "0.0.180",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.0.179.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.0.180.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ee9c3d7/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ee9c3d7/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ee9c3d7/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1a4f35/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1a4f35/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1a4f35/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
     "name": "rustc-nightly",
-    "version": "1.93.0-2025.11.19-nightly",
+    "version": "1.93.0-2025.11.20-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -6119,30 +6119,30 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-11-19/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-11-20/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6fdac6b/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/91e5e2f/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/6fdac6b/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
+      "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/91e5e2f/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6fdac6b/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91e5e2f/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
     ],
     "auto_updated": true
   },
