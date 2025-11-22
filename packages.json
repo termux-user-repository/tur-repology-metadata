@@ -1087,23 +1087,23 @@
   },
   {
     "name": "codex",
-    "version": "0.61.0",
+    "version": "0.62.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.61.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.62.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/460cff0/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/460cff0/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/460cff0/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/49b055c/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/49b055c/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/49b055c/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/460cff0/tur/codex/0001-fix-deps.patch"
+      "https://github.com/termux-user-repository/tur/blob/49b055c/tur/codex/0001-fix-deps.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/460cff0/tur/codex/0001-fix-deps.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/49b055c/tur/codex/0001-fix-deps.patch"
     ],
     "auto_updated": true
   },
