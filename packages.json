@@ -6069,24 +6069,24 @@
   },
   {
     "name": "rucola",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "Terminal-based markdown note manager",
     "homepage": "https://github.com/Linus-Mussmaecher/rucola",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.7.0/source.tar.gz",
+    "srcurl": "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.8.0/source.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d4f2344/tur/rucola",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d4f2344/tur/rucola/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d4f2344/tur/rucola/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4225f8e/tur/rucola",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4225f8e/tur/rucola/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4225f8e/tur/rucola/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d4f2344/tur/rucola/pwd-no-gecos-32-bit.diff",
-      "https://github.com/termux-user-repository/tur/blob/d4f2344/tur/rucola/pwd-no-setpwent.diff"
+      "https://github.com/termux-user-repository/tur/blob/4225f8e/tur/rucola/pwd-no-gecos-32-bit.diff",
+      "https://github.com/termux-user-repository/tur/blob/4225f8e/tur/rucola/pwd-no-setpwent.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d4f2344/tur/rucola/pwd-no-gecos-32-bit.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d4f2344/tur/rucola/pwd-no-setpwent.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4225f8e/tur/rucola/pwd-no-gecos-32-bit.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4225f8e/tur/rucola/pwd-no-setpwent.diff"
     ],
     "auto_updated": true
   },
