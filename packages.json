@@ -552,16 +552,16 @@
       "pkg-config"
     ],
     "maintainer": "Henrik Grimler @Grimler91",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ce1bf9a/tur/biber-installer",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ce1bf9a/tur/biber-installer/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ce1bf9a/tur/biber-installer/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2a48cf2/tur/biber-installer",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2a48cf2/tur/biber-installer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2a48cf2/tur/biber-installer/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ce1bf9a/tur/biber-installer/ExtUtils-LibBuilder.diff",
-      "https://github.com/termux-user-repository/tur/blob/ce1bf9a/tur/biber-installer/Text-BibTeX.diff"
+      "https://github.com/termux-user-repository/tur/blob/2a48cf2/tur/biber-installer/ExtUtils-LibBuilder.diff",
+      "https://github.com/termux-user-repository/tur/blob/2a48cf2/tur/biber-installer/Text-BibTeX.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ce1bf9a/tur/biber-installer/ExtUtils-LibBuilder.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ce1bf9a/tur/biber-installer/Text-BibTeX.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2a48cf2/tur/biber-installer/ExtUtils-LibBuilder.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2a48cf2/tur/biber-installer/Text-BibTeX.diff"
     ],
     "auto_updated": false
   },
@@ -1166,9 +1166,9 @@
     "depends": [],
     "srcurl": "https://github.com/universal-ctags/ctags/archive/refs/tags/v6.1.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3ccce69/tur/ctags-cross",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3ccce69/tur/ctags-cross/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3ccce69/tur/ctags-cross/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ce88fbb/tur/ctags-cross",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ce88fbb/tur/ctags-cross/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ce88fbb/tur/ctags-cross/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -1190,7 +1190,7 @@
   },
   {
     "name": "darktable",
-    "version": "5.2.0",
+    "version": "5.2.1",
     "description": "Virtual lighttable and darkroom for photographers",
     "homepage": "https://www.darktable.org/",
     "depends": [
@@ -1227,20 +1227,18 @@
       "portmidi",
       "zlib"
     ],
-    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-5.2.0/darktable-5.2.0.tar.xz",
+    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-5.2.1/darktable-5.2.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d0dbfdc/tur/darktable",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d0dbfdc/tur/darktable/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d0dbfdc/tur/darktable/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/21c0479/tur/darktable",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/21c0479/tur/darktable/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/21c0479/tur/darktable/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d0dbfdc/tur/darktable/0001-cmake-libm.patch",
-      "https://github.com/termux-user-repository/tur/blob/d0dbfdc/tur/darktable/0002-jobs-pthread.patch",
-      "https://github.com/termux-user-repository/tur/blob/d0dbfdc/tur/darktable/0003-openmp.patch"
+      "https://github.com/termux-user-repository/tur/blob/21c0479/tur/darktable/0001-cmake-libm.patch",
+      "https://github.com/termux-user-repository/tur/blob/21c0479/tur/darktable/0002-jobs-pthread.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d0dbfdc/tur/darktable/0001-cmake-libm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d0dbfdc/tur/darktable/0002-jobs-pthread.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d0dbfdc/tur/darktable/0003-openmp.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/21c0479/tur/darktable/0001-cmake-libm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/21c0479/tur/darktable/0002-jobs-pthread.patch"
     ],
     "auto_updated": true
   },
@@ -2666,6 +2664,21 @@
     "auto_updated": false
   },
   {
+    "name": "goat",
+    "version": "0.1.2",
+    "description": "Go AT protocol CLI tool",
+    "homepage": "https://github.com/bluesky-social/goat",
+    "depends": [],
+    "srcurl": "https://github.com/bluesky-social/goat/archive/v0.1.2.tar.gz",
+    "maintainer": "@ancientcatz",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/edd9065/tur/goat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/edd9065/tur/goat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/edd9065/tur/goat/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "gtkcord4",
     "version": "0.0.4",
     "description": "GTK4 Discord client in Go",
@@ -2859,14 +2872,14 @@
     ],
     "srcurl": "http://files.itstool.org/itstool/itstool-2.0.7.tar.bz2",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/544ff4b/tur/itstool",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/544ff4b/tur/itstool/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/544ff4b/tur/itstool/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cd3f82c/tur/itstool",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cd3f82c/tur/itstool/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cd3f82c/tur/itstool/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/544ff4b/tur/itstool/0001-python3.12.patch"
+      "https://github.com/termux-user-repository/tur/blob/cd3f82c/tur/itstool/0001-python3.12.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/544ff4b/tur/itstool/0001-python3.12.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cd3f82c/tur/itstool/0001-python3.12.patch"
     ],
     "auto_updated": false
   },
@@ -2963,14 +2976,14 @@
     ],
     "srcurl": "https://github.com/lensfun/lensfun/archive/refs/tags/v0.3.4.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/30155d2/tur/lensfun",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/30155d2/tur/lensfun/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/30155d2/tur/lensfun/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0ab218d/tur/lensfun",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0ab218d/tur/lensfun/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0ab218d/tur/lensfun/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/30155d2/tur/lensfun/0001-python-options.patch"
+      "https://github.com/termux-user-repository/tur/blob/0ab218d/tur/lensfun/0001-python-options.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/30155d2/tur/lensfun/0001-python-options.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0ab218d/tur/lensfun/0001-python-options.patch"
     ],
     "auto_updated": false
   },
@@ -3001,9 +3014,9 @@
     ],
     "srcurl": "https://dev-www.libreoffice.org/src/libabw/libabw-0.1.3.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libabw",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libabw/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libabw/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/87dc6e5/tur/libabw",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/87dc6e5/tur/libabw/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/87dc6e5/tur/libabw/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3031,14 +3044,14 @@
     "depends": [],
     "srcurl": "https://github.com/mongodb/mongo-c-driver/releases/download/1.30.3/mongo-c-driver-1.30.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/739de89/tur/libbson",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/739de89/tur/libbson/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/739de89/tur/libbson/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/03c5a57/tur/libbson",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/03c5a57/tur/libbson/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/03c5a57/tur/libbson/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/739de89/tur/libbson/0001-libmongoc-android-no-shm.patch"
+      "https://github.com/termux-user-repository/tur/blob/03c5a57/tur/libbson/0001-libmongoc-android-no-shm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/739de89/tur/libbson/0001-libmongoc-android-no-shm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/03c5a57/tur/libbson/0001-libmongoc-android-no-shm.patch"
     ],
     "auto_updated": false
   },
@@ -3056,9 +3069,9 @@
     ],
     "srcurl": "https://dev-www.libreoffice.org/src/libcdr/libcdr-0.1.7.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libcdr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libcdr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libcdr/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6428ce8/tur/libcdr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6428ce8/tur/libcdr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6428ce8/tur/libcdr/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3075,16 +3088,16 @@
     ],
     "srcurl": "https://github.com/tdf/libcmis/releases/download/v0.6.2/libcmis-0.6.2.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libcmis",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libcmis/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libcmis/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8e3b5c9/tur/libcmis",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8e3b5c9/tur/libcmis/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8e3b5c9/tur/libcmis/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libcmis/0001-libxml2-2.12.patch",
-      "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libcmis/0002-boost-1.87.patch"
+      "https://github.com/termux-user-repository/tur/blob/8e3b5c9/tur/libcmis/0001-libxml2-2.12.patch",
+      "https://github.com/termux-user-repository/tur/blob/8e3b5c9/tur/libcmis/0002-boost-1.87.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libcmis/0001-libxml2-2.12.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libcmis/0002-boost-1.87.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8e3b5c9/tur/libcmis/0001-libxml2-2.12.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8e3b5c9/tur/libcmis/0002-boost-1.87.patch"
     ],
     "auto_updated": true
   },
@@ -3117,14 +3130,14 @@
     ],
     "srcurl": "https://sourceforge.net/projects/libebook/files//libe-book-0.1.3/libe-book-0.1.3.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libe-book",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libe-book/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libe-book/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fb5617a/tur/libe-book",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fb5617a/tur/libe-book/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fb5617a/tur/libe-book/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libe-book/0001-TRUE-def.patch"
+      "https://github.com/termux-user-repository/tur/blob/fb5617a/tur/libe-book/0001-TRUE-def.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libe-book/0001-TRUE-def.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fb5617a/tur/libe-book/0001-TRUE-def.patch"
     ],
     "auto_updated": false
   },
@@ -3138,9 +3151,9 @@
     ],
     "srcurl": "https://sourceforge.net/projects/libepubgen/files/libepubgen-0.1.1/libepubgen-0.1.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libepubgen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libepubgen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libepubgen/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e983f1b/tur/libepubgen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e983f1b/tur/libepubgen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e983f1b/tur/libepubgen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3159,14 +3172,14 @@
     ],
     "srcurl": "https://dev-www.libreoffice.org/src/libetonyek/libetonyek-0.1.10.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libetonyek",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libetonyek/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libetonyek/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0e034aa/tur/libetonyek",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0e034aa/tur/libetonyek/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0e034aa/tur/libetonyek/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libetonyek/0001-mdds-3.0.patch"
+      "https://github.com/termux-user-repository/tur/blob/0e034aa/tur/libetonyek/0001-mdds-3.0.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libetonyek/0001-mdds-3.0.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0e034aa/tur/libetonyek/0001-mdds-3.0.patch"
     ],
     "auto_updated": false
   },
@@ -3199,14 +3212,14 @@
     ],
     "srcurl": "https://dev-www.libreoffice.org/src/libfreehand/libfreehand-0.1.2.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libfreehand",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libfreehand/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libfreehand/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5f89b64/tur/libfreehand",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5f89b64/tur/libfreehand/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5f89b64/tur/libfreehand/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libfreehand/libfreehand-0.1.2-icu-fix.patch"
+      "https://github.com/termux-user-repository/tur/blob/5f89b64/tur/libfreehand/libfreehand-0.1.2-icu-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libfreehand/libfreehand-0.1.2-icu-fix.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5f89b64/tur/libfreehand/libfreehand-0.1.2-icu-fix.patch"
     ],
     "auto_updated": false
   },
@@ -3332,9 +3345,9 @@
     ],
     "srcurl": "https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.7.tar.bz2",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6fca2b8/tur/liblangtag",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6fca2b8/tur/liblangtag/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6fca2b8/tur/liblangtag/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5f0ee1f/tur/liblangtag",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5f0ee1f/tur/liblangtag/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5f0ee1f/tur/liblangtag/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3560,14 +3573,14 @@
     ],
     "srcurl": "https://github.com/mongodb/mongo-c-driver/releases/download/1.30.3/mongo-c-driver-1.30.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9748ddc/tur/libmongoc",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9748ddc/tur/libmongoc/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9748ddc/tur/libmongoc/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/107b7f2/tur/libmongoc",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/107b7f2/tur/libmongoc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/107b7f2/tur/libmongoc/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9748ddc/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
+      "https://github.com/termux-user-repository/tur/blob/107b7f2/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9748ddc/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/107b7f2/tur/libmongoc/0001-libmongoc-android-no-shm.patch"
     ],
     "auto_updated": false
   },
@@ -3585,14 +3598,14 @@
     ],
     "srcurl": "https://github.com/mongodb/libmongocrypt/archive/refs/tags/1.13.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0d18847/tur/libmongocrypt",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0d18847/tur/libmongocrypt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0d18847/tur/libmongocrypt/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7005318/tur/libmongocrypt",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7005318/tur/libmongocrypt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7005318/tur/libmongocrypt/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0d18847/tur/libmongocrypt/0001-android-no-dlinfo.patch"
+      "https://github.com/termux-user-repository/tur/blob/7005318/tur/libmongocrypt/0001-android-no-dlinfo.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0d18847/tur/libmongocrypt/0001-android-no-dlinfo.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7005318/tur/libmongocrypt/0001-android-no-dlinfo.patch"
     ],
     "auto_updated": false
   },
@@ -3610,9 +3623,9 @@
     ],
     "srcurl": "https://dev-www.libreoffice.org/src/libmspub/libmspub-0.1.4.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libmspub",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libmspub/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libmspub/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/df3fa8e/tur/libmspub",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/df3fa8e/tur/libmspub/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/df3fa8e/tur/libmspub/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3709,9 +3722,9 @@
     ],
     "srcurl": "https://sourceforge.net/projects/libwpd/files/libodfgen/libodfgen-0.1.8/libodfgen-0.1.8.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libodfgen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libodfgen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libodfgen/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4ab890a/tur/libodfgen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4ab890a/tur/libodfgen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4ab890a/tur/libodfgen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3768,9 +3781,9 @@
     ],
     "srcurl": "https://dev-www.libreoffice.org/src/libqxp/libqxp-0.0.2.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libqxp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libqxp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libqxp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/08bb475/tur/libqxp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/08bb475/tur/libqxp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/08bb475/tur/libqxp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3844,9 +3857,9 @@
     ],
     "srcurl": "https://dev-www.libreoffice.org/src/libvisio/libvisio-0.1.7.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libvisio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libvisio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libvisio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/16a7314/tur/libvisio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/16a7314/tur/libvisio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/16a7314/tur/libvisio/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -3918,14 +3931,14 @@
     ],
     "srcurl": "https://dev-www.libreoffice.org/src/libzmf/libzmf-0.0.2.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0255e5c/tur/libzmf",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libzmf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libzmf/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e5a88e4/tur/libzmf",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e5a88e4/tur/libzmf/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e5a88e4/tur/libzmf/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0255e5c/tur/libzmf/0001-long-uint-comparison.patch"
+      "https://github.com/termux-user-repository/tur/blob/e5a88e4/tur/libzmf/0001-long-uint-comparison.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0255e5c/tur/libzmf/0001-long-uint-comparison.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5a88e4/tur/libzmf/0001-long-uint-comparison.patch"
     ],
     "auto_updated": false
   },
@@ -4524,76 +4537,76 @@
     ],
     "srcurl": "https://nodejs.org/dist/v22.15.1/node-v22.15.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cd96ae9/tur/nodejs-22",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/39d2cc3/tur/nodejs-22",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/avoid-ficlone-ioctl.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/common.gypi.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/deps-npm-lib-cli-entry.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/deps-npm-lib-commands-install.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/deps-uv-src-unix-core.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/deps-uv-src-unix-process.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/deps-uv-uv.gyp.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/deps-v8-src-flags-flag-definitions.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/deps-v8-src-trap-handler-trap-handler.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/fix_multiple_definitions.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/lib-child_process.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/lib-os.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/node.gyp.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/src-debug_utils.cc.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/src-getaddrinfo.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/src-node_internals.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/src-node_report.cc.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-child-process-exec-env.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-child-process-spawnsync-shell.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-child-process-stdio-overlapped.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-child-process-uid-gid.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-dgram-bind-fd.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-dgram-membership.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-dgram-socket-buffer-size.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-fs-readfile-pipe-large.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-fs-readfile-pipe.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-fs-readfilesync-pipe-large.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-process-constants-noatime.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/test-parallel-test-snapshot-reproducible.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/tools-gyp-pylib-gyp-generator-ninja.py.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/tools-v8_gypfiles-toolchain.gypi.patch",
-      "https://github.com/termux-user-repository/tur/blob/cd96ae9/tur/nodejs-22/tools-v8_gypfiles-v8.gyp.patch"
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/avoid-ficlone-ioctl.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/common.gypi.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/deps-npm-lib-cli-entry.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/deps-npm-lib-commands-install.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/deps-uv-src-unix-core.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/deps-uv-src-unix-process.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/deps-uv-uv.gyp.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/deps-v8-src-flags-flag-definitions.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/deps-v8-src-trap-handler-trap-handler.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/fix_multiple_definitions.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/lib-child_process.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/lib-os.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/node.gyp.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/src-debug_utils.cc.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/src-getaddrinfo.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/src-node_internals.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/src-node_report.cc.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-child-process-exec-env.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-child-process-spawnsync-shell.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-child-process-stdio-overlapped.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-child-process-uid-gid.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-dgram-bind-fd.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-dgram-membership.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-dgram-socket-buffer-size.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-fs-readfile-pipe-large.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-fs-readfile-pipe.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-fs-readfilesync-pipe-large.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-process-constants-noatime.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/test-parallel-test-snapshot-reproducible.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/tools-gyp-pylib-gyp-generator-ninja.py.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/tools-v8_gypfiles-toolchain.gypi.patch",
+      "https://github.com/termux-user-repository/tur/blob/39d2cc3/tur/nodejs-22/tools-v8_gypfiles-v8.gyp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/avoid-ficlone-ioctl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/common.gypi.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/deps-npm-lib-cli-entry.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/deps-npm-lib-commands-install.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/deps-uv-src-unix-core.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/deps-uv-src-unix-process.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/deps-uv-uv.gyp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/deps-v8-src-flags-flag-definitions.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/deps-v8-src-trap-handler-trap-handler.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/fix_multiple_definitions.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/lib-child_process.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/lib-os.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/node.gyp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/src-debug_utils.cc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/src-getaddrinfo.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/src-node_internals.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/src-node_report.cc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-child-process-exec-env.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-child-process-spawnsync-shell.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-child-process-stdio-overlapped.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-child-process-uid-gid.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-dgram-bind-fd.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-dgram-membership.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-dgram-socket-buffer-size.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-fs-readfile-pipe-large.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-fs-readfile-pipe.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-fs-readfilesync-pipe-large.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-process-constants-noatime.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/test-parallel-test-snapshot-reproducible.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/tools-gyp-pylib-gyp-generator-ninja.py.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/tools-v8_gypfiles-toolchain.gypi.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cd96ae9/tur/nodejs-22/tools-v8_gypfiles-v8.gyp.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/avoid-ficlone-ioctl.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/common.gypi.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/deps-npm-lib-cli-entry.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/deps-npm-lib-commands-install.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/deps-uv-src-unix-core.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/deps-uv-src-unix-process.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/deps-uv-uv.gyp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/deps-v8-src-flags-flag-definitions.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/deps-v8-src-trap-handler-trap-handler.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/fix_multiple_definitions.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/lib-child_process.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/lib-os.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/node.gyp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/src-debug_utils.cc.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/src-getaddrinfo.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/src-node_internals.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/src-node_report.cc.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-child-process-exec-env.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-child-process-spawnsync-shell.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-child-process-stdio-overlapped.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-child-process-uid-gid.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-dgram-bind-fd.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-dgram-membership.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-dgram-socket-buffer-size.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-fs-readfile-pipe-large.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-fs-readfile-pipe.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-fs-readfilesync-pipe-large.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-process-constants-noatime.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/test-parallel-test-snapshot-reproducible.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/tools-gyp-pylib-gyp-generator-ninja.py.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/tools-v8_gypfiles-toolchain.gypi.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/39d2cc3/tur/nodejs-22/tools-v8_gypfiles-v8.gyp.patch"
     ],
     "auto_updated": false
   },
@@ -4881,9 +4894,9 @@
     ],
     "srcurl": "https://github.com/openslide/openslide/releases/download/v4.0.0/openslide-4.0.0.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c5dd5f6/tur/openslide",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c5dd5f6/tur/openslide/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c5dd5f6/tur/openslide/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f8cd3f/tur/openslide",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f8cd3f/tur/openslide/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f8cd3f/tur/openslide/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5065,50 +5078,52 @@
     ],
     "srcurl": "https://github.com/php/php-src/archive/php-7.4.33.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/21593ca/tur/php7",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/82d099f/tur/php7",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/build-php.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-intl-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-libxml-libxml.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-opcache-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-opcache-zend_accelerator_module.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-pdo_pgsql-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-pgsql-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-phar-Makefile.frag.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-posix-posix.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-standard-basic_functions.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-standard-dns.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-standard-php_fopen_wrapper.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/ext-standard-proc_open.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/iconv-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/main-streams-cast.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/pear-Makefile.frag.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/php-fpm.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/sapi-apache2handler-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/21593ca/tur/php7/use-local-fastcgi-header.patch"
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/build-php.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-intl-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-libxml-libxml.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-opcache-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-opcache-zend_accelerator_module.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-pdo_pgsql-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-pgsql-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-phar-Makefile.frag.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-posix-posix.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-standard-basic_functions.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-standard-dns.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-standard-php_fopen_wrapper.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/ext-standard-proc_open.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/iconv-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/libxml2-213.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/main-streams-cast.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/pear-Makefile.frag.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/php-fpm.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/sapi-apache2handler-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/82d099f/tur/php7/use-local-fastcgi-header.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/build-php.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-intl-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-libxml-libxml.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-opcache-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-opcache-zend_accelerator_module.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-pdo_pgsql-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-pgsql-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-phar-Makefile.frag.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-posix-posix.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-standard-basic_functions.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-standard-dns.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-standard-php_fopen_wrapper.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/ext-standard-proc_open.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/iconv-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/main-streams-cast.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/pear-Makefile.frag.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/php-fpm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/sapi-apache2handler-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/21593ca/tur/php7/use-local-fastcgi-header.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/build-php.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-intl-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-libxml-libxml.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-opcache-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-opcache-zend_accelerator_module.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-pdo_pgsql-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-pgsql-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-phar-Makefile.frag.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-posix-posix.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-standard-basic_functions.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-standard-dns.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-standard-php_fopen_wrapper.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/ext-standard-proc_open.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/iconv-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/libxml2-213.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/main-streams-cast.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/pear-Makefile.frag.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/php-fpm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/sapi-apache2handler-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/82d099f/tur/php7/use-local-fastcgi-header.patch"
     ],
     "auto_updated": false
   },
@@ -5134,48 +5149,50 @@
     ],
     "srcurl": "https://secure.php.net/distributions/php-7.2.34.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ac34cc6/tur/php7.2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5fc17d3/tur/php7.2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/Makefile.global.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/build-php.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-fileinfo-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-opcache-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-opcache-zend_accelerator_module.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-pdo_pgsql-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-pgsql-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-phar-Makefile.frag.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-posix-posix.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-standard-dns.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-standard-php_fopen_wrapper.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/ext-standard-proc_open.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/iconv-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/openssl-sslv3-consts.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/pear-Makefile.frag.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/php-fpm.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/sapi-apache2handler-config.m4.patch",
-      "https://github.com/termux-user-repository/tur/blob/ac34cc6/tur/php7.2/use-local-fastcgi-header.patch"
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/Makefile.global.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/build-php.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-fileinfo-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-opcache-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-opcache-zend_accelerator_module.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-pdo_pgsql-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-pgsql-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-phar-Makefile.frag.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-posix-posix.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-standard-dns.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-standard-php_fopen_wrapper.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/ext-standard-proc_open.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/iconv-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/libxml2-213.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/openssl-sslv3-consts.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/pear-Makefile.frag.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/php-fpm.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/sapi-apache2handler-config.m4.patch",
+      "https://github.com/termux-user-repository/tur/blob/5fc17d3/tur/php7.2/use-local-fastcgi-header.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/Makefile.global.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/build-php.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-fileinfo-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-opcache-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-opcache-zend_accelerator_module.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-pdo_pgsql-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-pgsql-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-phar-Makefile.frag.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-posix-posix.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-standard-dns.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-standard-php_fopen_wrapper.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/ext-standard-proc_open.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/iconv-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/openssl-sslv3-consts.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/pear-Makefile.frag.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/php-fpm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/sapi-apache2handler-config.m4.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc6/tur/php7.2/use-local-fastcgi-header.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/Makefile.global.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/build-php.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-fileinfo-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-opcache-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-opcache-zend_accelerator_module.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-pdo_pgsql-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-pgsql-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-phar-Makefile.frag.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-posix-posix.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-standard-dns.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-standard-php_fopen_wrapper.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/ext-standard-proc_open.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/iconv-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/libxml2-213.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/openssl-sslv3-consts.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/pear-Makefile.frag.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/php-fpm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/sapi-apache2handler-config.m4.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d3/tur/php7.2/use-local-fastcgi-header.patch"
     ],
     "auto_updated": false
   },
