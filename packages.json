@@ -2279,15 +2279,15 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.49.0",
+    "version": "2.50.0",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.49.0.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.50.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1bdf081/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1bdf081/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1bdf081/tur/filebrowser/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/028dbf7/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/028dbf7/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/028dbf7/tur/filebrowser/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3044,14 +3044,14 @@
     "depends": [],
     "srcurl": "https://github.com/mongodb/mongo-c-driver/releases/download/1.30.3/mongo-c-driver-1.30.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/03c5a57/tur/libbson",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/03c5a57/tur/libbson/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/03c5a57/tur/libbson/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e372834/tur/libbson",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e372834/tur/libbson/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e372834/tur/libbson/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/03c5a57/tur/libbson/0001-libmongoc-android-no-shm.patch"
+      "https://github.com/termux-user-repository/tur/blob/e372834/tur/libbson/0001-libmongoc-android-no-shm.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/03c5a57/tur/libbson/0001-libmongoc-android-no-shm.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e372834/tur/libbson/0001-libmongoc-android-no-shm.patch"
     ],
     "auto_updated": false
   },
