@@ -1050,18 +1050,18 @@
   },
   {
     "name": "code-server-extension-codelldb",
-    "version": "1.11.8",
+    "version": "1.12.0",
     "description": "A native debugger extension for code-server based on LLDB",
     "homepage": "https://github.com/vadimcn/codelldb",
     "depends": [
       "code-server",
       "vsix-package-codelldb"
     ],
-    "srcurl": "https://raw.githubusercontent.com/vadimcn/codelldb/refs/tags/v1.11.8/LICENSE",
+    "srcurl": "https://raw.githubusercontent.com/vadimcn/codelldb/refs/tags/v1.12.0/LICENSE",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ea3efb7/tur/code-server-extension-codelldb",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ea3efb7/tur/code-server-extension-codelldb/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ea3efb7/tur/code-server-extension-codelldb/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b49107b/tur/code-server-extension-codelldb",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b49107b/tur/code-server-extension-codelldb/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b49107b/tur/code-server-extension-codelldb/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
