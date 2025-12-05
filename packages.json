@@ -2916,6 +2916,25 @@
     "auto_updated": false
   },
   {
+    "name": "keyfinder-cli",
+    "version": "1.1.5",
+    "description": "Utility to estimate the key in digital music recordings",
+    "homepage": "https://github.com/evanpurkhiser/keyfinder-cli",
+    "depends": [
+      "libkeyfinder",
+      "ffmpeg",
+      "fftw"
+    ],
+    "srcurl": "https://github.com/evanpurkhiser/keyfinder-cli/archive/refs/tags/v1.1.5.tar.gz",
+    "maintainer": "@flosnvjx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/94fcfef/tur/keyfinder-cli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/94fcfef/tur/keyfinder-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/94fcfef/tur/keyfinder-cli/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "krabby",
     "version": "0.3.0",
     "description": "Print pokemon sprites in your terminal",
@@ -3333,6 +3352,23 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/7eafdc1/tur/libjemalloc/0001-sys-nothrow.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/7eafdc1/tur/libjemalloc/0002-fix-hardcoded-paths.patch"
     ],
+    "auto_updated": false
+  },
+  {
+    "name": "libkeyfinder",
+    "version": "2.2.8",
+    "description": "Library to estimate the key in digital music recordings",
+    "homepage": "https://github.com/mixxxdj/libkeyfinder",
+    "depends": [
+      "fftw"
+    ],
+    "srcurl": "https://github.com/mixxxdj/libkeyfinder/archive/refs/tags/2.2.8.tar.gz",
+    "maintainer": "@flosnvjx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/00f5f73/tur/libkeyfinder",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/00f5f73/tur/libkeyfinder/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/00f5f73/tur/libkeyfinder/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": false
   },
   {
@@ -6218,7 +6254,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.93.0-2025.12.04-nightly",
+    "version": "1.93.0-2025.12.05-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -6230,30 +6266,30 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2025-12-04/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2025-12-05/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/056814a/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5c05961/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/056814a/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
+      "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/5c05961/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/056814a/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5c05961/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch"
     ],
     "auto_updated": true
   },
