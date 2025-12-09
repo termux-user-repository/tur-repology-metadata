@@ -963,6 +963,31 @@
     "auto_updated": true
   },
   {
+    "name": "chromium-bsu",
+    "version": "0.9.16.1",
+    "description": "Fast paced, arcade-style, top-scrolling space shooter",
+    "homepage": "https://chromium-bsu.sourceforge.io/",
+    "depends": [
+      "libftgl2",
+      "sdl2",
+      "sdl2-mixer",
+      "sdl2-image",
+      "glu",
+      "fontconfig",
+      "libvorbis",
+      "libpng",
+      "libglvnd"
+    ],
+    "srcurl": "https://downloads.sourceforge.net/project/chromium-bsu/Chromium%20B.S.U.%20source%20code/chromium-bsu-0.9.16.1.tar.gz",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0ff5e68/tur/chromium-bsu",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0ff5e68/tur/chromium-bsu/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0ff5e68/tur/chromium-bsu/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "cksfv",
     "version": "1.3.15",
     "description": "SFV (Simple File Verification) Checker",
@@ -1163,15 +1188,15 @@
   },
   {
     "name": "crush",
-    "version": "0.21.0",
+    "version": "0.22.1",
     "description": "The glamourous AI coding agent for your favourite terminal",
     "homepage": "https://github.com/charmbracelet/crush",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.21.0.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.22.1.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0f5626a/tur/crush",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0f5626a/tur/crush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0f5626a/tur/crush/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bd036ef/tur/crush",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bd036ef/tur/crush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bd036ef/tur/crush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -6785,24 +6810,21 @@
   },
   {
     "name": "vhs",
-    "version": "0.2.0",
+    "version": "0.10.0",
     "description": "Your CLI home video recorder",
     "homepage": "https://github.com/charmbracelet/vhs",
     "depends": [
-      "ttyd"
+      "ttyd",
+      "ffmpeg"
     ],
-    "srcurl": "https://github.com/charmbracelet/vhs/archive/refs/tags/v0.2.0.tar.gz",
+    "srcurl": "git+https://github.com/charmbracelet/vhs",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f9acd29/tur/vhs",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f9acd29/tur/vhs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f9acd29/tur/vhs/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f9acd29/tur/vhs/fix_chromium_path.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f9acd29/tur/vhs/fix_chromium_path.patch"
-    ],
-    "auto_updated": false
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0ed09bb/tur/vhs",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0ed09bb/tur/vhs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0ed09bb/tur/vhs/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
   },
   {
     "name": "virglrenderer-android",
