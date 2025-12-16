@@ -3657,6 +3657,21 @@
     "auto_updated": false
   },
   {
+    "name": "libmp4tag",
+    "version": "2.0.1",
+    "description": "Library and CLI utility for tagging MP4 file",
+    "homepage": "https://sourceforge.net/p/libmp4tag/",
+    "depends": [],
+    "srcurl": "https://sourceforge.net/code-snapshots/hg/l/li/libmp4tag/code/libmp4tag-code-474a6b478db8053368f71c6752c44e6278a61a31.zip",
+    "maintainer": "@flosnvjx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f7da4f6/tur/libmp4tag",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f7da4f6/tur/libmp4tag/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f7da4f6/tur/libmp4tag/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "libmspub",
     "version": "0.1.4",
     "description": "Microsoft Publisher file format parser library (latest snapshot)",
