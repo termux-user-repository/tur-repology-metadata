@@ -722,7 +722,7 @@
   },
   {
     "name": "chromium-beta",
-    "version": "144.0.7559.20",
+    "version": "144.0.7559.31",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -744,24 +744,24 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-144.0.7559.20-lite.tar.xz",
+    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-144.0.7559.31-lite.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1388c4c/tur/chromium-beta",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1388c4c/tur/chromium-beta/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1388c4c/tur/chromium-beta/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/19597dd/tur/chromium-beta",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/19597dd/tur/chromium-beta/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/19597dd/tur/chromium-beta/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1388c4c/tur/chromium-beta/0109-content.patch",
-      "https://github.com/termux-user-repository/tur/blob/1388c4c/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/1388c4c/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/1388c4c/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/1388c4c/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
+      "https://github.com/termux-user-repository/tur/blob/19597dd/tur/chromium-beta/0109-content.patch",
+      "https://github.com/termux-user-repository/tur/blob/19597dd/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/19597dd/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/19597dd/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/19597dd/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1388c4c/tur/chromium-beta/0109-content.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1388c4c/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1388c4c/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1388c4c/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1388c4c/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19597dd/tur/chromium-beta/0109-content.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19597dd/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19597dd/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19597dd/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19597dd/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
     ],
     "auto_updated": false
   },
@@ -3361,23 +3361,6 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/7eafdc1/tur/libjemalloc/0001-sys-nothrow.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/7eafdc1/tur/libjemalloc/0002-fix-hardcoded-paths.patch"
     ],
-    "auto_updated": false
-  },
-  {
-    "name": "libkeyfinder",
-    "version": "2.2.8",
-    "description": "Library to estimate the key in digital music recordings",
-    "homepage": "https://github.com/mixxxdj/libkeyfinder",
-    "depends": [
-      "fftw"
-    ],
-    "srcurl": "https://github.com/mixxxdj/libkeyfinder/archive/refs/tags/2.2.8.tar.gz",
-    "maintainer": "@flosnvjx",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/00f5f73/tur/libkeyfinder",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/00f5f73/tur/libkeyfinder/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/00f5f73/tur/libkeyfinder/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
     "auto_updated": false
   },
   {
