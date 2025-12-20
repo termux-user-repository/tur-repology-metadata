@@ -1128,23 +1128,23 @@
   },
   {
     "name": "codex",
-    "version": "0.73.0",
+    "version": "0.75.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.73.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.75.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ae44daa/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ae44daa/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ae44daa/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2dceb29/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2dceb29/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2dceb29/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ae44daa/tur/codex/0001-fix-deps.patch"
+      "https://github.com/termux-user-repository/tur/blob/2dceb29/tur/codex/0001-fix-deps.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ae44daa/tur/codex/0001-fix-deps.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2dceb29/tur/codex/0001-fix-deps.patch"
     ],
     "auto_updated": true
   },
@@ -6243,15 +6243,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.0.195",
+    "version": "0.0.196",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.0.195.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.0.196.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e0a6baa/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e0a6baa/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e0a6baa/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/40038c0/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/40038c0/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/40038c0/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
