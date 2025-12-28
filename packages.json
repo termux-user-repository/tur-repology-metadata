@@ -147,17 +147,17 @@
   },
   {
     "name": "apkeditor",
-    "version": "1.4.6",
+    "version": "1.4.7",
     "description": "Android binary resource files editor",
     "homepage": "https://github.com/REAndroid/APKEditor",
     "depends": [
       "openjdk-21"
     ],
-    "srcurl": "https://github.com/REAndroid/APKEditor/releases/download/V1.4.6/APKEditor-1.4.6.jar",
+    "srcurl": "https://github.com/REAndroid/APKEditor/releases/download/V1.4.7/APKEditor-1.4.7.jar",
     "maintainer": "@Veha0001",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7807d12/tur/apkeditor",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7807d12/tur/apkeditor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7807d12/tur/apkeditor/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8941df9/tur/apkeditor",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8941df9/tur/apkeditor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8941df9/tur/apkeditor/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
