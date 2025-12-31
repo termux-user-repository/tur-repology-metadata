@@ -1091,18 +1091,18 @@
   },
   {
     "name": "code-server-extension-codelldb",
-    "version": "1.12.0",
+    "version": "1.12.1",
     "description": "A native debugger extension for code-server based on LLDB",
     "homepage": "https://github.com/vadimcn/codelldb",
     "depends": [
       "code-server",
       "vsix-package-codelldb"
     ],
-    "srcurl": "https://raw.githubusercontent.com/vadimcn/codelldb/refs/tags/v1.12.0/LICENSE",
+    "srcurl": "https://raw.githubusercontent.com/vadimcn/codelldb/refs/tags/v1.12.1/LICENSE",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b49107b/tur/code-server-extension-codelldb",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b49107b/tur/code-server-extension-codelldb/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b49107b/tur/code-server-extension-codelldb/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/171589d/tur/code-server-extension-codelldb",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/171589d/tur/code-server-extension-codelldb/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/171589d/tur/code-server-extension-codelldb/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -1331,17 +1331,23 @@
   },
   {
     "name": "dd-rescue",
-    "version": "1.99.12",
+    "version": "1.99.22",
     "description": "A dd(1) alternative without POSIX-correctness burden to ease daily shell scripting and data recovery",
     "homepage": "http://www.garloff.de/kurt/linux/ddrescue/",
     "depends": [],
-    "srcurl": "http://www.garloff.de/kurt/linux/ddrescue/dd_rescue-1.99.12.tar.bz2",
+    "srcurl": "https://garloff.de/kurt/linux/ddrescue/dd_rescue-1.99.22.tar.bz2",
     "maintainer": "@flosnvjx",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/98a26be/tur/dd-rescue",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/98a26be/tur/dd-rescue/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/98a26be/tur/dd-rescue/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/19332ea/tur/dd-rescue",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/19332ea/tur/dd-rescue/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/19332ea/tur/dd-rescue/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/19332ea/tur/dd-rescue/0000-Makefile-no-run-configure.patch",
+      "https://github.com/termux-user-repository/tur/blob/19332ea/tur/dd-rescue/0001-Makefile-no-build-no-check-crypt-so.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19332ea/tur/dd-rescue/0000-Makefile-no-run-configure.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19332ea/tur/dd-rescue/0001-Makefile-no-build-no-check-crypt-so.patch"
+    ],
     "auto_updated": false
   },
   {
