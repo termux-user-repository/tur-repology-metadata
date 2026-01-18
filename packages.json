@@ -3058,17 +3058,21 @@
   },
   {
     "name": "lib-tls-client",
-    "version": "1.12.0",
+    "version": "1.13.1",
     "description": "A net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests",
     "homepage": "https://github.com/bogdanfinn/tls-client/",
     "depends": [],
-    "srcurl": "https://github.com/bogdanfinn/tls-client/archive/refs/tags/v1.12.0.tar.gz",
+    "srcurl": "https://github.com/bogdanfinn/tls-client/archive/refs/tags/v1.13.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/604135a/tur/lib-tls-client",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/604135a/tur/lib-tls-client/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/604135a/tur/lib-tls-client/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/42c71fc/tur/lib-tls-client",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/42c71fc/tur/lib-tls-client/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/42c71fc/tur/lib-tls-client/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/42c71fc/tur/lib-tls-client/0001-use-source-from-tarball.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/42c71fc/tur/lib-tls-client/0001-use-source-from-tarball.patch"
+    ],
     "auto_updated": true
   },
   {
