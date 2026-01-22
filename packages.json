@@ -5060,25 +5060,6 @@
     "auto_updated": true
   },
   {
-    "name": "opustags",
-    "version": "1.10.1+r13",
-    "description": "A CLI utility for editing metadata tags of Ogg Opus file",
-    "homepage": "https://github.com/fmang/opustags",
-    "depends": [
-      "libogg",
-      "libiconv",
-      "libc++"
-    ],
-    "srcurl": "git+https://github.com/fmang/opustags",
-    "maintainer": "@termux-user-repository, @flosnvjx",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8243c98b/tur/opustags",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8243c98b/tur/opustags/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8243c98b/tur/opustags/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "oxipng",
     "version": "10.0.0",
     "description": "Multithreaded PNG optimizer written in Rust",
