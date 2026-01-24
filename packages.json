@@ -2710,15 +2710,15 @@
   },
   {
     "name": "gtt",
-    "version": "10",
+    "version": "11",
     "description": "Google Translate TUI (Originally). Now support ArgosTranslate, GoogleTranslate.",
     "homepage": "https://github.com/eeeXun/GTT",
     "depends": [],
-    "srcurl": "https://github.com/eeeXun/GTT/archive/refs/tags/v10.tar.gz",
+    "srcurl": "https://github.com/eeeXun/GTT/archive/refs/tags/v11.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a1ac3f81/tur/gtt",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a1ac3f81/tur/gtt/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a1ac3f81/tur/gtt/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/322a200b/tur/gtt",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/322a200b/tur/gtt/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/322a200b/tur/gtt/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -2858,21 +2858,17 @@
   },
   {
     "name": "iamb",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "description": "A terminal-based client for Matrix for the Vim addict",
     "homepage": "https://iamb.chat/",
     "depends": [],
-    "srcurl": "https://github.com/ulyssa/iamb/archive/refs/tags/v0.0.10.tar.gz",
+    "srcurl": "https://github.com/ulyssa/iamb/archive/refs/tags/v0.0.11.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ada2f9c7/tur/iamb",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ada2f9c7/tur/iamb/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ada2f9c7/tur/iamb/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ada2f9c7/tur/iamb/0001-arboard-dummy-platform.diff"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ada2f9c7/tur/iamb/0001-arboard-dummy-platform.diff"
-    ],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2047bc40/tur/iamb",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2047bc40/tur/iamb/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2047bc40/tur/iamb/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
@@ -4058,7 +4054,7 @@
   },
   {
     "name": "meli",
-    "version": "0.8.11",
+    "version": "0.8.13",
     "description": "Terminal e-mail client and e-mail client library",
     "homepage": "https://meli.delivery/",
     "depends": [
@@ -4071,16 +4067,16 @@
     ],
     "srcurl": "git+https://github.com/meli/meli",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/458f7b40/tur/meli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/458f7b40/tur/meli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/458f7b40/tur/meli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c757f954/tur/meli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c757f954/tur/meli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c757f954/tur/meli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/458f7b40/tur/meli/0001-disable-dbus.patch",
-      "https://github.com/termux-user-repository/tur/blob/458f7b40/tur/meli/0002-use-system-libsqlite.patch"
+      "https://github.com/termux-user-repository/tur/blob/c757f954/tur/meli/0001-disable-dbus.patch",
+      "https://github.com/termux-user-repository/tur/blob/c757f954/tur/meli/0002-use-system-libsqlite.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/458f7b40/tur/meli/0001-disable-dbus.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/458f7b40/tur/meli/0002-use-system-libsqlite.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c757f954/tur/meli/0001-disable-dbus.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c757f954/tur/meli/0002-use-system-libsqlite.patch"
     ],
     "auto_updated": true
   },
@@ -5445,7 +5441,7 @@
   },
   {
     "name": "python-pandas",
-    "version": "2.3.3",
+    "version": "3.0.0",
     "description": "Powerful Python data analysis toolkit",
     "homepage": "https://pandas.pydata.org/",
     "depends": [
@@ -5456,11 +5452,15 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4da67892/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4da67892/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4da67892/tur/python-pandas/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a9eb9058/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a9eb9058/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a9eb9058/tur/python-pandas/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/a9eb9058/tur/python-pandas/0001-meson-vsenv.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a9eb9058/tur/python-pandas/0001-meson-vsenv.patch"
+    ],
     "auto_updated": true
   },
   {
@@ -7426,11 +7426,15 @@
     "depends": [],
     "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.3.2.tar.gz",
     "maintainer": "@UtermuxBlog",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4258f726/tur-hacking/afrog",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4258f726/tur-hacking/afrog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4258f726/tur-hacking/afrog/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f66b038f/tur-hacking/afrog",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f66b038f/tur-hacking/afrog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f66b038f/tur-hacking/afrog/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/f66b038f/tur-hacking/afrog/0001-dm-int-type.patch32"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f66b038f/tur-hacking/afrog/0001-dm-int-type.patch32"
+    ],
     "auto_updated": true
   },
   {
