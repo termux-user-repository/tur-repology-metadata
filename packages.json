@@ -5114,18 +5114,18 @@
   },
   {
     "name": "partialzip",
-    "version": "5.0.0",
+    "version": "6.0.0",
     "description": "A CLI utility to download file within ZIP archive, without the need to download entire ZIP archive",
     "homepage": "https://github.com/marcograss/partialzip",
     "depends": [
       "openssl",
       "libcurl"
     ],
-    "srcurl": "https://github.com/marcograss/partialzip/archive/refs/tags/v5.0.0.tar.gz",
+    "srcurl": "https://github.com/marcograss/partialzip/archive/refs/tags/v6.0.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/09e7aba3/tur/partialzip",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/09e7aba3/tur/partialzip/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/09e7aba3/tur/partialzip/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4072707f/tur/partialzip",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4072707f/tur/partialzip/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4072707f/tur/partialzip/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
