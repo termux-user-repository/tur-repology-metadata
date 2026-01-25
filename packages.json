@@ -4038,6 +4038,44 @@
     "auto_updated": false
   },
   {
+    "name": "lierolibre",
+    "version": "0.5",
+    "description": "Old-school earthworm action game",
+    "homepage": "https://launchpad.net/lierolibre",
+    "depends": [
+      "libconfig",
+      "sdl",
+      "sdl-mixer",
+      "boost"
+    ],
+    "srcurl": "https://launchpad.net/lierolibre/trunk/0.5/+download/lierolibre-0.5.tar.xz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bea8bb32/tur/lierolibre",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/0001-Use-unaligned-access-define-over-checking-arch.patch",
+      "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/0002-At-least-try-building-for-other-archs-than-x86.patch",
+      "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/0003-Remove-unknown-arch-warning.patch",
+      "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/adapt-to-new-libconfig.patch",
+      "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/cross.patch",
+      "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/fix-build-errors.patch",
+      "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/reproducible-build.patch",
+      "https://github.com/termux-user-repository/tur/blob/bea8bb32/tur/lierolibre/std-unique-ptr.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/0001-Use-unaligned-access-define-over-checking-arch.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/0002-At-least-try-building-for-other-archs-than-x86.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/0003-Remove-unknown-arch-warning.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/adapt-to-new-libconfig.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/cross.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/fix-build-errors.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/reproducible-build.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/std-unique-ptr.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "mdds",
     "version": "3.2.0",
     "description": "A collection of multi-dimensional data structures and indexing algorithms",
