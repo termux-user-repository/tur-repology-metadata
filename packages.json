@@ -1124,18 +1124,18 @@
   },
   {
     "name": "codex",
-    "version": "0.89.0",
+    "version": "0.91.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.89.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.91.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ea38fffa/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ea38fffa/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ea38fffa/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7475953f/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7475953f/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7475953f/tur/codex/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
