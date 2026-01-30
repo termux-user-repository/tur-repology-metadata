@@ -7696,20 +7696,20 @@
   },
   {
     "name": "afrog",
-    "version": "3.3.5",
+    "version": "3.3.6",
     "description": "A tool for finding vulnerabilities",
     "homepage": "https://github.com/zan8in/afrog",
     "depends": [],
-    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.3.5.tar.gz",
+    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.3.6.tar.gz",
     "maintainer": "@UtermuxBlog",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/de8746da/tur-hacking/afrog",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/de8746da/tur-hacking/afrog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/de8746da/tur-hacking/afrog/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ed3faaf7/tur-hacking/afrog",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ed3faaf7/tur-hacking/afrog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ed3faaf7/tur-hacking/afrog/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/de8746da/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://github.com/termux-user-repository/tur/blob/ed3faaf7/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/de8746da/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ed3faaf7/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "auto_updated": true
   },
