@@ -6595,15 +6595,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.9.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.10.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/05319cdc/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/05319cdc/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/05319cdc/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/de3e4ade/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/de3e4ade/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/de3e4ade/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8781,7 +8781,7 @@
   },
   {
     "name": "pyside6",
-    "version": "6.10.1",
+    "version": "6.10.2",
     "description": "Official Python bindings for Qt6",
     "homepage": "https://doc.qt.io/qtforpython-6/",
     "depends": [
@@ -8791,11 +8791,11 @@
       "qt6-qtdeclarative",
       "shiboken6"
     ],
-    "srcurl": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.10.1-src/pyside-setup-everywhere-src-6.10.1.tar.xz",
+    "srcurl": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.10.2-src/pyside-setup-everywhere-src-6.10.2.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a3b08a0d/tur-on-device/pyside6",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a3b08a0d/tur-on-device/pyside6/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a3b08a0d/tur-on-device/pyside6/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e829dde4/tur-on-device/pyside6",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e829dde4/tur-on-device/pyside6/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e829dde4/tur-on-device/pyside6/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
