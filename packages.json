@@ -1124,18 +1124,18 @@
   },
   {
     "name": "codex",
-    "version": "0.94.0",
+    "version": "0.97.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.94.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.97.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6500688d/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6500688d/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6500688d/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8be98259/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8be98259/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8be98259/tur/codex/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -1163,15 +1163,15 @@
   },
   {
     "name": "crush",
-    "version": "0.36.0",
+    "version": "0.39.1",
     "description": "The glamourous AI coding agent for your favourite terminal",
     "homepage": "https://github.com/charmbracelet/crush",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.36.0.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/crush/archive/v0.39.1.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/74598d24/tur/crush",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/74598d24/tur/crush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/74598d24/tur/crush/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e79bb220/tur/crush",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e79bb220/tur/crush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e79bb220/tur/crush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -2232,22 +2232,22 @@
     ],
     "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-5.1.7.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/65da3f4b/tur/ffmpeg5.1",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/65da3f4b/tur/ffmpeg5.1/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/65da3f4b/tur/ffmpeg5.1/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e3d4532a/tur/ffmpeg5.1",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e3d4532a/tur/ffmpeg5.1/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e3d4532a/tur/ffmpeg5.1/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/65da3f4b/tur/ffmpeg5.1/enable-soname-version.patch",
-      "https://github.com/termux-user-repository/tur/blob/65da3f4b/tur/ffmpeg5.1/libavutil-file_open.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/e3d4532a/tur/ffmpeg5.1/enable-soname-version.patch",
+      "https://github.com/termux-user-repository/tur/blob/e3d4532a/tur/ffmpeg5.1/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/65da3f4b/tur/ffmpeg5.1/enable-soname-version.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/65da3f4b/tur/ffmpeg5.1/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e3d4532a/tur/ffmpeg5.1/enable-soname-version.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e3d4532a/tur/ffmpeg5.1/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
   {
     "name": "ffmpeg7",
-    "version": "7.1.2",
+    "version": "7.1.3",
     "description": "Tools and libraries to manipulate a wide range of multimedia formats and protocols",
     "homepage": "https://ffmpeg.org",
     "depends": [
@@ -2277,18 +2277,18 @@
       "xvidcore",
       "zlib"
     ],
-    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-7.1.2.tar.xz",
+    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-7.1.3.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/81611893/tur/ffmpeg7",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/81611893/tur/ffmpeg7/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/81611893/tur/ffmpeg7/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bb2e7c77/tur/ffmpeg7",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bb2e7c77/tur/ffmpeg7/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bb2e7c77/tur/ffmpeg7/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/81611893/tur/ffmpeg7/enable-soname-version.patch",
-      "https://github.com/termux-user-repository/tur/blob/81611893/tur/ffmpeg7/libavutil-file_open.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/bb2e7c77/tur/ffmpeg7/enable-soname-version.patch",
+      "https://github.com/termux-user-repository/tur/blob/bb2e7c77/tur/ffmpeg7/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/81611893/tur/ffmpeg7/enable-soname-version.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/81611893/tur/ffmpeg7/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bb2e7c77/tur/ffmpeg7/enable-soname-version.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bb2e7c77/tur/ffmpeg7/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
@@ -2667,9 +2667,9 @@
     "depends": [],
     "srcurl": "https://github.com/bluesky-social/goat/archive/v0.2.2.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8840d9f7/tur/goat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8840d9f7/tur/goat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8840d9f7/tur/goat/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f0fdd122/tur/goat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f0fdd122/tur/goat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f0fdd122/tur/goat/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3050,20 +3050,20 @@
   },
   {
     "name": "lib-tls-client",
-    "version": "1.13.1",
+    "version": "1.14.0",
     "description": "A net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests",
     "homepage": "https://github.com/bogdanfinn/tls-client/",
     "depends": [],
-    "srcurl": "https://github.com/bogdanfinn/tls-client/archive/refs/tags/v1.13.1.tar.gz",
+    "srcurl": "https://github.com/bogdanfinn/tls-client/archive/refs/tags/v1.14.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/42c71fcb/tur/lib-tls-client",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/42c71fcb/tur/lib-tls-client/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/42c71fcb/tur/lib-tls-client/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/604bff79/tur/lib-tls-client",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/604bff79/tur/lib-tls-client/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/604bff79/tur/lib-tls-client/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/42c71fcb/tur/lib-tls-client/0001-use-source-from-tarball.patch"
+      "https://github.com/termux-user-repository/tur/blob/604bff79/tur/lib-tls-client/0001-use-source-from-tarball.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/42c71fcb/tur/lib-tls-client/0001-use-source-from-tarball.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/604bff79/tur/lib-tls-client/0001-use-source-from-tarball.patch"
     ],
     "auto_updated": true
   },
@@ -6412,15 +6412,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.1.10",
+    "version": "0.1.12",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.10.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.12.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/de3e4ade/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/de3e4ade/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/de3e4ade/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c34b4275/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c34b4275/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c34b4275/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7513,20 +7513,20 @@
   },
   {
     "name": "afrog",
-    "version": "3.3.6",
+    "version": "3.3.7",
     "description": "A tool for finding vulnerabilities",
     "homepage": "https://github.com/zan8in/afrog",
     "depends": [],
-    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.3.6.tar.gz",
+    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.3.7.tar.gz",
     "maintainer": "@UtermuxBlog",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ed3faaf7/tur-hacking/afrog",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ed3faaf7/tur-hacking/afrog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ed3faaf7/tur-hacking/afrog/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8dfdee5d/tur-hacking/afrog",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8dfdee5d/tur-hacking/afrog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8dfdee5d/tur-hacking/afrog/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ed3faaf7/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://github.com/termux-user-repository/tur/blob/8dfdee5d/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ed3faaf7/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8dfdee5d/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "auto_updated": true
   },
