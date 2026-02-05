@@ -1162,21 +1162,6 @@
     "auto_updated": false
   },
   {
-    "name": "cppunit",
-    "version": "1.15.1",
-    "description": "A C++ unit testing framework",
-    "homepage": "https://www.freedesktop.org/wiki/Software/cppunit",
-    "depends": [],
-    "srcurl": "https://dev-www.libreoffice.org/src/cppunit-1.15.1.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b0731aee/tur/cppunit",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b0731aee/tur/cppunit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b0731aee/tur/cppunit/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "crush",
     "version": "0.36.0",
     "description": "The glamourous AI coding agent for your favourite terminal",
@@ -3477,31 +3462,6 @@
     "auto_updated": false
   },
   {
-    "name": "libetonyek",
-    "version": "0.1.10",
-    "description": "CorelDraw file format importer library for LibreOffice",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libetonyek",
-    "depends": [
-      "libxml2",
-      "libwpd",
-      "librevenge",
-      "liblangtag",
-      "zlib"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libetonyek/libetonyek-0.1.10.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1087e46/tur/libetonyek",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1087e46/tur/libetonyek/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1087e46/tur/libetonyek/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f1087e46/tur/libetonyek/0001-mdds-3.0.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f1087e46/tur/libetonyek/0001-mdds-3.0.patch"
-    ],
-    "auto_updated": false
-  },
-  {
     "name": "libexttextcat",
     "version": "3.4.7",
     "description": "N-Gram-Based Text Categorization library primarily intended for language guessing",
@@ -3651,23 +3611,6 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/7eafdc1f/tur/libjemalloc/0001-sys-nothrow.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/7eafdc1f/tur/libjemalloc/0002-fix-hardcoded-paths.patch"
     ],
-    "auto_updated": false
-  },
-  {
-    "name": "liblangtag",
-    "version": "0.6.7",
-    "description": "interface library to access/deal with tags for identifying languages",
-    "homepage": "https://bitbucket.org/tagoh/liblangtag/wiki/Home",
-    "depends": [
-      "libxml2"
-    ],
-    "srcurl": "https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.7.tar.bz2",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5f0ee1fe/tur/liblangtag",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5f0ee1fe/tur/liblangtag/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5f0ee1fe/tur/liblangtag/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
     "auto_updated": false
   },
   {
@@ -4043,26 +3986,6 @@
     "auto_updated": true
   },
   {
-    "name": "libodfgen",
-    "version": "0.1.8",
-    "description": "Library for generating documents in Open Document Format",
-    "homepage": "https://sourceforge.net/p/libwpd/wiki/libodfgen/",
-    "depends": [
-      "libxml2",
-      "librevenge",
-      "liblangtag",
-      "zlib"
-    ],
-    "srcurl": "https://sourceforge.net/projects/libwpd/files/libodfgen/libodfgen-0.1.8/libodfgen-0.1.8.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1087e46/tur/libodfgen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1087e46/tur/libodfgen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1087e46/tur/libodfgen/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "liborcus",
     "version": "0.20.1",
     "description": "File import filter library for spreadsheet documents.",
@@ -4122,24 +4045,6 @@
     "auto_updated": false
   },
   {
-    "name": "librevenge",
-    "version": "0.0.5",
-    "description": "library for REVerses ENGineered formats filters",
-    "homepage": "https://sf.net/p/libwpd/librevenge/",
-    "depends": [
-      "boost",
-      "zlib"
-    ],
-    "srcurl": "https://sourceforge.net/projects/libwpd/files/librevenge/librevenge-0.0.5/librevenge-0.0.5.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1087e46/tur/librevenge",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1087e46/tur/librevenge/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1087e46/tur/librevenge/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "libspnav",
     "version": "1.2",
     "description": "Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices",
@@ -4177,79 +4082,6 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
-  },
-  {
-    "name": "libvisio",
-    "version": "0.1.7",
-    "description": "Library providing ability to interpret and import visio diagrams",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libvisio",
-    "depends": [
-      "libxml2",
-      "libicu",
-      "librevenge"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libvisio/libvisio-0.1.7.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1087e46/tur/libvisio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1087e46/tur/libvisio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1087e46/tur/libvisio/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "libwpd",
-    "version": "0.10.3",
-    "description": "Library for importing WordPerfect (tm) documents",
-    "homepage": "https://libwpd.sourceforge.net/",
-    "depends": [
-      "librevenge"
-    ],
-    "srcurl": "https://downloads.sourceforge.net/sourceforge/libwpd/libwpd-0.10.3.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1087e46/tur/libwpd",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1087e46/tur/libwpd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1087e46/tur/libwpd/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "libwpg",
-    "version": "0.3.4",
-    "description": "Library for importing and converting Corel WordPerfect(tm) Graphics images.",
-    "homepage": "https://libwpg.sourceforge.net/",
-    "depends": [
-      "libwpd",
-      "perl",
-      "librevenge"
-    ],
-    "srcurl": "https://downloads.sourceforge.net/libwpg/libwpg-0.3.4.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1087e46/tur/libwpg",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1087e46/tur/libwpg/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1087e46/tur/libwpg/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "libwps",
-    "version": "0.4.14",
-    "description": "a Microsoft Works file word processor format import filter library",
-    "homepage": "https://sourceforge.net/projects/libwps/",
-    "depends": [
-      "libwpd",
-      "librevenge"
-    ],
-    "srcurl": "https://downloads.sourceforge.net/project/libwps/libwps/libwps-0.4.14/libwps-0.4.14.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5de958ed/tur/libwps",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5de958ed/tur/libwps/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5de958ed/tur/libwps/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
   },
   {
     "name": "libzmf",
@@ -4312,21 +4144,6 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/bea8bb32/tur/lierolibre/std-unique-ptr.patch"
     ],
     "auto_updated": false
-  },
-  {
-    "name": "mdds",
-    "version": "3.2.0",
-    "description": "A collection of multi-dimensional data structures and indexing algorithms",
-    "homepage": "https://gitlab.com/mdds/mdds",
-    "depends": [],
-    "srcurl": "https://gitlab.com/api/v4/projects/mdds%2Fmdds/packages/generic/source/3.2.0/mdds-3.2.0.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e8ee7f64/tur/mdds",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e8ee7f64/tur/mdds/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e8ee7f64/tur/mdds/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
   },
   {
     "name": "meli",
