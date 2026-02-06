@@ -1124,18 +1124,18 @@
   },
   {
     "name": "codex",
-    "version": "0.97.0",
+    "version": "0.98.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.97.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.98.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8be98259/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8be98259/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8be98259/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/14e7dd84/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/14e7dd84/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/14e7dd84/tur/codex/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -1208,7 +1208,7 @@
   },
   {
     "name": "darktable",
-    "version": "5.4.0",
+    "version": "5.4.1",
     "description": "Virtual lighttable and darkroom for photographers",
     "homepage": "https://www.darktable.org/",
     "depends": [
@@ -1245,18 +1245,18 @@
       "portmidi",
       "zlib"
     ],
-    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-5.4.0/darktable-5.4.0.tar.xz",
+    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-5.4.1/darktable-5.4.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d322783c/tur/darktable",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d322783c/tur/darktable/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d322783c/tur/darktable/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a3ba736b/tur/darktable",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a3ba736b/tur/darktable/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a3ba736b/tur/darktable/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d322783c/tur/darktable/0001-cmake-libm.patch",
-      "https://github.com/termux-user-repository/tur/blob/d322783c/tur/darktable/0002-jobs-pthread.patch"
+      "https://github.com/termux-user-repository/tur/blob/a3ba736b/tur/darktable/0001-cmake-libm.patch",
+      "https://github.com/termux-user-repository/tur/blob/a3ba736b/tur/darktable/0002-jobs-pthread.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d322783c/tur/darktable/0001-cmake-libm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d322783c/tur/darktable/0002-jobs-pthread.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a3ba736b/tur/darktable/0001-cmake-libm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a3ba736b/tur/darktable/0002-jobs-pthread.patch"
     ],
     "auto_updated": true
   },
@@ -6412,15 +6412,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.12.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.13.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c34b4275/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c34b4275/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c34b4275/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ccb1de5/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ccb1de5/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ccb1de5/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
