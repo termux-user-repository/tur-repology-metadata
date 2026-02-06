@@ -6426,6 +6426,23 @@
     "auto_updated": true
   },
   {
+    "name": "rust-script",
+    "version": "0.36.0",
+    "description": "Run Rust files and expressions as scripts without any setup or compilation step",
+    "homepage": "https://rust-script.org/",
+    "depends": [
+      "rust"
+    ],
+    "srcurl": "https://github.com/fornwall/rust-script/archive/refs/tags/0.36.0.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/43e6aea3/tur/rust-script",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/43e6aea3/tur/rust-script/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/43e6aea3/tur/rust-script/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "rustc-nightly",
     "version": "1.95.0-2026.02.06-nightly",
     "description": "Rust compiler and utilities (nightly version)",
