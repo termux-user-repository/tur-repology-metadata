@@ -3987,7 +3987,7 @@
   },
   {
     "name": "liborcus",
-    "version": "0.20.1",
+    "version": "0.21.0",
     "description": "File import filter library for spreadsheet documents.",
     "homepage": "https://gitlab.com/orcus/orcus/",
     "depends": [
@@ -3996,11 +3996,11 @@
       "libixion",
       "zlib"
     ],
-    "srcurl": "https://gitlab.com/orcus/orcus/-/archive/0.20.1/orcus-0.20.1.tar.gz",
+    "srcurl": "https://gitlab.com/orcus/orcus/-/archive/0.21.0/orcus-0.21.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f1087e46/tur/liborcus",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f1087e46/tur/liborcus/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f1087e46/tur/liborcus/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2a9d7d81/tur/liborcus",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2a9d7d81/tur/liborcus/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2a9d7d81/tur/liborcus/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
