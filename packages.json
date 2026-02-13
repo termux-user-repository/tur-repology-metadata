@@ -1124,18 +1124,18 @@
   },
   {
     "name": "codex",
-    "version": "0.99.0",
+    "version": "0.100.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.99.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.100.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e76a14dd/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e76a14dd/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e76a14dd/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8507a672/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8507a672/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8507a672/tur/codex/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6818,23 +6818,23 @@
   },
   {
     "name": "surreal",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
     "homepage": "https://github.com/surrealdb/surrealdb",
     "depends": [
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.6.0.tar.gz",
+    "srcurl": "https://github.com/surrealdb/surrealdb/archive/refs/tags/v2.6.1.tar.gz",
     "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ce63ced0/tur/surreal",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ce63ced0/tur/surreal/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ce63ced0/tur/surreal/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b2c35270/tur/surreal",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b2c35270/tur/surreal/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b2c35270/tur/surreal/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ce63ced0/tur/surreal/surrealdb-librocksdb-sys.diff"
+      "https://github.com/termux-user-repository/tur/blob/b2c35270/tur/surreal/surrealdb-librocksdb-sys.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ce63ced0/tur/surreal/surrealdb-librocksdb-sys.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b2c35270/tur/surreal/surrealdb-librocksdb-sys.diff"
     ],
     "auto_updated": true
   },
