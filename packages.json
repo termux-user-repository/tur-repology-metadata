@@ -4943,6 +4943,31 @@
     "auto_updated": true
   },
   {
+    "name": "oils",
+    "version": "0.37.0",
+    "description": "Oils for Unix: OSH and YSH shells",
+    "homepage": "https://oils.pub/",
+    "depends": [
+      "libandroid-glob",
+      "readline",
+      "libc++"
+    ],
+    "srcurl": "https://oils.pub/download/oils-for-unix-0.37.0.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/022ab9ec/tur/oils",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/022ab9ec/tur/oils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/022ab9ec/tur/oils/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/022ab9ec/tur/oils/fix-build-system.patch",
+      "https://github.com/termux-user-repository/tur/blob/022ab9ec/tur/oils/termux-proot-run-configure.diff"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/022ab9ec/tur/oils/fix-build-system.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/022ab9ec/tur/oils/termux-proot-run-configure.diff"
+    ],
+    "auto_updated": true
+  },
+  {
     "name": "openalut",
     "version": "1.1.0",
     "description": "A free implementation of OpenAL's ALUT standard",
