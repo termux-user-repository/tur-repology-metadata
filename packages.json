@@ -1124,20 +1124,24 @@
   },
   {
     "name": "codex",
-    "version": "0.103.0",
+    "version": "0.104.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.103.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.104.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/af1deaa4/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/af1deaa4/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/af1deaa4/tur/codex/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc8bc22e/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc8bc22e/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc8bc22e/tur/codex/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/bc8bc22e/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bc8bc22e/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+    ],
     "auto_updated": true
   },
   {
@@ -6454,15 +6458,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.1.22",
+    "version": "0.1.23",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.22.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.23.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d7d55de5/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d7d55de5/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d7d55de5/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5f33d6f7/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5f33d6f7/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5f33d6f7/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
