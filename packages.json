@@ -1520,22 +1520,22 @@
     ],
     "srcurl": "https://github.com/davisking/dlib/archive/refs/tags/v20.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/757dacf3/tur/dlib",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/757dacf3/tur/dlib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/757dacf3/tur/dlib/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5d906a4d/tur/dlib",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5d906a4d/tur/dlib/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5d906a4d/tur/dlib/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/757dacf3/tur/dlib/0001-drop-distutils.patch",
-      "https://github.com/termux-user-repository/tur/blob/757dacf3/tur/dlib/0002-force-libpng.patch",
-      "https://github.com/termux-user-repository/tur/blob/757dacf3/tur/dlib/0003-force-libjpeg.patch",
-      "https://github.com/termux-user-repository/tur/blob/757dacf3/tur/dlib/0004-force-libjxl.patch",
-      "https://github.com/termux-user-repository/tur/blob/757dacf3/tur/dlib/0005-force-libwebp.patch"
+      "https://github.com/termux-user-repository/tur/blob/5d906a4d/tur/dlib/0001-drop-distutils.patch",
+      "https://github.com/termux-user-repository/tur/blob/5d906a4d/tur/dlib/0002-force-libpng.patch",
+      "https://github.com/termux-user-repository/tur/blob/5d906a4d/tur/dlib/0003-force-libjpeg.patch",
+      "https://github.com/termux-user-repository/tur/blob/5d906a4d/tur/dlib/0004-force-libjxl.patch",
+      "https://github.com/termux-user-repository/tur/blob/5d906a4d/tur/dlib/0005-force-libwebp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/757dacf3/tur/dlib/0001-drop-distutils.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/757dacf3/tur/dlib/0002-force-libpng.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/757dacf3/tur/dlib/0003-force-libjpeg.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/757dacf3/tur/dlib/0004-force-libjxl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/757dacf3/tur/dlib/0005-force-libwebp.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5d906a4d/tur/dlib/0001-drop-distutils.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5d906a4d/tur/dlib/0002-force-libpng.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5d906a4d/tur/dlib/0003-force-libjpeg.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5d906a4d/tur/dlib/0004-force-libjxl.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5d906a4d/tur/dlib/0005-force-libwebp.patch"
     ],
     "auto_updated": true
   },
