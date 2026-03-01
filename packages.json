@@ -1139,23 +1139,25 @@
   },
   {
     "name": "codex",
-    "version": "0.104.0",
+    "version": "0.105.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.104.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.105.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bc8bc22e/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bc8bc22e/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bc8bc22e/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c8209fe2/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c8209fe2/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c8209fe2/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bc8bc22e/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/termux-user-repository/tur/blob/c8209fe2/tur/codex/0001-disable-cpal.patch",
+      "https://github.com/termux-user-repository/tur/blob/c8209fe2/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bc8bc22e/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c8209fe2/tur/codex/0001-disable-cpal.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c8209fe2/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -4270,7 +4272,7 @@
   },
   {
     "name": "moarvm",
-    "version": "2026.01",
+    "version": "2026.02",
     "description": "Virtual machine for Rakudo Perl 6 and NQP",
     "homepage": "https://moarvm.org/",
     "depends": [
@@ -4279,16 +4281,16 @@
       "libuv",
       "zstd"
     ],
-    "srcurl": "https://github.com/MoarVM/MoarVM/releases/download/2026.01/MoarVM-2026.01.tar.gz",
+    "srcurl": "https://github.com/MoarVM/MoarVM/releases/download/2026.02/MoarVM-2026.02.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f3362cd6/tur/moarvm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f3362cd6/tur/moarvm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f3362cd6/tur/moarvm/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6103362b/tur/moarvm",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6103362b/tur/moarvm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6103362b/tur/moarvm/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f3362cd6/tur/moarvm/0001-no-pthread_yield.patch"
+      "https://github.com/termux-user-repository/tur/blob/6103362b/tur/moarvm/0001-no-pthread_yield.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f3362cd6/tur/moarvm/0001-no-pthread_yield.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6103362b/tur/moarvm/0001-no-pthread_yield.patch"
     ],
     "auto_updated": false
   },
