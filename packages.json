@@ -1139,25 +1139,25 @@
   },
   {
     "name": "codex",
-    "version": "0.105.0",
+    "version": "0.106.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.105.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.106.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c8209fe2/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c8209fe2/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c8209fe2/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6c9e41c7/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6c9e41c7/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6c9e41c7/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/c8209fe2/tur/codex/0001-disable-cpal.patch",
-      "https://github.com/termux-user-repository/tur/blob/c8209fe2/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/termux-user-repository/tur/blob/6c9e41c7/tur/codex/0001-disable-cpal.patch",
+      "https://github.com/termux-user-repository/tur/blob/6c9e41c7/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c8209fe2/tur/codex/0001-disable-cpal.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c8209fe2/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6c9e41c7/tur/codex/0001-disable-cpal.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6c9e41c7/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
