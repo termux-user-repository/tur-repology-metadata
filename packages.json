@@ -1139,25 +1139,25 @@
   },
   {
     "name": "codex",
-    "version": "0.106.0",
+    "version": "0.107.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.106.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.107.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6c9e41c7/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6c9e41c7/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6c9e41c7/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b79ee8ca/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b79ee8ca/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b79ee8ca/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6c9e41c7/tur/codex/0001-disable-cpal.patch",
-      "https://github.com/termux-user-repository/tur/blob/6c9e41c7/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/termux-user-repository/tur/blob/b79ee8ca/tur/codex/0001-disable-cpal.patch",
+      "https://github.com/termux-user-repository/tur/blob/b79ee8ca/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6c9e41c7/tur/codex/0001-disable-cpal.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6c9e41c7/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b79ee8ca/tur/codex/0001-disable-cpal.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b79ee8ca/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -1372,17 +1372,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.15.0",
+    "version": "6.16.0",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.15.0.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.16.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1b4ab42e/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1b4ab42e/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1b4ab42e/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e7339b23/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e7339b23/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e7339b23/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
