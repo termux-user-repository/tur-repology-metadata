@@ -3916,7 +3916,7 @@
     "description": "Modular compiler and toolchain technologies library (Version 15, Classic Flang Fork)",
     "homepage": "https://github.com/flang-compiler/classic-flang-llvm-project/",
     "depends": [
-      "binutils-is-llvm",
+      "binutils",
       "libc++",
       "ncurses",
       "ndk-sysroot",
@@ -3925,24 +3925,24 @@
     ],
     "srcurl": "https://github.com/flang-compiler/classic-flang-llvm-project/archive/cd736e11b188a8f6ff14041abd818ad86f36b9bb.zip",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a8ce3ccb/tur/libllvm-classic-flang",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a8ce3ccb/tur/libllvm-classic-flang/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3ccb/tur/libllvm-classic-flang/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cb03919d/tur/libllvm-classic-flang",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cb03919d/tur/libllvm-classic-flang/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cb03919d/tur/libllvm-classic-flang/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a8ce3ccb/tur/libllvm-classic-flang/clang-lib-Driver-ToolChain.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8ce3ccb/tur/libllvm-classic-flang/clang-lib-Driver-ToolChains-Gnu.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8ce3ccb/tur/libllvm-classic-flang/clang-lib-Driver-ToolChains-Linux.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8ce3ccb/tur/libllvm-classic-flang/llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8ce3ccb/tur/libllvm-classic-flang/llvm-tools-llvm-shilib-CMakeLists.txt.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8ce3ccb/tur/libllvm-classic-flang/openmp.patch"
+      "https://github.com/termux-user-repository/tur/blob/cb03919d/tur/libllvm-classic-flang/clang-lib-Driver-ToolChain.cpp.patch",
+      "https://github.com/termux-user-repository/tur/blob/cb03919d/tur/libllvm-classic-flang/clang-lib-Driver-ToolChains-Gnu.cpp.patch",
+      "https://github.com/termux-user-repository/tur/blob/cb03919d/tur/libllvm-classic-flang/clang-lib-Driver-ToolChains-Linux.cpp.patch",
+      "https://github.com/termux-user-repository/tur/blob/cb03919d/tur/libllvm-classic-flang/llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.patch",
+      "https://github.com/termux-user-repository/tur/blob/cb03919d/tur/libllvm-classic-flang/llvm-tools-llvm-shilib-CMakeLists.txt.patch",
+      "https://github.com/termux-user-repository/tur/blob/cb03919d/tur/libllvm-classic-flang/openmp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3ccb/tur/libllvm-classic-flang/clang-lib-Driver-ToolChain.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3ccb/tur/libllvm-classic-flang/clang-lib-Driver-ToolChains-Gnu.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3ccb/tur/libllvm-classic-flang/clang-lib-Driver-ToolChains-Linux.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3ccb/tur/libllvm-classic-flang/llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3ccb/tur/libllvm-classic-flang/llvm-tools-llvm-shilib-CMakeLists.txt.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8ce3ccb/tur/libllvm-classic-flang/openmp.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cb03919d/tur/libllvm-classic-flang/clang-lib-Driver-ToolChain.cpp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cb03919d/tur/libllvm-classic-flang/clang-lib-Driver-ToolChains-Gnu.cpp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cb03919d/tur/libllvm-classic-flang/clang-lib-Driver-ToolChains-Linux.cpp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cb03919d/tur/libllvm-classic-flang/llvm-tools-llvm-rtdyld-llvm-rtdyld.cpp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cb03919d/tur/libllvm-classic-flang/llvm-tools-llvm-shilib-CMakeLists.txt.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cb03919d/tur/libllvm-classic-flang/openmp.patch"
     ],
     "auto_updated": false
   },
