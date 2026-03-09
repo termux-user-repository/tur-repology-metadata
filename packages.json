@@ -5672,14 +5672,16 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/030b0a4b/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/030b0a4b/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/030b0a4b/tur/python-pandas/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/27592ee3/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/27592ee3/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/27592ee3/tur/python-pandas/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/030b0a4b/tur/python-pandas/0001-meson-vsenv.patch"
+      "https://github.com/termux-user-repository/tur/blob/27592ee3/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://github.com/termux-user-repository/tur/blob/27592ee3/tur/python-pandas/use-given-python.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/030b0a4b/tur/python-pandas/0001-meson-vsenv.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/27592ee3/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/27592ee3/tur/python-pandas/use-given-python.diff"
     ],
     "auto_updated": true
   },
@@ -8547,14 +8549,15 @@
       "libtiff",
       "ncurses",
       "openimageio",
+      "python",
       "qt6-qtbase",
       "zlib"
     ],
     "srcurl": "https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/releases/download/v1.15.1.0/OSL-1.15.1.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/57db274e/tur-on-device/openshadinglanguage",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/57db274e/tur-on-device/openshadinglanguage/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/57db274e/tur-on-device/openshadinglanguage/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7f0c6c56/tur-on-device/openshadinglanguage",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7f0c6c56/tur-on-device/openshadinglanguage/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7f0c6c56/tur-on-device/openshadinglanguage/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
