@@ -1218,25 +1218,25 @@
   },
   {
     "name": "codex",
-    "version": "0.111.0",
+    "version": "0.112.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.111.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.112.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/605ea1a4/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/605ea1a4/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/605ea1a4/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1c0feee5/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1c0feee5/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1c0feee5/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/605ea1a4/tur/codex/0001-disable-cpal.patch",
-      "https://github.com/termux-user-repository/tur/blob/605ea1a4/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://github.com/termux-user-repository/tur/blob/1c0feee5/tur/codex/0001-disable-cpal.patch",
+      "https://github.com/termux-user-repository/tur/blob/1c0feee5/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/605ea1a4/tur/codex/0001-disable-cpal.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/605ea1a4/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1c0feee5/tur/codex/0001-disable-cpal.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1c0feee5/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff"
     ],
     "auto_updated": true
   },
@@ -7152,15 +7152,15 @@
   },
   {
     "name": "uutils-coreutils",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
     "homepage": "https://uutils.github.io/",
     "depends": [],
-    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.6.0.tar.gz",
+    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.7.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2c74e30f/tur/uutils-coreutils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2c74e30f/tur/uutils-coreutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2c74e30f/tur/uutils-coreutils/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cf2f5d31/tur/uutils-coreutils",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cf2f5d31/tur/uutils-coreutils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cf2f5d31/tur/uutils-coreutils/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
