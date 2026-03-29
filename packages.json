@@ -3251,15 +3251,15 @@
   },
   {
     "name": "komac",
-    "version": "2.15.0",
+    "version": "2.16.0",
     "description": "The Community Manifest Creator for WinGet",
     "homepage": "https://github.com/russellbanks/Komac",
     "depends": [],
-    "srcurl": "https://github.com/russellbanks/Komac/archive/refs/tags/v2.15.0.tar.gz",
+    "srcurl": "https://github.com/russellbanks/Komac/archive/refs/tags/v2.16.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/eb8e9160/tur/komac",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/eb8e9160/tur/komac/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/eb8e9160/tur/komac/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8e2f0366/tur/komac",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8e2f0366/tur/komac/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8e2f0366/tur/komac/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8740,17 +8740,17 @@
   },
   {
     "name": "nqp",
-    "version": "2026.02",
+    "version": "2026.03",
     "description": "Lightweight Raku-like environment for virtual machines",
     "homepage": "https://github.com/Raku/nqp",
     "depends": [
       "moarvm"
     ],
-    "srcurl": "https://github.com/Raku/nqp/releases/download/2026.02/nqp-2026.02.tar.gz",
+    "srcurl": "https://github.com/Raku/nqp/releases/download/2026.03/nqp-2026.03.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/694979a9/tur-on-device/nqp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/694979a9/tur-on-device/nqp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/694979a9/tur-on-device/nqp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5716db35/tur-on-device/nqp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5716db35/tur-on-device/nqp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5716db35/tur-on-device/nqp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
