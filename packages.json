@@ -1684,7 +1684,7 @@
   },
   {
     "name": "dlib",
-    "version": "20.0",
+    "version": "20.0.1",
     "description": "a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems",
     "homepage": "http://dlib.net/",
     "depends": [
@@ -1697,24 +1697,24 @@
       "libwebp",
       "python"
     ],
-    "srcurl": "https://github.com/davisking/dlib/archive/refs/tags/v20.0.tar.gz",
+    "srcurl": "https://github.com/davisking/dlib/archive/refs/tags/v20.0.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6d4ab60d/tur/dlib",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6d4ab60d/tur/dlib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6d4ab60d/tur/dlib/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ed79206b/tur/dlib",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ed79206b/tur/dlib/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ed79206b/tur/dlib/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6d4ab60d/tur/dlib/0001-drop-distutils.patch",
-      "https://github.com/termux-user-repository/tur/blob/6d4ab60d/tur/dlib/0002-force-libpng.patch",
-      "https://github.com/termux-user-repository/tur/blob/6d4ab60d/tur/dlib/0003-force-libjpeg.patch",
-      "https://github.com/termux-user-repository/tur/blob/6d4ab60d/tur/dlib/0004-force-libjxl.patch",
-      "https://github.com/termux-user-repository/tur/blob/6d4ab60d/tur/dlib/0005-force-libwebp.patch"
+      "https://github.com/termux-user-repository/tur/blob/ed79206b/tur/dlib/0001-setup.py-options.patch",
+      "https://github.com/termux-user-repository/tur/blob/ed79206b/tur/dlib/0002-force-libpng.patch",
+      "https://github.com/termux-user-repository/tur/blob/ed79206b/tur/dlib/0003-force-libjpeg.patch",
+      "https://github.com/termux-user-repository/tur/blob/ed79206b/tur/dlib/0004-force-libjxl.patch",
+      "https://github.com/termux-user-repository/tur/blob/ed79206b/tur/dlib/0005-force-libwebp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6d4ab60d/tur/dlib/0001-drop-distutils.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6d4ab60d/tur/dlib/0002-force-libpng.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6d4ab60d/tur/dlib/0003-force-libjpeg.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6d4ab60d/tur/dlib/0004-force-libjxl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6d4ab60d/tur/dlib/0005-force-libwebp.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ed79206b/tur/dlib/0001-setup.py-options.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ed79206b/tur/dlib/0002-force-libpng.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ed79206b/tur/dlib/0003-force-libjpeg.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ed79206b/tur/dlib/0004-force-libjxl.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ed79206b/tur/dlib/0005-force-libwebp.patch"
     ],
     "auto_updated": true
   },
@@ -5863,7 +5863,7 @@
   },
   {
     "name": "python-polars",
-    "version": "1.38.1",
+    "version": "1.39.3",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
@@ -5872,11 +5872,11 @@
       "python-pip",
       "python-polars-runtime-32"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/archive/refs/tags/py-1.38.1.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/archive/refs/tags/py-1.39.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7d3679da/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7d3679da/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7d3679da/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/158d7d52/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/158d7d52/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/158d7d52/tur/python-polars/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6746,7 +6746,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.96.0-2026.03.29-nightly",
+    "version": "1.96.0-2026.03.30-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -6758,34 +6758,34 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2026-03-29/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2026-03-30/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ebf3cd20/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cc1a4a77/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/0009-always-export-emutls.patch",
-      "https://github.com/termux-user-repository/tur/blob/ebf3cd20/tur/rustc-nightly/force-allow-edit-vendor.diff"
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/0009-always-export-emutls.patch",
+      "https://github.com/termux-user-repository/tur/blob/cc1a4a77/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/0009-always-export-emutls.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ebf3cd20/tur/rustc-nightly/force-allow-edit-vendor.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/0009-always-export-emutls.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc1a4a77/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
     "auto_updated": true
   },
@@ -6969,15 +6969,15 @@
   },
   {
     "name": "stash",
-    "version": "0.30.1",
+    "version": "0.31.0",
     "description": "Locally hosted web-based app written in Go which organizes and serves your Adult Video",
     "homepage": "https://stashapp.cc",
     "depends": [],
     "srcurl": "git+https://github.com/stashapp/stash",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6c464f06/tur/stash",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6c464f06/tur/stash/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6c464f06/tur/stash/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/40c5fd62/tur/stash",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/40c5fd62/tur/stash/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/40c5fd62/tur/stash/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
