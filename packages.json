@@ -6553,14 +6553,14 @@
     ],
     "srcurl": "https://github.com/Beep6581/RawTherapee/releases/download/5.12/rawtherapee-5.12.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fc799945/tur/rawtherapee",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fc799945/tur/rawtherapee/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fc799945/tur/rawtherapee/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8e49e33e/tur/rawtherapee",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8e49e33e/tur/rawtherapee/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8e49e33e/tur/rawtherapee/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/fc799945/tur/rawtherapee/0001-dirbrowser-root-subdirs.patch"
+      "https://github.com/termux-user-repository/tur/blob/8e49e33e/tur/rawtherapee/0001-dirbrowser-root-subdirs.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fc799945/tur/rawtherapee/0001-dirbrowser-root-subdirs.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8e49e33e/tur/rawtherapee/0001-dirbrowser-root-subdirs.patch"
     ],
     "auto_updated": true
   },
