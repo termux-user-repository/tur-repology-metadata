@@ -1296,37 +1296,37 @@
   },
   {
     "name": "codex",
-    "version": "0.117.0",
+    "version": "0.118.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.117.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.118.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/13b0e006/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/666f5dd9/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/0001-disable-cpal.patch",
-      "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/rusty-v8-search-files-with-target-suffix.diff",
-      "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
-      "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/v8-patches/0002-install-sysroot.patch",
-      "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/v8-patches/0101-reland-jumbo-scripts.patch",
-      "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/v8-patches/0102-reland-jumbo-cflags.patch",
-      "https://github.com/termux-user-repository/tur/blob/13b0e006/tur/codex/v8-patches/0103-reland-jumbo-for-v8.patch"
+      "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/0001-disable-cpal.patch",
+      "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/rusty-v8-search-files-with-target-suffix.diff",
+      "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
+      "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/v8-patches/0002-install-sysroot.patch",
+      "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/v8-patches/0101-reland-jumbo-scripts.patch",
+      "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/v8-patches/0102-reland-jumbo-cflags.patch",
+      "https://github.com/termux-user-repository/tur/blob/666f5dd9/tur/codex/v8-patches/0103-reland-jumbo-for-v8.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/0001-disable-cpal.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/rusty-v8-search-files-with-target-suffix.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/v8-patches/0002-install-sysroot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/v8-patches/0101-reland-jumbo-scripts.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/v8-patches/0102-reland-jumbo-cflags.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/13b0e006/tur/codex/v8-patches/0103-reland-jumbo-for-v8.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/0001-disable-cpal.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/rusty-v8-search-files-with-target-suffix.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/v8-patches/0002-install-sysroot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/v8-patches/0101-reland-jumbo-scripts.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/v8-patches/0102-reland-jumbo-cflags.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/666f5dd9/tur/codex/v8-patches/0103-reland-jumbo-for-v8.patch"
     ],
     "auto_updated": true
   },
