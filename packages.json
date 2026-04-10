@@ -6776,7 +6776,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.96.0-2026.04.09-nightly",
+    "version": "1.96.0-2026.04.10-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -6788,34 +6788,34 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2026-04-09/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2026-04-10/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a37e4a56/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0a8f3920/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/0009-always-export-emutls.patch",
-      "https://github.com/termux-user-repository/tur/blob/a37e4a56/tur/rustc-nightly/force-allow-edit-vendor.diff"
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/0009-always-export-emutls.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8f3920/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/0009-always-export-emutls.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a37e4a56/tur/rustc-nightly/force-allow-edit-vendor.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/0009-always-export-emutls.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8f3920/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
     "auto_updated": true
   },
@@ -7549,7 +7549,7 @@
   },
   {
     "name": "wine-devel",
-    "version": "11.5",
+    "version": "11.6",
     "description": "A compatibility layer for running Windows programs",
     "homepage": "https://www.winehq.org/",
     "depends": [
@@ -7571,26 +7571,26 @@
       "vulkan-loader",
       "xorg-xrandr"
     ],
-    "srcurl": "https://dl.winehq.org/wine/source/11.x/wine-11.5.tar.xz",
+    "srcurl": "https://dl.winehq.org/wine/source/11.x/wine-11.6.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8962070d/tur/wine-devel",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8962070d/tur/wine-devel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8962070d/tur/wine-devel/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/568ecba1/tur/wine-devel",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/568ecba1/tur/wine-devel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/568ecba1/tur/wine-devel/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8962070d/tur/wine-devel/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/8962070d/tur/wine-devel/0002-fix-defines.patch",
-      "https://github.com/termux-user-repository/tur/blob/8962070d/tur/wine-devel/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/8962070d/tur/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/8962070d/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/8962070d/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/568ecba1/tur/wine-devel/0001-fix-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/568ecba1/tur/wine-devel/0002-fix-defines.patch",
+      "https://github.com/termux-user-repository/tur/blob/568ecba1/tur/wine-devel/0003-fix-socket-ipx.patch",
+      "https://github.com/termux-user-repository/tur/blob/568ecba1/tur/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://github.com/termux-user-repository/tur/blob/568ecba1/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/568ecba1/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8962070d/tur/wine-devel/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8962070d/tur/wine-devel/0002-fix-defines.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8962070d/tur/wine-devel/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8962070d/tur/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8962070d/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8962070d/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/568ecba1/tur/wine-devel/0001-fix-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/568ecba1/tur/wine-devel/0002-fix-defines.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/568ecba1/tur/wine-devel/0003-fix-socket-ipx.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/568ecba1/tur/wine-devel/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/568ecba1/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/568ecba1/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -7645,7 +7645,7 @@
   },
   {
     "name": "wine-staging",
-    "version": "11.5",
+    "version": "11.6",
     "description": "A compatibility layer for running Windows programs",
     "homepage": "https://www.winehq.org/",
     "depends": [
@@ -7667,26 +7667,26 @@
       "vulkan-loader",
       "xorg-xrandr"
     ],
-    "srcurl": "https://dl.winehq.org/wine/source/11.x/wine-11.5.tar.xz",
+    "srcurl": "https://dl.winehq.org/wine/source/11.x/wine-11.6.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3fba2401/tur/wine-staging",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3fba2401/tur/wine-staging/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3fba2401/tur/wine-staging/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c587fcbb/tur/wine-staging",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c587fcbb/tur/wine-staging/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c587fcbb/tur/wine-staging/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/3fba2401/tur/wine-staging/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/3fba2401/tur/wine-staging/0002-fix-defines.patch",
-      "https://github.com/termux-user-repository/tur/blob/3fba2401/tur/wine-staging/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/3fba2401/tur/wine-staging/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/3fba2401/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/3fba2401/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/c587fcbb/tur/wine-staging/0001-fix-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/c587fcbb/tur/wine-staging/0002-fix-defines.patch",
+      "https://github.com/termux-user-repository/tur/blob/c587fcbb/tur/wine-staging/0003-fix-socket-ipx.patch",
+      "https://github.com/termux-user-repository/tur/blob/c587fcbb/tur/wine-staging/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://github.com/termux-user-repository/tur/blob/c587fcbb/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/c587fcbb/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3fba2401/tur/wine-staging/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3fba2401/tur/wine-staging/0002-fix-defines.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3fba2401/tur/wine-staging/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3fba2401/tur/wine-staging/0004-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3fba2401/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3fba2401/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c587fcbb/tur/wine-staging/0001-fix-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c587fcbb/tur/wine-staging/0002-fix-defines.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c587fcbb/tur/wine-staging/0003-fix-socket-ipx.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c587fcbb/tur/wine-staging/0004-no-pthread_mutexattr_setprotocol.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c587fcbb/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c587fcbb/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
