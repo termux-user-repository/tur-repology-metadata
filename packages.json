@@ -6864,25 +6864,6 @@
     "auto_updated": false
   },
   {
-    "name": "sdl3-ttf",
-    "version": "3.2.2",
-    "description": "A library that allows you to use TrueType fonts in your SDL applications (version 3)",
-    "homepage": "https://github.com/libsdl-org/SDL_ttf",
-    "depends": [
-      "freetype",
-      "opengl",
-      "sdl3"
-    ],
-    "srcurl": "https://github.com/libsdl-org/SDL_ttf/archive/refs/tags/release-3.2.2.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f6cf104d/tur/sdl3-ttf",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f6cf104d/tur/sdl3-ttf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f6cf104d/tur/sdl3-ttf/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
     "name": "sdlpal",
     "version": "2.0.2024.08.06",
     "description": "SDL-based reimplementation of the classic Chinese-language RPG known as PAL",
