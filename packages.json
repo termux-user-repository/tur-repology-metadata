@@ -6527,6 +6527,33 @@
     "auto_updated": false
   },
   {
+    "name": "ratpoison",
+    "version": "1.4.9",
+    "description": "Ratpoison is a keyboard-driven tiling window manager for X11, inspired by GNU Screen",
+    "homepage": "https://www.nongnu.org/ratpoison/",
+    "depends": [
+      "libx11",
+      "libxext",
+      "libxft",
+      "libxrandr",
+      "libxtst",
+      "libxi",
+      "libxrender"
+    ],
+    "srcurl": "https://download.savannah.gnu.org/releases/ratpoison/ratpoison-1.4.9.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7033fd2b/tur/ratpoison",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7033fd2b/tur/ratpoison/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7033fd2b/tur/ratpoison/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/7033fd2b/tur/ratpoison/getopt.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7033fd2b/tur/ratpoison/getopt.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "rawtherapee",
     "version": "5.12",
     "description": "raw image converter and digital photo processor",
@@ -6744,15 +6771,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.1.68",
+    "version": "0.1.69",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.68.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.69.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9b09ba14/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9b09ba14/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9b09ba14/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/01a346fd/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/01a346fd/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/01a346fd/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
