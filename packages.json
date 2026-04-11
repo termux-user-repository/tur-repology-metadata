@@ -2897,7 +2897,7 @@
   },
   {
     "name": "gnome-sudoku",
-    "version": "50.0",
+    "version": "50.1",
     "description": "GNOME Sudoku game",
     "homepage": "https://wiki.gnome.org/Apps(2f)Sudoku.html",
     "depends": [
@@ -2910,11 +2910,11 @@
       "opengl",
       "qqwing"
     ],
-    "srcurl": "https://download.gnome.org/sources/gnome-sudoku/50/gnome-sudoku-50.0.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/gnome-sudoku/50/gnome-sudoku-50.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3f8d2019/tur/gnome-sudoku",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3f8d2019/tur/gnome-sudoku/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3f8d2019/tur/gnome-sudoku/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/070ed076/tur/gnome-sudoku",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/070ed076/tur/gnome-sudoku/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/070ed076/tur/gnome-sudoku/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
