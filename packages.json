@@ -8935,6 +8935,23 @@
     "auto_updated": false
   },
   {
+    "name": "qt5-qmake",
+    "version": "5.15.18",
+    "description": "Qt 5 QMake",
+    "homepage": "https://www.qt.io/",
+    "depends": [
+      "qt5-qtbase"
+    ],
+    "srcurl": "https://download.qt.io/archive/qt/5.15/5.15.18/submodules/qtbase-everywhere-opensource-src-5.15.18.tar.xz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9fb18ea0/tur-on-device/qt5-qmake",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9fb18ea0/tur-on-device/qt5-qmake/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9fb18ea0/tur-on-device/qt5-qmake/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "r-base",
     "version": "4.5.2",
     "description": "A free software environment for statistical computing and graphics",
