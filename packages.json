@@ -7128,17 +7128,21 @@
   },
   {
     "name": "surge-cli",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "Blazing fast TUI download manager built in Go for power users",
     "homepage": "https://github.com/SurgeDM/Surge",
     "depends": [],
-    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.8.0.tar.gz",
+    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.8.1.tar.gz",
     "maintainer": "@LukeGTH",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7bb3492c/tur/surge-cli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7bb3492c/tur/surge-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7bb3492c/tur/surge-cli/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fa128b5e/tur/surge-cli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fa128b5e/tur/surge-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fa128b5e/tur/surge-cli/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/fa128b5e/tur/surge-cli/xdg-paths.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fa128b5e/tur/surge-cli/xdg-paths.patch"
+    ],
     "auto_updated": false
   },
   {
