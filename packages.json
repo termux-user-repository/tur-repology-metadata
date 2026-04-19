@@ -1818,6 +1818,24 @@
     "auto_updated": true
   },
   {
+    "name": "dumbversion",
+    "version": "1.2.1",
+    "description": "A high-performance binary diffing and patching engine for massive files",
+    "homepage": "https://github.com/thecatontheceiling/DumbVersion",
+    "depends": [
+      "dotnet-host",
+      "dotnet-runtime-10.0"
+    ],
+    "srcurl": "git+https://github.com/thecatontheceiling/DumbVersion",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/011debb2/tur/dumbversion",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/011debb2/tur/dumbversion/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/011debb2/tur/dumbversion/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "edex-ui",
     "version": "2.2.8",
     "description": "A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support",
@@ -6788,7 +6806,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.97.0-2026.04.18-nightly",
+    "version": "1.97.0-2026.04.19-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -6800,34 +6818,34 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2026-04-18/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2026-04-19/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1d82cd2e/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7daa6724/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/0009-always-export-emutls.patch",
-      "https://github.com/termux-user-repository/tur/blob/1d82cd2e/tur/rustc-nightly/force-allow-edit-vendor.diff"
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/0009-always-export-emutls.patch",
+      "https://github.com/termux-user-repository/tur/blob/7daa6724/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/0009-always-export-emutls.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1d82cd2e/tur/rustc-nightly/force-allow-edit-vendor.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/0009-always-export-emutls.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7daa6724/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
     "auto_updated": true
   },
