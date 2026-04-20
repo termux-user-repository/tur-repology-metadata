@@ -667,7 +667,7 @@
   },
   {
     "name": "beets",
-    "version": "2.9.0",
+    "version": "2.10.0",
     "description": "The music geek's media organizer",
     "homepage": "https://beets.io",
     "depends": [
@@ -677,11 +677,11 @@
       "python-numpy",
       "rust"
     ],
-    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.9.0/beets-2.9.0.tar.gz",
+    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.10.0/beets-2.10.0.tar.gz",
     "maintainer": "@mrtnvgr",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f30d59af/tur/beets",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f30d59af/tur/beets/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f30d59af/tur/beets/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/537805e3/tur/beets",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/537805e3/tur/beets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/537805e3/tur/beets/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7167,20 +7167,20 @@
   },
   {
     "name": "surge-cli",
-    "version": "0.8.1",
+    "version": "0.8.2",
     "description": "Blazing fast TUI download manager built in Go for power users",
     "homepage": "https://github.com/SurgeDM/Surge",
     "depends": [],
-    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.8.1.tar.gz",
+    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.8.2.tar.gz",
     "maintainer": "@LukeGTH",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fa128b5e/tur/surge-cli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fa128b5e/tur/surge-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fa128b5e/tur/surge-cli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8095c83e/tur/surge-cli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8095c83e/tur/surge-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8095c83e/tur/surge-cli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/fa128b5e/tur/surge-cli/xdg-paths.patch"
+      "https://github.com/termux-user-repository/tur/blob/8095c83e/tur/surge-cli/xdg-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fa128b5e/tur/surge-cli/xdg-paths.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8095c83e/tur/surge-cli/xdg-paths.patch"
     ],
     "auto_updated": false
   },
