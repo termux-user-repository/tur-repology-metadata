@@ -1302,37 +1302,37 @@
   },
   {
     "name": "codex",
-    "version": "0.121.0",
+    "version": "0.122.0",
     "description": "Lightweight coding agent that runs in your terminal",
     "homepage": "https://github.com/openai/codex",
     "depends": [
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.121.0.tar.gz",
+    "srcurl": "https://github.com/openai/codex/archive/refs/tags/rust-v0.122.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a5b70223/tur/codex",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ba26bf80/tur/codex",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/0001-disable-cpal.patch",
-      "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/rusty-v8-search-files-with-target-suffix.diff",
-      "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
-      "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/v8-patches/0002-install-sysroot.patch",
-      "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/v8-patches/0101-reland-jumbo-scripts.patch",
-      "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/v8-patches/0102-reland-jumbo-cflags.patch",
-      "https://github.com/termux-user-repository/tur/blob/a5b70223/tur/codex/v8-patches/0103-reland-jumbo-for-v8.patch"
+      "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/0001-disable-cpal.patch",
+      "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/rusty-v8-search-files-with-target-suffix.diff",
+      "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
+      "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/v8-patches/0002-install-sysroot.patch",
+      "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/v8-patches/0101-reland-jumbo-scripts.patch",
+      "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/v8-patches/0102-reland-jumbo-cflags.patch",
+      "https://github.com/termux-user-repository/tur/blob/ba26bf80/tur/codex/v8-patches/0103-reland-jumbo-for-v8.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/0001-disable-cpal.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/rusty-v8-search-files-with-target-suffix.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/v8-patches/0002-install-sysroot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/v8-patches/0101-reland-jumbo-scripts.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/v8-patches/0102-reland-jumbo-cflags.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a5b70223/tur/codex/v8-patches/0103-reland-jumbo-for-v8.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/0001-disable-cpal.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/rust-cc-do-not-concatenate-all-the-CFLAGS.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/rusty-v8-search-files-with-target-suffix.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/v8-patches/0001-unset-BINDGEN_EXTRA_CLANG_ARGS-in-v8_s-bindgen.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/v8-patches/0002-install-sysroot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/v8-patches/0101-reland-jumbo-scripts.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/v8-patches/0102-reland-jumbo-cflags.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ba26bf80/tur/codex/v8-patches/0103-reland-jumbo-for-v8.patch"
     ],
     "auto_updated": true
   },
@@ -1548,17 +1548,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.16.9",
+    "version": "6.16.10",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.16.9.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.16.10.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/189e5824/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/189e5824/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/189e5824/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f6a39d31/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f6a39d31/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f6a39d31/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
