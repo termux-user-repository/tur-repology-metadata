@@ -1840,7 +1840,7 @@
   },
   {
     "name": "dumbversion",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "A high-performance binary diffing and patching engine for massive files",
     "homepage": "https://github.com/thecatontheceiling/DumbVersion",
     "depends": [
@@ -1849,9 +1849,9 @@
     ],
     "srcurl": "git+https://github.com/thecatontheceiling/DumbVersion",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/011debb2/tur/dumbversion",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/011debb2/tur/dumbversion/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/011debb2/tur/dumbversion/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f66dfd7a/tur/dumbversion",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f66dfd7a/tur/dumbversion/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f66dfd7a/tur/dumbversion/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7167,20 +7167,20 @@
   },
   {
     "name": "surge-cli",
-    "version": "0.8.3",
+    "version": "0.8.4",
     "description": "Blazing fast TUI download manager built in Go for power users",
     "homepage": "https://github.com/SurgeDM/Surge",
     "depends": [],
-    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.8.3.tar.gz",
+    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.8.4.tar.gz",
     "maintainer": "@LukeGTH",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5915c649/tur/surge-cli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5915c649/tur/surge-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5915c649/tur/surge-cli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/28ae20ea/tur/surge-cli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/28ae20ea/tur/surge-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/28ae20ea/tur/surge-cli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/5915c649/tur/surge-cli/xdg-paths.patch"
+      "https://github.com/termux-user-repository/tur/blob/28ae20ea/tur/surge-cli/xdg-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5915c649/tur/surge-cli/xdg-paths.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/28ae20ea/tur/surge-cli/xdg-paths.patch"
     ],
     "auto_updated": true
   },
