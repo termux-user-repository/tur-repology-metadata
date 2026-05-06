@@ -667,7 +667,7 @@
   },
   {
     "name": "beets",
-    "version": "2.10.0",
+    "version": "2.11.0",
     "description": "The music geek's media organizer",
     "homepage": "https://beets.io",
     "depends": [
@@ -677,11 +677,11 @@
       "python-numpy",
       "rust"
     ],
-    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.10.0/beets-2.10.0.tar.gz",
+    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.11.0/beets-2.11.0.tar.gz",
     "maintainer": "@mrtnvgr",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/537805e3/tur/beets",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/537805e3/tur/beets/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/537805e3/tur/beets/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b0f08d45/tur/beets",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b0f08d45/tur/beets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b0f08d45/tur/beets/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
