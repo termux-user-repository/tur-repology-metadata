@@ -7616,6 +7616,27 @@
     "auto_updated": false
   },
   {
+    "name": "wiggle",
+    "version": "1.3",
+    "description": "A program for applying patches that patch cannot apply because of conflicting changes",
+    "homepage": "https://github.com/neilbrown/wiggle",
+    "depends": [
+      "ncurses"
+    ],
+    "srcurl": "https://github.com/neilbrown/wiggle/archive/refs/tags/v1.3.tar.gz",
+    "maintainer": "@flosnvjx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/34c9d988/tur/wiggle",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/34c9d988/tur/wiggle/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/34c9d988/tur/wiggle/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/34c9d988/tur/wiggle/Makefile.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/34c9d988/tur/wiggle/Makefile.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "wine-devel",
     "version": "11.8",
     "description": "A compatibility layer for running Windows programs",
