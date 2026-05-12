@@ -5929,7 +5929,7 @@
   },
   {
     "name": "python-pandas",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "Powerful Python data analysis toolkit",
     "homepage": "https://pandas.pydata.org/",
     "depends": [
@@ -5940,16 +5940,16 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bdd1c5de/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bdd1c5de/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bdd1c5de/tur/python-pandas/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c554db7c/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c554db7c/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c554db7c/tur/python-pandas/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bdd1c5de/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://github.com/termux-user-repository/tur/blob/bdd1c5de/tur/python-pandas/use-given-python.diff"
+      "https://github.com/termux-user-repository/tur/blob/c554db7c/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://github.com/termux-user-repository/tur/blob/c554db7c/tur/python-pandas/use-given-python.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bdd1c5de/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bdd1c5de/tur/python-pandas/use-given-python.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c554db7c/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c554db7c/tur/python-pandas/use-given-python.diff"
     ],
     "auto_updated": true
   },
