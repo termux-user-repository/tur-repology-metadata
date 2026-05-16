@@ -2434,17 +2434,17 @@
   },
   {
     "name": "feedr",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "A feature-rich terminal-based RSS/Atom feed reader written in Rust",
     "homepage": "https://github.com/bahdotsh/feedr",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/bahdotsh/feedr/archive/refs/tags/v0.7.0.tar.gz",
+    "srcurl": "https://github.com/bahdotsh/feedr/archive/refs/tags/v0.8.0.tar.gz",
     "maintainer": "@everywhereless",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/13ef1c55/tur/feedr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/13ef1c55/tur/feedr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/13ef1c55/tur/feedr/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ab7b690c/tur/feedr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ab7b690c/tur/feedr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ab7b690c/tur/feedr/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8989,7 +8989,7 @@
   },
   {
     "name": "pyside6",
-    "version": "6.11.0",
+    "version": "6.11.1",
     "description": "Official Python bindings for Qt6",
     "homepage": "https://doc.qt.io/qtforpython-6/",
     "depends": [
@@ -8999,11 +8999,11 @@
       "qt6-qtdeclarative",
       "shiboken6"
     ],
-    "srcurl": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.0-src/pyside-setup-everywhere-src-6.11.0.tar.xz",
+    "srcurl": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.1-src/pyside-setup-everywhere-src-6.11.1.tar.xz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/732e0d22/tur-on-device/pyside6",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/732e0d22/tur-on-device/pyside6/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/732e0d22/tur-on-device/pyside6/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8136bea8/tur-on-device/pyside6",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8136bea8/tur-on-device/pyside6/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8136bea8/tur-on-device/pyside6/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
