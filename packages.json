@@ -2842,6 +2842,51 @@
     "auto_updated": false
   },
   {
+    "name": "gcc-16",
+    "version": "16.1.0",
+    "description": "GNU C compiler",
+    "homepage": "http://gcc.gnu.org/",
+    "depends": [
+      "binutils",
+      "libc++",
+      "libgmp",
+      "libmpfr",
+      "libmpc",
+      "libisl",
+      "zlib"
+    ],
+    "srcurl": "https://mirrors.kernel.org/gnu/gcc/gcc-16.1.0/gcc-16.1.0.tar.gz",
+    "maintainer": "@licy183",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4cc91d4c/tur/gcc-16",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0001-android-related-modifications.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0002-fix-missing-_L.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0003-disable-call-ssp-local.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0004-avoid-hard-link-install.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0005-check-both-android-and-bionic-macro.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0006-remove-sys-sysctl.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0008-explicitly-some-headers.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0009-fix-ginclude-limits.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/4cc91d4c/tur/gcc-16/0010-disable-shmem-support-for-libgfortran.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0001-android-related-modifications.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0002-fix-missing-_L.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0003-disable-call-ssp-local.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0004-avoid-hard-link-install.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0005-check-both-android-and-bionic-macro.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0006-remove-sys-sysctl.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0007-override-CXXFLAGS-in-Makefile.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0008-explicitly-some-headers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0009-fix-ginclude-limits.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4cc91d4c/tur/gcc-16/0010-disable-shmem-support-for-libgfortran.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "gcc-default",
     "version": "15",
     "description": "Use GNU Compiler Collections as default compiler suit",
