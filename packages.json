@@ -872,7 +872,7 @@
   },
   {
     "name": "chromium-beta",
-    "version": "148.0.7778.96",
+    "version": "149.0.7827.14",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -891,25 +891,26 @@
       "mesa",
       "openssl",
       "pango",
+      "pipewire",
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-148.0.7778.96-lite.tar.xz",
+    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-149.0.7827.14-lite.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/86d017ef/tur/chromium-beta",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/86d017ef/tur/chromium-beta/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/86d017ef/tur/chromium-beta/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2e1d249c/tur/chromium-beta",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2e1d249c/tur/chromium-beta/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2e1d249c/tur/chromium-beta/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/86d017ef/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/86d017ef/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/86d017ef/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/86d017ef/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
+      "https://github.com/termux-user-repository/tur/blob/2e1d249c/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/2e1d249c/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/2e1d249c/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/2e1d249c/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/86d017ef/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/86d017ef/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/86d017ef/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/86d017ef/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2e1d249c/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2e1d249c/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2e1d249c/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2e1d249c/tur/chromium-beta/9004-use-prebuilt-pdfium.patch"
     ],
     "auto_updated": false
   },
@@ -6879,15 +6880,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.1.93",
+    "version": "0.1.94",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.93.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.1.94.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4ef5c400/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4ef5c400/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4ef5c400/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7b8b0ead/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7b8b0ead/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7b8b0ead/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7078,6 +7079,30 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/b793f7df/tur/smartdns/0006-fix-include-on-android.patch"
     ],
     "auto_updated": true
+  },
+  {
+    "name": "solana",
+    "version": "3.1.14",
+    "description": "Solana CLI binaries package provides the essential tools to interact with the Solana blockchain, including solana-cli, spl-token, agave-validator etc.",
+    "homepage": "https://github.com/anza-xyz/agave",
+    "depends": [
+      "libandroid-shmem",
+      "openssl",
+      "protobuf",
+      "zlib"
+    ],
+    "srcurl": "https://github.com/anza-xyz/agave/archive/refs/tags/v3.1.14.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3f22b35c/tur/solana",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3f22b35c/tur/solana/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3f22b35c/tur/solana/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/3f22b35c/tur/solana/point-to-host-protoc.diff"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3f22b35c/tur/solana/point-to-host-protoc.diff"
+    ],
+    "auto_updated": false
   },
   {
     "name": "sortix-rw",
