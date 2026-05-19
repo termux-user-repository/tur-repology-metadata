@@ -218,17 +218,17 @@
   },
   {
     "name": "apkeditor",
-    "version": "1.4.8",
+    "version": "1.4.9",
     "description": "Android binary resource files editor",
     "homepage": "https://github.com/REAndroid/APKEditor",
     "depends": [
       "openjdk-21"
     ],
-    "srcurl": "https://github.com/REAndroid/APKEditor/releases/download/V1.4.8/APKEditor-1.4.8.jar",
+    "srcurl": "https://github.com/REAndroid/APKEditor/releases/download/V1.4.9/APKEditor-1.4.9.jar",
     "maintainer": "@Veha0001",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8c10edb6/tur/apkeditor",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8c10edb6/tur/apkeditor/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8c10edb6/tur/apkeditor/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5505f3f5/tur/apkeditor",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5505f3f5/tur/apkeditor/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5505f3f5/tur/apkeditor/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -2453,7 +2453,7 @@
   },
   {
     "name": "ffmpeg5.1",
-    "version": "5.1.7",
+    "version": "5.1.9",
     "description": "Tools and libraries to manipulate a wide range of multimedia formats and protocols",
     "homepage": "https://ffmpeg.org",
     "depends": [
@@ -2483,24 +2483,24 @@
       "xvidcore",
       "zlib"
     ],
-    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-5.1.7.tar.xz",
+    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-5.1.9.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e3d4532a/tur/ffmpeg5.1",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e3d4532a/tur/ffmpeg5.1/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e3d4532a/tur/ffmpeg5.1/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ab6b2fd1/tur/ffmpeg5.1",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ab6b2fd1/tur/ffmpeg5.1/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ab6b2fd1/tur/ffmpeg5.1/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e3d4532a/tur/ffmpeg5.1/enable-soname-version.patch",
-      "https://github.com/termux-user-repository/tur/blob/e3d4532a/tur/ffmpeg5.1/libavutil-file_open.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/ab6b2fd1/tur/ffmpeg5.1/enable-soname-version.patch",
+      "https://github.com/termux-user-repository/tur/blob/ab6b2fd1/tur/ffmpeg5.1/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e3d4532a/tur/ffmpeg5.1/enable-soname-version.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e3d4532a/tur/ffmpeg5.1/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ab6b2fd1/tur/ffmpeg5.1/enable-soname-version.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ab6b2fd1/tur/ffmpeg5.1/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
   {
     "name": "ffmpeg7",
-    "version": "7.1.3",
+    "version": "7.1.4",
     "description": "Tools and libraries to manipulate a wide range of multimedia formats and protocols",
     "homepage": "https://ffmpeg.org",
     "depends": [
@@ -2530,18 +2530,18 @@
       "xvidcore",
       "zlib"
     ],
-    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-7.1.3.tar.xz",
+    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-7.1.4.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bb2e7c77/tur/ffmpeg7",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bb2e7c77/tur/ffmpeg7/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bb2e7c77/tur/ffmpeg7/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d47cb78a/tur/ffmpeg7",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d47cb78a/tur/ffmpeg7/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d47cb78a/tur/ffmpeg7/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bb2e7c77/tur/ffmpeg7/enable-soname-version.patch",
-      "https://github.com/termux-user-repository/tur/blob/bb2e7c77/tur/ffmpeg7/libavutil-file_open.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/d47cb78a/tur/ffmpeg7/enable-soname-version.patch",
+      "https://github.com/termux-user-repository/tur/blob/d47cb78a/tur/ffmpeg7/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bb2e7c77/tur/ffmpeg7/enable-soname-version.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bb2e7c77/tur/ffmpeg7/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d47cb78a/tur/ffmpeg7/enable-soname-version.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d47cb78a/tur/ffmpeg7/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
