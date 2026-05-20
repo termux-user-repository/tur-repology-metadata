@@ -1821,7 +1821,7 @@
   },
   {
     "name": "dpp",
-    "version": "10.1.4",
+    "version": "10.1.5",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
     "homepage": "https://dpp.dev",
     "depends": [
@@ -1831,16 +1831,16 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.1.4.tar.gz",
+    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.1.5.tar.gz",
     "maintainer": "@OrdinaryEnder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3e4176da/tur/dpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3e4176da/tur/dpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3e4176da/tur/dpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b2ecfe34/tur/dpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b2ecfe34/tur/dpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b2ecfe34/tur/dpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/3e4176da/tur/dpp/0001-fix-32bit.patch"
+      "https://github.com/termux-user-repository/tur/blob/b2ecfe34/tur/dpp/0001-fix-32bit.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3e4176da/tur/dpp/0001-fix-32bit.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b2ecfe34/tur/dpp/0001-fix-32bit.patch"
     ],
     "auto_updated": true
   },
