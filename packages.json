@@ -7105,6 +7105,27 @@
     "auto_updated": false
   },
   {
+    "name": "solidity-language-server",
+    "version": "0.1.34",
+    "description": "A fast Solidity language server powered by solc and foundry, written in Rust.",
+    "homepage": "https://github.com/asyncswap/solidity-language-server",
+    "depends": [
+      "solidity"
+    ],
+    "srcurl": "https://github.com/asyncswap/solidity-language-server/archive/refs/tags/v0.1.34.tar.gz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/35e728b9/tur/solidity-language-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/35e728b9/tur/solidity-language-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/35e728b9/tur/solidity-language-server/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/35e728b9/tur/solidity-language-server/use_termux_solc.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/35e728b9/tur/solidity-language-server/use_termux_solc.patch"
+    ],
+    "auto_updated": true
+  },
+  {
     "name": "sortix-rw",
     "version": "1.0",
     "description": "A lightweight dd(1) alternative that doesn't resemble IBM JCL",
