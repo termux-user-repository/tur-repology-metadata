@@ -6930,7 +6930,7 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.97.0-2026.05.18-nightly",
+    "version": "1.97.0-2026.05.19-nightly",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org/",
     "depends": [
@@ -6942,34 +6942,34 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://static.rust-lang.org/dist/2026-05-18/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2026-05-19/rustc-nightly-src.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b67e5970/tur/rustc-nightly",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/01b217e7/tur/rustc-nightly",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/0009-always-export-emutls.patch",
-      "https://github.com/termux-user-repository/tur/blob/b67e5970/tur/rustc-nightly/force-allow-edit-vendor.diff"
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/0009-always-export-emutls.patch",
+      "https://github.com/termux-user-repository/tur/blob/01b217e7/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0002-no-signal_handler.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0004-set-TMPDIR.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/0009-always-export-emutls.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b67e5970/tur/rustc-nightly/force-allow-edit-vendor.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0001-set-TERMUX_PKG_API_LEVEL.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0002-no-signal_handler.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0003-link-with-libc++_shared.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0004-set-TMPDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0005-define-fn-backtrace-getauxval.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0006-suppress-hard-linking-failed-warning.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0007-use-emulated-tls-on-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0008-cross-compile-error_index_generator.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/0009-always-export-emutls.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01b217e7/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
     "auto_updated": true
   },
@@ -7067,7 +7067,7 @@
   },
   {
     "name": "smartdns",
-    "version": "47.1",
+    "version": "48",
     "description": "A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH",
     "homepage": "https://github.com/pymumu/smartdns",
     "depends": [
@@ -7075,26 +7075,26 @@
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release47.1.tar.gz",
+    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release48.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b793f7df/tur/smartdns",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b793f7df/tur/smartdns/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b793f7df/tur/smartdns/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/91c7fbd8/tur/smartdns",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/91c7fbd8/tur/smartdns/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/91c7fbd8/tur/smartdns/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b793f7df/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/b793f7df/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://github.com/termux-user-repository/tur/blob/b793f7df/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://github.com/termux-user-repository/tur/blob/b793f7df/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/b793f7df/tur/smartdns/0005-avoid-pthread_cancel.patch",
-      "https://github.com/termux-user-repository/tur/blob/b793f7df/tur/smartdns/0006-fix-include-on-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/91c7fbd8/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/91c7fbd8/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://github.com/termux-user-repository/tur/blob/91c7fbd8/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://github.com/termux-user-repository/tur/blob/91c7fbd8/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/91c7fbd8/tur/smartdns/0005-avoid-pthread_cancel.patch",
+      "https://github.com/termux-user-repository/tur/blob/91c7fbd8/tur/smartdns/0006-fix-include-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b793f7df/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b793f7df/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b793f7df/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b793f7df/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b793f7df/tur/smartdns/0005-avoid-pthread_cancel.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b793f7df/tur/smartdns/0006-fix-include-on-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91c7fbd8/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91c7fbd8/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91c7fbd8/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91c7fbd8/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91c7fbd8/tur/smartdns/0005-avoid-pthread_cancel.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/91c7fbd8/tur/smartdns/0006-fix-include-on-android.patch"
     ],
     "auto_updated": true
   },
