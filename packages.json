@@ -1554,17 +1554,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.17.0",
+    "version": "6.17.1",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.0.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f58fd536/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f58fd536/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f58fd536/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/43cef9c8/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/43cef9c8/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/43cef9c8/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8156,20 +8156,20 @@
   },
   {
     "name": "afrog",
-    "version": "3.3.7",
+    "version": "3.5.3",
     "description": "A tool for finding vulnerabilities",
     "homepage": "https://github.com/zan8in/afrog",
     "depends": [],
-    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.3.7.tar.gz",
+    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.5.3.tar.gz",
     "maintainer": "@UtermuxBlog",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8dfdee5d/tur-hacking/afrog",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8dfdee5d/tur-hacking/afrog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8dfdee5d/tur-hacking/afrog/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d9548234/tur-hacking/afrog",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d9548234/tur-hacking/afrog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d9548234/tur-hacking/afrog/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8dfdee5d/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://github.com/termux-user-repository/tur/blob/d9548234/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8dfdee5d/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d9548234/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "auto_updated": true
   },
