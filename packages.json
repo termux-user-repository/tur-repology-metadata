@@ -1554,17 +1554,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.17.1",
+    "version": "6.17.2",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.1.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/43cef9c8/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/43cef9c8/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/43cef9c8/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9e4eca2c/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9e4eca2c/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9e4eca2c/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
