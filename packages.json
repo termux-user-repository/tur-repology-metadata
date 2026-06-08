@@ -5563,7 +5563,7 @@
   },
   {
     "name": "openslide",
-    "version": "4.0.0",
+    "version": "4.0.1",
     "description": "C library for reading virtual slide images",
     "homepage": "https://openslide.org",
     "depends": [
@@ -5579,11 +5579,11 @@
       "openjpeg",
       "zlib"
     ],
-    "srcurl": "https://github.com/openslide/openslide/releases/download/v4.0.0/openslide-4.0.0.tar.xz",
+    "srcurl": "https://github.com/openslide/openslide/releases/download/v4.0.1/openslide-4.0.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f8cd3fb/tur/openslide",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f8cd3fb/tur/openslide/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f8cd3fb/tur/openslide/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c6f8140d/tur/openslide",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c6f8140d/tur/openslide/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c6f8140d/tur/openslide/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
