@@ -7027,15 +7027,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.16",
+    "version": "0.2.17",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.16.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.17.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ad674896/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ad674896/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ad674896/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f3b348b3/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f3b348b3/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f3b348b3/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7444,22 +7444,22 @@
   },
   {
     "name": "surge-cli",
-    "version": "0.8.7",
+    "version": "0.9.0",
     "description": "Blazing fast TUI download manager built in Go for power users",
     "homepage": "https://github.com/SurgeDM/Surge",
     "depends": [],
-    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.8.7.tar.gz",
+    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.9.0.tar.gz",
     "maintainer": "@LukeGTH",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0902a0bc/tur/surge-cli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0902a0bc/tur/surge-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0902a0bc/tur/surge-cli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/72f7e619/tur/surge-cli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/72f7e619/tur/surge-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/72f7e619/tur/surge-cli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0902a0bc/tur/surge-cli/0001-xdg-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/0902a0bc/tur/surge-cli/0002-fix-option.patch"
+      "https://github.com/termux-user-repository/tur/blob/72f7e619/tur/surge-cli/0001-xdg-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/72f7e619/tur/surge-cli/0002-fix-option.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0902a0bc/tur/surge-cli/0001-xdg-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0902a0bc/tur/surge-cli/0002-fix-option.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/72f7e619/tur/surge-cli/0001-xdg-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/72f7e619/tur/surge-cli/0002-fix-option.patch"
     ],
     "auto_updated": true
   },
