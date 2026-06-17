@@ -854,18 +854,18 @@
   },
   {
     "name": "cfitsio",
-    "version": "4.6.2",
+    "version": "4.6.4",
     "description": "a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format",
     "homepage": "https://heasarc.gsfc.nasa.gov/fitsio/",
     "depends": [
       "curl",
       "zlib"
     ],
-    "srcurl": "https://github.com/HEASARC/cfitsio/archive/refs/tags/cfitsio-4.6.2.tar.gz",
+    "srcurl": "https://github.com/HEASARC/cfitsio/archive/refs/tags/cfitsio-4.6.4.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0625e816/tur/cfitsio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0625e816/tur/cfitsio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0625e816/tur/cfitsio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c2b7581a/tur/cfitsio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c2b7581a/tur/cfitsio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c2b7581a/tur/cfitsio/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6149,7 +6149,7 @@
   },
   {
     "name": "python-polars",
-    "version": "1.39.3",
+    "version": "1.41.2",
     "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
     "homepage": "https://github.com/pola-rs/polars",
     "depends": [
@@ -6158,11 +6158,11 @@
       "python-pip",
       "python-polars-runtime-32"
     ],
-    "srcurl": "https://github.com/pola-rs/polars/archive/refs/tags/py-1.39.3.tar.gz",
+    "srcurl": "https://github.com/pola-rs/polars/archive/refs/tags/py-1.41.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2773bc46/tur/python-polars",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2773bc46/tur/python-polars/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2773bc46/tur/python-polars/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ec65ecb2/tur/python-polars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ec65ecb2/tur/python-polars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ec65ecb2/tur/python-polars/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
