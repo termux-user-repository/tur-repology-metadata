@@ -7623,7 +7623,7 @@
   },
   {
     "name": "thunk-gen",
-    "version": "1.8",
+    "version": "1.10",
     "description": "thunk generator for C and assembler",
     "homepage": "https://github.com/stsp/thunk_gen",
     "depends": [
@@ -7631,11 +7631,11 @@
       "autoconf",
       "pkg-config"
     ],
-    "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.8.tar.gz",
+    "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.10.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6d9552f5/tur/thunk-gen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6d9552f5/tur/thunk-gen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6d9552f5/tur/thunk-gen/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a3183f77/tur/thunk-gen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a3183f77/tur/thunk-gen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a3183f77/tur/thunk-gen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
