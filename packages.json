@@ -7492,6 +7492,21 @@
     "auto_updated": true
   },
   {
+    "name": "superfile",
+    "version": "1.6.0",
+    "description": "Pretty fancy and modern terminal file manager",
+    "homepage": "https://github.com/yorukot/superfile",
+    "depends": [],
+    "srcurl": "https://github.com/yorukot/superfile/archive/refs/tags/v1.6.0.tar.gz",
+    "maintainer": "@everywhereless",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f599fdf0/tur/superfile",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f599fdf0/tur/superfile/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f599fdf0/tur/superfile/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "supertuxkart",
     "version": "1.5",
     "description": "Kart racing game featuring Tux and his friends",
