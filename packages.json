@@ -3338,17 +3338,17 @@
   },
   {
     "name": "juice-shop",
-    "version": "20.0.0",
+    "version": "20.1.0",
     "description": "A modern and sophisticated insecure web application",
     "homepage": "https://owasp.org/www-project-juice-shop/",
     "depends": [
       "nodejs-lts"
     ],
-    "srcurl": "https://github.com/juice-shop/juice-shop/archive/refs/tags/v20.0.0.tar.gz",
+    "srcurl": "https://github.com/juice-shop/juice-shop/archive/refs/tags/v20.1.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e84dcecb/tur/juice-shop",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e84dcecb/tur/juice-shop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e84dcecb/tur/juice-shop/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/861aa1ed/tur/juice-shop",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/861aa1ed/tur/juice-shop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/861aa1ed/tur/juice-shop/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
