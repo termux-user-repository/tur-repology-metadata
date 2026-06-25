@@ -1674,16 +1674,18 @@
     ],
     "srcurl": "https://github.com/stsp/dj64dev/archive/refs/tags/0.4.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8d0a1974/tur/dj64dev",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8d0a1974/tur/dj64dev/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8d0a1974/tur/dj64dev/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2cf0d06b/tur/dj64dev",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2cf0d06b/tur/dj64dev/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2cf0d06b/tur/dj64dev/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8d0a1974/tur/dj64dev/0001-configure-set-correct-prefix-on-termux.patch",
-      "https://github.com/termux-user-repository/tur/blob/8d0a1974/tur/dj64dev/0002-stub-disable-second-ldr-for-now.patch"
+      "https://github.com/termux-user-repository/tur/blob/2cf0d06b/tur/dj64dev/0001-configure-set-correct-prefix-on-termux.patch",
+      "https://github.com/termux-user-repository/tur/blob/2cf0d06b/tur/dj64dev/0002-stub-disable-second-ldr-for-now.patch",
+      "https://github.com/termux-user-repository/tur/blob/2cf0d06b/tur/dj64dev/0003-stub-fix-horrible-memory-corruption-in-elf-loader.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8d0a1974/tur/dj64dev/0001-configure-set-correct-prefix-on-termux.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8d0a1974/tur/dj64dev/0002-stub-disable-second-ldr-for-now.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cf0d06b/tur/dj64dev/0001-configure-set-correct-prefix-on-termux.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cf0d06b/tur/dj64dev/0002-stub-disable-second-ldr-for-now.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cf0d06b/tur/dj64dev/0003-stub-fix-horrible-memory-corruption-in-elf-loader.patch"
     ],
     "auto_updated": false
   },
@@ -7107,24 +7109,24 @@
   },
   {
     "name": "rucola",
-    "version": "0.9.0",
+    "version": "0.10.0",
     "description": "Terminal-based markdown note manager",
     "homepage": "https://github.com/Linus-Mussmaecher/rucola",
     "depends": [
       "openssl"
     ],
-    "srcurl": "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.9.0/source.tar.gz",
+    "srcurl": "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.10.0/source.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5e6b07b6/tur/rucola",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5e6b07b6/tur/rucola/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5e6b07b6/tur/rucola/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8e8913ee/tur/rucola",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8e8913ee/tur/rucola/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8e8913ee/tur/rucola/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/5e6b07b6/tur/rucola/pwd-no-gecos-32-bit.diff",
-      "https://github.com/termux-user-repository/tur/blob/5e6b07b6/tur/rucola/pwd-no-setpwent.diff"
+      "https://github.com/termux-user-repository/tur/blob/8e8913ee/tur/rucola/pwd-no-gecos-32-bit.diff",
+      "https://github.com/termux-user-repository/tur/blob/8e8913ee/tur/rucola/pwd-no-setpwent.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5e6b07b6/tur/rucola/pwd-no-gecos-32-bit.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5e6b07b6/tur/rucola/pwd-no-setpwent.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8e8913ee/tur/rucola/pwd-no-gecos-32-bit.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8e8913ee/tur/rucola/pwd-no-setpwent.diff"
     ],
     "auto_updated": true
   },
