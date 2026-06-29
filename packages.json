@@ -6219,7 +6219,7 @@
   },
   {
     "name": "python-pandas",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "description": "Powerful Python data analysis toolkit",
     "homepage": "https://pandas.pydata.org/",
     "depends": [
@@ -6230,16 +6230,16 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c554db7c/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c554db7c/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c554db7c/tur/python-pandas/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0ace96eb/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0ace96eb/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0ace96eb/tur/python-pandas/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/c554db7c/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://github.com/termux-user-repository/tur/blob/c554db7c/tur/python-pandas/use-given-python.diff"
+      "https://github.com/termux-user-repository/tur/blob/0ace96eb/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://github.com/termux-user-repository/tur/blob/0ace96eb/tur/python-pandas/use-given-python.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c554db7c/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c554db7c/tur/python-pandas/use-given-python.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0ace96eb/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0ace96eb/tur/python-pandas/use-given-python.diff"
     ],
     "auto_updated": true
   },
@@ -7132,15 +7132,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.24",
+    "version": "0.2.25",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.24.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.25.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8e1601c4/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8e1601c4/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8e1601c4/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/25af4a88/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/25af4a88/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/25af4a88/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
