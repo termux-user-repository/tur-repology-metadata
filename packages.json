@@ -7362,14 +7362,14 @@
     ],
     "srcurl": "https://github.com/anza-xyz/agave/archive/refs/tags/v3.1.14.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3f22b35c/tur/solana",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3f22b35c/tur/solana/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3f22b35c/tur/solana/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b20603c1/tur/solana",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b20603c1/tur/solana/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b20603c1/tur/solana/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/3f22b35c/tur/solana/point-to-host-protoc.diff"
+      "https://github.com/termux-user-repository/tur/blob/b20603c1/tur/solana/point-to-host-protoc.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3f22b35c/tur/solana/point-to-host-protoc.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b20603c1/tur/solana/point-to-host-protoc.diff"
     ],
     "auto_updated": false
   },
