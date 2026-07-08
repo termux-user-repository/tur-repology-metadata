@@ -4521,18 +4521,18 @@
   },
   {
     "name": "libstaroffice",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "filter for old StarOffice documents(.sdc, .sdw, ...) based on librevenge",
     "homepage": "https://github.com/fosnola/libstaroffice",
     "depends": [
       "librevenge",
       "zlib"
     ],
-    "srcurl": "https://github.com/fosnola/libstaroffice/releases/download/0.0.7/libstaroffice-0.0.7.tar.xz",
+    "srcurl": "https://github.com/fosnola/libstaroffice/releases/download/0.0.8/libstaroffice-0.0.8.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9154d441/tur/libstaroffice",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9154d441/tur/libstaroffice/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9154d441/tur/libstaroffice/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/39eab861/tur/libstaroffice",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/39eab861/tur/libstaroffice/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/39eab861/tur/libstaroffice/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
