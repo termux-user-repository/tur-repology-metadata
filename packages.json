@@ -1250,7 +1250,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.127.0",
+    "version": "4.128.0",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -1262,16 +1262,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0cafb564/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0cafb564/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0cafb564/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dfaa7735/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dfaa7735/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dfaa7735/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0cafb564/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/0cafb564/tur/code-server/0002-bump-test-web.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/dfaa7735/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0cafb564/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0cafb564/tur/code-server/0002-bump-test-web.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/dfaa7735/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -6603,6 +6601,62 @@
     "auto_updated": false
   },
   {
+    "name": "python3.13",
+    "version": "3.13.13",
+    "description": "Python 3 programming language intended to enable clear programs",
+    "homepage": "https://python.org/",
+    "depends": [
+      "gdbm",
+      "libandroid-posix-semaphore",
+      "libandroid-support",
+      "libbz2",
+      "libcrypt",
+      "libexpat",
+      "libffi",
+      "liblzma",
+      "libsqlite",
+      "ncurses",
+      "ncurses-ui-libs",
+      "openssl",
+      "readline",
+      "zlib"
+    ],
+    "srcurl": "https://www.python.org/ftp/python/3.13.13/Python-3.13.13.tar.xz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3c10d979/tur/python3.13",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0002-no-setuid-servers.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0003-ctypes-util-use-llvm-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0004-impl-getprotobyname.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0005-impl-multiprocessing.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0006-disable-multiarch.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0007-do-not-use-link.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0008-fix-pkgconfig-variable-substitution.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0009-fix-ctypes-util-find_library.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0010-do-not-hardlink.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0011-fix-module-linking.patch",
+      "https://github.com/termux-user-repository/tur/blob/3c10d979/tur/python3.13/0012-hardcode-android-api-level.diff"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0002-no-setuid-servers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0003-ctypes-util-use-llvm-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0004-impl-getprotobyname.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0005-impl-multiprocessing.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0006-disable-multiarch.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0007-do-not-use-link.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0008-fix-pkgconfig-variable-substitution.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0009-fix-ctypes-util-find_library.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0010-do-not-hardlink.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0011-fix-module-linking.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3c10d979/tur/python3.13/0012-hardcode-android-api-level.diff"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "python3.7",
     "version": "3.7.17",
     "description": "Python programming language intended to enable clear programs (version 3.7)",
@@ -7166,15 +7220,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.30",
+    "version": "0.2.31",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.30.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.31.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/49f31880/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/49f31880/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/49f31880/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a01f9da5/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a01f9da5/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a01f9da5/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
