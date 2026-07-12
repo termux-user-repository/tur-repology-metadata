@@ -7293,6 +7293,21 @@
     "auto_updated": false
   },
   {
+    "name": "sentinel",
+    "version": "2.0.4",
+    "description": "Statically compiled, zero-dependency Git pre-commit secret detector",
+    "homepage": "https://github.com/sentinel-cli/sentinel",
+    "depends": [],
+    "srcurl": "https://github.com/sentinel-cli/sentinel/archive/refs/tags/v2.0.4.tar.gz",
+    "maintainer": "@KhaledHani",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/98628bb1/tur/sentinel",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/98628bb1/tur/sentinel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/98628bb1/tur/sentinel/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "skyseg-ncnn",
     "version": "0.1.0",
     "description": "Sky segmentation on image using ncnn machine learning model",
