@@ -3484,6 +3484,25 @@
     "auto_updated": false
   },
   {
+    "name": "lemonbar-xft",
+    "version": "1.3",
+    "description": "Lightweight status bar with Xft support (Protesilaos fork)",
+    "homepage": "https://gitlab.com/protesilaos/lemonbar-xft",
+    "depends": [],
+    "srcurl": "https://gitlab.com/protesilaos/lemonbar-xft/-/archive/xft-port/lemonbar-xft-xft-port.tar.gz",
+    "maintainer": "Muhammad <nurmuhammedjoy@gmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1e94b9c4/tur/lemonbar-xft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1e94b9c4/tur/lemonbar-xft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1e94b9c4/tur/lemonbar-xft/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/1e94b9c4/tur/lemonbar-xft/fix-makefile.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1e94b9c4/tur/lemonbar-xft/fix-makefile.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "lensfun",
     "version": "0.3.4",
     "description": "Lensfun",
@@ -6176,7 +6195,7 @@
   },
   {
     "name": "python-fitsio",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "A python package for FITS input/output wrapping cfitsio",
     "homepage": "https://github.com/esheldon/fitsio",
     "depends": [
@@ -6185,11 +6204,11 @@
       "python-pip",
       "python-numpy"
     ],
-    "srcurl": "https://github.com/esheldon/fitsio/archive/refs/tags/1.4.1.tar.gz",
+    "srcurl": "https://github.com/esheldon/fitsio/archive/refs/tags/1.4.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5dc9a6b3/tur/python-fitsio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5dc9a6b3/tur/python-fitsio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5dc9a6b3/tur/python-fitsio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3bb7f073/tur/python-fitsio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3bb7f073/tur/python-fitsio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3bb7f073/tur/python-fitsio/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
