@@ -2512,7 +2512,7 @@
   },
   {
     "name": "ffmpeg5.1",
-    "version": "5.1.9",
+    "version": "5.1.10",
     "description": "Tools and libraries to manipulate a wide range of multimedia formats and protocols",
     "homepage": "https://ffmpeg.org",
     "depends": [
@@ -2542,24 +2542,24 @@
       "xvidcore",
       "zlib"
     ],
-    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-5.1.9.tar.xz",
+    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-5.1.10.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ab6b2fd1/tur/ffmpeg5.1",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ab6b2fd1/tur/ffmpeg5.1/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ab6b2fd1/tur/ffmpeg5.1/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/df93c3fa/tur/ffmpeg5.1",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/df93c3fa/tur/ffmpeg5.1/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/df93c3fa/tur/ffmpeg5.1/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ab6b2fd1/tur/ffmpeg5.1/enable-soname-version.patch",
-      "https://github.com/termux-user-repository/tur/blob/ab6b2fd1/tur/ffmpeg5.1/libavutil-file_open.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/df93c3fa/tur/ffmpeg5.1/enable-soname-version.patch",
+      "https://github.com/termux-user-repository/tur/blob/df93c3fa/tur/ffmpeg5.1/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ab6b2fd1/tur/ffmpeg5.1/enable-soname-version.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ab6b2fd1/tur/ffmpeg5.1/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/df93c3fa/tur/ffmpeg5.1/enable-soname-version.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/df93c3fa/tur/ffmpeg5.1/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
   {
     "name": "ffmpeg7",
-    "version": "7.1.4",
+    "version": "7.1.5",
     "description": "Tools and libraries to manipulate a wide range of multimedia formats and protocols",
     "homepage": "https://ffmpeg.org",
     "depends": [
@@ -2589,18 +2589,18 @@
       "xvidcore",
       "zlib"
     ],
-    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-7.1.4.tar.xz",
+    "srcurl": "https://www.ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d47cb78a/tur/ffmpeg7",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d47cb78a/tur/ffmpeg7/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d47cb78a/tur/ffmpeg7/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b98fa8bc/tur/ffmpeg7",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b98fa8bc/tur/ffmpeg7/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b98fa8bc/tur/ffmpeg7/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d47cb78a/tur/ffmpeg7/enable-soname-version.patch",
-      "https://github.com/termux-user-repository/tur/blob/d47cb78a/tur/ffmpeg7/libavutil-file_open.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/b98fa8bc/tur/ffmpeg7/enable-soname-version.patch",
+      "https://github.com/termux-user-repository/tur/blob/b98fa8bc/tur/ffmpeg7/libavutil-file_open.c.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d47cb78a/tur/ffmpeg7/enable-soname-version.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d47cb78a/tur/ffmpeg7/libavutil-file_open.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b98fa8bc/tur/ffmpeg7/enable-soname-version.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b98fa8bc/tur/ffmpeg7/libavutil-file_open.c.patch"
     ],
     "auto_updated": false
   },
