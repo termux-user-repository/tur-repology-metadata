@@ -920,24 +920,6 @@
     "auto_updated": true
   },
   {
-    "name": "cfitsio",
-    "version": "4.6.4",
-    "description": "a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format",
-    "homepage": "https://heasarc.gsfc.nasa.gov/fitsio/",
-    "depends": [
-      "curl",
-      "zlib"
-    ],
-    "srcurl": "https://github.com/HEASARC/cfitsio/archive/refs/tags/cfitsio-4.6.4.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c2b7581a/tur/cfitsio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c2b7581a/tur/cfitsio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c2b7581a/tur/cfitsio/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
     "name": "chromium-beta",
     "version": "149.0.7827.53",
     "description": "Chromium web browser",
@@ -7323,15 +7305,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.37",
+    "version": "0.2.38",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.37.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.38.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5d36267e/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5d36267e/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5d36267e/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/45465c24/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/45465c24/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/45465c24/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8213,29 +8195,6 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/eb16d612/tur/warmux/fix-configure-ac-paths-and-find-patterns.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/eb16d612/tur/warmux/fix-library-linking-paths.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/eb16d612/tur/warmux/fix-tile-cpp.patch"
-    ],
-    "auto_updated": false
-  },
-  {
-    "name": "wcslib",
-    "version": "8.2.2",
-    "description": "a C library that implements the 'World Coordinate System' (WCS) standard in FITS",
-    "homepage": "https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/",
-    "depends": [
-      "cfitsio"
-    ],
-    "srcurl": "http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib-8.2.2.tar.bz2",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dde71397/tur/wcslib",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dde71397/tur/wcslib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dde71397/tur/wcslib/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/dde71397/tur/wcslib/0001-remove-AC_CHECK_FILE.patch",
-      "https://github.com/termux-user-repository/tur/blob/dde71397/tur/wcslib/0002-skip-makefile-configure.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/dde71397/tur/wcslib/0001-remove-AC_CHECK_FILE.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/dde71397/tur/wcslib/0002-skip-makefile-configure.patch"
     ],
     "auto_updated": false
   },
