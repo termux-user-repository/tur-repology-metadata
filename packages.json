@@ -848,25 +848,6 @@
     "auto_updated": false
   },
   {
-    "name": "box2d",
-    "version": "3.1.1",
-    "description": "2D rigid body simulation library for games",
-    "homepage": "http://www.box2d.org/",
-    "depends": [],
-    "srcurl": "https://github.com/erincatto/Box2D/archive/v3.1.1.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2c63ff11/tur/box2d",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2c63ff11/tur/box2d/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2c63ff11/tur/box2d/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/2c63ff11/tur/box2d/0001-aligned_alloc.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2c63ff11/tur/box2d/0001-aligned_alloc.patch"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "boxedwine",
     "version": "21.0.1-r344-g963b6e52",
     "description": "Boxedwine is an Linux and x86 CPU emulator that is specialized for running Wine.",
@@ -1258,46 +1239,6 @@
     "auto_updated": false
   },
   {
-    "name": "clucene",
-    "version": "2.3.3.4",
-    "description": "C++ port of the high-performance text search engine Lucene",
-    "homepage": "http://clucene.sourceforge.net/",
-    "depends": [
-      "boost",
-      "zlib"
-    ],
-    "srcurl": "https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0605d7e8/tur/clucene",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0001-clucene-core-2.3.3.4-install_contribs_lib.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0002-clucene-core-2.3.3.4-pkgconfig.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0003-fix_zlib_detections.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0004-Fix-missing-include-time.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0005-clucene-multimap-put.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0006-clucene-narrowing-conversions.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0007-clucene-debug.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0008-do-not-use-try-run.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0009-pthread_t.patch",
-      "https://github.com/termux-user-repository/tur/blob/0605d7e8/tur/clucene/0010-adapt-for-c++17-above.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0001-clucene-core-2.3.3.4-install_contribs_lib.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0002-clucene-core-2.3.3.4-pkgconfig.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0003-fix_zlib_detections.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0004-Fix-missing-include-time.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0005-clucene-multimap-put.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0006-clucene-narrowing-conversions.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0007-clucene-debug.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0008-do-not-use-try-run.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0009-pthread_t.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0605d7e8/tur/clucene/0010-adapt-for-c++17-above.patch"
-    ],
-    "auto_updated": false
-  },
-  {
     "name": "code-server",
     "version": "4.129.0",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
@@ -1342,15 +1283,15 @@
   },
   {
     "name": "coded",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "A mobile-first code editor that runs in your browser",
     "homepage": "https://github.com/HashShin/coded",
     "depends": [],
-    "srcurl": "https://github.com/HashShin/coded/archive/refs/tags/v0.1.6.tar.gz",
+    "srcurl": "https://github.com/HashShin/coded/archive/refs/tags/v0.1.7.tar.gz",
     "maintainer": "@HashShin",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/60539b10/tur/coded",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/60539b10/tur/coded/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/60539b10/tur/coded/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ffeb652a/tur/coded",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ffeb652a/tur/coded/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ffeb652a/tur/coded/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3581,25 +3522,6 @@
     "auto_updated": true
   },
   {
-    "name": "libabw",
-    "version": "0.1.3",
-    "description": "a library that parses the file format of AbiWord documents",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libabw",
-    "depends": [
-      "librevenge",
-      "libxml2",
-      "zlib"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libabw/libabw-0.1.3.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5a1df8cc/tur/libabw",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5a1df8cc/tur/libabw/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5a1df8cc/tur/libabw/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "libandroid-nl-types",
     "version": "0.1",
     "description": "Shared library for catopen/catgets/catclose of Bionic Libc",
@@ -3631,27 +3553,6 @@
     "package_patch_raw_urls": [
       "https://raw.githubusercontent.com/termux-user-repository/tur/e3728340/tur/libbson/0001-libmongoc-android-no-shm.patch"
     ],
-    "auto_updated": false
-  },
-  {
-    "name": "libcdr",
-    "version": "0.1.7",
-    "description": "CorelDraw file format importer library for LibreOffice",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libcdr",
-    "depends": [
-      "libicu",
-      "librevenge",
-      "libxml2",
-      "littlecms",
-      "zlib"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libcdr/libcdr-0.1.7.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/aa6fb045/tur/libcdr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/aa6fb045/tur/libcdr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/aa6fb045/tur/libcdr/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
     "auto_updated": false
   },
   {
@@ -3893,25 +3794,6 @@
     "auto_updated": true
   },
   {
-    "name": "libcmis",
-    "version": "0.6.3",
-    "description": "a C/C++ client library for the CMIS protocol",
-    "homepage": "https://github.com/tdf/libcmis",
-    "depends": [
-      "boost",
-      "curl",
-      "libxml2"
-    ],
-    "srcurl": "https://github.com/tdf/libcmis/releases/download/v0.6.3/libcmis-0.6.3.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7f75d49c/tur/libcmis",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7f75d49c/tur/libcmis/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7f75d49c/tur/libcmis/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
     "name": "libcwidget",
     "version": "0.5.18",
     "description": "high-level terminal interface library for C++",
@@ -3952,88 +3834,6 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
-  },
-  {
-    "name": "libe-book",
-    "version": "0.1.3",
-    "description": "Library for import of reflowable e-book formats.",
-    "homepage": "https://sourceforge.net/projects/libebook/",
-    "depends": [
-      "libicu",
-      "liblangtag",
-      "librevenge",
-      "libxml2",
-      "zlib"
-    ],
-    "srcurl": "https://sourceforge.net/projects/libebook/files//libe-book-0.1.3/libe-book-0.1.3.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/410c30bc/tur/libe-book",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/410c30bc/tur/libe-book/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/410c30bc/tur/libe-book/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/410c30bc/tur/libe-book/0001-TRUE-def.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/410c30bc/tur/libe-book/0001-TRUE-def.patch"
-    ],
-    "auto_updated": false
-  },
-  {
-    "name": "libepubgen",
-    "version": "0.1.1",
-    "description": "an EPUB generator for librevenge",
-    "homepage": "https://sourceforge.net/projects/libepubgen",
-    "depends": [
-      "librevenge"
-    ],
-    "srcurl": "https://sourceforge.net/projects/libepubgen/files/libepubgen-0.1.1/libepubgen-0.1.1.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c26fbe3b/tur/libepubgen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c26fbe3b/tur/libepubgen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c26fbe3b/tur/libepubgen/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "libexttextcat",
-    "version": "3.4.7",
-    "description": "N-Gram-Based Text Categorization library primarily intended for language guessing",
-    "homepage": "https://wiki.documentfoundation.org/Libexttextcat",
-    "depends": [],
-    "srcurl": "https://dev-www.libreoffice.org/src/libexttextcat-3.4.7.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2d1ee0bb/tur/libexttextcat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2d1ee0bb/tur/libexttextcat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2d1ee0bb/tur/libexttextcat/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "libfreehand",
-    "version": "0.1.2",
-    "description": "a library for import of Aldus/Macromedia/Adobe FreeHand documents",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libfreehand",
-    "depends": [
-      "boost",
-      "littlecms",
-      "libicu",
-      "librevenge",
-      "zlib"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libfreehand/libfreehand-0.1.2.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b30874dd/tur/libfreehand",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b30874dd/tur/libfreehand/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b30874dd/tur/libfreehand/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b30874dd/tur/libfreehand/libfreehand-0.1.2-icu-fix.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b30874dd/tur/libfreehand/libfreehand-0.1.2-icu-fix.patch"
-    ],
-    "auto_updated": false
   },
   {
     "name": "libftgl2",
@@ -4124,24 +3924,6 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
-  },
-  {
-    "name": "libixion",
-    "version": "0.20.0",
-    "description": "A general purpose formula parser & interpreter",
-    "homepage": "https://gitlab.com/ixion/ixion/blob/master/README.md",
-    "depends": [
-      "boost",
-      "libc++"
-    ],
-    "srcurl": "https://gitlab.com/ixion/ixion/-/archive/0.20.0/ixion-0.20.0.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/229e3820/tur/libixion",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/229e3820/tur/libixion/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/229e3820/tur/libixion/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
   },
   {
     "name": "libjemalloc",
@@ -4401,45 +4183,6 @@
     "auto_updated": false
   },
   {
-    "name": "libmspub",
-    "version": "0.1.4",
-    "description": "Microsoft Publisher file format parser library (latest snapshot)",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libcdr",
-    "depends": [
-      "libwpd",
-      "libicu",
-      "libxml2",
-      "librevenge",
-      "zlib"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libmspub/libmspub-0.1.4.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6afbd3b4/tur/libmspub",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6afbd3b4/tur/libmspub/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6afbd3b4/tur/libmspub/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "libmwaw",
-    "version": "0.3.22",
-    "description": "Import library for some old mac text documents.",
-    "homepage": "https://sourceforge.net/projects/libmwaw/",
-    "depends": [
-      "doxygen",
-      "librevenge"
-    ],
-    "srcurl": "https://sourceforge.net/projects/libmwaw/files/libmwaw/libmwaw-0.3.22/libmwaw-0.3.22.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f7624f6a/tur/libmwaw",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f7624f6a/tur/libmwaw/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f7624f6a/tur/libmwaw/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "libnids",
     "version": "1.26",
     "description": "An implementation of an E-component of Network Intrusion Detection System",
@@ -4486,80 +4229,6 @@
     "auto_updated": false
   },
   {
-    "name": "libnumbertext",
-    "version": "1.0.11",
-    "description": "Number to number name and money text conversion library",
-    "homepage": "https://github.com/Numbertext/libnumbertext",
-    "depends": [],
-    "srcurl": "https://github.com/Numbertext/libnumbertext/archive/1.0.11.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/af3aa0bf/tur/libnumbertext",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/af3aa0bf/tur/libnumbertext/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/af3aa0bf/tur/libnumbertext/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
-    "name": "liborcus",
-    "version": "0.21.0",
-    "description": "File import filter library for spreadsheet documents.",
-    "homepage": "https://gitlab.com/orcus/orcus/",
-    "depends": [
-      "boost",
-      "libc++",
-      "libixion",
-      "zlib"
-    ],
-    "srcurl": "https://gitlab.com/orcus/orcus/-/archive/0.21.0/orcus-0.21.0.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/89f11696/tur/liborcus",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/89f11696/tur/liborcus/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/89f11696/tur/liborcus/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
-    "name": "libpagemaker",
-    "version": "0.0.4",
-    "description": "a library that parses the file format of Aldus/Adobe PageMaker documents",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker",
-    "depends": [
-      "librevenge"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libpagemaker/libpagemaker-0.0.4.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/423623c3/tur/libpagemaker",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/423623c3/tur/libpagemaker/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/423623c3/tur/libpagemaker/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/423623c3/tur/libpagemaker/libpagemaker-0.0.4-const-ref-exception.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/423623c3/tur/libpagemaker/libpagemaker-0.0.4-const-ref-exception.patch"
-    ],
-    "auto_updated": false
-  },
-  {
-    "name": "libqxp",
-    "version": "0.0.2",
-    "description": "a library that parses the file format of QuarkXPress documents",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libqxp",
-    "depends": [
-      "libicu",
-      "librevenge"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libqxp/libqxp-0.0.2.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/33fa6419/tur/libqxp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/33fa6419/tur/libqxp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/33fa6419/tur/libqxp/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "librime-with-lua",
     "version": "1.17.0",
     "description": "Rime input method engine with the Lua plugin built in",
@@ -4603,48 +4272,6 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/49a75f1e/tur/libspnav/makefile.patch"
     ],
     "auto_updated": true
-  },
-  {
-    "name": "libstaroffice",
-    "version": "0.0.8",
-    "description": "filter for old StarOffice documents(.sdc, .sdw, ...) based on librevenge",
-    "homepage": "https://github.com/fosnola/libstaroffice",
-    "depends": [
-      "librevenge",
-      "zlib"
-    ],
-    "srcurl": "https://github.com/fosnola/libstaroffice/releases/download/0.0.8/libstaroffice-0.0.8.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/39eab861/tur/libstaroffice",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/39eab861/tur/libstaroffice/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/39eab861/tur/libstaroffice/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
-    "name": "libzmf",
-    "version": "0.0.2",
-    "description": "a library for import of Zoner drawing and bitmap files",
-    "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libzmf",
-    "depends": [
-      "libicu",
-      "libpng",
-      "librevenge",
-      "zlib"
-    ],
-    "srcurl": "https://dev-www.libreoffice.org/src/libzmf/libzmf-0.0.2.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b3b5ab72/tur/libzmf",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b3b5ab72/tur/libzmf/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b3b5ab72/tur/libzmf/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b3b5ab72/tur/libzmf/0001-long-uint-comparison.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b3b5ab72/tur/libzmf/0001-long-uint-comparison.patch"
-    ],
-    "auto_updated": false
   },
   {
     "name": "lierolibre",
@@ -5776,7 +5403,7 @@
   },
   {
     "name": "openjdk-26",
-    "version": "26.0.1",
+    "version": "26.0.2",
     "description": "Java development kit and runtime",
     "homepage": "https://openjdk.java.net",
     "depends": [
@@ -5788,88 +5415,88 @@
       "littlecms",
       "alsa-plugins"
     ],
-    "srcurl": "https://github.com/openjdk/jdk26u/archive/refs/tags/jdk-26.0.1-ga.tar.gz",
+    "srcurl": "https://github.com/openjdk/jdk26u/archive/refs/tags/jdk-26.0.2-ga.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0544d2d1/tur/openjdk-26",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/683003c3/tur/openjdk-26",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0001-libinet-include-netinet-in.h-for-android-builds.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0002-os_linux-add-android-checks-and-fixes.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0003-Define-sys-gettid-on-arm-and-aarch64.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0004-Disable-posix-print-uptime-overridden-by-linux.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0005-android-prevent-build-of-libsa.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0006-aarch64_get_thread_helper-Thread-current.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0007-Remove-aarch64_get_thread_helper.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0008-Use-Android-s-strerror_r.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0009-Add-CXXFLAGS_JDKLIB-to-CXXFLAGS.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0010-Use-ASCII-codeset-on-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0011-Fix-libjvm.so-path-when-run-from-Android-app.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0012-arm-cast-address-to-char-when-clearing-cache.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0013-Don-t-run-fpu_control-related-functions-on-Android.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0014-Libfontmanager-link-against-libawt-to-fix-link-error.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0015-Try-to-get-libjvm.so-path-from-proc-self-maps-on-and.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0016-Warn-instead-of-exiting-if-getcpu-2-is-unsupported.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0017-Remove-pre-UAL-aliases.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0018-arm-fix-assembly-in-os_linux_arm.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0019-Add-workaround-for-tagged-pointers-on-Android-12.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0020-x86-always-compile-with-PIC.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0021-Fix-StackOverflowError-on-ARM.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0022-android-dlvsym-is-available-if-ANDROID_API-24.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0023-Update-hardcoded-paths-to-work-in-termux.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0024-elfFile.hpp-no-need-to-define-ELF-32-64-_ST_TYPE-on-.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0025-os-linux-add-getloadavg-implementation-for-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0026-libjava-change-return-type-of-strerror_r.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0027-no-forbidding.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0028-Fix-bugs-in-File.getCanonicalPath.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0029-version-script-remove-local-symbols.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0030-make-autoconf-define-ARM-for-arm-build-with-clang.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0031-hotspot-os_linux-do-not-use-dlinfo-and-RTLD_DI_LINKM.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0032-fix-read-so-path-call-from-posix.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0033-Fix-hardcoded-paths-in-jdk.attach.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0034-Do-not-disable-new-dtags.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0035-disable-statx-syscall.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/0036-link-with-iconv.patch",
-      "https://github.com/termux-user-repository/tur/blob/0544d2d1/tur/openjdk-26/tmpdir-path-length.diff"
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0001-libinet-include-netinet-in.h-for-android-builds.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0002-os_linux-add-android-checks-and-fixes.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0003-Define-sys-gettid-on-arm-and-aarch64.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0004-Disable-posix-print-uptime-overridden-by-linux.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0005-android-prevent-build-of-libsa.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0006-aarch64_get_thread_helper-Thread-current.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0007-Remove-aarch64_get_thread_helper.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0008-Use-Android-s-strerror_r.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0009-Add-CXXFLAGS_JDKLIB-to-CXXFLAGS.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0010-Use-ASCII-codeset-on-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0011-Fix-libjvm.so-path-when-run-from-Android-app.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0012-arm-cast-address-to-char-when-clearing-cache.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0013-Don-t-run-fpu_control-related-functions-on-Android.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0014-Libfontmanager-link-against-libawt-to-fix-link-error.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0015-Try-to-get-libjvm.so-path-from-proc-self-maps-on-and.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0016-Warn-instead-of-exiting-if-getcpu-2-is-unsupported.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0017-Remove-pre-UAL-aliases.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0018-arm-fix-assembly-in-os_linux_arm.cpp.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0019-Add-workaround-for-tagged-pointers-on-Android-12.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0020-x86-always-compile-with-PIC.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0021-Fix-StackOverflowError-on-ARM.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0022-android-dlvsym-is-available-if-ANDROID_API-24.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0023-Update-hardcoded-paths-to-work-in-termux.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0024-elfFile.hpp-no-need-to-define-ELF-32-64-_ST_TYPE-on-.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0025-os-linux-add-getloadavg-implementation-for-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0026-libjava-change-return-type-of-strerror_r.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0027-no-forbidding.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0028-Fix-bugs-in-File.getCanonicalPath.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0029-version-script-remove-local-symbols.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0030-make-autoconf-define-ARM-for-arm-build-with-clang.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0031-hotspot-os_linux-do-not-use-dlinfo-and-RTLD_DI_LINKM.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0032-fix-read-so-path-call-from-posix.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0033-Fix-hardcoded-paths-in-jdk.attach.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0034-Do-not-disable-new-dtags.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0035-disable-statx-syscall.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/0036-link-with-iconv.patch",
+      "https://github.com/termux-user-repository/tur/blob/683003c3/tur/openjdk-26/tmpdir-path-length.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0001-libinet-include-netinet-in.h-for-android-builds.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0002-os_linux-add-android-checks-and-fixes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0003-Define-sys-gettid-on-arm-and-aarch64.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0004-Disable-posix-print-uptime-overridden-by-linux.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0005-android-prevent-build-of-libsa.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0006-aarch64_get_thread_helper-Thread-current.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0007-Remove-aarch64_get_thread_helper.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0008-Use-Android-s-strerror_r.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0009-Add-CXXFLAGS_JDKLIB-to-CXXFLAGS.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0010-Use-ASCII-codeset-on-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0011-Fix-libjvm.so-path-when-run-from-Android-app.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0012-arm-cast-address-to-char-when-clearing-cache.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0013-Don-t-run-fpu_control-related-functions-on-Android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0014-Libfontmanager-link-against-libawt-to-fix-link-error.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0015-Try-to-get-libjvm.so-path-from-proc-self-maps-on-and.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0016-Warn-instead-of-exiting-if-getcpu-2-is-unsupported.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0017-Remove-pre-UAL-aliases.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0018-arm-fix-assembly-in-os_linux_arm.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0019-Add-workaround-for-tagged-pointers-on-Android-12.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0020-x86-always-compile-with-PIC.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0021-Fix-StackOverflowError-on-ARM.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0022-android-dlvsym-is-available-if-ANDROID_API-24.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0023-Update-hardcoded-paths-to-work-in-termux.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0024-elfFile.hpp-no-need-to-define-ELF-32-64-_ST_TYPE-on-.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0025-os-linux-add-getloadavg-implementation-for-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0026-libjava-change-return-type-of-strerror_r.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0027-no-forbidding.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0028-Fix-bugs-in-File.getCanonicalPath.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0029-version-script-remove-local-symbols.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0030-make-autoconf-define-ARM-for-arm-build-with-clang.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0031-hotspot-os_linux-do-not-use-dlinfo-and-RTLD_DI_LINKM.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0032-fix-read-so-path-call-from-posix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0033-Fix-hardcoded-paths-in-jdk.attach.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0034-Do-not-disable-new-dtags.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0035-disable-statx-syscall.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/0036-link-with-iconv.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0544d2d1/tur/openjdk-26/tmpdir-path-length.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0001-libinet-include-netinet-in.h-for-android-builds.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0002-os_linux-add-android-checks-and-fixes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0003-Define-sys-gettid-on-arm-and-aarch64.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0004-Disable-posix-print-uptime-overridden-by-linux.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0005-android-prevent-build-of-libsa.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0006-aarch64_get_thread_helper-Thread-current.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0007-Remove-aarch64_get_thread_helper.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0008-Use-Android-s-strerror_r.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0009-Add-CXXFLAGS_JDKLIB-to-CXXFLAGS.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0010-Use-ASCII-codeset-on-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0011-Fix-libjvm.so-path-when-run-from-Android-app.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0012-arm-cast-address-to-char-when-clearing-cache.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0013-Don-t-run-fpu_control-related-functions-on-Android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0014-Libfontmanager-link-against-libawt-to-fix-link-error.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0015-Try-to-get-libjvm.so-path-from-proc-self-maps-on-and.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0016-Warn-instead-of-exiting-if-getcpu-2-is-unsupported.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0017-Remove-pre-UAL-aliases.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0018-arm-fix-assembly-in-os_linux_arm.cpp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0019-Add-workaround-for-tagged-pointers-on-Android-12.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0020-x86-always-compile-with-PIC.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0021-Fix-StackOverflowError-on-ARM.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0022-android-dlvsym-is-available-if-ANDROID_API-24.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0023-Update-hardcoded-paths-to-work-in-termux.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0024-elfFile.hpp-no-need-to-define-ELF-32-64-_ST_TYPE-on-.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0025-os-linux-add-getloadavg-implementation-for-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0026-libjava-change-return-type-of-strerror_r.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0027-no-forbidding.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0028-Fix-bugs-in-File.getCanonicalPath.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0029-version-script-remove-local-symbols.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0030-make-autoconf-define-ARM-for-arm-build-with-clang.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0031-hotspot-os_linux-do-not-use-dlinfo-and-RTLD_DI_LINKM.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0032-fix-read-so-path-call-from-posix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0033-Fix-hardcoded-paths-in-jdk.attach.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0034-Do-not-disable-new-dtags.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0035-disable-statx-syscall.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/0036-link-with-iconv.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/683003c3/tur/openjdk-26/tmpdir-path-length.diff"
     ],
     "auto_updated": true
   },
@@ -7143,29 +6770,6 @@
     "auto_updated": true
   },
   {
-    "name": "redland",
-    "version": "1.0.17",
-    "description": "Library that provides a high-level interface to RDF data",
-    "homepage": "http://librdf.org/",
-    "depends": [
-      "libltdl",
-      "libraptor2",
-      "librasqal",
-      "mariadb",
-      "postgresql",
-      "sqlite",
-      "unixodbc"
-    ],
-    "srcurl": "http://download.librdf.org/source/redland-1.0.17.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ba661dc9/tur/redland",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ba661dc9/tur/redland/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ba661dc9/tur/redland/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "repoctl",
     "version": "0.21",
     "description": "libalpm(3) repository supplement utility",
@@ -7305,15 +6909,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.38",
+    "version": "0.2.39",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.38.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.39.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/45465c24/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/45465c24/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/45465c24/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0b9d73e1/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0b9d73e1/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0b9d73e1/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9286,27 +8890,6 @@
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1d07aaa6/tur-on-device/hello-tur-on-device/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
-    "name": "lpsolve",
-    "version": "5.5.2.11",
-    "description": "a Mixed Integer Linear Programming (MILP) solver",
-    "homepage": "http://lpsolve.sourceforge.net/",
-    "depends": [],
-    "srcurl": "https://downloads.sourceforge.net/project/lpsolve/lpsolve/5.5.2.11/lp_solve_5.5.2.11_source.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e25ab421/tur-on-device/lpsolve",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e25ab421/tur-on-device/lpsolve/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e25ab421/tur-on-device/lpsolve/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e25ab421/tur-on-device/lpsolve/0001-timeb.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/e25ab421/tur-on-device/lpsolve/lpsolve-5.5.2.11-misc.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e25ab421/tur-on-device/lpsolve/0001-timeb.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e25ab421/tur-on-device/lpsolve/lpsolve-5.5.2.11-misc.patch"
-    ],
     "auto_updated": false
   },
   {
