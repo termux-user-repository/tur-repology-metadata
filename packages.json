@@ -1283,15 +1283,15 @@
   },
   {
     "name": "coded",
-    "version": "0.1.9",
+    "version": "0.2.0",
     "description": "A mobile-first code editor that runs in your browser",
     "homepage": "https://github.com/HashShin/coded",
     "depends": [],
-    "srcurl": "https://github.com/HashShin/coded/archive/refs/tags/v0.1.9.tar.gz",
+    "srcurl": "https://github.com/HashShin/coded/archive/refs/tags/v0.2.0.tar.gz",
     "maintainer": "@HashShin",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f645115d/tur/coded",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f645115d/tur/coded/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f645115d/tur/coded/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d217a2d3/tur/coded",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d217a2d3/tur/coded/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d217a2d3/tur/coded/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5963,7 +5963,7 @@
   },
   {
     "name": "python-pandas",
-    "version": "3.0.4",
+    "version": "3.0.5",
     "description": "Powerful Python data analysis toolkit",
     "homepage": "https://pandas.pydata.org/",
     "depends": [
@@ -5974,16 +5974,16 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/80b609d6/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/python-pandas/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fd2a61a9/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fd2a61a9/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fd2a61a9/tur/python-pandas/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/python-pandas/use-given-python.diff"
+      "https://github.com/termux-user-repository/tur/blob/fd2a61a9/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://github.com/termux-user-repository/tur/blob/fd2a61a9/tur/python-pandas/use-given-python.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/python-pandas/use-given-python.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fd2a61a9/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fd2a61a9/tur/python-pandas/use-given-python.diff"
     ],
     "auto_updated": true
   },
@@ -8130,20 +8130,20 @@
   },
   {
     "name": "afrog",
-    "version": "3.5.5",
+    "version": "3.5.6",
     "description": "A tool for finding vulnerabilities",
     "homepage": "https://github.com/zan8in/afrog",
     "depends": [],
-    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.5.5.tar.gz",
+    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.5.6.tar.gz",
     "maintainer": "@UtermuxBlog",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9e6ca22c/tur-hacking/afrog",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9e6ca22c/tur-hacking/afrog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9e6ca22c/tur-hacking/afrog/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/27d25097/tur-hacking/afrog",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/27d25097/tur-hacking/afrog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/27d25097/tur-hacking/afrog/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9e6ca22c/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://github.com/termux-user-repository/tur/blob/27d25097/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9e6ca22c/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/27d25097/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "auto_updated": true
   },
