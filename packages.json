@@ -4417,7 +4417,7 @@
   },
   {
     "name": "moarvm",
-    "version": "2026.06",
+    "version": "2026.07",
     "description": "Virtual machine for Rakudo Perl 6 and NQP",
     "homepage": "https://moarvm.org/",
     "depends": [
@@ -4426,16 +4426,16 @@
       "libuv",
       "zstd"
     ],
-    "srcurl": "https://github.com/MoarVM/MoarVM/releases/download/2026.06/MoarVM-2026.06.tar.gz",
+    "srcurl": "https://github.com/MoarVM/MoarVM/releases/download/2026.07/MoarVM-2026.07.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a6d6c9eb/tur/moarvm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a6d6c9eb/tur/moarvm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a6d6c9eb/tur/moarvm/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d384545d/tur/moarvm",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d384545d/tur/moarvm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d384545d/tur/moarvm/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a6d6c9eb/tur/moarvm/0001-no-pthread_yield.patch"
+      "https://github.com/termux-user-repository/tur/blob/d384545d/tur/moarvm/0001-no-pthread_yield.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a6d6c9eb/tur/moarvm/0001-no-pthread_yield.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d384545d/tur/moarvm/0001-no-pthread_yield.patch"
     ],
     "auto_updated": false
   },
@@ -8437,7 +8437,7 @@
       "wget",
       "php",
       "unzip",
-      "p7zip",
+      "7zip",
       "ncurses-utils",
       "proot",
       "resolv-conf",
@@ -8447,9 +8447,9 @@
     ],
     "srcurl": "https://github.com/E343IO/shark/archive/refs/tags/v2.5.1.1.zip",
     "maintainer": "@E343IO",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7513732c/tur-hacking/shark",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7513732c/tur-hacking/shark/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7513732c/tur-hacking/shark/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6b46c069/tur-hacking/shark",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6b46c069/tur-hacking/shark/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6b46c069/tur-hacking/shark/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -8916,17 +8916,17 @@
   },
   {
     "name": "nqp",
-    "version": "2026.06",
+    "version": "2026.07",
     "description": "Lightweight Raku-like environment for virtual machines",
     "homepage": "https://github.com/Raku/nqp",
     "depends": [
       "moarvm"
     ],
-    "srcurl": "https://github.com/Raku/nqp/releases/download/2026.06/nqp-2026.06.tar.gz",
+    "srcurl": "https://github.com/Raku/nqp/releases/download/2026.07/nqp-2026.07.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dffcfe64/tur-on-device/nqp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dffcfe64/tur-on-device/nqp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dffcfe64/tur-on-device/nqp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fece6278/tur-on-device/nqp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fece6278/tur-on-device/nqp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fece6278/tur-on-device/nqp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -9105,7 +9105,7 @@
   },
   {
     "name": "rakudo",
-    "version": "2026.06",
+    "version": "2026.07",
     "description": "Mature, production-ready implementation of the Raku language",
     "homepage": "https://rakudo.org",
     "depends": [
@@ -9113,11 +9113,11 @@
       "moarvm",
       "nqp"
     ],
-    "srcurl": "https://github.com/rakudo/rakudo/releases/download/2026.06/rakudo-2026.06.tar.gz",
+    "srcurl": "https://github.com/rakudo/rakudo/releases/download/2026.07/rakudo-2026.07.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/827e84f2/tur-on-device/rakudo",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/827e84f2/tur-on-device/rakudo/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/827e84f2/tur-on-device/rakudo/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a452b947/tur-on-device/rakudo",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a452b947/tur-on-device/rakudo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a452b947/tur-on-device/rakudo/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
