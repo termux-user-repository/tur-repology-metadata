@@ -734,7 +734,7 @@
   },
   {
     "name": "beets",
-    "version": "2.12.0",
+    "version": "2.13.0",
     "description": "The music geek's media organizer",
     "homepage": "https://beets.io",
     "depends": [
@@ -744,11 +744,11 @@
       "python-numpy",
       "rust"
     ],
-    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.12.0/beets-2.12.0.tar.gz",
+    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.13.0/beets-2.13.0.tar.gz",
     "maintainer": "@mrtnvgr",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/80b609d6/tur/beets",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/beets/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/beets/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e3a61026/tur/beets",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e3a61026/tur/beets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e3a61026/tur/beets/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -2565,15 +2565,15 @@
   },
   {
     "name": "filebrowser",
-    "version": "2.63.21",
+    "version": "2.63.22",
     "description": "Web file browser based on Go",
     "homepage": "https://filebrowser.org/",
     "depends": [],
-    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.63.21.tar.gz",
+    "srcurl": "https://github.com/filebrowser/filebrowser/archive/refs/tags/v2.63.22.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/57319db9/tur/filebrowser",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/57319db9/tur/filebrowser/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/57319db9/tur/filebrowser/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/36c3aa8e/tur/filebrowser",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/36c3aa8e/tur/filebrowser/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/36c3aa8e/tur/filebrowser/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
