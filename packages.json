@@ -734,7 +734,7 @@
   },
   {
     "name": "beets",
-    "version": "2.13.0",
+    "version": "2.13.1",
     "description": "The music geek's media organizer",
     "homepage": "https://beets.io",
     "depends": [
@@ -744,11 +744,11 @@
       "python-numpy",
       "rust"
     ],
-    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.13.0/beets-2.13.0.tar.gz",
+    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.13.1/beets-2.13.1.tar.gz",
     "maintainer": "@mrtnvgr",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e3a61026/tur/beets",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e3a61026/tur/beets/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e3a61026/tur/beets/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2586be76/tur/beets",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2586be76/tur/beets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2586be76/tur/beets/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -1574,17 +1574,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.17.2",
+    "version": "6.17.3",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.2.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.3.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9e4eca2c/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9e4eca2c/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9e4eca2c/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/473f96b4/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/473f96b4/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/473f96b4/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
