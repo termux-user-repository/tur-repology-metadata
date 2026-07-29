@@ -7343,22 +7343,22 @@
   },
   {
     "name": "surge-cli",
-    "version": "0.10.0",
+    "version": "0.11.0",
     "description": "Blazing fast TUI download manager built in Go for power users",
     "homepage": "https://github.com/SurgeDM/Surge",
     "depends": [],
-    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.10.0.tar.gz",
+    "srcurl": "https://github.com/SurgeDM/Surge/archive/refs/tags/v0.11.0.tar.gz",
     "maintainer": "@LukeGTH",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9cd7e5f1/tur/surge-cli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9cd7e5f1/tur/surge-cli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9cd7e5f1/tur/surge-cli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/698374cf/tur/surge-cli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/698374cf/tur/surge-cli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/698374cf/tur/surge-cli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9cd7e5f1/tur/surge-cli/0001-xdg-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/9cd7e5f1/tur/surge-cli/0002-fix-option.patch"
+      "https://github.com/termux-user-repository/tur/blob/698374cf/tur/surge-cli/0001-xdg-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/698374cf/tur/surge-cli/0002-fix-option.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9cd7e5f1/tur/surge-cli/0001-xdg-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9cd7e5f1/tur/surge-cli/0002-fix-option.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/698374cf/tur/surge-cli/0001-xdg-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/698374cf/tur/surge-cli/0002-fix-option.patch"
     ],
     "auto_updated": true
   },
