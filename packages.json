@@ -6776,6 +6776,32 @@
     "auto_updated": true
   },
   {
+    "name": "redeclipse",
+    "version": "2.0.0",
+    "description": "A free, casual arena shooter",
+    "homepage": "https://www.redeclipse.net/",
+    "depends": [
+      "libenet",
+      "sdl2",
+      "sdl2-image",
+      "sdl2-mixer",
+      "zlib",
+      "redeclipse-data"
+    ],
+    "srcurl": "https://github.com/redeclipse/base/releases/download/v2.0.0/redeclipse_2.0.0_combined.tar.bz2",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d560c6b1/tur/redeclipse",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d560c6b1/tur/redeclipse/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d560c6b1/tur/redeclipse/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/d560c6b1/tur/redeclipse/system-install.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d560c6b1/tur/redeclipse/system-install.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "repoctl",
     "version": "0.21",
     "description": "libalpm(3) repository supplement utility",
