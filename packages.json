@@ -6970,15 +6970,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.50",
+    "version": "0.2.51",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.50.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.51.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a1621243/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a1621243/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a1621243/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/da52631c/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/da52631c/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/da52631c/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7141,7 +7141,7 @@
   },
   {
     "name": "smartdns",
-    "version": "48.3",
+    "version": "48.4",
     "description": "A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH",
     "homepage": "https://github.com/pymumu/smartdns",
     "depends": [
@@ -7149,26 +7149,26 @@
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release48.3.tar.gz",
+    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release48.4.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8f81ae50/tur/smartdns",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8f81ae50/tur/smartdns/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8f81ae50/tur/smartdns/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/05eef3b4/tur/smartdns",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8f81ae50/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/8f81ae50/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://github.com/termux-user-repository/tur/blob/8f81ae50/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://github.com/termux-user-repository/tur/blob/8f81ae50/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/8f81ae50/tur/smartdns/0005-avoid-pthread_cancel.patch",
-      "https://github.com/termux-user-repository/tur/blob/8f81ae50/tur/smartdns/0006-fix-include-on-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0005-avoid-pthread_cancel.patch",
+      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0006-fix-include-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8f81ae50/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8f81ae50/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8f81ae50/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8f81ae50/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8f81ae50/tur/smartdns/0005-avoid-pthread_cancel.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8f81ae50/tur/smartdns/0006-fix-include-on-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0005-avoid-pthread_cancel.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0006-fix-include-on-android.patch"
     ],
     "auto_updated": true
   },
