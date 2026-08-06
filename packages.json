@@ -1820,7 +1820,7 @@
   },
   {
     "name": "dpp",
-    "version": "10.1.5",
+    "version": "10.1.6",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
     "homepage": "https://dpp.dev",
     "depends": [
@@ -1830,16 +1830,16 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.1.5.tar.gz",
+    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.1.6.tar.gz",
     "maintainer": "@OrdinaryEnder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b2ecfe34/tur/dpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b2ecfe34/tur/dpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b2ecfe34/tur/dpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ec4a21f3/tur/dpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ec4a21f3/tur/dpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ec4a21f3/tur/dpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b2ecfe34/tur/dpp/0001-fix-32bit.patch"
+      "https://github.com/termux-user-repository/tur/blob/ec4a21f3/tur/dpp/0001-fix-32bit.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b2ecfe34/tur/dpp/0001-fix-32bit.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ec4a21f3/tur/dpp/0001-fix-32bit.patch"
     ],
     "auto_updated": true
   },
@@ -7064,15 +7064,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.51",
+    "version": "0.2.52",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.51.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.52.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/da52631c/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/da52631c/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/da52631c/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/91e6cee9/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/91e6cee9/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/91e6cee9/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7788,20 +7788,20 @@
   },
   {
     "name": "uutils-coreutils",
-    "version": "0.9.0",
+    "version": "0.10.0",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
     "homepage": "https://uutils.github.io/",
     "depends": [],
-    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.9.0.tar.gz",
+    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.10.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3bc32eef/tur/uutils-coreutils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3bc32eef/tur/uutils-coreutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3bc32eef/tur/uutils-coreutils/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2be60fcb/tur/uutils-coreutils",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2be60fcb/tur/uutils-coreutils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2be60fcb/tur/uutils-coreutils/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/3bc32eef/tur/uutils-coreutils/rustix-auxv-32bit.diff"
+      "https://github.com/termux-user-repository/tur/blob/2be60fcb/tur/uutils-coreutils/rustix-auxv-32bit.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3bc32eef/tur/uutils-coreutils/rustix-auxv-32bit.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2be60fcb/tur/uutils-coreutils/rustix-auxv-32bit.diff"
     ],
     "auto_updated": true
   },
