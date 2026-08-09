@@ -5624,15 +5624,15 @@
   },
   {
     "name": "oxipng",
-    "version": "10.1.1",
+    "version": "10.2.0",
     "description": "Multithreaded PNG optimizer written in Rust",
     "homepage": "https://github.com/oxipng/oxipng",
     "depends": [],
-    "srcurl": "https://github.com/oxipng/oxipng/archive/refs/tags/v10.1.1.tar.gz",
+    "srcurl": "https://github.com/oxipng/oxipng/archive/refs/tags/v10.2.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5245fd79/tur/oxipng",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5245fd79/tur/oxipng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5245fd79/tur/oxipng/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1fdff399/tur/oxipng",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1fdff399/tur/oxipng/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1fdff399/tur/oxipng/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7674,6 +7674,21 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
+  },
+  {
+    "name": "tgstream",
+    "version": "0.2.0",
+    "description": "Stream Telegram videos without downloading",
+    "homepage": "https://github.com/Soupboy006/tgstream",
+    "depends": [],
+    "srcurl": "https://github.com/Soupboy006/tgstream/archive/refs/tags/v0.2.0.tar.gz",
+    "maintainer": "@Soupboy006",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d36de15d/tur/tgstream",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d36de15d/tur/tgstream/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d36de15d/tur/tgstream/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
   },
   {
     "name": "thunk-gen",
