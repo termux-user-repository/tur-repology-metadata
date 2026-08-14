@@ -1391,15 +1391,15 @@
   },
   {
     "name": "crush",
-    "version": "0.88.0",
+    "version": "0.89.0",
     "description": "The glamourous AI coding agent for your favourite terminal",
     "homepage": "https://github.com/charmbracelet/crush",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/crush/archive/refs/tags/v0.88.0.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/crush/archive/refs/tags/v0.89.0.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/41ef3f64/tur/crush",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/41ef3f64/tur/crush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/41ef3f64/tur/crush/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/127a6ef0/tur/crush",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/127a6ef0/tur/crush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/127a6ef0/tur/crush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -9465,7 +9465,7 @@
   },
   {
     "name": "shader-slang",
-    "version": "2026.10.2",
+    "version": "2026.14.1",
     "description": "Shading language that makes it easier to build and maintain large shader codebases in a modular and extensible fashion",
     "homepage": "https://github.com/shader-slang/slang",
     "depends": [
@@ -9475,11 +9475,11 @@
       "lz4",
       "spirv-tools"
     ],
-    "srcurl": "https://github.com/shader-slang/slang/archive/refs/tags/v2026.10.2.tar.gz",
+    "srcurl": "https://github.com/shader-slang/slang/archive/refs/tags/v2026.14.1.tar.gz",
     "maintainer": "@otreblan",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a635186b/tur-on-device/shader-slang",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a635186b/tur-on-device/shader-slang/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a635186b/tur-on-device/shader-slang/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/99d0d8b9/tur-on-device/shader-slang",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/99d0d8b9/tur-on-device/shader-slang/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/99d0d8b9/tur-on-device/shader-slang/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
