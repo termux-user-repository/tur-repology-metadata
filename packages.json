@@ -1691,15 +1691,15 @@
   },
   {
     "name": "djstub",
-    "version": "0.7",
+    "version": "0.9-2",
     "description": "go32-compatible stub that supports COFF, PE and ELF payloads",
     "homepage": "https://github.com/stsp/djstub",
     "depends": [],
-    "srcurl": "https://github.com/stsp/djstub/archive/refs/tags/0.7.tar.gz",
+    "srcurl": "https://github.com/stsp/djstub/archive/refs/tags/0.9-2.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8a604229/tur/djstub",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8a604229/tur/djstub/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8a604229/tur/djstub/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5ed2ec9d/tur/djstub",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5ed2ec9d/tur/djstub/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5ed2ec9d/tur/djstub/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7084,15 +7084,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.55",
+    "version": "0.2.56",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.55.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.56.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/69907bd4/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/69907bd4/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/69907bd4/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f80b6e76/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f80b6e76/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f80b6e76/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7712,7 +7712,7 @@
   },
   {
     "name": "thunk-gen",
-    "version": "1.10",
+    "version": "1.11",
     "description": "thunk generator for C and assembler",
     "homepage": "https://github.com/stsp/thunk_gen",
     "depends": [
@@ -7720,11 +7720,11 @@
       "autoconf",
       "pkg-config"
     ],
-    "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.10.tar.gz",
+    "srcurl": "https://github.com/stsp/thunk_gen/archive/refs/tags/1.11.tar.gz",
     "maintainer": "@stsp",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9757f243/tur/thunk-gen",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9757f243/tur/thunk-gen/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9757f243/tur/thunk-gen/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/47f67aed/tur/thunk-gen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/47f67aed/tur/thunk-gen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/47f67aed/tur/thunk-gen/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9178,7 +9178,7 @@
   },
   {
     "name": "pyside6",
-    "version": "6.11.1",
+    "version": "6.11.2",
     "description": "Official Python bindings for Qt6",
     "homepage": "https://doc.qt.io/qtforpython-6/",
     "depends": [
@@ -9188,11 +9188,11 @@
       "qt6-qtdeclarative",
       "shiboken6"
     ],
-    "srcurl": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.1-src/pyside-setup-everywhere-src-6.11.1.tar.xz",
+    "srcurl": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.2-src/pyside-setup-everywhere-src-6.11.2.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a635186b/tur-on-device/pyside6",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a635186b/tur-on-device/pyside6/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a635186b/tur-on-device/pyside6/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b070680b/tur-on-device/pyside6",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b070680b/tur-on-device/pyside6/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b070680b/tur-on-device/pyside6/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
