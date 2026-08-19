@@ -1582,17 +1582,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.17.5",
+    "version": "6.17.6",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.5.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.6.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b9a1831e/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b9a1831e/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b9a1831e/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e3286698/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e3286698/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e3286698/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -2454,6 +2454,28 @@
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ab7b690c/tur/feedr/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "ffdec",
+    "version": "26.2.1",
+    "description": "JPEXS Free Flash Decompiler",
+    "homepage": "https://github.com/jindrapetrik/jpexs-decompiler",
+    "depends": [
+      "openjdk-21",
+      "openjdk-21-x"
+    ],
+    "srcurl": "git+https://github.com/jindrapetrik/jpexs-decompiler",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e5d4626e/tur/ffdec",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e5d4626e/tur/ffdec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e5d4626e/tur/ffdec/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/e5d4626e/tur/ffdec/fix-paths.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5d4626e/tur/ffdec/fix-paths.patch"
+    ],
     "auto_updated": true
   },
   {
