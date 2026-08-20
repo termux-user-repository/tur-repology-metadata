@@ -2467,14 +2467,14 @@
     ],
     "srcurl": "git+https://github.com/jindrapetrik/jpexs-decompiler",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e5d4626e/tur/ffdec",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e5d4626e/tur/ffdec/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e5d4626e/tur/ffdec/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9fa439dc/tur/ffdec",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9fa439dc/tur/ffdec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9fa439dc/tur/ffdec/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e5d4626e/tur/ffdec/fix-paths.patch"
+      "https://github.com/termux-user-repository/tur/blob/9fa439dc/tur/ffdec/fix-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e5d4626e/tur/ffdec/fix-paths.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9fa439dc/tur/ffdec/fix-paths.patch"
     ],
     "auto_updated": true
   },
