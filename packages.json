@@ -892,6 +892,21 @@
     "auto_updated": false
   },
   {
+    "name": "bun",
+    "version": "1.3.14",
+    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager",
+    "homepage": "https://bun.com",
+    "depends": [],
+    "srcurl": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-linux-aarch64-android.zip",
+    "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0e0512d1/tur/bun",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0e0512d1/tur/bun/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0e0512d1/tur/bun/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "catspeak",
     "version": "1.2.3",
     "description": "Cowsay like program of a speaking cat",
@@ -1393,15 +1408,15 @@
   },
   {
     "name": "crush",
-    "version": "0.89.0",
+    "version": "0.90.0",
     "description": "The glamourous AI coding agent for your favourite terminal",
     "homepage": "https://github.com/charmbracelet/crush",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/crush/archive/refs/tags/v0.89.0.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/crush/archive/refs/tags/v0.90.0.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/127a6ef0/tur/crush",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/127a6ef0/tur/crush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/127a6ef0/tur/crush/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8343d728/tur/crush",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8343d728/tur/crush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8343d728/tur/crush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
