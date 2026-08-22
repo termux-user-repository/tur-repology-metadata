@@ -6169,7 +6169,7 @@
   },
   {
     "name": "python-scipy",
-    "version": "1:1.18.0",
+    "version": "1:1.18.1",
     "description": "Fundamental algorithms for scientific computing in Python",
     "homepage": "https://scipy.org/",
     "depends": [
@@ -6182,18 +6182,18 @@
     ],
     "srcurl": "git+https://github.com/scipy/scipy",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/80b609d6/tur/python-scipy",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/python-scipy/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/python-scipy/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7699dac0/tur/python-scipy",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7699dac0/tur/python-scipy/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7699dac0/tur/python-scipy/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/python-scipy/0001-android-complex-math.patch",
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/python-scipy/0002-pthread-affinity.patch",
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/python-scipy/0003-boost-math-LDBL_MANT_DIG.patch"
+      "https://github.com/termux-user-repository/tur/blob/7699dac0/tur/python-scipy/0001-android-complex-math.patch",
+      "https://github.com/termux-user-repository/tur/blob/7699dac0/tur/python-scipy/0002-pthread-affinity.patch",
+      "https://github.com/termux-user-repository/tur/blob/7699dac0/tur/python-scipy/0003-boost-math-LDBL_MANT_DIG.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/python-scipy/0001-android-complex-math.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/python-scipy/0002-pthread-affinity.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/python-scipy/0003-boost-math-LDBL_MANT_DIG.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7699dac0/tur/python-scipy/0001-android-complex-math.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7699dac0/tur/python-scipy/0002-pthread-affinity.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7699dac0/tur/python-scipy/0003-boost-math-LDBL_MANT_DIG.patch"
     ],
     "auto_updated": true
   },
