@@ -2965,17 +2965,17 @@
   },
   {
     "name": "genext2fs",
-    "version": "1.6.2",
+    "version": "1.6.3",
     "description": "Build ext2 filesystem image without mounting for copying files (like mkfs.fat + mcopy in one go)",
     "homepage": "https://github.com/bestouff/genext2fs",
     "depends": [
       "libarchive"
     ],
-    "srcurl": "https://github.com/bestouff/genext2fs/archive/v1.6.2.tar.gz",
+    "srcurl": "https://github.com/bestouff/genext2fs/archive/v1.6.3.tar.gz",
     "maintainer": "@flosnvjx, @termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/567882ca/tur/genext2fs",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/567882ca/tur/genext2fs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/567882ca/tur/genext2fs/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a1448f70/tur/genext2fs",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a1448f70/tur/genext2fs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a1448f70/tur/genext2fs/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
