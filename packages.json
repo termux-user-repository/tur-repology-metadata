@@ -4553,18 +4553,18 @@
   },
   {
     "name": "moviebox-tui",
-    "version": "0.1.13",
+    "version": "0.1.14",
     "description": "Terminal client for streaming movies, series, and anime",
     "homepage": "https://github.com/mesamirh/MovieBox-Tui",
     "depends": [
       "openssl",
       "pkg-config"
     ],
-    "srcurl": "https://github.com/mesamirh/MovieBox-Tui/archive/refs/tags/v0.1.13.tar.gz",
+    "srcurl": "https://github.com/mesamirh/MovieBox-Tui/archive/refs/tags/v0.1.14.tar.gz",
     "maintainer": "@mesamirh",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1dc1b8d4/tur/moviebox-tui",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1dc1b8d4/tur/moviebox-tui/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1dc1b8d4/tur/moviebox-tui/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4c751a5f/tur/moviebox-tui",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4c751a5f/tur/moviebox-tui/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4c751a5f/tur/moviebox-tui/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
