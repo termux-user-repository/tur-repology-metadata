@@ -897,13 +897,21 @@
     "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager",
     "homepage": "https://bun.com",
     "depends": [],
-    "srcurl": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.0/bun-linux-aarch64-android.zip",
+    "srcurl": "git+https://github.com/oven-sh/bun",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3a177a99/tur/bun",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3a177a99/tur/bun/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3a177a99/tur/bun/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f4a4a25d/tur/bun",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f4a4a25d/tur/bun/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f4a4a25d/tur/bun/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/f4a4a25d/tur/bun/0001-override-path.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/f4a4a25d/tur/bun/0002-remove-Werror-and-unsupported-flags.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/f4a4a25d/tur/bun/0003-disable-close_range.patch.beforehostbuild"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f4a4a25d/tur/bun/0001-override-path.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f4a4a25d/tur/bun/0002-remove-Werror-and-unsupported-flags.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/f4a4a25d/tur/bun/0003-disable-close_range.patch.beforehostbuild"
+    ],
     "auto_updated": true
   },
   {
