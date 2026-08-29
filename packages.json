@@ -790,17 +790,17 @@
   },
   {
     "name": "bililive-go",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A live streaming recording tool",
     "homepage": "https://github.com/hr3lxphr6j/bililive-go",
     "depends": [
       "ffmpeg"
     ],
-    "srcurl": "https://github.com/hr3lxphr6j/bililive-go/archive/refs/tags/v0.8.0.tar.gz",
+    "srcurl": "https://github.com/hr3lxphr6j/bililive-go/archive/refs/tags/v0.8.1.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9f3a8bea/tur/bililive-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9f3a8bea/tur/bililive-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9f3a8bea/tur/bililive-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cee9b205/tur/bililive-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cee9b205/tur/bililive-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cee9b205/tur/bililive-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
