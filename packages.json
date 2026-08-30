@@ -899,18 +899,22 @@
     "depends": [],
     "srcurl": "git+https://github.com/oven-sh/bun",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f5101c09/tur/bun",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f5101c09/tur/bun/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f5101c09/tur/bun/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fec889d9/tur/bun",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f5101c09/tur/bun/0001-override-path.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/f5101c09/tur/bun/0002-remove-Werror-and-unsupported-flags.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/f5101c09/tur/bun/0003-disable-close_range.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0001-override-path.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0002-remove-Werror-and-unsupported-flags.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0003-disable-close_range.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0004-disable-openat2.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0005-disable-fchmodat2.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f5101c09/tur/bun/0001-override-path.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f5101c09/tur/bun/0002-remove-Werror-and-unsupported-flags.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f5101c09/tur/bun/0003-disable-close_range.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0001-override-path.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0002-remove-Werror-and-unsupported-flags.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0003-disable-close_range.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0004-disable-openat2.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0005-disable-fchmodat2.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
