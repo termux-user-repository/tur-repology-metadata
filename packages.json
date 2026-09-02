@@ -3575,20 +3575,20 @@
   },
   {
     "name": "lib-tls-client",
-    "version": "1.15.1",
+    "version": "1.16.0",
     "description": "A net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests",
     "homepage": "https://github.com/bogdanfinn/tls-client/",
     "depends": [],
-    "srcurl": "https://github.com/bogdanfinn/tls-client/archive/refs/tags/v1.15.1.tar.gz",
+    "srcurl": "https://github.com/bogdanfinn/tls-client/archive/refs/tags/v1.16.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ce73b184/tur/lib-tls-client",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ce73b184/tur/lib-tls-client/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ce73b184/tur/lib-tls-client/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/69401875/tur/lib-tls-client",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/69401875/tur/lib-tls-client/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/69401875/tur/lib-tls-client/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ce73b184/tur/lib-tls-client/0001-use-source-from-tarball.patch"
+      "https://github.com/termux-user-repository/tur/blob/69401875/tur/lib-tls-client/0001-use-source-from-tarball.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ce73b184/tur/lib-tls-client/0001-use-source-from-tarball.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/69401875/tur/lib-tls-client/0001-use-source-from-tarball.patch"
     ],
     "auto_updated": true
   },
@@ -6405,7 +6405,7 @@
   },
   {
     "name": "python3.11",
-    "version": "3.11.15",
+    "version": "3.11.16",
     "description": "Python programming language intended to enable clear programs (version 3.11)",
     "homepage": "https://python.org/",
     "depends": [
@@ -6424,38 +6424,38 @@
       "readline",
       "zlib"
     ],
-    "srcurl": "https://www.python.org/ftp/python/3.11.15/Python-3.11.15.tar.xz",
+    "srcurl": "https://www.python.org/ftp/python/3.11.16/Python-3.11.16.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/736826bc/tur/python3.11",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7a1fa8d4/tur/python3.11",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0001-fix-hardcoded-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0002-no-setuid-servers.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0003-ctypes-util-use-llvm-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0004-impl-getprotobyname.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0005-impl-multiprocessing.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0006-do-not-use-xattr.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0007-disable-multiarch.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0008-do-not-use-link.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0009-build-with-fPIC.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0010-use-android-logging.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0011-disable-parallel-build.patch",
-      "https://github.com/termux-user-repository/tur/blob/736826bc/tur/python3.11/0012-do-not-include-langinfo.patch"
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0002-no-setuid-servers.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0003-ctypes-util-use-llvm-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0004-impl-getprotobyname.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0005-impl-multiprocessing.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0006-do-not-use-xattr.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0007-disable-multiarch.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0008-do-not-use-link.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0009-build-with-fPIC.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0010-use-android-logging.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0011-disable-parallel-build.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a1fa8d4/tur/python3.11/0012-do-not-include-langinfo.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0001-fix-hardcoded-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0002-no-setuid-servers.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0003-ctypes-util-use-llvm-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0004-impl-getprotobyname.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0005-impl-multiprocessing.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0006-do-not-use-xattr.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0007-disable-multiarch.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0008-do-not-use-link.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0009-build-with-fPIC.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0010-use-android-logging.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0011-disable-parallel-build.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/736826bc/tur/python3.11/0012-do-not-include-langinfo.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0002-no-setuid-servers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0003-ctypes-util-use-llvm-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0004-impl-getprotobyname.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0005-impl-multiprocessing.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0006-do-not-use-xattr.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0007-disable-multiarch.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0008-do-not-use-link.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0009-build-with-fPIC.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0010-use-android-logging.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0011-disable-parallel-build.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a1fa8d4/tur/python3.11/0012-do-not-include-langinfo.patch"
     ],
     "auto_updated": false
   },
