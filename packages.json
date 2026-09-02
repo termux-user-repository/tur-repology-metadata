@@ -295,7 +295,7 @@
   },
   {
     "name": "archisteamfarm",
-    "version": "6.3.8.4",
+    "version": "6.3.9.6",
     "description": "C# application that allows you to farm steam cards using multiple steam accounts simultaneously",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
     "depends": [
@@ -305,14 +305,14 @@
     ],
     "srcurl": "git+https://github.com/JustArchiNET/ArchiSteamFarm",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a45d1ed1/tur/archisteamfarm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a45d1ed1/tur/archisteamfarm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a45d1ed1/tur/archisteamfarm/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c37c4d53/tur/archisteamfarm",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c37c4d53/tur/archisteamfarm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c37c4d53/tur/archisteamfarm/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a45d1ed1/tur/archisteamfarm/cc.sh.patch"
+      "https://github.com/termux-user-repository/tur/blob/c37c4d53/tur/archisteamfarm/cc.sh.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a45d1ed1/tur/archisteamfarm/cc.sh.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c37c4d53/tur/archisteamfarm/cc.sh.patch"
     ],
     "auto_updated": true
   },
@@ -7176,15 +7176,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.62",
+    "version": "0.2.63",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.62.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.63.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/35af4e78/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/35af4e78/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/35af4e78/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/058b8309/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/058b8309/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/058b8309/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
