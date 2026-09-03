@@ -892,33 +892,6 @@
     "auto_updated": false
   },
   {
-    "name": "bun",
-    "version": "1.4.0",
-    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager",
-    "homepage": "https://bun.com",
-    "depends": [],
-    "srcurl": "git+https://github.com/oven-sh/bun",
-    "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fec889d9/tur/bun",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0001-override-path.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0002-remove-Werror-and-unsupported-flags.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0003-disable-close_range.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0004-disable-openat2.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/fec889d9/tur/bun/0005-disable-fchmodat2.patch.beforehostbuild"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0001-override-path.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0002-remove-Werror-and-unsupported-flags.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0003-disable-close_range.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0004-disable-openat2.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fec889d9/tur/bun/0005-disable-fchmodat2.patch.beforehostbuild"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "catspeak",
     "version": "1.2.3",
     "description": "Cowsay like program of a speaking cat",
@@ -1465,7 +1438,7 @@
   },
   {
     "name": "darktable",
-    "version": "5.4.1",
+    "version": "5.6.1",
     "description": "Virtual lighttable and darkroom for photographers",
     "homepage": "https://www.darktable.org/",
     "depends": [
@@ -1501,20 +1474,21 @@
       "openjpeg",
       "pango",
       "portmidi",
+      "potrace",
       "zlib"
     ],
-    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-5.4.1/darktable-5.4.1.tar.xz",
+    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-5.6.1/darktable-5.6.1.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b40a313e/tur/darktable",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b40a313e/tur/darktable/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b40a313e/tur/darktable/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a86b9c8d/tur/darktable",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a86b9c8d/tur/darktable/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a86b9c8d/tur/darktable/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b40a313e/tur/darktable/0001-cmake-libm.patch",
-      "https://github.com/termux-user-repository/tur/blob/b40a313e/tur/darktable/0002-jobs-pthread.patch"
+      "https://github.com/termux-user-repository/tur/blob/a86b9c8d/tur/darktable/0001-cmake-libm.patch",
+      "https://github.com/termux-user-repository/tur/blob/a86b9c8d/tur/darktable/0002-jobs-pthread.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b40a313e/tur/darktable/0001-cmake-libm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b40a313e/tur/darktable/0002-jobs-pthread.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a86b9c8d/tur/darktable/0001-cmake-libm.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a86b9c8d/tur/darktable/0002-jobs-pthread.patch"
     ],
     "auto_updated": true
   },
