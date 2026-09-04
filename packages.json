@@ -1583,17 +1583,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.17.6",
+    "version": "6.17.7",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.6.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.7.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e3286698/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e3286698/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e3286698/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/38a8b902/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/38a8b902/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/38a8b902/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -1822,6 +1822,21 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/25be3481/tur/doukutsu-rs/enable-touchscreen-buttons.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/25be3481/tur/doukutsu-rs/use-system-sdl2.patch"
     ],
+    "auto_updated": true
+  },
+  {
+    "name": "dpic",
+    "version": "2025.08.01",
+    "description": "Implementation of the pic little language for creating line drawings and illustrations",
+    "homepage": "https://ece.uwaterloo.ca/~aplevich/dpic/",
+    "depends": [],
+    "srcurl": "https://ece.uwaterloo.ca/~aplevich/dpic/dpic-2025.08.01.tar.gz",
+    "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/60676438/tur/dpic",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/60676438/tur/dpic/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/60676438/tur/dpic/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
