@@ -3282,21 +3282,6 @@
     "auto_updated": false
   },
   {
-    "name": "hurl",
-    "version": "8.0.1",
-    "description": "Hurl, run and test HTTP requests with plain text",
-    "homepage": "https://github.com/Orange-OpenSource/hurl",
-    "depends": [],
-    "srcurl": "https://github.com/Orange-OpenSource/hurl/archive/refs/tags/8.0.1.tar.gz",
-    "maintainer": "@SunPodder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0894db20/tur/hurl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0894db20/tur/hurl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0894db20/tur/hurl/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
     "name": "hurrican",
     "version": "1.0.9.3-r780.3f4bfd3",
     "description": "Freeware jump and shoot game created by Poke53280, based on the Turrican game series by Manfred Trenz",
