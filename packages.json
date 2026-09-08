@@ -4660,8 +4660,11 @@
     "homepage": "https://www.nerdfonts.com/",
     "depends": [
       "ttf-cascadia-code-nerd",
+      "ttf-fantasque-sans-mono-nerd",
+      "ttf-fira-code-nerd",
       "ttf-hack-nerd",
       "ttf-inconsolata-nerd",
+      "ttf-iosevka-nerd",
       "ttf-jetbrains-mono-nerd",
       "ttf-meslo-nerd",
       "ttf-roboto-mono-nerd",
@@ -4671,9 +4674,9 @@
     ],
     "srcurl": "https://github.com/ryanoasis/nerd-fonts/archive/refs/tags/v3.5.1.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f7b0334/tur/nerd-fonts",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f7b0334/tur/nerd-fonts/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f7b0334/tur/nerd-fonts/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/84957c61/tur/nerd-fonts",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/84957c61/tur/nerd-fonts/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/84957c61/tur/nerd-fonts/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8398,20 +8401,20 @@
   },
   {
     "name": "afrog",
-    "version": "3.5.6",
+    "version": "3.5.7",
     "description": "A tool for finding vulnerabilities",
     "homepage": "https://github.com/zan8in/afrog",
     "depends": [],
-    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.5.6.tar.gz",
+    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.5.7.tar.gz",
     "maintainer": "@UtermuxBlog",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/27d25097/tur-hacking/afrog",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/27d25097/tur-hacking/afrog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/27d25097/tur-hacking/afrog/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1164f807/tur-hacking/afrog",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1164f807/tur-hacking/afrog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1164f807/tur-hacking/afrog/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/27d25097/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://github.com/termux-user-repository/tur/blob/1164f807/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/27d25097/tur-hacking/afrog/0001-dm-int-type.patch32"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1164f807/tur-hacking/afrog/0001-dm-int-type.patch32"
     ],
     "auto_updated": true
   },
