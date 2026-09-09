@@ -7153,15 +7153,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.68",
+    "version": "0.2.69",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.68.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.69.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6cc8492d/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6cc8492d/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6cc8492d/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d947651a/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d947651a/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d947651a/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7278,6 +7278,21 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
+  },
+  {
+    "name": "sheets",
+    "version": "0.3.0",
+    "description": "Terminal based spreadsheet tool",
+    "homepage": "https://github.com/maaslalani/sheets",
+    "depends": [],
+    "srcurl": "https://github.com/maaslalani/sheets/archive/refs/tags/v0.3.0.tar.gz",
+    "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2807f9fe/tur/sheets",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2807f9fe/tur/sheets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2807f9fe/tur/sheets/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
   },
   {
     "name": "skyseg-ncnn",
@@ -7923,7 +7938,7 @@
   },
   {
     "name": "vhs",
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "Your CLI home video recorder",
     "homepage": "https://github.com/charmbracelet/vhs",
     "depends": [
@@ -7932,9 +7947,9 @@
     ],
     "srcurl": "git+https://github.com/charmbracelet/vhs",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a2fec475/tur/vhs",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a2fec475/tur/vhs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a2fec475/tur/vhs/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0f5b749e/tur/vhs",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0f5b749e/tur/vhs/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0f5b749e/tur/vhs/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
