@@ -6001,6 +6001,24 @@
     "auto_updated": false
   },
   {
+    "name": "python-hf-xet",
+    "version": "1.6.0",
+    "description": "Fast transfer of large files with the Hugging Face Hub",
+    "homepage": "https://github.com/huggingface/xet-core",
+    "depends": [
+      "libc++",
+      "python"
+    ],
+    "srcurl": "https://github.com/huggingface/xet-core/releases/download/v1.6.0/hf_xet-1.6.0.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/85fd5437/tur/python-hf-xet",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/85fd5437/tur/python-hf-xet/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/85fd5437/tur/python-hf-xet/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "python-kivy",
     "version": "2.3.1",
     "description": "Open source UI framework written in Python",
@@ -6314,13 +6332,14 @@
     "depends": [
       "libc++",
       "python",
-      "python-pip"
+      "python-pip",
+      "python-hf-xet"
     ],
     "srcurl": "https://github.com/huggingface/tokenizers/archive/refs/tags/v0.23.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/01e588c0/tur/python-tokenizers",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/01e588c0/tur/python-tokenizers/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/01e588c0/tur/python-tokenizers/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/85fd5437/tur/python-tokenizers",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/85fd5437/tur/python-tokenizers/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/85fd5437/tur/python-tokenizers/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
