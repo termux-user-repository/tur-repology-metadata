@@ -7763,21 +7763,6 @@
     "auto_updated": false
   },
   {
-    "name": "television",
-    "version": "0.15.9",
-    "description": "A very fast, portable and hackable fuzzy finder",
-    "homepage": "https://github.com/alexpasmantier/television",
-    "depends": [],
-    "srcurl": "https://github.com/alexpasmantier/television/archive/refs/tags/0.15.9.tar.gz",
-    "maintainer": "@everywhereless",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5caa8190/tur/television",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5caa8190/tur/television/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5caa8190/tur/television/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
     "name": "termbot",
     "version": "20220902",
     "description": "A fully fledged terminal emulator in a Discord chat",
