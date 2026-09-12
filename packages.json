@@ -3020,7 +3020,7 @@
   },
   {
     "name": "gnome-chess",
-    "version": "50.0",
+    "version": "50.1",
     "description": "GNOME Chess game",
     "homepage": "https://wiki.gnome.org/Apps(2f)Chess.html",
     "depends": [
@@ -3033,11 +3033,11 @@
       "opengl",
       "pango"
     ],
-    "srcurl": "https://download.gnome.org/sources/gnome-chess/50/gnome-chess-50.0.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/gnome-chess/50/gnome-chess-50.1.tar.xz",
     "maintainer": "@lunsokhasovan, @termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3f8d2019/tur/gnome-chess",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3f8d2019/tur/gnome-chess/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3f8d2019/tur/gnome-chess/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9a6198d3/tur/gnome-chess",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9a6198d3/tur/gnome-chess/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9a6198d3/tur/gnome-chess/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
