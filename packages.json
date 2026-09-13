@@ -1437,62 +1437,6 @@
     "auto_updated": false
   },
   {
-    "name": "darktable",
-    "version": "5.6.1",
-    "description": "Virtual lighttable and darkroom for photographers",
-    "homepage": "https://www.darktable.org/",
-    "depends": [
-      "exiv2",
-      "gdk-pixbuf",
-      "glib",
-      "graphicsmagick",
-      "gtk3",
-      "imath",
-      "json-glib",
-      "lensfun",
-      "libandroid-glob",
-      "libavif",
-      "libc++",
-      "libcairo",
-      "libcurl",
-      "libheif",
-      "libicu",
-      "libjpeg-turbo",
-      "libjxl",
-      "libllvm",
-      "libpng",
-      "libpugixml",
-      "librsvg",
-      "libsqlite",
-      "libtiff",
-      "libwebp",
-      "libxml2",
-      "littlecms",
-      "ltrace",
-      "lua54",
-      "openexr",
-      "openjpeg",
-      "pango",
-      "portmidi",
-      "potrace",
-      "zlib"
-    ],
-    "srcurl": "https://github.com/darktable-org/darktable/releases/download/release-5.6.1/darktable-5.6.1.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a86b9c8d/tur/darktable",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a86b9c8d/tur/darktable/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a86b9c8d/tur/darktable/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a86b9c8d/tur/darktable/0001-cmake-libm.patch",
-      "https://github.com/termux-user-repository/tur/blob/a86b9c8d/tur/darktable/0002-jobs-pthread.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a86b9c8d/tur/darktable/0001-cmake-libm.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a86b9c8d/tur/darktable/0002-jobs-pthread.patch"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "davegnukem",
     "version": "1.0.3",
     "description": "Dave Gnukem is an open source retro-style 2D scrolling platform shooter, inspired by and similar to Duke Nukem 1 (a famous original 1991 game that launched the Duke Nukem series)",
@@ -3521,29 +3465,6 @@
     ],
     "package_patch_raw_urls": [
       "https://raw.githubusercontent.com/termux-user-repository/tur/1e94b9c4/tur/lemonbar-xft/fix-makefile.patch"
-    ],
-    "auto_updated": false
-  },
-  {
-    "name": "lensfun",
-    "version": "0.3.4",
-    "description": "Lensfun",
-    "homepage": "https://lensfun.github.io/",
-    "depends": [
-      "glib",
-      "libpng",
-      "libxml2"
-    ],
-    "srcurl": "https://github.com/lensfun/lensfun/archive/refs/tags/v0.3.4.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0ab218d3/tur/lensfun",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0ab218d3/tur/lensfun/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0ab218d3/tur/lensfun/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0ab218d3/tur/lensfun/0001-python-options.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0ab218d3/tur/lensfun/0001-python-options.patch"
     ],
     "auto_updated": false
   },
@@ -9250,14 +9171,14 @@
     ],
     "srcurl": "https://github.com/ocaml/opam/releases/download/2.5.2/opam-full-2.5.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/11ca9af4/tur-on-device/opam",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/11ca9af4/tur-on-device/opam/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/11ca9af4/tur-on-device/opam/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6b5c4056/tur-on-device/opam",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6b5c4056/tur-on-device/opam/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6b5c4056/tur-on-device/opam/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/11ca9af4/tur-on-device/opam/0001-disable-sandboxing-by-default.patch"
+      "https://github.com/termux-user-repository/tur/blob/6b5c4056/tur-on-device/opam/0001-disable-sandboxing-by-default.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/11ca9af4/tur-on-device/opam/0001-disable-sandboxing-by-default.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6b5c4056/tur-on-device/opam/0001-disable-sandboxing-by-default.patch"
     ],
     "auto_updated": false
   },
