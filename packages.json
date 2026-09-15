@@ -408,77 +408,6 @@
     "auto_updated": false
   },
   {
-    "name": "bazel",
-    "version": "9.2.0",
-    "description": "Correct, reproducible, and fast builds for everyone",
-    "homepage": "https://bazel.build/",
-    "depends": [
-      "libarchive",
-      "openjdk-21",
-      "patch",
-      "unzip",
-      "zip"
-    ],
-    "srcurl": "https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel-9.2.0-dist.zip",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/60c12f26/tur/bazel",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0001-strerror_r.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0002-impl-wait3.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0003-disable-sandbox.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0004-spawn.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0005-bazelrc-path.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0006-force-use-external-patch_tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0007-import-termux-patches.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0008-run-elf-cleaner-for-bundled-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0009-compile-cpu_profiler-with-fPIC.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0010-disable-network-usage-monitor.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0011-fix-patches-import.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/0101-import-termux-cross-deps.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/absl.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/cares-config.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/cares.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/grpc.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/protobuf.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/rules_cc.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/z-absl.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/z-cares-config.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/z-cares.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/z-grpc.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/z-protobuf.patch",
-      "https://github.com/termux-user-repository/tur/blob/60c12f26/tur/bazel/dep-patches/z-rules_cc.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0001-strerror_r.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0002-impl-wait3.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0003-disable-sandbox.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0004-spawn.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0005-bazelrc-path.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0006-force-use-external-patch_tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0007-import-termux-patches.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0008-run-elf-cleaner-for-bundled-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0009-compile-cpu_profiler-with-fPIC.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0010-disable-network-usage-monitor.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0011-fix-patches-import.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/0101-import-termux-cross-deps.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/absl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/cares-config.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/cares.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/grpc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/protobuf.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/rules_cc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/z-absl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/z-cares-config.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/z-cares.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/z-grpc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/z-protobuf.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/60c12f26/tur/bazel/dep-patches/z-rules_cc.patch"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "bazel5",
     "version": "5.4.1",
     "description": "Correct, reproducible, and fast builds for everyone",
@@ -3860,21 +3789,6 @@
     "auto_updated": false
   },
   {
-    "name": "libiptcdata",
-    "version": "1.0.4",
-    "description": "a C library for manipulating the IPTC metadata stored within multimedia files",
-    "homepage": "https://libiptcdata.sourceforge.net/",
-    "depends": [],
-    "srcurl": "https://downloads.sourceforge.net/libiptcdata/libiptcdata/libiptcdata-1.0.4.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1d3f1818/tur/libiptcdata",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1d3f1818/tur/libiptcdata/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1d3f1818/tur/libiptcdata/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "libisl",
     "version": "0.26",
     "description": "Library for manipulating sets and relations of integer points bounded by linear constraints",
@@ -5616,21 +5530,6 @@
     "auto_updated": true
   },
   {
-    "name": "oxipng",
-    "version": "10.2.1",
-    "description": "Multithreaded PNG optimizer written in Rust",
-    "homepage": "https://github.com/oxipng/oxipng",
-    "depends": [],
-    "srcurl": "https://github.com/oxipng/oxipng/archive/refs/tags/v10.2.1.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7e4ebf25/tur/oxipng",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7e4ebf25/tur/oxipng/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7e4ebf25/tur/oxipng/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
     "name": "pacman-contrib",
     "version": "1.13.1",
     "description": "Additional libalpm utilities contributed by Arch community",
@@ -6873,44 +6772,6 @@
     "auto_updated": false
   },
   {
-    "name": "rawtherapee",
-    "version": "5.12",
-    "description": "raw image converter and digital photo processor",
-    "homepage": "https://www.rawtherapee.com/",
-    "depends": [
-      "exiv2",
-      "fftw",
-      "glib",
-      "gtk3",
-      "gtkmm3",
-      "lensfun",
-      "libcanberra",
-      "libexpat",
-      "libglibmm-2.4",
-      "libiptcdata",
-      "libjpeg-turbo",
-      "libpng",
-      "libraw",
-      "librsvg",
-      "libsigc++-2.0",
-      "libtiff",
-      "littlecms",
-      "zlib"
-    ],
-    "srcurl": "https://github.com/Beep6581/RawTherapee/releases/download/5.12/rawtherapee-5.12.tar.xz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8e49e33e/tur/rawtherapee",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8e49e33e/tur/rawtherapee/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8e49e33e/tur/rawtherapee/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8e49e33e/tur/rawtherapee/0001-dirbrowser-root-subdirs.patch"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8e49e33e/tur/rawtherapee/0001-dirbrowser-root-subdirs.patch"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "realesrgan-ncnn-vulkan",
     "version": "0.2.0",
     "description": "NCNN implementation of Real-ESRGAN for General Image Restoration.",
@@ -7859,24 +7720,6 @@
     "package_patch_raw_urls": [
       "https://raw.githubusercontent.com/termux-user-repository/tur/dc43ed0a/tur/uutils-coreutils/rustix-auxv-32bit.diff"
     ],
-    "auto_updated": true
-  },
-  {
-    "name": "vhs",
-    "version": "0.12.0",
-    "description": "Your CLI home video recorder",
-    "homepage": "https://github.com/charmbracelet/vhs",
-    "depends": [
-      "ttyd",
-      "ffmpeg"
-    ],
-    "srcurl": "git+https://github.com/charmbracelet/vhs",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0f5b749e/tur/vhs",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0f5b749e/tur/vhs/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0f5b749e/tur/vhs/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
