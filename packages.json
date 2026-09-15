@@ -3028,6 +3028,21 @@
     "auto_updated": true
   },
   {
+    "name": "gomi",
+    "version": "1.6.4",
+    "description": "Safer alternative to the rm command, with a trash can you can restore from",
+    "homepage": "https://gomi.dev",
+    "depends": [],
+    "srcurl": "https://github.com/babarot/gomi/archive/refs/tags/v1.6.4.tar.gz",
+    "maintainer": "Zeldris <80939130+zeldrisho@users.noreply.github.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4888cefe/tur/gomi",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4888cefe/tur/gomi/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4888cefe/tur/gomi/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "gtkcord4",
     "version": "0.0.4",
     "description": "GTK4 Discord client in Go",
@@ -4512,6 +4527,21 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/84957c61/tur/nerd-fonts",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/84957c61/tur/nerd-fonts/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/84957c61/tur/nerd-fonts/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "nl2sh",
+    "version": "1.0.1",
+    "description": "Android-first natural-language shell agent with a local safety boundary",
+    "homepage": "https://github.com/nl2sh/nl2sh",
+    "depends": [],
+    "srcurl": "https://github.com/nl2sh/nl2sh/archive/refs/tags/v1.0.1.tar.gz",
+    "maintainer": "Ernest Su <307141632@qq.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/65ec2923/tur/nl2sh",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/65ec2923/tur/nl2sh/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/65ec2923/tur/nl2sh/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
