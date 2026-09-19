@@ -3352,21 +3352,6 @@
     "auto_updated": true
   },
   {
-    "name": "jujutsu",
-    "version": "0.35.0",
-    "description": "A Git-compatible VCS that is both simple and powerful",
-    "homepage": "https://jj-vcs.github.io/jj/",
-    "depends": [],
-    "srcurl": "git+https://github.com/jj-vcs/jj",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/aed2f0aa/tur/jujutsu",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/aed2f0aa/tur/jujutsu/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/aed2f0aa/tur/jujutsu/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
-    "auto_updated": false
-  },
-  {
     "name": "katifetch",
     "version": "13.1",
     "description": "A cross-platform system information tool written in Bash",
