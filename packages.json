@@ -740,7 +740,7 @@
   },
   {
     "name": "beets",
-    "version": "2.14.0",
+    "version": "2.14.1",
     "description": "The music geek's media organizer",
     "homepage": "https://beets.io",
     "depends": [
@@ -750,11 +750,11 @@
       "python-numpy",
       "rust"
     ],
-    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.14.0/beets-2.14.0.tar.gz",
+    "srcurl": "https://github.com/beetbox/beets/releases/download/v2.14.1/beets-2.14.1.tar.gz",
     "maintainer": "@mrtnvgr",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cccabe5a/tur/beets",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cccabe5a/tur/beets/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cccabe5a/tur/beets/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ef2ece6a/tur/beets",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ef2ece6a/tur/beets/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ef2ece6a/tur/beets/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -1246,7 +1246,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.137.0",
+    "version": "4.138.0",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -1258,14 +1258,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/02c6ea8b/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/02c6ea8b/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/02c6ea8b/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/99456079/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/99456079/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/99456079/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/02c6ea8b/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/99456079/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/02c6ea8b/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/99456079/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -3267,15 +3267,15 @@
   },
   {
     "name": "iamb",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "A terminal-based client for Matrix for the Vim addict",
     "homepage": "https://iamb.chat/",
     "depends": [],
-    "srcurl": "https://github.com/ulyssa/iamb/archive/refs/tags/v0.0.11.tar.gz",
+    "srcurl": "https://github.com/ulyssa/iamb/archive/refs/tags/v0.0.12.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2047bc40/tur/iamb",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2047bc40/tur/iamb/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2047bc40/tur/iamb/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/755cbe26/tur/iamb",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/755cbe26/tur/iamb/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/755cbe26/tur/iamb/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4460,18 +4460,18 @@
   },
   {
     "name": "moviebox-tui",
-    "version": "0.1.20",
+    "version": "0.1.21",
     "description": "Terminal client for streaming movies, series, and anime",
     "homepage": "https://github.com/mesamirh/MovieBox-Tui",
     "depends": [
       "openssl",
       "pkg-config"
     ],
-    "srcurl": "https://github.com/mesamirh/MovieBox-Tui/archive/refs/tags/v0.1.20.tar.gz",
+    "srcurl": "https://github.com/mesamirh/MovieBox-Tui/archive/refs/tags/v0.1.21.tar.gz",
     "maintainer": "@mesamirh",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9cbc4e20/tur/moviebox-tui",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9cbc4e20/tur/moviebox-tui/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9cbc4e20/tur/moviebox-tui/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/936c4682/tur/moviebox-tui",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/936c4682/tur/moviebox-tui/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/936c4682/tur/moviebox-tui/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5228,7 +5228,7 @@
   },
   {
     "name": "oils",
-    "version": "0.37.0",
+    "version": "0.38.0",
     "description": "Oils for Unix: OSH and YSH shells",
     "homepage": "https://oils.pub/",
     "depends": [
@@ -5236,18 +5236,18 @@
       "readline",
       "libc++"
     ],
-    "srcurl": "https://oils.pub/download/oils-for-unix-0.37.0.tar.gz",
+    "srcurl": "https://oils.pub/download/oils-for-unix-0.38.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/022ab9ec/tur/oils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/022ab9ec/tur/oils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/022ab9ec/tur/oils/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3b8c243d/tur/oils",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3b8c243d/tur/oils/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3b8c243d/tur/oils/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/022ab9ec/tur/oils/fix-build-system.patch",
-      "https://github.com/termux-user-repository/tur/blob/022ab9ec/tur/oils/termux-proot-run-configure.diff"
+      "https://github.com/termux-user-repository/tur/blob/3b8c243d/tur/oils/fix-build-system.patch",
+      "https://github.com/termux-user-repository/tur/blob/3b8c243d/tur/oils/termux-proot-run-configure.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/022ab9ec/tur/oils/fix-build-system.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/022ab9ec/tur/oils/termux-proot-run-configure.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3b8c243d/tur/oils/fix-build-system.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3b8c243d/tur/oils/termux-proot-run-configure.diff"
     ],
     "auto_updated": true
   },
@@ -5994,7 +5994,7 @@
   },
   {
     "name": "python-pandas",
-    "version": "3.0.5",
+    "version": "3.0.6",
     "description": "Powerful Python data analysis toolkit",
     "homepage": "https://pandas.pydata.org/",
     "depends": [
@@ -6005,16 +6005,16 @@
     ],
     "srcurl": "git+https://github.com/pandas-dev/pandas",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fd2a61a9/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fd2a61a9/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fd2a61a9/tur/python-pandas/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1250f181/tur/python-pandas",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1250f181/tur/python-pandas/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1250f181/tur/python-pandas/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/fd2a61a9/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://github.com/termux-user-repository/tur/blob/fd2a61a9/tur/python-pandas/use-given-python.diff"
+      "https://github.com/termux-user-repository/tur/blob/1250f181/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://github.com/termux-user-repository/tur/blob/1250f181/tur/python-pandas/use-given-python.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fd2a61a9/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/fd2a61a9/tur/python-pandas/use-given-python.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1250f181/tur/python-pandas/0001-meson-vsenv.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1250f181/tur/python-pandas/use-given-python.diff"
     ],
     "auto_updated": true
   },
@@ -7040,15 +7040,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.2.73",
+    "version": "0.2.74",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.73.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.2.74.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0763515e/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0763515e/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0763515e/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dbff59da/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dbff59da/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dbff59da/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7601,15 +7601,15 @@
   },
   {
     "name": "tailcat",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
     "homepage": "https://github.com/tailscale/tailcat",
     "depends": [],
-    "srcurl": "https://github.com/tailscale/tailcat/archive/refs/tags/v0.6.0.tar.gz",
+    "srcurl": "https://github.com/tailscale/tailcat/archive/refs/tags/v0.7.0.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8f0e8b82/tur/tailcat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8f0e8b82/tur/tailcat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8f0e8b82/tur/tailcat/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/acdc5b71/tur/tailcat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/acdc5b71/tur/tailcat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/acdc5b71/tur/tailcat/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7792,25 +7792,6 @@
     "auto_updated": true
   },
   {
-    "name": "uutils-coreutils",
-    "version": "0.11.0",
-    "description": "Cross-platform Rust rewrite of the GNU coreutils",
-    "homepage": "https://uutils.github.io/",
-    "depends": [],
-    "srcurl": "https://github.com/uutils/coreutils/archive/refs/tags/0.11.0.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dc43ed0a/tur/uutils-coreutils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dc43ed0a/tur/uutils-coreutils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dc43ed0a/tur/uutils-coreutils/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/dc43ed0a/tur/uutils-coreutils/rustix-auxv-32bit.diff"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/dc43ed0a/tur/uutils-coreutils/rustix-auxv-32bit.diff"
-    ],
-    "auto_updated": true
-  },
-  {
     "name": "virglrenderer-android",
     "version": "0.10.4",
     "description": "A virtual 3D GPU for use inside qemu virtual machines over OpenGLES libraries on Android",
@@ -7967,7 +7948,7 @@
   },
   {
     "name": "wine-devel",
-    "version": "11.17",
+    "version": "11.18",
     "description": "A compatibility layer for running Windows programs",
     "homepage": "https://www.winehq.org/",
     "depends": [
@@ -7989,24 +7970,24 @@
       "vulkan-loader",
       "xorg-xrandr"
     ],
-    "srcurl": "https://dl.winehq.org/wine/source/11.x/wine-11.17.tar.xz",
+    "srcurl": "https://dl.winehq.org/wine/source/11.x/wine-11.18.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0b70bb7e/tur/wine-devel",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0b70bb7e/tur/wine-devel/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0b70bb7e/tur/wine-devel/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d0afbd3f/tur/wine-devel",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d0afbd3f/tur/wine-devel/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d0afbd3f/tur/wine-devel/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0b70bb7e/tur/wine-devel/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b70bb7e/tur/wine-devel/0002-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b70bb7e/tur/wine-devel/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b70bb7e/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/0b70bb7e/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/d0afbd3f/tur/wine-devel/0001-fix-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/d0afbd3f/tur/wine-devel/0002-no-pthread_mutexattr_setprotocol.patch",
+      "https://github.com/termux-user-repository/tur/blob/d0afbd3f/tur/wine-devel/0003-fix-socket-ipx.patch",
+      "https://github.com/termux-user-repository/tur/blob/d0afbd3f/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/d0afbd3f/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b70bb7e/tur/wine-devel/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b70bb7e/tur/wine-devel/0002-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b70bb7e/tur/wine-devel/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b70bb7e/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b70bb7e/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d0afbd3f/tur/wine-devel/0001-fix-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d0afbd3f/tur/wine-devel/0002-no-pthread_mutexattr_setprotocol.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d0afbd3f/tur/wine-devel/0003-fix-socket-ipx.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d0afbd3f/tur/wine-devel/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d0afbd3f/tur/wine-devel/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -8061,7 +8042,7 @@
   },
   {
     "name": "wine-staging",
-    "version": "11.17",
+    "version": "11.18",
     "description": "A compatibility layer for running Windows programs",
     "homepage": "https://www.winehq.org/",
     "depends": [
@@ -8083,24 +8064,24 @@
       "vulkan-loader",
       "xorg-xrandr"
     ],
-    "srcurl": "https://dl.winehq.org/wine/source/11.x/wine-11.17.tar.xz",
+    "srcurl": "https://dl.winehq.org/wine/source/11.x/wine-11.18.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c12a20d2/tur/wine-staging",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c12a20d2/tur/wine-staging/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c12a20d2/tur/wine-staging/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/710e462d/tur/wine-staging",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/710e462d/tur/wine-staging/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/710e462d/tur/wine-staging/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/c12a20d2/tur/wine-staging/0001-fix-paths.patch",
-      "https://github.com/termux-user-repository/tur/blob/c12a20d2/tur/wine-staging/0002-no-pthread_mutexattr_setprotocol.patch",
-      "https://github.com/termux-user-repository/tur/blob/c12a20d2/tur/wine-staging/0003-fix-socket-ipx.patch",
-      "https://github.com/termux-user-repository/tur/blob/c12a20d2/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://github.com/termux-user-repository/tur/blob/c12a20d2/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/710e462d/tur/wine-staging/0001-fix-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/710e462d/tur/wine-staging/0002-no-pthread_mutexattr_setprotocol.patch",
+      "https://github.com/termux-user-repository/tur/blob/710e462d/tur/wine-staging/0003-fix-socket-ipx.patch",
+      "https://github.com/termux-user-repository/tur/blob/710e462d/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/710e462d/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c12a20d2/tur/wine-staging/0001-fix-paths.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c12a20d2/tur/wine-staging/0002-no-pthread_mutexattr_setprotocol.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c12a20d2/tur/wine-staging/0003-fix-socket-ipx.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c12a20d2/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c12a20d2/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/710e462d/tur/wine-staging/0001-fix-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/710e462d/tur/wine-staging/0002-no-pthread_mutexattr_setprotocol.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/710e462d/tur/wine-staging/0003-fix-socket-ipx.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/710e462d/tur/wine-staging/9998-fix-winegcc-build-target.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/710e462d/tur/wine-staging/9999-fix-winebuild-as-type.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
