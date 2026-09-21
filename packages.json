@@ -4460,18 +4460,18 @@
   },
   {
     "name": "moviebox-tui",
-    "version": "0.1.21",
+    "version": "0.1.22",
     "description": "Terminal client for streaming movies, series, and anime",
     "homepage": "https://github.com/mesamirh/MovieBox-Tui",
     "depends": [
       "openssl",
       "pkg-config"
     ],
-    "srcurl": "https://github.com/mesamirh/MovieBox-Tui/archive/refs/tags/v0.1.21.tar.gz",
+    "srcurl": "https://github.com/mesamirh/MovieBox-Tui/archive/refs/tags/v0.1.22.tar.gz",
     "maintainer": "@mesamirh",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/936c4682/tur/moviebox-tui",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/936c4682/tur/moviebox-tui/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/936c4682/tur/moviebox-tui/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e1c92384/tur/moviebox-tui",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e1c92384/tur/moviebox-tui/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e1c92384/tur/moviebox-tui/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5224,31 +5224,6 @@
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7a3e68fe/tur/ograph-rs/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
-    "auto_updated": true
-  },
-  {
-    "name": "oils",
-    "version": "0.38.0",
-    "description": "Oils for Unix: OSH and YSH shells",
-    "homepage": "https://oils.pub/",
-    "depends": [
-      "libandroid-glob",
-      "readline",
-      "libc++"
-    ],
-    "srcurl": "https://oils.pub/download/oils-for-unix-0.38.0.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3b8c243d/tur/oils",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3b8c243d/tur/oils/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3b8c243d/tur/oils/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/3b8c243d/tur/oils/fix-build-system.patch",
-      "https://github.com/termux-user-repository/tur/blob/3b8c243d/tur/oils/termux-proot-run-configure.diff"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3b8c243d/tur/oils/fix-build-system.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/3b8c243d/tur/oils/termux-proot-run-configure.diff"
-    ],
     "auto_updated": true
   },
   {
