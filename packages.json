@@ -2927,17 +2927,17 @@
   },
   {
     "name": "gh-dash",
-    "version": "4.25.2",
+    "version": "4.26.0",
     "description": "A rich terminal UI for GitHub that doesn't break your flow",
     "homepage": "https://github.com/dlvhdr/gh-dash",
     "depends": [
       "gh"
     ],
-    "srcurl": "https://github.com/dlvhdr/gh-dash/archive/refs/tags/v4.25.2.tar.gz",
+    "srcurl": "https://github.com/dlvhdr/gh-dash/archive/refs/tags/v4.26.0.tar.gz",
     "maintainer": "@everywhereless",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6361dafc/tur/gh-dash",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6361dafc/tur/gh-dash/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6361dafc/tur/gh-dash/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/107fe046/tur/gh-dash",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/107fe046/tur/gh-dash/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/107fe046/tur/gh-dash/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
