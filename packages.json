@@ -1399,9 +1399,9 @@
     "depends": [],
     "srcurl": "https://github.com/crenoxhq/crenox/archive/refs/tags/v2.1.5.tar.gz",
     "maintainer": "@KhaledHani",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e597f406/tur/crenox",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e597f406/tur/crenox/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e597f406/tur/crenox/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3694a63c/tur/crenox",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3694a63c/tur/crenox/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3694a63c/tur/crenox/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3055,9 +3055,9 @@
     "depends": [],
     "srcurl": "https://github.com/Mrs4s/go-cqhttp/archive/refs/tags/v1.2.0.tar.gz",
     "maintainer": "2096779623 <admin@utermux.dev>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/410d21ee/tur/go-cqhttp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/410d21ee/tur/go-cqhttp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/410d21ee/tur/go-cqhttp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3694a63c/tur/go-cqhttp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3694a63c/tur/go-cqhttp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3694a63c/tur/go-cqhttp/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5598,9 +5598,9 @@
     "depends": [],
     "srcurl": "https://github.com/OptiVorbis/OptiVorbis/archive/refs/tags/v0.3.0.tar.gz",
     "maintainer": "@flosnvjx",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5d6cacd7/tur/optivorbis",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5d6cacd7/tur/optivorbis/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5d6cacd7/tur/optivorbis/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3694a63c/tur/optivorbis",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3694a63c/tur/optivorbis/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3694a63c/tur/optivorbis/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7334,9 +7334,9 @@
     "depends": [],
     "srcurl": "git+https://github.com/stashapp/stash",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/707edf7f/tur/stash",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/707edf7f/tur/stash/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/707edf7f/tur/stash/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3694a63c/tur/stash",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3694a63c/tur/stash/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3694a63c/tur/stash/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9471,16 +9471,16 @@
     ],
     "srcurl": "git+https://github.com/vanhauser-thc/thc-hydra",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/00a85960/tur-on-device/thc-hydra",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/00a85960/tur-on-device/thc-hydra/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/00a85960/tur-on-device/thc-hydra/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3694a63c/tur-on-device/thc-hydra",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3694a63c/tur-on-device/thc-hydra/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3694a63c/tur-on-device/thc-hydra/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/00a85960/tur-on-device/thc-hydra/0001-fix-docdir.patch",
-      "https://github.com/termux-user-repository/tur/blob/00a85960/tur-on-device/thc-hydra/0002-disable-fdsan.patch"
+      "https://github.com/termux-user-repository/tur/blob/3694a63c/tur-on-device/thc-hydra/0001-fix-docdir.patch",
+      "https://github.com/termux-user-repository/tur/blob/3694a63c/tur-on-device/thc-hydra/0002-disable-fdsan.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/00a85960/tur-on-device/thc-hydra/0001-fix-docdir.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/00a85960/tur-on-device/thc-hydra/0002-disable-fdsan.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3694a63c/tur-on-device/thc-hydra/0001-fix-docdir.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3694a63c/tur-on-device/thc-hydra/0002-disable-fdsan.patch"
     ],
     "auto_updated": true
   },
