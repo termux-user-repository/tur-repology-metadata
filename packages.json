@@ -2960,7 +2960,7 @@
   },
   {
     "name": "gnome-mahjongg",
-    "version": "49.1.1",
+    "version": "51.1",
     "description": "GNOME Mahjongg game",
     "homepage": "https://wiki.gnome.org/Apps/Mahjogg",
     "depends": [
@@ -2971,11 +2971,11 @@
       "librsvg",
       "opengl"
     ],
-    "srcurl": "https://download.gnome.org/sources/gnome-mahjongg/49/gnome-mahjongg-49.1.1.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/gnome-mahjongg/51/gnome-mahjongg-51.1.tar.xz",
     "maintainer": "@lunsokhasovan, @termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3f8d2019/tur/gnome-mahjongg",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3f8d2019/tur/gnome-mahjongg/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3f8d2019/tur/gnome-mahjongg/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f62145d9/tur/gnome-mahjongg",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f62145d9/tur/gnome-mahjongg/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f62145d9/tur/gnome-mahjongg/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
