@@ -295,7 +295,7 @@
   },
   {
     "name": "archisteamfarm",
-    "version": "6.3.9.6",
+    "version": "6.3.10.3",
     "description": "C# application that allows you to farm steam cards using multiple steam accounts simultaneously",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
     "depends": [
@@ -305,14 +305,14 @@
     ],
     "srcurl": "git+https://github.com/JustArchiNET/ArchiSteamFarm",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c37c4d53/tur/archisteamfarm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c37c4d53/tur/archisteamfarm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c37c4d53/tur/archisteamfarm/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4ee7ac8c/tur/archisteamfarm",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4ee7ac8c/tur/archisteamfarm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4ee7ac8c/tur/archisteamfarm/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/c37c4d53/tur/archisteamfarm/cc.sh.patch"
+      "https://github.com/termux-user-repository/tur/blob/4ee7ac8c/tur/archisteamfarm/cc.sh.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c37c4d53/tur/archisteamfarm/cc.sh.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ee7ac8c/tur/archisteamfarm/cc.sh.patch"
     ],
     "auto_updated": true
   },
@@ -1874,21 +1874,6 @@
     "package_patch_raw_urls": [
       "https://raw.githubusercontent.com/termux-user-repository/tur/ac34cc69/tur/efte/0001-use-host-build-bin2c.patch"
     ],
-    "auto_updated": false
-  },
-  {
-    "name": "eigen5",
-    "version": "5.0.1",
-    "description": "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms (Version 5)",
-    "homepage": "http://eigen.tuxfamily.org",
-    "depends": [],
-    "srcurl": "https://gitlab.com/libeigen/eigen/-/archive/5.0.1/eigen-5.0.1.tar.gz",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/707edf7f/tur/eigen5",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/707edf7f/tur/eigen5/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/707edf7f/tur/eigen5/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
     "auto_updated": false
   },
   {
@@ -4422,18 +4407,18 @@
   },
   {
     "name": "moviebox-tui",
-    "version": "0.1.25",
+    "version": "0.1.26",
     "description": "Terminal client for streaming movies, series, and anime",
     "homepage": "https://github.com/mesamirh/MovieBox-Tui",
     "depends": [
       "openssl",
       "pkg-config"
     ],
-    "srcurl": "https://github.com/mesamirh/MovieBox-Tui/archive/refs/tags/v0.1.25.tar.gz",
+    "srcurl": "https://github.com/mesamirh/MovieBox-Tui/archive/refs/tags/v0.1.26.tar.gz",
     "maintainer": "@mesamirh",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ef0241c6/tur/moviebox-tui",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ef0241c6/tur/moviebox-tui/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ef0241c6/tur/moviebox-tui/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3d7df84c/tur/moviebox-tui",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3d7df84c/tur/moviebox-tui/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3d7df84c/tur/moviebox-tui/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
