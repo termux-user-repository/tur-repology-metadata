@@ -1251,7 +1251,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.139.1",
+    "version": "4.140.0",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -1263,14 +1263,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/14da1695/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/14da1695/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/14da1695/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9e75afa0/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9e75afa0/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9e75afa0/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/14da1695/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/9e75afa0/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/14da1695/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9e75afa0/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -7623,15 +7623,15 @@
   },
   {
     "name": "topiary",
-    "version": "0.7.3",
+    "version": "0.8.0",
     "description": "The universal code formatter",
     "homepage": "https://topiary.tweag.io/",
     "depends": [],
-    "srcurl": "https://github.com/tweag/topiary/archive/refs/tags/v0.7.3.tar.gz",
+    "srcurl": "https://github.com/tweag/topiary/archive/refs/tags/v0.8.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4240eb38/tur/topiary",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4240eb38/tur/topiary/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4240eb38/tur/topiary/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/274f8008/tur/topiary",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/274f8008/tur/topiary/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/274f8008/tur/topiary/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
