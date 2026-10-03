@@ -8108,6 +8108,25 @@
     "auto_updated": false
   },
   {
+    "name": "youtube-tui",
+    "version": "0.9.4",
+    "description": "An aesthetically pleasing YouTube TUI written in Rust",
+    "homepage": "https://tui.siri.ws/youtube",
+    "depends": [
+      "libsixel",
+      "mpv",
+      "openssl"
+    ],
+    "srcurl": "https://github.com/Siriusmart/youtube-tui/archive/refs/tags/v0.9.4.tar.gz",
+    "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/02f7fd79/tur/youtube-tui",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/02f7fd79/tur/youtube-tui/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/02f7fd79/tur/youtube-tui/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "zaz",
     "version": "1.0.0",
     "description": "Zaz is a game where the player has to get rid of incoming balls by arranging them in triplets.",
