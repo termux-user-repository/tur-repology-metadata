@@ -923,7 +923,7 @@
   },
   {
     "name": "chromium-beta",
-    "version": "153.0.8010.52",
+    "version": "154.0.8037.92",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -946,26 +946,30 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-153.0.8010.52-lite.tar.xz",
+    "srcurl": "https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/154.0.8037.92/chromium-154.0.8037.92-linux.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/63ff8216/tur/chromium-beta",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/63ff8216/tur/chromium-beta/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/63ff8216/tur/chromium-beta/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/92cc22ca/tur/chromium-beta",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/63ff8216/tur/chromium-beta/0117-jumbo-patches-dawn.patch",
-      "https://github.com/termux-user-repository/tur/blob/63ff8216/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/63ff8216/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/63ff8216/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/63ff8216/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://github.com/termux-user-repository/tur/blob/63ff8216/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/0001-add-hevc-ffmpeg-decoder-parser.patch",
+      "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/0002-enable-hevc-ffmpeg-decoding.patch",
+      "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/0117-jumbo-patches-dawn.patch",
+      "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://github.com/termux-user-repository/tur/blob/92cc22ca/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/63ff8216/tur/chromium-beta/0117-jumbo-patches-dawn.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/63ff8216/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/63ff8216/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/63ff8216/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/63ff8216/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/63ff8216/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/0001-add-hevc-ffmpeg-decoder-parser.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/0002-enable-hevc-ffmpeg-decoding.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/0117-jumbo-patches-dawn.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/92cc22ca/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "auto_updated": false
   },
