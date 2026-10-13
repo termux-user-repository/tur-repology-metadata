@@ -3093,15 +3093,15 @@
   },
   {
     "name": "goat",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "description": "Go AT protocol CLI tool",
     "homepage": "https://github.com/bluesky-social/goat",
     "depends": [],
-    "srcurl": "https://github.com/bluesky-social/goat/archive/v0.2.5.tar.gz",
+    "srcurl": "https://github.com/bluesky-social/goat/archive/v0.2.6.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bd7994f8/tur/goat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bd7994f8/tur/goat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bd7994f8/tur/goat/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f05198f6/tur/goat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f05198f6/tur/goat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f05198f6/tur/goat/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4346,6 +4346,57 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/c465f8e3/tur/lightcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
+  },
+  {
+    "name": "lincity",
+    "version": "1.13.1",
+    "description": "A city/country simulation game for X11",
+    "homepage": "https://sourceforge.net/projects/lincity/",
+    "depends": [
+      "libx11",
+      "libxext",
+      "libxt",
+      "libxpm",
+      "gettext"
+    ],
+    "srcurl": "https://downloads.sourceforge.net/project/lincity/Lincity%20Development%20Source/1.13.1/lincity-1.13.1.tar.gz",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e5c45361/tur/lincity",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0001-windmills-374901.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0002-coal-reservers-486597.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0003-set_DEFAULT_LIBDIR.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0004-delay_timers.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0005-avoid-refresh-uninited-701927.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0006-clang-ftbfs-757859.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0007-extern-inline-functions-777982.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0008-fix-implicit-declarations-823432.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0009-gcc-10-declarations-957489.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0010-map-max-draw.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0011-am-gettext-978343.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0012-fix-implicit-function-declarations-1066295.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0013-function-pointer-1097300.patch",
+      "https://github.com/termux-user-repository/tur/blob/e5c45361/tur/lincity/0014-fix-configure-and-libtool.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0001-windmills-374901.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0002-coal-reservers-486597.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0003-set_DEFAULT_LIBDIR.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0004-delay_timers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0005-avoid-refresh-uninited-701927.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0006-clang-ftbfs-757859.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0007-extern-inline-functions-777982.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0008-fix-implicit-declarations-823432.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0009-gcc-10-declarations-957489.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0010-map-max-draw.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0011-am-gettext-978343.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0012-fix-implicit-function-declarations-1066295.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0013-function-pointer-1097300.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e5c45361/tur/lincity/0014-fix-configure-and-libtool.patch"
+    ],
+    "auto_updated": false
   },
   {
     "name": "megaglest",
