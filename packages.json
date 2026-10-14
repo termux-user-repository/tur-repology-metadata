@@ -295,7 +295,7 @@
   },
   {
     "name": "archisteamfarm",
-    "version": "6.3.10.5",
+    "version": "6.3.10.6",
     "description": "C# application that allows you to farm steam cards using multiple steam accounts simultaneously",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
     "depends": [
@@ -305,14 +305,14 @@
     ],
     "srcurl": "git+https://github.com/JustArchiNET/ArchiSteamFarm",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0de2200a/tur/archisteamfarm",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0de2200a/tur/archisteamfarm/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0de2200a/tur/archisteamfarm/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/86db13c7/tur/archisteamfarm",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/86db13c7/tur/archisteamfarm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/86db13c7/tur/archisteamfarm/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0de2200a/tur/archisteamfarm/cc.sh.patch"
+      "https://github.com/termux-user-repository/tur/blob/86db13c7/tur/archisteamfarm/cc.sh.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0de2200a/tur/archisteamfarm/cc.sh.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/86db13c7/tur/archisteamfarm/cc.sh.patch"
     ],
     "auto_updated": true
   },
@@ -4615,6 +4615,25 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/3df1e2f7/tur/mongodb/0013-boost-clang-16.patch"
     ],
     "auto_updated": false
+  },
+  {
+    "name": "mongodb-compass",
+    "version": "1.52.0",
+    "description": "The GUI for MongoDB",
+    "homepage": "https://www.mongodb.com/products/tools/compass",
+    "depends": [
+      "electron42",
+      "krb5",
+      "libx11"
+    ],
+    "srcurl": "https://github.com/mongodb-js/compass/archive/refs/tags/v1.52.0.tar.gz",
+    "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f3283212/tur/mongodb-compass",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f3283212/tur/mongodb-compass/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f3283212/tur/mongodb-compass/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
   },
   {
     "name": "morsegen",
