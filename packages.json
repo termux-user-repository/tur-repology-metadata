@@ -2972,17 +2972,17 @@
   },
   {
     "name": "gh-dash",
-    "version": "4.26.1",
+    "version": "4.26.2",
     "description": "A rich terminal UI for GitHub that doesn't break your flow",
     "homepage": "https://github.com/dlvhdr/gh-dash",
     "depends": [
       "gh"
     ],
-    "srcurl": "https://github.com/dlvhdr/gh-dash/archive/refs/tags/v4.26.1.tar.gz",
+    "srcurl": "https://github.com/dlvhdr/gh-dash/archive/refs/tags/v4.26.2.tar.gz",
     "maintainer": "@everywhereless",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b3e35e75/tur/gh-dash",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b3e35e75/tur/gh-dash/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b3e35e75/tur/gh-dash/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ccd49c51/tur/gh-dash",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ccd49c51/tur/gh-dash/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ccd49c51/tur/gh-dash/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6697,6 +6697,60 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/967afd36/tur/python3.11/0010-use-android-logging.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/967afd36/tur/python3.11/0011-disable-parallel-build.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/967afd36/tur/python3.11/0012-do-not-include-langinfo.patch"
+    ],
+    "auto_updated": false
+  },
+  {
+    "name": "python3.12",
+    "version": "3.12.15",
+    "description": "Python programming language intended to enable clear programs (version 3.12)",
+    "homepage": "https://python.org/",
+    "depends": [
+      "gdbm",
+      "libandroid-posix-semaphore",
+      "libandroid-support",
+      "libbz2",
+      "libcrypt",
+      "libexpat",
+      "libffi",
+      "liblzma",
+      "libsqlite",
+      "ncurses",
+      "ncurses-ui-libs",
+      "openssl",
+      "readline",
+      "zlib"
+    ],
+    "srcurl": "https://www.python.org/ftp/python/3.12.15/Python-3.12.15.tar.xz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/36ad66b2/tur/python3.12",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0001-fix-hardcoded-paths.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0002-no-setuid-servers.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0003-ctypes-util-use-llvm-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0004-impl-getprotobyname.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0005-impl-multiprocessing.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0006-do-not-use-xattr.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0007-disable-multiarch.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0008-do-not-use-link.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0009-build-with-fPIC.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0010-link-modules-against-libpython.patch",
+      "https://github.com/termux-user-repository/tur/blob/36ad66b2/tur/python3.12/0011-do-not-hardlink.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0001-fix-hardcoded-paths.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0002-no-setuid-servers.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0003-ctypes-util-use-llvm-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0004-impl-getprotobyname.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0005-impl-multiprocessing.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0006-do-not-use-xattr.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0007-disable-multiarch.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0008-do-not-use-link.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0009-build-with-fPIC.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0010-link-modules-against-libpython.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/36ad66b2/tur/python3.12/0011-do-not-hardlink.patch"
     ],
     "auto_updated": false
   },
