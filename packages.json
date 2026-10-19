@@ -8242,6 +8242,27 @@
     "auto_updated": true
   },
   {
+    "name": "upbrr",
+    "version": "0.4.0",
+    "description": "Guided upload preparation app for private-tracker workflows",
+    "homepage": "https://upbrr.com",
+    "depends": [
+      "ffmpeg"
+    ],
+    "srcurl": "https://github.com/autobrr/upbrr/archive/refs/tags/v0.4.0.tar.gz",
+    "maintainer": "@termux-user-repository",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/30014b07/tur/upbrr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/30014b07/tur/upbrr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/30014b07/tur/upbrr/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/30014b07/tur/upbrr/fix-no-hardlink-tag-overrides.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/30014b07/tur/upbrr/fix-no-hardlink-tag-overrides.patch"
+    ],
+    "auto_updated": true
+  },
+  {
     "name": "vectorcraft",
     "version": "0.13.1",
     "description": "An open-source, clean-room reimplementation of Adobe Illustrator in pure Rust",
