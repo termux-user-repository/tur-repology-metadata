@@ -3131,15 +3131,15 @@
   },
   {
     "name": "goat",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "description": "Go AT protocol CLI tool",
     "homepage": "https://github.com/bluesky-social/goat",
     "depends": [],
-    "srcurl": "https://github.com/bluesky-social/goat/archive/v0.2.6.tar.gz",
+    "srcurl": "https://github.com/bluesky-social/goat/archive/v0.2.7.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f05198f6/tur/goat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f05198f6/tur/goat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f05198f6/tur/goat/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/702cd16b/tur/goat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/702cd16b/tur/goat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/702cd16b/tur/goat/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6042,7 +6042,7 @@
   },
   {
     "name": "photocraft",
-    "version": "0.10.0",
+    "version": "0.11.1",
     "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
     "homepage": "https://getartcraft.com/apps/photocraft",
     "depends": [
@@ -6054,22 +6054,22 @@
       "libxkbcommon",
       "vulkan-loader-android"
     ],
-    "srcurl": "https://github.com/storytold/photocraft/archive/refs/tags/v0.10.0.tar.gz",
+    "srcurl": "https://github.com/storytold/photocraft/archive/refs/tags/v0.11.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f8e15071/tur/photocraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f8e15071/tur/photocraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f8e15071/tur/photocraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1b45e458/tur/photocraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f8e15071/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/f8e15071/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/f8e15071/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/f8e15071/tur/photocraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f8e15071/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f8e15071/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f8e15071/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f8e15071/tur/photocraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
