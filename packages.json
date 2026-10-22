@@ -409,24 +409,22 @@
   },
   {
     "name": "autobrr",
-    "version": "1.88.0",
+    "version": "1.89.0",
     "description": "The modern download automation tool for torrents and usenet",
     "homepage": "https://autobrr.com",
     "depends": [],
-    "srcurl": "https://github.com/autobrr/autobrr/archive/refs/tags/v1.88.0.tar.gz",
+    "srcurl": "https://github.com/autobrr/autobrr/archive/refs/tags/v1.89.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a8bb37a7/tur/autobrr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a8bb37a7/tur/autobrr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a8bb37a7/tur/autobrr/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d34a28d1/tur/autobrr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d34a28d1/tur/autobrr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d34a28d1/tur/autobrr/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a8bb37a7/tur/autobrr/0001-fix-irc-reset-failedNickServAttempts-on-Stop-and-Run.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8bb37a7/tur/autobrr/0002-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
-      "https://github.com/termux-user-repository/tur/blob/a8bb37a7/tur/autobrr/0003-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
+      "https://github.com/termux-user-repository/tur/blob/d34a28d1/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
+      "https://github.com/termux-user-repository/tur/blob/d34a28d1/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8bb37a7/tur/autobrr/0001-fix-irc-reset-failedNickServAttempts-on-Stop-and-Run.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8bb37a7/tur/autobrr/0002-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a8bb37a7/tur/autobrr/0003-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d34a28d1/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d34a28d1/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
     ],
     "auto_updated": true
   },
