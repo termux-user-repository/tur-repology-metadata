@@ -1579,7 +1579,7 @@
   },
   {
     "name": "designcraft",
-    "version": "0.10.0",
+    "version": "0.11.0",
     "description": "An open-source, clean-room reimplementation of Adobe InDesign in pure Rust",
     "homepage": "https://getartcraft.com/apps/designcraft",
     "depends": [
@@ -1592,22 +1592,22 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/designcraft/archive/refs/tags/v0.10.0.tar.gz",
+    "srcurl": "https://github.com/storytold/designcraft/archive/refs/tags/v0.11.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8a4a9bfe/tur/designcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8a4a9bfe/tur/designcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8a4a9bfe/tur/designcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bef9dfc5/tur/designcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bef9dfc5/tur/designcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bef9dfc5/tur/designcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8a4a9bfe/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/8a4a9bfe/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/8a4a9bfe/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/8a4a9bfe/tur/designcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/bef9dfc5/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/bef9dfc5/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/bef9dfc5/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/bef9dfc5/tur/designcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a4a9bfe/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a4a9bfe/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a4a9bfe/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a4a9bfe/tur/designcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bef9dfc5/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bef9dfc5/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bef9dfc5/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/bef9dfc5/tur/designcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -1898,7 +1898,7 @@
   },
   {
     "name": "effectcraft",
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "Native open-source motion-graphics and effects editor in pure Rust (eframe/wgpu)",
     "homepage": "https://github.com/storytold/effectcraft",
     "depends": [
@@ -1913,22 +1913,22 @@
       "alsa-lib",
       "alsa-plugins"
     ],
-    "srcurl": "https://github.com/storytold/effectcraft/archive/refs/tags/v0.13.0.tar.gz",
+    "srcurl": "https://github.com/storytold/effectcraft/archive/refs/tags/v0.14.0.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/652ee14c/tur/effectcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/652ee14c/tur/effectcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/652ee14c/tur/effectcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b0d83ca1/tur/effectcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b0d83ca1/tur/effectcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b0d83ca1/tur/effectcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/652ee14c/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/652ee14c/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/652ee14c/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/652ee14c/tur/effectcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/b0d83ca1/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/b0d83ca1/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/b0d83ca1/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/b0d83ca1/tur/effectcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/652ee14c/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/652ee14c/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/652ee14c/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/652ee14c/tur/effectcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b0d83ca1/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b0d83ca1/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b0d83ca1/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b0d83ca1/tur/effectcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -4355,7 +4355,7 @@
   },
   {
     "name": "lightcraft",
-    "version": "0.10.0",
+    "version": "0.11.0",
     "description": "Photo library and raw developer; an open-source clean-room reimplementation of Adobe Lightroom in pure Rust",
     "homepage": "https://getartcraft.com/apps/lightcraft",
     "depends": [
@@ -4368,20 +4368,20 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/lightcraft/archive/refs/tags/v0.10.0.tar.gz",
+    "srcurl": "https://github.com/storytold/lightcraft/archive/refs/tags/v0.11.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2cae5b9c/tur/lightcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2cae5b9c/tur/lightcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2cae5b9c/tur/lightcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d85578b5/tur/lightcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d85578b5/tur/lightcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d85578b5/tur/lightcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/2cae5b9c/tur/lightcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/2cae5b9c/tur/lightcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/2cae5b9c/tur/lightcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/d85578b5/tur/lightcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/d85578b5/tur/lightcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/d85578b5/tur/lightcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2cae5b9c/tur/lightcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2cae5b9c/tur/lightcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/2cae5b9c/tur/lightcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d85578b5/tur/lightcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d85578b5/tur/lightcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d85578b5/tur/lightcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -6006,7 +6006,7 @@
   },
   {
     "name": "pdfcraft",
-    "version": "0.10.1",
+    "version": "0.11.0",
     "description": "PDF reader, editor and toolkit; an open-source clean-room PDF application in pure Rust",
     "homepage": "https://getartcraft.com/apps/pdfcraft",
     "depends": [
@@ -6019,30 +6019,30 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/pdfcraft/archive/refs/tags/v0.10.1.tar.gz",
+    "srcurl": "https://github.com/storytold/pdfcraft/archive/refs/tags/v0.11.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9aab90cb/tur/pdfcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9aab90cb/tur/pdfcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9aab90cb/tur/pdfcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7a06e0f7/tur/pdfcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7a06e0f7/tur/pdfcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7a06e0f7/tur/pdfcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9aab90cb/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/9aab90cb/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
-      "https://github.com/termux-user-repository/tur/blob/9aab90cb/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/9aab90cb/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/9aab90cb/tur/pdfcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/7a06e0f7/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a06e0f7/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
+      "https://github.com/termux-user-repository/tur/blob/7a06e0f7/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/7a06e0f7/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/7a06e0f7/tur/pdfcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9aab90cb/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9aab90cb/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9aab90cb/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9aab90cb/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9aab90cb/tur/pdfcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a06e0f7/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a06e0f7/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a06e0f7/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a06e0f7/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7a06e0f7/tur/pdfcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
   {
     "name": "photocraft",
-    "version": "0.11.1",
+    "version": "0.12.0",
     "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
     "homepage": "https://getartcraft.com/apps/photocraft",
     "depends": [
@@ -6054,22 +6054,22 @@
       "libxkbcommon",
       "vulkan-loader-android"
     ],
-    "srcurl": "https://github.com/storytold/photocraft/archive/refs/tags/v0.11.1.tar.gz",
+    "srcurl": "https://github.com/storytold/photocraft/archive/refs/tags/v0.12.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1b45e458/tur/photocraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ab30ef4a/tur/photocraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ab30ef4a/tur/photocraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ab30ef4a/tur/photocraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/1b45e458/tur/photocraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/ab30ef4a/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/ab30ef4a/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/ab30ef4a/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/ab30ef4a/tur/photocraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1b45e458/tur/photocraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ab30ef4a/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ab30ef4a/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ab30ef4a/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ab30ef4a/tur/photocraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
