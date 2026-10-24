@@ -976,24 +976,24 @@
     ],
     "srcurl": "https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/157.0.8103.6/chromium-157.0.8103.6-linux.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ab36722/tur/chromium-beta",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ab36722/tur/chromium-beta/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ab36722/tur/chromium-beta/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/81f15f79/tur/chromium-beta",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1ab36722/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ab36722/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ab36722/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ab36722/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ab36722/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ab36722/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ab36722/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ab36722/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ab36722/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ab36722/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
-    "auto_updated": false
+    "auto_updated": true
   },
   {
     "name": "chromium-beta-host-tools",
@@ -1295,7 +1295,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.141.1",
+    "version": "4.143.1",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -1307,14 +1307,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cb3d2b89/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cb3d2b89/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cb3d2b89/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4e4e4a09/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4e4e4a09/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4e4e4a09/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/cb3d2b89/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/4e4e4a09/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cb3d2b89/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4e4e4a09/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -1404,15 +1404,15 @@
   },
   {
     "name": "crush",
-    "version": "0.97.1",
+    "version": "0.98.2",
     "description": "The glamourous AI coding agent for your favourite terminal",
     "homepage": "https://github.com/charmbracelet/crush",
     "depends": [],
-    "srcurl": "https://github.com/charmbracelet/crush/archive/refs/tags/v0.97.1.tar.gz",
+    "srcurl": "https://github.com/charmbracelet/crush/archive/refs/tags/v0.98.2.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d46eb512/tur/crush",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d46eb512/tur/crush/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d46eb512/tur/crush/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6ab1f28e/tur/crush",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6ab1f28e/tur/crush/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6ab1f28e/tur/crush/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
@@ -4706,15 +4706,15 @@
   },
   {
     "name": "mp3rgain",
-    "version": "3.12.0",
+    "version": "3.12.1",
     "description": "Lossless MP3 and AAC volume normalizer using ReplayGain, compatible with mp3gain",
     "homepage": "https://github.com/M-Igashi/mp3rgain",
     "depends": [],
-    "srcurl": "https://github.com/M-Igashi/mp3rgain/archive/refs/tags/v3.12.0.tar.gz",
+    "srcurl": "https://github.com/M-Igashi/mp3rgain/archive/refs/tags/v3.12.1.tar.gz",
     "maintainer": "@M-Igashi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cb5f6a0f/tur/mp3rgain",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cb5f6a0f/tur/mp3rgain/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cb5f6a0f/tur/mp3rgain/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/21cd6651/tur/mp3rgain",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/21cd6651/tur/mp3rgain/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/21cd6651/tur/mp3rgain/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6040,7 +6040,7 @@
   },
   {
     "name": "photocraft",
-    "version": "0.14.0",
+    "version": "0.15.1",
     "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
     "homepage": "https://getartcraft.com/apps/photocraft",
     "depends": [
@@ -6052,22 +6052,22 @@
       "libxkbcommon",
       "vulkan-loader-android"
     ],
-    "srcurl": "https://github.com/storytold/photocraft/archive/refs/tags/v0.14.0.tar.gz",
+    "srcurl": "https://github.com/storytold/photocraft/archive/refs/tags/v0.15.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/38288d9d/tur/photocraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/38288d9d/tur/photocraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/38288d9d/tur/photocraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3234a7a9/tur/photocraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3234a7a9/tur/photocraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3234a7a9/tur/photocraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/38288d9d/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/38288d9d/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/38288d9d/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/38288d9d/tur/photocraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/3234a7a9/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/3234a7a9/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/3234a7a9/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/3234a7a9/tur/photocraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/38288d9d/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/38288d9d/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/38288d9d/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/38288d9d/tur/photocraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3234a7a9/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3234a7a9/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3234a7a9/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3234a7a9/tur/photocraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
