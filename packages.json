@@ -951,7 +951,7 @@
   },
   {
     "name": "chromium-beta",
-    "version": "157.0.8103.6",
+    "version": "157.0.8103.15",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -974,24 +974,24 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/157.0.8103.6/chromium-157.0.8103.6-linux.tar.xz",
+    "srcurl": "https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/157.0.8103.15/chromium-157.0.8103.15-linux.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/81f15f79/tur/chromium-beta",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c17455e0/tur/chromium-beta",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://github.com/termux-user-repository/tur/blob/81f15f79/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/81f15f79/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "auto_updated": true
   },
@@ -1290,6 +1290,30 @@
     ],
     "package_patch_raw_urls": [
       "https://raw.githubusercontent.com/termux-user-repository/tur/a4f38aa1/tur/clanbomber/0001-drop-linkage-stdcxxfs.patch"
+    ],
+    "auto_updated": false
+  },
+  {
+    "name": "cleanuparr",
+    "version": "2.10.12",
+    "description": "Queue cleaner and management companion for the *arr suite",
+    "homepage": "https://cleanuparr.com",
+    "depends": [
+      "aspnetcore-runtime-10.0",
+      "dotnet-host",
+      "dotnet-runtime-10.0",
+      "libesqlite3"
+    ],
+    "srcurl": "https://github.com/Cleanuparr/Cleanuparr/archive/refs/tags/v2.10.12.tar.gz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cce1e647/tur/cleanuparr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cce1e647/tur/cleanuparr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cce1e647/tur/cleanuparr/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/cce1e647/tur/cleanuparr/0001-disable-ready-to-run.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cce1e647/tur/cleanuparr/0001-disable-ready-to-run.patch"
     ],
     "auto_updated": false
   },
