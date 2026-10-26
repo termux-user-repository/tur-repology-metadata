@@ -2515,15 +2515,15 @@
       "openjdk-21-x"
     ],
     "srcurl": "git+https://github.com/jindrapetrik/jpexs-decompiler",
-    "maintainer": "@TheMightyArie",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/bea419ad/tur/ffdec",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/bea419ad/tur/ffdec/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/bea419ad/tur/ffdec/build.sh",
+    "maintainer": "@CosmyBeyondStars",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4d02e27f/tur/ffdec",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4d02e27f/tur/ffdec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4d02e27f/tur/ffdec/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/bea419ad/tur/ffdec/fix-paths.patch"
+      "https://github.com/termux-user-repository/tur/blob/4d02e27f/tur/ffdec/fix-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/bea419ad/tur/ffdec/fix-paths.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4d02e27f/tur/ffdec/fix-paths.patch"
     ],
     "auto_updated": true
   },
@@ -7760,22 +7760,22 @@
   },
   {
     "name": "solidity-language-server",
-    "version": "0.1.35",
+    "version": "0.1.36",
     "description": "A fast Solidity language server powered by solc and foundry, written in Rust.",
     "homepage": "https://github.com/asyncswap/solidity-language-server",
     "depends": [
       "solidity"
     ],
-    "srcurl": "https://github.com/asyncswap/solidity-language-server/archive/refs/tags/v0.1.35.tar.gz",
+    "srcurl": "https://github.com/asyncswap/solidity-language-server/archive/refs/tags/v0.1.36.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b9e09aa7/tur/solidity-language-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b9e09aa7/tur/solidity-language-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b9e09aa7/tur/solidity-language-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b4912806/tur/solidity-language-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b4912806/tur/solidity-language-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b4912806/tur/solidity-language-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b9e09aa7/tur/solidity-language-server/use_termux_solc.patch"
+      "https://github.com/termux-user-repository/tur/blob/b4912806/tur/solidity-language-server/use_termux_solc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b9e09aa7/tur/solidity-language-server/use_termux_solc.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/b4912806/tur/solidity-language-server/use_termux_solc.patch"
     ],
     "auto_updated": true
   },
