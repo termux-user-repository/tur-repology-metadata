@@ -3183,15 +3183,15 @@
   },
   {
     "name": "gomi",
-    "version": "1.9.1",
+    "version": "1.10.0",
     "description": "Safer alternative to the rm command, with a trash can you can restore from",
     "homepage": "https://gomi.dev",
     "depends": [],
-    "srcurl": "https://github.com/babarot/gomi/archive/refs/tags/v1.9.1.tar.gz",
+    "srcurl": "https://github.com/babarot/gomi/archive/refs/tags/v1.10.0.tar.gz",
     "maintainer": "Zeldris <80939130+zeldrisho@users.noreply.github.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fee91d30/tur/gomi",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fee91d30/tur/gomi/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fee91d30/tur/gomi/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d75444fc/tur/gomi",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d75444fc/tur/gomi/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d75444fc/tur/gomi/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8288,22 +8288,22 @@
   },
   {
     "name": "upbrr",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "Guided upload preparation app for private-tracker workflows",
     "homepage": "https://upbrr.com",
     "depends": [
       "ffmpeg"
     ],
-    "srcurl": "https://github.com/autobrr/upbrr/archive/refs/tags/v0.4.0.tar.gz",
+    "srcurl": "https://github.com/autobrr/upbrr/archive/refs/tags/v0.4.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/30014b07/tur/upbrr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/30014b07/tur/upbrr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/30014b07/tur/upbrr/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/81e1b23b/tur/upbrr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/81e1b23b/tur/upbrr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/81e1b23b/tur/upbrr/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/30014b07/tur/upbrr/fix-no-hardlink-tag-overrides.patch"
+      "https://github.com/termux-user-repository/tur/blob/81e1b23b/tur/upbrr/fix-no-hardlink-tag-overrides.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/30014b07/tur/upbrr/fix-no-hardlink-tag-overrides.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/81e1b23b/tur/upbrr/fix-no-hardlink-tag-overrides.patch"
     ],
     "auto_updated": true
   },
