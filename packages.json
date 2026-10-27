@@ -3398,15 +3398,15 @@
   },
   {
     "name": "iris",
-    "version": "0.7.4",
+    "version": "0.7.5",
     "description": "A shell auto-completion tool for your terminal",
     "homepage": "https://github.com/versenilvis/IRIS",
     "depends": [],
-    "srcurl": "https://github.com/versenilvis/IRIS/archive/refs/tags/v0.7.4.tar.gz",
+    "srcurl": "https://github.com/versenilvis/IRIS/archive/refs/tags/v0.7.5.tar.gz",
     "maintainer": "@everywhereless",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/31205623/tur/iris",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/31205623/tur/iris/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/31205623/tur/iris/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4c98783e/tur/iris",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4c98783e/tur/iris/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4c98783e/tur/iris/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4678,7 +4678,7 @@
   },
   {
     "name": "mongodb-compass",
-    "version": "1.53.1",
+    "version": "1.53.2",
     "description": "The GUI for MongoDB",
     "homepage": "https://www.mongodb.com/products/tools/compass",
     "depends": [
@@ -4686,11 +4686,11 @@
       "krb5",
       "libx11"
     ],
-    "srcurl": "https://github.com/mongodb-js/compass/archive/refs/tags/v1.53.1.tar.gz",
+    "srcurl": "https://github.com/mongodb-js/compass/archive/refs/tags/v1.53.2.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/022d80aa/tur/mongodb-compass",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/022d80aa/tur/mongodb-compass/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/022d80aa/tur/mongodb-compass/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5630b5d5/tur/mongodb-compass",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5630b5d5/tur/mongodb-compass/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5630b5d5/tur/mongodb-compass/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
