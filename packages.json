@@ -3183,15 +3183,15 @@
   },
   {
     "name": "gomi",
-    "version": "1.10.0",
+    "version": "1.10.1",
     "description": "Safer alternative to the rm command, with a trash can you can restore from",
     "homepage": "https://gomi.dev",
     "depends": [],
-    "srcurl": "https://github.com/babarot/gomi/archive/refs/tags/v1.10.0.tar.gz",
+    "srcurl": "https://github.com/babarot/gomi/archive/refs/tags/v1.10.1.tar.gz",
     "maintainer": "Zeldris <80939130+zeldrisho@users.noreply.github.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d75444fc/tur/gomi",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d75444fc/tur/gomi/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d75444fc/tur/gomi/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3769f226/tur/gomi",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3769f226/tur/gomi/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3769f226/tur/gomi/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7760,22 +7760,22 @@
   },
   {
     "name": "solidity-language-server",
-    "version": "0.1.36",
+    "version": "0.1.37",
     "description": "A fast Solidity language server powered by solc and foundry, written in Rust.",
     "homepage": "https://github.com/asyncswap/solidity-language-server",
     "depends": [
       "solidity"
     ],
-    "srcurl": "https://github.com/asyncswap/solidity-language-server/archive/refs/tags/v0.1.36.tar.gz",
+    "srcurl": "https://github.com/asyncswap/solidity-language-server/archive/refs/tags/v0.1.37.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b4912806/tur/solidity-language-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b4912806/tur/solidity-language-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b4912806/tur/solidity-language-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9e14036e/tur/solidity-language-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9e14036e/tur/solidity-language-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9e14036e/tur/solidity-language-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/b4912806/tur/solidity-language-server/use_termux_solc.patch"
+      "https://github.com/termux-user-repository/tur/blob/9e14036e/tur/solidity-language-server/use_termux_solc.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/b4912806/tur/solidity-language-server/use_termux_solc.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/9e14036e/tur/solidity-language-server/use_termux_solc.patch"
     ],
     "auto_updated": true
   },
