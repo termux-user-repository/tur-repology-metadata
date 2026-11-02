@@ -5537,14 +5537,14 @@
     ],
     "srcurl": "https://github.com/iOfficeAI/OfficeCLI/archive/refs/tags/v1.0.160.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/31c5f181/tur/officecli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/31c5f181/tur/officecli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/31c5f181/tur/officecli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/01c5590d/tur/officecli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/01c5590d/tur/officecli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/01c5590d/tur/officecli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/31c5f181/tur/officecli/0001-detect-termux-package-manager.patch"
+      "https://github.com/termux-user-repository/tur/blob/01c5590d/tur/officecli/0001-detect-termux-package-manager.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/31c5f181/tur/officecli/0001-detect-termux-package-manager.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/01c5590d/tur/officecli/0001-detect-termux-package-manager.patch"
     ],
     "auto_updated": true
   },
