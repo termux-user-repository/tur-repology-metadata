@@ -6310,18 +6310,18 @@
   },
   {
     "name": "python-hf-xet",
-    "version": "1.7.1",
+    "version": "1.8.0",
     "description": "Fast transfer of large files with the Hugging Face Hub",
     "homepage": "https://github.com/huggingface/xet-core",
     "depends": [
       "libc++",
       "python"
     ],
-    "srcurl": "https://github.com/huggingface/xet-core/releases/download/v1.7.1/hf_xet-1.7.1.tar.gz",
+    "srcurl": "https://github.com/huggingface/xet-core/releases/download/v1.8.0/hf_xet-1.8.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/325d7efa/tur/python-hf-xet",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/325d7efa/tur/python-hf-xet/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/325d7efa/tur/python-hf-xet/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/00b65062/tur/python-hf-xet",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/00b65062/tur/python-hf-xet/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/00b65062/tur/python-hf-xet/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -6393,32 +6393,6 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
-  },
-  {
-    "name": "python-pandas",
-    "version": "3.0.6",
-    "description": "Powerful Python data analysis toolkit",
-    "homepage": "https://pandas.pydata.org/",
-    "depends": [
-      "libc++",
-      "python",
-      "python-numpy",
-      "python-pip"
-    ],
-    "srcurl": "git+https://github.com/pandas-dev/pandas",
-    "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1250f181/tur/python-pandas",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1250f181/tur/python-pandas/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1250f181/tur/python-pandas/build.sh",
-    "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1250f181/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://github.com/termux-user-repository/tur/blob/1250f181/tur/python-pandas/use-given-python.diff"
-    ],
-    "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1250f181/tur/python-pandas/0001-meson-vsenv.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1250f181/tur/python-pandas/use-given-python.diff"
-    ],
-    "auto_updated": true
   },
   {
     "name": "python-ply",
@@ -9599,7 +9573,7 @@
   },
   {
     "name": "julia",
-    "version": "1.10.12",
+    "version": "1.10.13",
     "description": "High-level, high-performance dynamic language for technical computing",
     "homepage": "https://julialang.org/",
     "depends": [
@@ -9620,30 +9594,30 @@
       "zlib",
       "zstd"
     ],
-    "srcurl": "https://github.com/JuliaLang/julia/releases/download/v1.10.12/julia-1.10.12-full.tar.gz",
+    "srcurl": "https://github.com/JuliaLang/julia/releases/download/v1.10.13/julia-1.10.13-full.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f63b062d/tur-on-device/julia",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4ede266b/tur-on-device/julia",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/0001-platform-and-triplet-detection.patch",
-      "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/0002-android-system-compat.patch",
-      "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/0003-jit-compiler-rt-builtins.patch",
-      "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/0004-arch-specific-fixes.patch",
-      "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/0005-loader-and-system-libraries.patch",
-      "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/0006-build-system-fixes.patch",
-      "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/0007-deps-build-fixes.patch",
-      "https://github.com/termux-user-repository/tur/blob/f63b062d/tur-on-device/julia/0008-replace-which-with-command-v.patch"
+      "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/0001-platform-and-triplet-detection.patch",
+      "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/0002-android-system-compat.patch",
+      "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/0003-jit-compiler-rt-builtins.patch",
+      "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/0004-arch-specific-fixes.patch",
+      "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/0005-loader-and-system-libraries.patch",
+      "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/0006-build-system-fixes.patch",
+      "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/0007-deps-build-fixes.patch",
+      "https://github.com/termux-user-repository/tur/blob/4ede266b/tur-on-device/julia/0008-replace-which-with-command-v.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/0001-platform-and-triplet-detection.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/0002-android-system-compat.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/0003-jit-compiler-rt-builtins.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/0004-arch-specific-fixes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/0005-loader-and-system-libraries.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/0006-build-system-fixes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/0007-deps-build-fixes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/f63b062d/tur-on-device/julia/0008-replace-which-with-command-v.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/0001-platform-and-triplet-detection.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/0002-android-system-compat.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/0003-jit-compiler-rt-builtins.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/0004-arch-specific-fixes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/0005-loader-and-system-libraries.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/0006-build-system-fixes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/0007-deps-build-fixes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4ede266b/tur-on-device/julia/0008-replace-which-with-command-v.patch"
     ],
     "auto_updated": false
   },
