@@ -761,23 +761,23 @@
   },
   {
     "name": "beekeeper-studio",
-    "version": "6.2.0",
+    "version": "6.2.1",
     "description": "Modern and easy to use SQL client and database manager",
     "homepage": "https://www.beekeeperstudio.io",
     "depends": [
       "electron42",
       "libx11"
     ],
-    "srcurl": "https://github.com/beekeeper-studio/beekeeper-studio/archive/refs/tags/v6.2.0.tar.gz",
+    "srcurl": "https://github.com/beekeeper-studio/beekeeper-studio/archive/refs/tags/v6.2.1.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9a90b2f3/tur/beekeeper-studio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9a90b2f3/tur/beekeeper-studio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9a90b2f3/tur/beekeeper-studio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2365dacd/tur/beekeeper-studio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2365dacd/tur/beekeeper-studio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2365dacd/tur/beekeeper-studio/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9a90b2f3/tur/beekeeper-studio/0001-electron-asar-launch.patch"
+      "https://github.com/termux-user-repository/tur/blob/2365dacd/tur/beekeeper-studio/0001-electron-asar-launch.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9a90b2f3/tur/beekeeper-studio/0001-electron-asar-launch.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2365dacd/tur/beekeeper-studio/0001-electron-asar-launch.patch"
     ],
     "auto_updated": true
   },
