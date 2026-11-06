@@ -3175,15 +3175,15 @@
   },
   {
     "name": "goat",
-    "version": "0.2.8",
+    "version": "0.2.9",
     "description": "Go AT protocol CLI tool",
     "homepage": "https://github.com/bluesky-social/goat",
     "depends": [],
-    "srcurl": "https://github.com/bluesky-social/goat/archive/v0.2.8.tar.gz",
+    "srcurl": "https://github.com/bluesky-social/goat/archive/v0.2.9.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9d49a5b8/tur/goat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9d49a5b8/tur/goat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9d49a5b8/tur/goat/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1861ff98/tur/goat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1861ff98/tur/goat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1861ff98/tur/goat/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8195,6 +8195,21 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
+  },
+  {
+    "name": "tlrc",
+    "version": "1.13.1",
+    "description": "Official tldr client written in Rust",
+    "homepage": "https://github.com/tldr-pages/tlrc",
+    "depends": [],
+    "srcurl": "https://github.com/tldr-pages/tlrc/archive/refs/tags/v1.13.1.tar.gz",
+    "maintainer": "@everywhereless",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/66623e04/tur/tlrc",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/66623e04/tur/tlrc/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/66623e04/tur/tlrc/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
   },
   {
     "name": "topiary",
