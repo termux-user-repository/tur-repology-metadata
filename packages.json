@@ -6015,18 +6015,18 @@
   },
   {
     "name": "patchsplit",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "A CLI tool for splitting patch files into per-commit patches",
     "homepage": "https://patchsplit.zitzhen.cn",
     "depends": [
       "curl",
       "git"
     ],
-    "srcurl": "https://github.com/zitzhen/patchsplit/archive/refs/tags/v1.4.0.tar.gz",
+    "srcurl": "https://github.com/zitzhen/patchsplit/archive/refs/tags/v1.5.0.tar.gz",
     "maintainer": "Oliver Lin <oliver@liuxiaozhen.dev>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/346b24d1/tur/patchsplit",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/346b24d1/tur/patchsplit/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/346b24d1/tur/patchsplit/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9da6b5bd/tur/patchsplit",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9da6b5bd/tur/patchsplit/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9da6b5bd/tur/patchsplit/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
