@@ -119,6 +119,21 @@
     "auto_updated": false
   },
   {
+    "name": "a4",
+    "version": "2.0",
+    "description": "Dynamic terminal window manager and multiplexer",
+    "homepage": "https://a4term.com/",
+    "depends": [],
+    "srcurl": "https://github.com/rpmohn/a4/archive/refs/tags/v2.0.tar.gz",
+    "maintainer": "Jules Amonith <examosa@fastmail.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9925b4c8/tur/a4",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9925b4c8/tur/a4/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9925b4c8/tur/a4/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "abuse",
     "version": "0.9.1",
     "description": "A dark 2D side-scrolling platform game",
@@ -1319,7 +1334,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.145.0",
+    "version": "4.145.2",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -1331,14 +1346,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9059d0fb/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9059d0fb/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9059d0fb/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/78bec113/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/78bec113/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/78bec113/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9059d0fb/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/78bec113/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9059d0fb/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/78bec113/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
