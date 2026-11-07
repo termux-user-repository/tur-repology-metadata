@@ -9907,26 +9907,28 @@
       "libandroid-glob",
       "libdeflate",
       "libiconv",
+      "libicu",
       "libbz2",
       "libcurl",
       "liblzma",
       "pcre2",
       "readline",
+      "which",
       "zlib",
       "zstd"
     ],
     "srcurl": "https://cran.r-project.org/src/base/R-4/R-4.6.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5ff7a784/tur-on-device/r-base",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5ff7a784/tur-on-device/r-base/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5ff7a784/tur-on-device/r-base/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/de2ead93/tur-on-device/r-base",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/de2ead93/tur-on-device/r-base/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/de2ead93/tur-on-device/r-base/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/5ff7a784/tur-on-device/r-base/0001-wctrans-impl.patch",
-      "https://github.com/termux-user-repository/tur/blob/5ff7a784/tur-on-device/r-base/0002-fix-link-libraries.patch"
+      "https://github.com/termux-user-repository/tur/blob/de2ead93/tur-on-device/r-base/0001-wctrans-impl.patch",
+      "https://github.com/termux-user-repository/tur/blob/de2ead93/tur-on-device/r-base/0002-fix-link-libraries.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ff7a784/tur-on-device/r-base/0001-wctrans-impl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/5ff7a784/tur-on-device/r-base/0002-fix-link-libraries.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/de2ead93/tur-on-device/r-base/0001-wctrans-impl.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/de2ead93/tur-on-device/r-base/0002-fix-link-libraries.patch"
     ],
     "auto_updated": false
   },
