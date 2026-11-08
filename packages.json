@@ -966,7 +966,7 @@
   },
   {
     "name": "chromium-beta",
-    "version": "157.0.8103.15",
+    "version": "158.0.8127.18",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -989,24 +989,24 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/157.0.8103.15/chromium-157.0.8103.15-linux.tar.xz",
+    "srcurl": "https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/158.0.8127.18/chromium-158.0.8127.18-linux.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c17455e0/tur/chromium-beta",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/07b737b8/tur/chromium-beta",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/07b737b8/tur/chromium-beta/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/07b737b8/tur/chromium-beta/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://github.com/termux-user-repository/tur/blob/c17455e0/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://github.com/termux-user-repository/tur/blob/07b737b8/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/07b737b8/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/07b737b8/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/07b737b8/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://github.com/termux-user-repository/tur/blob/07b737b8/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c17455e0/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/07b737b8/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/07b737b8/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/07b737b8/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/07b737b8/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/07b737b8/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "auto_updated": true
   },
@@ -2445,6 +2445,30 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/992c6cee/tur/expac/misc.patch"
     ],
     "auto_updated": false
+  },
+  {
+    "name": "extremetuxracer",
+    "version": "0.8.4",
+    "description": "A 3D downhill racing game starring Tux, the Linux penguin",
+    "homepage": "https://sourceforge.net/projects/extremetuxracer/",
+    "depends": [
+      "glu",
+      "opengl",
+      "sfml",
+      "extremetuxracer-data"
+    ],
+    "srcurl": "https://downloads.sourceforge.net/project/extremetuxracer/releases/0.8.4/etr-0.8.4.tar.xz",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6c0a2edf/tur/extremetuxracer",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6c0a2edf/tur/extremetuxracer/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6c0a2edf/tur/extremetuxracer/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/6c0a2edf/tur/extremetuxracer/0001-port-to-sfml3.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6c0a2edf/tur/extremetuxracer/0001-port-to-sfml3.patch"
+    ],
+    "auto_updated": true
   },
   {
     "name": "fakepkg",
