@@ -3546,17 +3546,21 @@
   },
   {
     "name": "komac",
-    "version": "2.16.0",
+    "version": "2.17.1",
     "description": "The Community Manifest Creator for WinGet",
     "homepage": "https://github.com/russellbanks/Komac",
     "depends": [],
-    "srcurl": "https://github.com/russellbanks/Komac/archive/refs/tags/v2.16.0.tar.gz",
+    "srcurl": "https://github.com/russellbanks/Komac/archive/refs/tags/v2.17.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8e2f0366/tur/komac",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8e2f0366/tur/komac/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8e2f0366/tur/komac/build.sh",
-    "package_patch_urls": [],
-    "package_patch_raw_urls": [],
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cc66ab1f/tur/komac",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cc66ab1f/tur/komac/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cc66ab1f/tur/komac/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/cc66ab1f/tur/komac/0001-add-android-keyring-store.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/cc66ab1f/tur/komac/0001-add-android-keyring-store.patch"
+    ],
     "auto_updated": true
   },
   {
