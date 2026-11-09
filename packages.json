@@ -3495,17 +3495,17 @@
   },
   {
     "name": "juice-shop",
-    "version": "20.3.0",
+    "version": "20.4.0",
     "description": "A modern and sophisticated insecure web application",
     "homepage": "https://owasp.org/www-project-juice-shop/",
     "depends": [
       "nodejs-lts"
     ],
-    "srcurl": "https://github.com/juice-shop/juice-shop/archive/refs/tags/v20.3.0.tar.gz",
+    "srcurl": "https://github.com/juice-shop/juice-shop/archive/refs/tags/v20.4.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2487a2d8/tur/juice-shop",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2487a2d8/tur/juice-shop/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2487a2d8/tur/juice-shop/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f2d8d9d/tur/juice-shop",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f2d8d9d/tur/juice-shop/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f2d8d9d/tur/juice-shop/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -3546,20 +3546,20 @@
   },
   {
     "name": "komac",
-    "version": "2.17.1",
+    "version": "2.17.2",
     "description": "The Community Manifest Creator for WinGet",
     "homepage": "https://github.com/russellbanks/Komac",
     "depends": [],
-    "srcurl": "https://github.com/russellbanks/Komac/archive/refs/tags/v2.17.1.tar.gz",
+    "srcurl": "https://github.com/russellbanks/Komac/archive/refs/tags/v2.17.2.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/cc66ab1f/tur/komac",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/cc66ab1f/tur/komac/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/cc66ab1f/tur/komac/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/03df86c4/tur/komac",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/03df86c4/tur/komac/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/03df86c4/tur/komac/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/cc66ab1f/tur/komac/0001-add-android-keyring-store.patch"
+      "https://github.com/termux-user-repository/tur/blob/03df86c4/tur/komac/0001-add-android-keyring-store.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/cc66ab1f/tur/komac/0001-add-android-keyring-store.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/03df86c4/tur/komac/0001-add-android-keyring-store.patch"
     ],
     "auto_updated": true
   },
