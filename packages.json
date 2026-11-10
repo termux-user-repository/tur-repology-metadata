@@ -1935,7 +1935,7 @@
   },
   {
     "name": "effectcraft",
-    "version": "0.23.0",
+    "version": "0.23.1",
     "description": "Native open-source motion-graphics and effects editor in pure Rust (eframe/wgpu)",
     "homepage": "https://github.com/storytold/effectcraft",
     "depends": [
@@ -1950,22 +1950,22 @@
       "alsa-lib",
       "alsa-plugins"
     ],
-    "srcurl": "https://github.com/storytold/effectcraft/archive/refs/tags/v0.23.0.tar.gz",
+    "srcurl": "https://github.com/storytold/effectcraft/archive/refs/tags/v0.23.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ed0ab326/tur/effectcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ed0ab326/tur/effectcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ed0ab326/tur/effectcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3ede9256/tur/effectcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3ede9256/tur/effectcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3ede9256/tur/effectcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/ed0ab326/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/ed0ab326/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/ed0ab326/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/ed0ab326/tur/effectcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/3ede9256/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/3ede9256/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/3ede9256/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/3ede9256/tur/effectcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ed0ab326/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ed0ab326/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ed0ab326/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/ed0ab326/tur/effectcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3ede9256/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3ede9256/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3ede9256/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3ede9256/tur/effectcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -6153,7 +6153,7 @@
   },
   {
     "name": "pdfcraft",
-    "version": "0.19.0",
+    "version": "0.20.0",
     "description": "PDF reader, editor and toolkit; an open-source clean-room PDF application in pure Rust",
     "homepage": "https://getartcraft.com/apps/pdfcraft",
     "depends": [
@@ -6166,24 +6166,24 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/pdfcraft/archive/refs/tags/v0.19.0.tar.gz",
+    "srcurl": "https://github.com/storytold/pdfcraft/archive/refs/tags/v0.20.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1cd0272a/tur/pdfcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1cd0272a/tur/pdfcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1cd0272a/tur/pdfcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6bab135e/tur/pdfcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6bab135e/tur/pdfcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6bab135e/tur/pdfcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1cd0272a/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/1cd0272a/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
-      "https://github.com/termux-user-repository/tur/blob/1cd0272a/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/1cd0272a/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/1cd0272a/tur/pdfcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/6bab135e/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/6bab135e/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
+      "https://github.com/termux-user-repository/tur/blob/6bab135e/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/6bab135e/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/6bab135e/tur/pdfcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1cd0272a/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1cd0272a/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1cd0272a/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1cd0272a/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1cd0272a/tur/pdfcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6bab135e/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6bab135e/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6bab135e/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6bab135e/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/6bab135e/tur/pdfcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -6369,6 +6369,29 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d30/tur/php7.2/sapi-apache2handler-config.m4.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/5fc17d30/tur/php7.2/use-local-fastcgi-header.patch"
     ],
+    "auto_updated": false
+  },
+  {
+    "name": "pingus",
+    "version": "0.8.0-2026.10.29",
+    "description": "A free Lemmings-like puzzle game",
+    "homepage": "https://pingus.seul.org/",
+    "depends": [
+      "libmodplug",
+      "libsigc++-2.0",
+      "openal-soft",
+      "opengl",
+      "pingus-data",
+      "sdl2",
+      "sdl2-image"
+    ],
+    "srcurl": "https://github.com/Pingus/pingus/archive/ffe3851f1f9f9f5c245887d89ab4a56399c13769.tar.gz",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3d51e226/tur/pingus",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3d51e226/tur/pingus/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3d51e226/tur/pingus/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": false
   },
   {
