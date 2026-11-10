@@ -3371,6 +3371,45 @@
     "auto_updated": false
   },
   {
+    "name": "hedgewars",
+    "version": "1.0.3",
+    "description": "A free turn based strategy, artillery, action and comedy game",
+    "homepage": "https://hedgewars.org/",
+    "depends": [
+      "hedgewars-data",
+      "libc++",
+      "libphysfs",
+      "lua51",
+      "opengl",
+      "qt5-qtbase",
+      "sdl2",
+      "sdl2-image",
+      "sdl2-mixer",
+      "sdl2-net",
+      "sdl2-ttf"
+    ],
+    "srcurl": "https://www.hedgewars.org/download/releases/hedgewars-src-1.0.3.tar.bz2",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/551ecb08/tur/hedgewars",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/551ecb08/tur/hedgewars/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/551ecb08/tur/hedgewars/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/551ecb08/tur/hedgewars/0001-cmake-no-compiler-clobber.patch",
+      "https://github.com/termux-user-repository/tur/blob/551ecb08/tur/hedgewars/0002-pas2c-ghc-monad.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/551ecb08/tur/hedgewars/0003-fpcrtl-fixes.patch",
+      "https://github.com/termux-user-repository/tur/blob/551ecb08/tur/hedgewars/0004-hwc-cflags-and-pas2c-dummy.patch",
+      "https://github.com/termux-user-repository/tur/blob/551ecb08/tur/hedgewars/0005-frontend-remove-libstdcxx.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/551ecb08/tur/hedgewars/0001-cmake-no-compiler-clobber.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/551ecb08/tur/hedgewars/0002-pas2c-ghc-monad.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/551ecb08/tur/hedgewars/0003-fpcrtl-fixes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/551ecb08/tur/hedgewars/0004-hwc-cflags-and-pas2c-dummy.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/551ecb08/tur/hedgewars/0005-frontend-remove-libstdcxx.patch"
+    ],
+    "auto_updated": false
+  },
+  {
     "name": "hello-tur",
     "version": "0.1",
     "description": "Dummy test for TUR",
@@ -4011,28 +4050,28 @@
     ],
     "srcurl": "https://github.com/frankheckenbach/ftgl/archive/refs/tags/v2.4.0.tar.gz",
     "maintainer": "@fervi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0b8d980e/tur/libftgl2",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/19b65364/tur/libftgl2",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/0001-upstream-bf07517ded4704be37eef39b758b5206fc6f4f0d.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/0002-upstream-835f2ba7911a6c15a1a314d5e3267fa089b5a319.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/0003-upstream-778b8f21ba0b71289aef37e3422d008456445971.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/0004-upstream-8763fa4e413e015e46376697fb8ab59ed31c2ff5.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/0005-upstream-a867c7a2e02ab8b47b1322f2903cfaa44c756b9b.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/0006-upstream-d546aefd73dcbb0d0d1e0f3c916770d7f9f98169.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/0007-no-eps.patch",
-      "https://github.com/termux-user-repository/tur/blob/0b8d980e/tur/libftgl2/0008-soversion-fix.patch"
+      "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/0001-upstream-bf07517ded4704be37eef39b758b5206fc6f4f0d.patch",
+      "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/0002-upstream-835f2ba7911a6c15a1a314d5e3267fa089b5a319.patch",
+      "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/0003-upstream-778b8f21ba0b71289aef37e3422d008456445971.patch",
+      "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/0004-upstream-8763fa4e413e015e46376697fb8ab59ed31c2ff5.patch",
+      "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/0005-upstream-a867c7a2e02ab8b47b1322f2903cfaa44c756b9b.patch",
+      "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/0006-upstream-d546aefd73dcbb0d0d1e0f3c916770d7f9f98169.patch",
+      "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/0007-no-eps.patch",
+      "https://github.com/termux-user-repository/tur/blob/19b65364/tur/libftgl2/0008-soversion-fix.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/0001-upstream-bf07517ded4704be37eef39b758b5206fc6f4f0d.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/0002-upstream-835f2ba7911a6c15a1a314d5e3267fa089b5a319.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/0003-upstream-778b8f21ba0b71289aef37e3422d008456445971.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/0004-upstream-8763fa4e413e015e46376697fb8ab59ed31c2ff5.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/0005-upstream-a867c7a2e02ab8b47b1322f2903cfaa44c756b9b.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/0006-upstream-d546aefd73dcbb0d0d1e0f3c916770d7f9f98169.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/0007-no-eps.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0b8d980e/tur/libftgl2/0008-soversion-fix.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/0001-upstream-bf07517ded4704be37eef39b758b5206fc6f4f0d.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/0002-upstream-835f2ba7911a6c15a1a314d5e3267fa089b5a319.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/0003-upstream-778b8f21ba0b71289aef37e3422d008456445971.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/0004-upstream-8763fa4e413e015e46376697fb8ab59ed31c2ff5.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/0005-upstream-a867c7a2e02ab8b47b1322f2903cfaa44c756b9b.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/0006-upstream-d546aefd73dcbb0d0d1e0f3c916770d7f9f98169.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/0007-no-eps.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/19b65364/tur/libftgl2/0008-soversion-fix.patch"
     ],
     "auto_updated": true
   },
@@ -7824,7 +7863,7 @@
   },
   {
     "name": "smartdns",
-    "version": "48.4",
+    "version": "48.5~RC1",
     "description": "A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH",
     "homepage": "https://github.com/pymumu/smartdns",
     "depends": [
@@ -7832,26 +7871,24 @@
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release48.4.tar.gz",
+    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release48.5-RC1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/05eef3b4/tur/smartdns",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8ba4dda1/tur/smartdns",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0005-avoid-pthread_cancel.patch",
-      "https://github.com/termux-user-repository/tur/blob/05eef3b4/tur/smartdns/0006-fix-include-on-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0005-fix-include-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0005-avoid-pthread_cancel.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/05eef3b4/tur/smartdns/0006-fix-include-on-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0005-fix-include-on-android.patch"
     ],
     "auto_updated": true
   },
@@ -9154,34 +9191,30 @@
   },
   {
     "name": "hashcat",
-    "version": "7.1.2",
+    "version": "8.0.0",
     "description": "World's fastest and most advanced password recovery utility",
     "homepage": "https://hashcat.net/hashcat/",
     "depends": [
-      "libc++",
+      "libandroid-glob",
+      "libandroid-spawn",
       "libiconv",
-      "opencl-vendor-driver"
+      "liblzma",
+      "opencl-vendor-driver",
+      "zlib",
+      "zstd"
     ],
-    "srcurl": "https://github.com/hashcat/hashcat/archive/refs/tags/v7.1.2.tar.gz",
+    "srcurl": "https://github.com/hashcat/hashcat/archive/refs/tags/v8.0.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/822a2eb4/tur-hacking/hashcat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/822a2eb4/tur-hacking/hashcat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb4/tur-hacking/hashcat/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/26ceb8ee/tur-hacking/hashcat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/26ceb8ee/tur-hacking/hashcat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/26ceb8ee/tur-hacking/hashcat/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/822a2eb4/tur-hacking/hashcat/deps-unrar-ulinks.cpp.patch",
-      "https://github.com/termux-user-repository/tur/blob/822a2eb4/tur-hacking/hashcat/include-ext_lzma.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/822a2eb4/tur-hacking/hashcat/include-types.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/822a2eb4/tur-hacking/hashcat/pthread.patch",
-      "https://github.com/termux-user-repository/tur/blob/822a2eb4/tur-hacking/hashcat/src-Makefile.patch",
-      "https://github.com/termux-user-repository/tur/blob/822a2eb4/tur-hacking/hashcat/src-filehandling.c.patch"
+      "https://github.com/termux-user-repository/tur/blob/26ceb8ee/tur-hacking/hashcat/include-types.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/26ceb8ee/tur-hacking/hashcat/src-Makefile.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb4/tur-hacking/hashcat/deps-unrar-ulinks.cpp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb4/tur-hacking/hashcat/include-ext_lzma.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb4/tur-hacking/hashcat/include-types.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb4/tur-hacking/hashcat/pthread.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb4/tur-hacking/hashcat/src-Makefile.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/822a2eb4/tur-hacking/hashcat/src-filehandling.c.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/26ceb8ee/tur-hacking/hashcat/include-types.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/26ceb8ee/tur-hacking/hashcat/src-Makefile.patch"
     ],
     "auto_updated": true
   },
@@ -10297,24 +10330,24 @@
     ],
     "srcurl": "https://github.com/PixarAnimationStudios/OpenUSD/archive/refs/tags/v26.08.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9bfc87c3/tur-on-device/usd",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9bfc87c3/tur-on-device/usd/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9bfc87c3/tur-on-device/usd/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/89c84a2e/tur-on-device/usd",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/89c84a2e/tur-on-device/usd/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/89c84a2e/tur-on-device/usd/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/9bfc87c3/tur-on-device/usd/aligned_alloc.patch",
-      "https://github.com/termux-user-repository/tur/blob/9bfc87c3/tur-on-device/usd/no-NOFILE.patch",
-      "https://github.com/termux-user-repository/tur/blob/9bfc87c3/tur-on-device/usd/no-nonlockingfork.patch",
-      "https://github.com/termux-user-repository/tur/blob/9bfc87c3/tur-on-device/usd/opengl.patch",
-      "https://github.com/termux-user-repository/tur/blob/9bfc87c3/tur-on-device/usd/whole-archive.patch",
-      "https://github.com/termux-user-repository/tur/blob/9bfc87c3/tur-on-device/usd/x11.patch"
+      "https://github.com/termux-user-repository/tur/blob/89c84a2e/tur-on-device/usd/aligned_alloc.patch",
+      "https://github.com/termux-user-repository/tur/blob/89c84a2e/tur-on-device/usd/no-NOFILE.patch",
+      "https://github.com/termux-user-repository/tur/blob/89c84a2e/tur-on-device/usd/no-nonlockingfork.patch",
+      "https://github.com/termux-user-repository/tur/blob/89c84a2e/tur-on-device/usd/opengl.patch",
+      "https://github.com/termux-user-repository/tur/blob/89c84a2e/tur-on-device/usd/whole-archive.patch",
+      "https://github.com/termux-user-repository/tur/blob/89c84a2e/tur-on-device/usd/x11.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9bfc87c3/tur-on-device/usd/aligned_alloc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9bfc87c3/tur-on-device/usd/no-NOFILE.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9bfc87c3/tur-on-device/usd/no-nonlockingfork.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9bfc87c3/tur-on-device/usd/opengl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9bfc87c3/tur-on-device/usd/whole-archive.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/9bfc87c3/tur-on-device/usd/x11.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89c84a2e/tur-on-device/usd/aligned_alloc.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89c84a2e/tur-on-device/usd/no-NOFILE.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89c84a2e/tur-on-device/usd/no-nonlockingfork.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89c84a2e/tur-on-device/usd/opengl.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89c84a2e/tur-on-device/usd/whole-archive.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/89c84a2e/tur-on-device/usd/x11.patch"
     ],
     "auto_updated": false
   }
