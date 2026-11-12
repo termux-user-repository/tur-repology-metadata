@@ -1616,7 +1616,7 @@
   },
   {
     "name": "designcraft",
-    "version": "0.20.0",
+    "version": "0.20.1",
     "description": "An open-source, clean-room reimplementation of Adobe InDesign in pure Rust",
     "homepage": "https://getartcraft.com/apps/designcraft",
     "depends": [
@@ -1629,22 +1629,22 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/designcraft/archive/refs/tags/v0.20.0.tar.gz",
+    "srcurl": "https://github.com/storytold/designcraft/archive/refs/tags/v0.20.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7885ba63/tur/designcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7885ba63/tur/designcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7885ba63/tur/designcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/680acfe3/tur/designcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7885ba63/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/7885ba63/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/7885ba63/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/7885ba63/tur/designcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7885ba63/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7885ba63/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7885ba63/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7885ba63/tur/designcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -1935,7 +1935,7 @@
   },
   {
     "name": "effectcraft",
-    "version": "0.24.0",
+    "version": "0.24.1",
     "description": "Native open-source motion-graphics and effects editor in pure Rust (eframe/wgpu)",
     "homepage": "https://github.com/storytold/effectcraft",
     "depends": [
@@ -1950,22 +1950,22 @@
       "alsa-lib",
       "alsa-plugins"
     ],
-    "srcurl": "https://github.com/storytold/effectcraft/archive/refs/tags/v0.24.0.tar.gz",
+    "srcurl": "https://github.com/storytold/effectcraft/archive/refs/tags/v0.24.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/91caffca/tur/effectcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/91caffca/tur/effectcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/91caffca/tur/effectcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7dc61400/tur/effectcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/91caffca/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/91caffca/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/91caffca/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/91caffca/tur/effectcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/91caffca/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/91caffca/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/91caffca/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/91caffca/tur/effectcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -2720,7 +2720,7 @@
   },
   {
     "name": "filmcraft",
-    "version": "0.20.0",
+    "version": "0.20.1",
     "description": "Native open-source video editor in pure Rust (eframe/wgpu)",
     "homepage": "https://github.com/storytold/filmcraft",
     "depends": [
@@ -2735,22 +2735,22 @@
       "alsa-lib",
       "alsa-plugins"
     ],
-    "srcurl": "https://github.com/storytold/filmcraft/archive/refs/tags/v0.20.0.tar.gz",
+    "srcurl": "https://github.com/storytold/filmcraft/archive/refs/tags/v0.20.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1eb345eb/tur/filmcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1eb345eb/tur/filmcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1eb345eb/tur/filmcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/88e2b0cc/tur/filmcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/88e2b0cc/tur/filmcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/88e2b0cc/tur/filmcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1eb345eb/tur/filmcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/1eb345eb/tur/filmcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/1eb345eb/tur/filmcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/1eb345eb/tur/filmcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/88e2b0cc/tur/filmcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/88e2b0cc/tur/filmcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/88e2b0cc/tur/filmcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/88e2b0cc/tur/filmcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1eb345eb/tur/filmcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1eb345eb/tur/filmcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1eb345eb/tur/filmcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1eb345eb/tur/filmcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88e2b0cc/tur/filmcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88e2b0cc/tur/filmcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88e2b0cc/tur/filmcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/88e2b0cc/tur/filmcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -4501,7 +4501,7 @@
   },
   {
     "name": "lightcraft",
-    "version": "0.21.0",
+    "version": "0.21.1",
     "description": "Photo library and raw developer; an open-source clean-room reimplementation of Adobe Lightroom in pure Rust",
     "homepage": "https://getartcraft.com/apps/lightcraft",
     "depends": [
@@ -4514,20 +4514,20 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/lightcraft/archive/refs/tags/v0.21.0.tar.gz",
+    "srcurl": "https://github.com/storytold/lightcraft/archive/refs/tags/v0.21.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/6351b5eb/tur/lightcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/6351b5eb/tur/lightcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6351b5eb/tur/lightcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/fc35e217/tur/lightcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/fc35e217/tur/lightcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/fc35e217/tur/lightcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/6351b5eb/tur/lightcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/6351b5eb/tur/lightcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/6351b5eb/tur/lightcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/fc35e217/tur/lightcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/fc35e217/tur/lightcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/fc35e217/tur/lightcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6351b5eb/tur/lightcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6351b5eb/tur/lightcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/6351b5eb/tur/lightcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fc35e217/tur/lightcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fc35e217/tur/lightcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/fc35e217/tur/lightcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -5374,7 +5374,7 @@
   },
   {
     "name": "nodejs-22",
-    "version": "22.23.4",
+    "version": "22.23.5",
     "description": "Open Source, cross-platform JavaScript runtime environment (Version 22)",
     "homepage": "https://nodejs.org/",
     "depends": [
@@ -5383,78 +5383,78 @@
       "c-ares",
       "zlib"
     ],
-    "srcurl": "https://nodejs.org/dist/v22.23.4/node-v22.23.4.tar.xz",
+    "srcurl": "https://nodejs.org/dist/v22.23.5/node-v22.23.5.tar.xz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e1383588/tur/nodejs-22",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/63b25c64/tur/nodejs-22",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/avoid-ficlone-ioctl.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/common.gypi.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/deps-npm-lib-cli-entry.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/deps-npm-lib-commands-install.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/deps-uv-src-unix-core.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/deps-uv-src-unix-process.c.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/deps-uv-uv.gyp.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/deps-v8-src-flags-flag-definitions.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/deps-v8-src-trap-handler-trap-handler.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/fix_multiple_definitions.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/lib-child_process.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/lib-os.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/node.gyp.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/src-debug_utils.cc.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/src-getaddrinfo.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/src-node_internals.h.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/src-node_report.cc.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-common-index.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-child-process-exec-env.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-child-process-spawnsync-shell.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-child-process-stdio-overlapped.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-child-process-uid-gid.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-dgram-bind-fd.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-dgram-membership.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-dgram-socket-buffer-size.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-fs-readfile-pipe-large.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-fs-readfile-pipe.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-fs-readfilesync-pipe-large.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/test-parallel-test-process-constants-noatime.js.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/tools-gyp-pylib-gyp-generator-ninja.py.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/tools-v8_gypfiles-toolchain.gypi.patch",
-      "https://github.com/termux-user-repository/tur/blob/e1383588/tur/nodejs-22/tools-v8_gypfiles-v8.gyp.patch"
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/avoid-ficlone-ioctl.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/common.gypi.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/deps-npm-lib-cli-entry.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/deps-npm-lib-commands-install.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/deps-uv-src-unix-core.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/deps-uv-src-unix-process.c.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/deps-uv-uv.gyp.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/deps-v8-src-flags-flag-definitions.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/deps-v8-src-trap-handler-trap-handler.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/fix_multiple_definitions.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/lib-child_process.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/lib-os.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/node.gyp.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/src-debug_utils.cc.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/src-getaddrinfo.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/src-node_internals.h.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/src-node_report.cc.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-common-index.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-child-process-exec-env.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-child-process-spawnsync-shell.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-child-process-stdio-overlapped.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-child-process-uid-gid.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-dgram-bind-fd.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-dgram-membership.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-dgram-socket-buffer-size.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-fs-readfile-pipe-large.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-fs-readfile-pipe.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-fs-readfilesync-pipe-large.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/test-parallel-test-process-constants-noatime.js.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/tools-gyp-pylib-gyp-generator-ninja.py.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/tools-v8_gypfiles-toolchain.gypi.patch",
+      "https://github.com/termux-user-repository/tur/blob/63b25c64/tur/nodejs-22/tools-v8_gypfiles-v8.gyp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/avoid-ficlone-ioctl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/common.gypi.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/deps-npm-lib-cli-entry.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/deps-npm-lib-commands-install.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/deps-uv-src-unix-core.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/deps-uv-src-unix-process.c.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/deps-uv-uv.gyp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/deps-v8-src-flags-flag-definitions.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/deps-v8-src-trap-handler-trap-handler.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/fix_multiple_definitions.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/lib-child_process.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/lib-os.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/node.gyp.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/src-debug_utils.cc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/src-getaddrinfo.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/src-node_internals.h.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/src-node_report.cc.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-common-index.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-child-process-exec-env.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-child-process-spawnsync-shell.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-child-process-stdio-overlapped.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-child-process-uid-gid.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-dgram-bind-fd.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-dgram-membership.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-dgram-socket-buffer-size.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-fs-readfile-pipe-large.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-fs-readfile-pipe.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-fs-readfilesync-pipe-large.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/test-parallel-test-process-constants-noatime.js.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/tools-gyp-pylib-gyp-generator-ninja.py.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/tools-v8_gypfiles-toolchain.gypi.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e1383588/tur/nodejs-22/tools-v8_gypfiles-v8.gyp.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/avoid-ficlone-ioctl.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/common.gypi.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/deps-npm-lib-cli-entry.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/deps-npm-lib-commands-install.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/deps-uv-src-unix-core.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/deps-uv-src-unix-process.c.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/deps-uv-uv.gyp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/deps-v8-src-flags-flag-definitions.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/deps-v8-src-trap-handler-trap-handler.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/fix_multiple_definitions.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/lib-child_process.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/lib-os.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/node.gyp.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/src-debug_utils.cc.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/src-getaddrinfo.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/src-node_internals.h.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/src-node_report.cc.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-common-index.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-child-process-exec-env.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-child-process-spawnsync-shell.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-child-process-stdio-overlapped.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-child-process-uid-gid.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-dgram-bind-fd.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-dgram-membership.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-dgram-socket-buffer-size.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-fs-readfile-pipe-large.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-fs-readfile-pipe.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-fs-readfilesync-pipe-large.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/test-parallel-test-process-constants-noatime.js.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/tools-gyp-pylib-gyp-generator-ninja.py.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/tools-v8_gypfiles-toolchain.gypi.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/63b25c64/tur/nodejs-22/tools-v8_gypfiles-v8.gyp.patch"
     ],
     "auto_updated": true
   },
@@ -6228,7 +6228,7 @@
   },
   {
     "name": "photocraft",
-    "version": "0.23.0",
+    "version": "0.23.1",
     "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
     "homepage": "https://getartcraft.com/apps/photocraft",
     "depends": [
@@ -6241,22 +6241,22 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/photocraft/archive/refs/tags/v0.23.0.tar.gz",
+    "srcurl": "https://github.com/storytold/photocraft/archive/refs/tags/v0.23.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7c77fe17/tur/photocraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7c77fe17/tur/photocraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7c77fe17/tur/photocraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/218efd22/tur/photocraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/218efd22/tur/photocraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/218efd22/tur/photocraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7c77fe17/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/7c77fe17/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/7c77fe17/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/7c77fe17/tur/photocraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/218efd22/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/218efd22/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/218efd22/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/218efd22/tur/photocraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7c77fe17/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7c77fe17/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7c77fe17/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7c77fe17/tur/photocraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/218efd22/tur/photocraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/218efd22/tur/photocraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/218efd22/tur/photocraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/218efd22/tur/photocraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -8488,7 +8488,7 @@
   },
   {
     "name": "vectorcraft",
-    "version": "0.24.0",
+    "version": "0.24.1",
     "description": "An open-source, clean-room reimplementation of Adobe Illustrator in pure Rust",
     "homepage": "https://github.com/storytold/vectorcraft",
     "depends": [
@@ -8501,22 +8501,22 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/vectorcraft/archive/refs/tags/v0.24.0.tar.gz",
+    "srcurl": "https://github.com/storytold/vectorcraft/archive/refs/tags/v0.24.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c9464508/tur/vectorcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c9464508/tur/vectorcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c9464508/tur/vectorcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2cb360f3/tur/vectorcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2cb360f3/tur/vectorcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2cb360f3/tur/vectorcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/c9464508/tur/vectorcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/c9464508/tur/vectorcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/c9464508/tur/vectorcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/c9464508/tur/vectorcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/2cb360f3/tur/vectorcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/2cb360f3/tur/vectorcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/2cb360f3/tur/vectorcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/2cb360f3/tur/vectorcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c9464508/tur/vectorcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c9464508/tur/vectorcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c9464508/tur/vectorcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/c9464508/tur/vectorcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cb360f3/tur/vectorcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cb360f3/tur/vectorcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cb360f3/tur/vectorcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2cb360f3/tur/vectorcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
