@@ -444,6 +444,24 @@
     "auto_updated": true
   },
   {
+    "name": "bash-ghost",
+    "version": "1.0.0",
+    "description": "History autosuggestions for bash, like zsh-autosuggestions",
+    "homepage": "https://github.com/stonxmg-lang/termux-ghost",
+    "depends": [
+      "bash",
+      "readline"
+    ],
+    "srcurl": "https://github.com/stonxmg-lang/termux-ghost/archive/refs/tags/v1.0.0.tar.gz",
+    "maintainer": "@stonxmg-lang",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/b333be83/tur/bash-ghost",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/b333be83/tur/bash-ghost/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/b333be83/tur/bash-ghost/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "bazel5",
     "version": "5.4.1",
     "description": "Correct, reproducible, and fast builds for everyone",
@@ -816,6 +834,23 @@
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
+  },
+  {
+    "name": "beneath-a-steel-sky",
+    "version": "1.2",
+    "description": "Classic 2D point and click science fiction adventure game",
+    "homepage": "https://www.scummvm.org/",
+    "depends": [
+      "scummvm"
+    ],
+    "srcurl": "https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/bass-cd-1.2.zip",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f6b99a6/tur/beneath-a-steel-sky",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f6b99a6/tur/beneath-a-steel-sky/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f6b99a6/tur/beneath-a-steel-sky/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
   },
   {
     "name": "biber-installer",
@@ -1893,6 +1928,23 @@
     "auto_updated": true
   },
   {
+    "name": "drascula",
+    "version": "1.0",
+    "description": "Classic 2D point and click comedy adventure game",
+    "homepage": "https://www.scummvm.org/",
+    "depends": [
+      "scummvm"
+    ],
+    "srcurl": "https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-1.0.zip",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f6b99a6/tur/drascula",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f6b99a6/tur/drascula/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f6b99a6/tur/drascula/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "dumbversion",
     "version": "1.2.2",
     "description": "A high-performance binary diffing and patching engine for massive files",
@@ -2755,6 +2807,23 @@
     "auto_updated": true
   },
   {
+    "name": "flight-of-the-amazon-queen",
+    "version": "1.1",
+    "description": "Classic 2D point and click fantasy adventure game",
+    "homepage": "https://www.scummvm.org/",
+    "depends": [
+      "scummvm"
+    ],
+    "srcurl": "https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Talkie-1.1.zip",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f6b99a6/tur/flight-of-the-amazon-queen",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f6b99a6/tur/flight-of-the-amazon-queen/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f6b99a6/tur/flight-of-the-amazon-queen/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "flow",
     "version": "2.2.2",
     "description": "Local developer automation platform that flows with you.",
@@ -2765,6 +2834,40 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/683de842/tur/flow",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/683de842/tur/flow/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/683de842/tur/flow/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "freeciv",
+    "version": "3.2.7",
+    "description": "Turn-based multiplayer strategy game inspired by the Civilization series",
+    "homepage": "https://www.freeciv.org/",
+    "depends": [
+      "freeciv-data",
+      "gettext",
+      "gtk3",
+      "libbz2",
+      "libcurl",
+      "libiconv",
+      "libicu",
+      "liblzma",
+      "lua54",
+      "readline",
+      "sdl2",
+      "sdl2-gfx",
+      "sdl2-image",
+      "sdl2-mixer",
+      "sdl2-ttf",
+      "sqlite",
+      "zlib",
+      "zstd"
+    ],
+    "srcurl": "https://files.freeciv.org/stable/freeciv-3.2.7.tar.xz",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e37bd0e0/tur/freeciv",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e37bd0e0/tur/freeciv/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e37bd0e0/tur/freeciv/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4583,6 +4686,23 @@
     "auto_updated": false
   },
   {
+    "name": "lure-of-the-temptress",
+    "version": "1.1",
+    "description": "Classic 2D point and click fantasy adventure game",
+    "homepage": "https://www.scummvm.org/",
+    "depends": [
+      "scummvm"
+    ],
+    "srcurl": "https://downloads.scummvm.org/frs/extras/Lure%20of%20the%20Temptress/lure-1.1.zip",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f6b99a6/tur/lure-of-the-temptress",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f6b99a6/tur/lure-of-the-temptress/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f6b99a6/tur/lure-of-the-temptress/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "megaglest",
     "version": "3.13.0",
     "description": "A free and open source 3D real-time strategy game",
@@ -5563,26 +5683,26 @@
   },
   {
     "name": "nub",
-    "version": "0.10.0",
+    "version": "0.11.0",
     "description": "The fast all-in-one Node.js toolkit: TypeScript runner, script runner and package manager on top of stock node",
     "homepage": "https://nubjs.com",
     "depends": [
       "nodejs"
     ],
-    "srcurl": "https://github.com/nubjs/nub/archive/refs/tags/v0.10.0.tar.gz",
+    "srcurl": "https://github.com/nubjs/nub/archive/refs/tags/v0.11.0.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/089104f9/tur/nub",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/089104f9/tur/nub/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/089104f9/tur/nub/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e33357ba/tur/nub",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e33357ba/tur/nub/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e33357ba/tur/nub/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/089104f9/tur/nub/0001-find-runtime-in-termux-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/089104f9/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
-      "https://github.com/termux-user-repository/tur/blob/089104f9/tur/nub/0003-disable-node-download-on-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/e33357ba/tur/nub/0001-find-runtime-in-termux-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/e33357ba/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
+      "https://github.com/termux-user-repository/tur/blob/e33357ba/tur/nub/0003-disable-node-download-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/089104f9/tur/nub/0001-find-runtime-in-termux-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/089104f9/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/089104f9/tur/nub/0003-disable-node-download-on-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e33357ba/tur/nub/0001-find-runtime-in-termux-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e33357ba/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/e33357ba/tur/nub/0003-disable-node-download-on-android.patch"
     ],
     "auto_updated": true
   },
@@ -5791,6 +5911,49 @@
     ],
     "package_patch_raw_urls": [
       "https://raw.githubusercontent.com/termux-user-repository/tur/ecc11e65/tur/openarena/fix-paths.patch"
+    ],
+    "auto_updated": false
+  },
+  {
+    "name": "openclonk",
+    "version": "8.1",
+    "description": "Multiplayer action game of strategy, tactics, and skill",
+    "homepage": "https://www.openclonk.org/",
+    "depends": [
+      "freetype",
+      "glew",
+      "libc++",
+      "libjpeg-turbo",
+      "libpng",
+      "libx11",
+      "libxrandr",
+      "miniupnpc",
+      "openclonk-data",
+      "opengl",
+      "sdl2",
+      "sdl2-mixer",
+      "zlib"
+    ],
+    "srcurl": "https://github.com/openclonk/openclonk/archive/refs/tags/v8.1.tar.gz",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d7ae4e12/tur/openclonk",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d7ae4e12/tur/openclonk/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d7ae4e12/tur/openclonk/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/d7ae4e12/tur/openclonk/0001-CMakeLists.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/d7ae4e12/tur/openclonk/0002-fix-gcc-11-limits.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/d7ae4e12/tur/openclonk/0003-fix-miniupnpc.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/d7ae4e12/tur/openclonk/0004-fix-paths-and-arch.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/d7ae4e12/tur/openclonk/0005-portable-blake2b.patch.beforehostbuild",
+      "https://github.com/termux-user-repository/tur/blob/d7ae4e12/tur/openclonk/0006-fix-sdl-mixer-mix-music.patch.beforehostbuild"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7ae4e12/tur/openclonk/0001-CMakeLists.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7ae4e12/tur/openclonk/0002-fix-gcc-11-limits.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7ae4e12/tur/openclonk/0003-fix-miniupnpc.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7ae4e12/tur/openclonk/0004-fix-paths-and-arch.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7ae4e12/tur/openclonk/0005-portable-blake2b.patch.beforehostbuild",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7ae4e12/tur/openclonk/0006-fix-sdl-mixer-mix-music.patch.beforehostbuild"
     ],
     "auto_updated": false
   },
@@ -7666,15 +7829,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.3.3.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.3.4.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f2d6c407/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f2d6c407/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f2d6c407/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ab4ae5b9/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ab4ae5b9/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ab4ae5b9/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7739,6 +7902,41 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/89ad715c/tur/rustc-nightly/0009-always-export-emutls.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/89ad715c/tur/rustc-nightly/force-allow-edit-vendor.diff"
     ],
+    "auto_updated": true
+  },
+  {
+    "name": "scummvm",
+    "version": "2026.4.0",
+    "description": "Virtual machine for classic graphical point-and-click adventure games",
+    "homepage": "https://www.scummvm.org/",
+    "depends": [
+      "faad2",
+      "fluidsynth",
+      "freetype",
+      "glew",
+      "glu",
+      "liba52",
+      "libcurl",
+      "libflac",
+      "libiconv",
+      "libjpeg-turbo",
+      "libmad",
+      "libmpeg2",
+      "libpng",
+      "libtheora",
+      "libvorbis",
+      "opengl",
+      "sdl2",
+      "sdl2-net",
+      "zlib"
+    ],
+    "srcurl": "https://downloads.scummvm.org/frs/scummvm/2026.4.0/scummvm-2026.4.0.tar.xz",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2f6b99a6/tur/scummvm",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2f6b99a6/tur/scummvm/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2f6b99a6/tur/scummvm/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
@@ -8655,6 +8853,40 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/eb16d612/tur/warmux/fix-tile-cpp.patch"
     ],
     "auto_updated": false
+  },
+  {
+    "name": "widelands",
+    "version": "1.3.1",
+    "description": "A free, open source real-time strategy game with singleplayer campaigns and a multiplayer mode",
+    "homepage": "https://www.widelands.org/",
+    "depends": [
+      "glew",
+      "libandroid-execinfo",
+      "libandroid-glob",
+      "libc++",
+      "libicu",
+      "libminizip",
+      "libpng",
+      "opengl",
+      "sdl2",
+      "sdl2-image",
+      "sdl2-mixer",
+      "sdl2-ttf",
+      "widelands-data",
+      "zlib"
+    ],
+    "srcurl": "https://github.com/widelands/widelands/archive/refs/tags/v1.3.1.tar.gz",
+    "maintainer": "@IntinteDAO",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d56ca65c/tur/widelands",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d56ca65c/tur/widelands/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d56ca65c/tur/widelands/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/d56ca65c/tur/widelands/0001-clang-no-weverything.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d56ca65c/tur/widelands/0001-clang-no-weverything.patch"
+    ],
+    "auto_updated": true
   },
   {
     "name": "wiggle",
