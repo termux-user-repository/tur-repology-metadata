@@ -1776,7 +1776,7 @@
   },
   {
     "name": "dlib",
-    "version": "20.0.1",
+    "version": "20.1",
     "description": "a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems",
     "homepage": "http://dlib.net/",
     "depends": [
@@ -1789,24 +1789,24 @@
       "libwebp",
       "python"
     ],
-    "srcurl": "https://github.com/davisking/dlib/archive/refs/tags/v20.0.1.tar.gz",
+    "srcurl": "https://github.com/davisking/dlib/archive/refs/tags/v20.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/80b609d6/tur/dlib",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/dlib/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/dlib/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/84f2ae44/tur/dlib",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/84f2ae44/tur/dlib/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/84f2ae44/tur/dlib/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/dlib/0001-setup.py-options.patch",
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/dlib/0002-force-libpng.patch",
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/dlib/0003-force-libjpeg.patch",
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/dlib/0004-force-libjxl.patch",
-      "https://github.com/termux-user-repository/tur/blob/80b609d6/tur/dlib/0005-force-libwebp.patch"
+      "https://github.com/termux-user-repository/tur/blob/84f2ae44/tur/dlib/0001-setup.py-options.patch",
+      "https://github.com/termux-user-repository/tur/blob/84f2ae44/tur/dlib/0002-force-libpng.patch",
+      "https://github.com/termux-user-repository/tur/blob/84f2ae44/tur/dlib/0003-force-libjpeg.patch",
+      "https://github.com/termux-user-repository/tur/blob/84f2ae44/tur/dlib/0004-force-libjxl.patch",
+      "https://github.com/termux-user-repository/tur/blob/84f2ae44/tur/dlib/0005-force-libwebp.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/dlib/0001-setup.py-options.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/dlib/0002-force-libpng.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/dlib/0003-force-libjpeg.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/dlib/0004-force-libjxl.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/80b609d6/tur/dlib/0005-force-libwebp.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/84f2ae44/tur/dlib/0001-setup.py-options.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/84f2ae44/tur/dlib/0002-force-libpng.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/84f2ae44/tur/dlib/0003-force-libjpeg.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/84f2ae44/tur/dlib/0004-force-libjxl.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/84f2ae44/tur/dlib/0005-force-libwebp.patch"
     ],
     "auto_updated": true
   },
