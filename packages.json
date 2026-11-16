@@ -7763,6 +7763,21 @@
     "auto_updated": false
   },
   {
+    "name": "rsudo",
+    "version": "0.1.0",
+    "description": "A high-performance sudo alternative for Termux, written in Rust",
+    "homepage": "https://github.com/Wiltxxx/RSudo",
+    "depends": [],
+    "srcurl": "https://github.com/Wiltxxx/RSudo/archive/refs/tags/v0.1.0.tar.gz",
+    "maintainer": "@Wiltxxx",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/edace071/tur/rsudo",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/edace071/tur/rsudo/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/edace071/tur/rsudo/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
     "name": "ruby-2",
     "version": "2.7.6",
     "description": "Dynamic programming language with a focus on simplicity and productivity (Version 2)",
