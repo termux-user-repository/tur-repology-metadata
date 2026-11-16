@@ -5685,26 +5685,26 @@
   },
   {
     "name": "nub",
-    "version": "0.11.0",
+    "version": "0.11.1",
     "description": "The fast all-in-one Node.js toolkit: TypeScript runner, script runner and package manager on top of stock node",
     "homepage": "https://nubjs.com",
     "depends": [
       "nodejs"
     ],
-    "srcurl": "https://github.com/nubjs/nub/archive/refs/tags/v0.11.0.tar.gz",
+    "srcurl": "https://github.com/nubjs/nub/archive/refs/tags/v0.11.1.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e33357ba/tur/nub",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e33357ba/tur/nub/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e33357ba/tur/nub/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0ed38540/tur/nub",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0ed38540/tur/nub/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0ed38540/tur/nub/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/e33357ba/tur/nub/0001-find-runtime-in-termux-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/e33357ba/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
-      "https://github.com/termux-user-repository/tur/blob/e33357ba/tur/nub/0003-disable-node-download-on-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/0ed38540/tur/nub/0001-find-runtime-in-termux-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/0ed38540/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
+      "https://github.com/termux-user-repository/tur/blob/0ed38540/tur/nub/0003-disable-node-download-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e33357ba/tur/nub/0001-find-runtime-in-termux-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e33357ba/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/e33357ba/tur/nub/0003-disable-node-download-on-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0ed38540/tur/nub/0001-find-runtime-in-termux-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0ed38540/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0ed38540/tur/nub/0003-disable-node-download-on-android.patch"
     ],
     "auto_updated": true
   },
