@@ -1347,7 +1347,7 @@
   },
   {
     "name": "cleanuparr",
-    "version": "2.11.0",
+    "version": "2.11.1",
     "description": "Queue cleaner and management companion for the *arr suite",
     "homepage": "https://cleanuparr.com",
     "depends": [
@@ -1356,18 +1356,18 @@
       "dotnet-runtime-10.0",
       "libesqlite3"
     ],
-    "srcurl": "https://github.com/Cleanuparr/Cleanuparr/archive/refs/tags/v2.11.0.tar.gz",
+    "srcurl": "https://github.com/Cleanuparr/Cleanuparr/archive/refs/tags/v2.11.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d567732a/tur/cleanuparr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d567732a/tur/cleanuparr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d567732a/tur/cleanuparr/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/04f7b9f6/tur/cleanuparr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/04f7b9f6/tur/cleanuparr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/04f7b9f6/tur/cleanuparr/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d567732a/tur/cleanuparr/0001-disable-ready-to-run.patch"
+      "https://github.com/termux-user-repository/tur/blob/04f7b9f6/tur/cleanuparr/0001-disable-ready-to-run.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d567732a/tur/cleanuparr/0001-disable-ready-to-run.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/04f7b9f6/tur/cleanuparr/0001-disable-ready-to-run.patch"
     ],
-    "auto_updated": false
+    "auto_updated": true
   },
   {
     "name": "code-server",
