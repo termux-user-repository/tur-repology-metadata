@@ -798,19 +798,19 @@
     "description": "Modern and easy to use SQL client and database manager",
     "homepage": "https://www.beekeeperstudio.io",
     "depends": [
-      "electron42",
+      "electron43",
       "libx11"
     ],
     "srcurl": "https://github.com/beekeeper-studio/beekeeper-studio/archive/refs/tags/v6.2.2.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d5d8f47b/tur/beekeeper-studio",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d5d8f47b/tur/beekeeper-studio/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d5d8f47b/tur/beekeeper-studio/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/115471ec/tur/beekeeper-studio",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/115471ec/tur/beekeeper-studio/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/115471ec/tur/beekeeper-studio/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/d5d8f47b/tur/beekeeper-studio/0001-electron-asar-launch.patch"
+      "https://github.com/termux-user-repository/tur/blob/115471ec/tur/beekeeper-studio/0001-electron-asar-launch.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/d5d8f47b/tur/beekeeper-studio/0001-electron-asar-launch.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/115471ec/tur/beekeeper-studio/0001-electron-asar-launch.patch"
     ],
     "auto_updated": true
   },
@@ -1614,17 +1614,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.17.8",
+    "version": "6.17.9",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.8.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.9.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/724f101b/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/724f101b/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/724f101b/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/18ff0b71/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/18ff0b71/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/18ff0b71/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4928,15 +4928,15 @@
     "description": "The GUI for MongoDB",
     "homepage": "https://www.mongodb.com/products/tools/compass",
     "depends": [
-      "electron42",
+      "electron43",
       "krb5",
       "libx11"
     ],
     "srcurl": "https://github.com/mongodb-js/compass/archive/refs/tags/v1.53.2.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5630b5d5/tur/mongodb-compass",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5630b5d5/tur/mongodb-compass/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5630b5d5/tur/mongodb-compass/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/115471ec/tur/mongodb-compass",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/115471ec/tur/mongodb-compass/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/115471ec/tur/mongodb-compass/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
