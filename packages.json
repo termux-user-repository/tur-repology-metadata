@@ -3603,15 +3603,15 @@
   },
   {
     "name": "iris",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A shell auto-completion tool for your terminal",
     "homepage": "https://github.com/versenilvis/IRIS",
     "depends": [],
-    "srcurl": "https://github.com/versenilvis/IRIS/archive/refs/tags/v0.8.0.tar.gz",
+    "srcurl": "https://github.com/versenilvis/IRIS/archive/refs/tags/v0.8.1.tar.gz",
     "maintainer": "@everywhereless",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ee18e611/tur/iris",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ee18e611/tur/iris/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ee18e611/tur/iris/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/f0a1bf7e/tur/iris",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/f0a1bf7e/tur/iris/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/f0a1bf7e/tur/iris/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -4924,7 +4924,7 @@
   },
   {
     "name": "mongodb-compass",
-    "version": "1.53.2",
+    "version": "1.53.3",
     "description": "The GUI for MongoDB",
     "homepage": "https://www.mongodb.com/products/tools/compass",
     "depends": [
@@ -4932,11 +4932,11 @@
       "krb5",
       "libx11"
     ],
-    "srcurl": "https://github.com/mongodb-js/compass/archive/refs/tags/v1.53.2.tar.gz",
+    "srcurl": "https://github.com/mongodb-js/compass/archive/refs/tags/v1.53.3.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/115471ec/tur/mongodb-compass",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/115471ec/tur/mongodb-compass/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/115471ec/tur/mongodb-compass/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3720e160/tur/mongodb-compass",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3720e160/tur/mongodb-compass/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3720e160/tur/mongodb-compass/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -5808,23 +5808,23 @@
   },
   {
     "name": "officecli",
-    "version": "1.0.162",
+    "version": "1.0.163",
     "description": "CLI for reading and writing Office documents (.docx, .xlsx, .pptx) via a document DOM API",
     "homepage": "https://officecli.ai",
     "depends": [
       "dotnet-host",
       "dotnet-runtime-10.0"
     ],
-    "srcurl": "https://github.com/iOfficeAI/OfficeCLI/archive/refs/tags/v1.0.162.tar.gz",
+    "srcurl": "https://github.com/iOfficeAI/OfficeCLI/archive/refs/tags/v1.0.163.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/251b61b1/tur/officecli",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/251b61b1/tur/officecli/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/251b61b1/tur/officecli/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1cd18066/tur/officecli",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1cd18066/tur/officecli/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1cd18066/tur/officecli/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/251b61b1/tur/officecli/0001-detect-termux-package-manager.patch"
+      "https://github.com/termux-user-repository/tur/blob/1cd18066/tur/officecli/0001-detect-termux-package-manager.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/251b61b1/tur/officecli/0001-detect-termux-package-manager.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1cd18066/tur/officecli/0001-detect-termux-package-manager.patch"
     ],
     "auto_updated": true
   },
@@ -8035,7 +8035,7 @@
   },
   {
     "name": "smartdns",
-    "version": "48.5~RC1",
+    "version": "48.5",
     "description": "A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH",
     "homepage": "https://github.com/pymumu/smartdns",
     "depends": [
@@ -8043,24 +8043,24 @@
       "libc++",
       "openssl"
     ],
-    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release48.5-RC1.tar.gz",
+    "srcurl": "https://github.com/pymumu/smartdns/archive/refs/tags/Release48.5.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8ba4dda1/tur/smartdns",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3501ccb5/tur/smartdns",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3501ccb5/tur/smartdns/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3501ccb5/tur/smartdns/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://github.com/termux-user-repository/tur/blob/8ba4dda1/tur/smartdns/0005-fix-include-on-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/3501ccb5/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://github.com/termux-user-repository/tur/blob/3501ccb5/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://github.com/termux-user-repository/tur/blob/3501ccb5/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://github.com/termux-user-repository/tur/blob/3501ccb5/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://github.com/termux-user-repository/tur/blob/3501ccb5/tur/smartdns/0005-fix-include-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0001-add-getdomainname-for-android.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0002-fix-hardcoded-pathes.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0003-do-not-call-setuid.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8ba4dda1/tur/smartdns/0005-fix-include-on-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3501ccb5/tur/smartdns/0001-add-getdomainname-for-android.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3501ccb5/tur/smartdns/0002-fix-hardcoded-pathes.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3501ccb5/tur/smartdns/0003-do-not-call-setuid.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3501ccb5/tur/smartdns/0004-do-not-install-systemd-related-files.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3501ccb5/tur/smartdns/0005-fix-include-on-android.patch"
     ],
     "auto_updated": true
   },
