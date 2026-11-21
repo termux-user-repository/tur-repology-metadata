@@ -424,22 +424,22 @@
   },
   {
     "name": "autobrr",
-    "version": "1.91.0",
+    "version": "1.91.1",
     "description": "The modern download automation tool for torrents and usenet",
     "homepage": "https://autobrr.com",
     "depends": [],
-    "srcurl": "https://github.com/autobrr/autobrr/archive/refs/tags/v1.91.0.tar.gz",
+    "srcurl": "https://github.com/autobrr/autobrr/archive/refs/tags/v1.91.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0a8efbe1/tur/autobrr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0a8efbe1/tur/autobrr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0a8efbe1/tur/autobrr/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4c44491b/tur/autobrr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4c44491b/tur/autobrr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4c44491b/tur/autobrr/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0a8efbe1/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
-      "https://github.com/termux-user-repository/tur/blob/0a8efbe1/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
+      "https://github.com/termux-user-repository/tur/blob/4c44491b/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
+      "https://github.com/termux-user-repository/tur/blob/4c44491b/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8efbe1/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8efbe1/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4c44491b/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4c44491b/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
     ],
     "auto_updated": true
   },
@@ -1614,17 +1614,17 @@
   },
   {
     "name": "ddns-go",
-    "version": "6.17.9",
+    "version": "6.18.0",
     "description": "A simple, easy-to-use ddns service",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "depends": [
       "libc++"
     ],
-    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.17.9.tar.gz",
+    "srcurl": "https://github.com/jeessy2/ddns-go/archive/refs/tags/v6.18.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/18ff0b71/tur/ddns-go",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/18ff0b71/tur/ddns-go/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/18ff0b71/tur/ddns-go/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/739e36cb/tur/ddns-go",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/739e36cb/tur/ddns-go/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/739e36cb/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
