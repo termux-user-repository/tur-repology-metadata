@@ -424,22 +424,22 @@
   },
   {
     "name": "autobrr",
-    "version": "1.90.0",
+    "version": "1.91.0",
     "description": "The modern download automation tool for torrents and usenet",
     "homepage": "https://autobrr.com",
     "depends": [],
-    "srcurl": "https://github.com/autobrr/autobrr/archive/refs/tags/v1.90.0.tar.gz",
+    "srcurl": "https://github.com/autobrr/autobrr/archive/refs/tags/v1.91.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a790c9f4/tur/autobrr",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a790c9f4/tur/autobrr/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a790c9f4/tur/autobrr/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0a8efbe1/tur/autobrr",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0a8efbe1/tur/autobrr/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0a8efbe1/tur/autobrr/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/a790c9f4/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
-      "https://github.com/termux-user-repository/tur/blob/a790c9f4/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
+      "https://github.com/termux-user-repository/tur/blob/0a8efbe1/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
+      "https://github.com/termux-user-repository/tur/blob/0a8efbe1/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a790c9f4/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/a790c9f4/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8efbe1/tur/autobrr/0001-feat-irc-add-self-healing-half-open-circuit-breaker-.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/0a8efbe1/tur/autobrr/0002-feat-irc-add-system-resume-detection-and-post-thaw-g.patch"
     ],
     "auto_updated": true
   },
@@ -1627,6 +1627,42 @@
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/18ff0b71/tur/ddns-go/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "deckcraft",
+    "version": "0.18.1",
+    "description": "An open-source, clean-room presentation app in pure Rust",
+    "homepage": "https://getartcraft.com/apps/deckcraft",
+    "depends": [
+      "libx11",
+      "libxcb",
+      "libxcursor",
+      "libxi",
+      "libxrandr",
+      "libxkbcommon",
+      "vulkan-loader-android",
+      "hicolor-icon-theme",
+      "alsa-lib",
+      "alsa-plugins"
+    ],
+    "srcurl": "https://github.com/storytold/deckcraft/archive/refs/tags/v0.18.1.tar.gz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/620bf97d/tur/deckcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/0001-point-hardcoded-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/wayland-cursor-no-shm.diff"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/0001-point-hardcoded-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/wayland-cursor-no-shm.diff"
+    ],
     "auto_updated": true
   },
   {
@@ -3360,6 +3396,40 @@
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3769f226/tur/gomi/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "gridcraft",
+    "version": "0.19.1",
+    "description": "An open-source, clean-room spreadsheet in pure Rust",
+    "homepage": "https://getartcraft.com/apps/gridcraft",
+    "depends": [
+      "libx11",
+      "libxcb",
+      "libxcursor",
+      "libxi",
+      "libxrandr",
+      "libxkbcommon",
+      "vulkan-loader-android",
+      "hicolor-icon-theme"
+    ],
+    "srcurl": "https://github.com/storytold/gridcraft/archive/refs/tags/v0.19.1.tar.gz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c52c427b/tur/gridcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c52c427b/tur/gridcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c52c427b/tur/gridcraft/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/c52c427b/tur/gridcraft/0001-point-system-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/c52c427b/tur/gridcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/c52c427b/tur/gridcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/c52c427b/tur/gridcraft/wayland-cursor-no-shm.diff"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c52c427b/tur/gridcraft/0001-point-system-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c52c427b/tur/gridcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c52c427b/tur/gridcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c52c427b/tur/gridcraft/wayland-cursor-no-shm.diff"
+    ],
     "auto_updated": true
   },
   {
@@ -9037,6 +9107,40 @@
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/6c272a59/tur/winetricks/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "wordcraft",
+    "version": "0.18.1",
+    "description": "An open-source, clean-room word processor in pure Rust",
+    "homepage": "https://getartcraft.com/apps/wordcraft",
+    "depends": [
+      "libx11",
+      "libxcb",
+      "libxcursor",
+      "libxi",
+      "libxrandr",
+      "libxkbcommon",
+      "vulkan-loader-android",
+      "hicolor-icon-theme"
+    ],
+    "srcurl": "https://github.com/storytold/wordcraft/archive/refs/tags/v0.18.1.tar.gz",
+    "maintainer": "@termux",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1fc175ed/tur/wordcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/wayland-cursor-no-shm.diff"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/wayland-cursor-no-shm.diff"
+    ],
     "auto_updated": true
   },
   {
