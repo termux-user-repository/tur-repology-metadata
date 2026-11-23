@@ -213,6 +213,24 @@
     "auto_updated": false
   },
   {
+    "name": "akg",
+    "version": "0.5.7",
+    "description": "Fast package manager for Termux written in Rust",
+    "homepage": "https://github.com/lev73748/akg",
+    "depends": [
+      "gpgv",
+      "termux-keyring"
+    ],
+    "srcurl": "https://github.com/lev73748/akg/archive/refs/tags/0.5.7.tar.gz",
+    "maintainer": "@lev73748",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/9bc2a1c7/tur/akg",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/9bc2a1c7/tur/akg/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/9bc2a1c7/tur/akg/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "ansiweather",
     "version": "1.19.0",
     "description": "Weather in terminal, with ANSI colors and Unicode symbols",
@@ -1373,7 +1391,7 @@
   },
   {
     "name": "code-server",
-    "version": "4.145.2",
+    "version": "4.146.0",
     "description": "Run VS Code on any machine anywhere and access it in the browser",
     "homepage": "https://github.com/coder/code-server",
     "depends": [
@@ -1385,14 +1403,14 @@
     ],
     "srcurl": "git+https://github.com/coder/code-server",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/78bec113/tur/code-server",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/78bec113/tur/code-server/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/78bec113/tur/code-server/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4fadd27d/tur/code-server",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4fadd27d/tur/code-server/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4fadd27d/tur/code-server/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/78bec113/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://github.com/termux-user-repository/tur/blob/4fadd27d/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/78bec113/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/4fadd27d/tur/code-server/0001-vscode-fix-pathes.patch.beforehostbuild"
     ],
     "auto_updated": true
   },
@@ -2605,6 +2623,23 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/628b2982/tur/fastcompmgr",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/628b2982/tur/fastcompmgr/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/628b2982/tur/fastcompmgr/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
+    "name": "fastloadai",
+    "version": "1.1.0",
+    "description": "Hardware-aware local GGUF model runner and chat UI",
+    "homepage": "https://github.com/ciao22king/FastLoadAI",
+    "depends": [
+      "llama-cpp"
+    ],
+    "srcurl": "https://github.com/ciao22king/FastLoadAI/archive/refs/tags/v1.1.0.tar.gz",
+    "maintainer": "@ciao22king",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0de862dc/tur/fastloadai",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0de862dc/tur/fastloadai/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0de862dc/tur/fastloadai/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
