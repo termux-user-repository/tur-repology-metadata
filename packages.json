@@ -6464,7 +6464,7 @@
   },
   {
     "name": "pdfcraft",
-    "version": "0.21.1",
+    "version": "0.22.0",
     "description": "PDF reader, editor and toolkit; an open-source clean-room PDF application in pure Rust",
     "homepage": "https://getartcraft.com/apps/pdfcraft",
     "depends": [
@@ -6477,26 +6477,26 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/pdfcraft/archive/refs/tags/v0.21.1.tar.gz",
+    "srcurl": "https://github.com/storytold/pdfcraft/archive/refs/tags/v0.22.0.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/50bfae61/tur/pdfcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/50bfae61/tur/pdfcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/50bfae61/tur/pdfcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/3b0446da/tur/pdfcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/3b0446da/tur/pdfcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/3b0446da/tur/pdfcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/50bfae61/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/50bfae61/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
-      "https://github.com/termux-user-repository/tur/blob/50bfae61/tur/pdfcraft/0003-fix-print-unify-winprint-git-revision-with-craft-print.patch",
-      "https://github.com/termux-user-repository/tur/blob/50bfae61/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/50bfae61/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/50bfae61/tur/pdfcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/3b0446da/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/3b0446da/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
+      "https://github.com/termux-user-repository/tur/blob/3b0446da/tur/pdfcraft/0003-unify-git-dependencies-for-cargo-vendor.patch",
+      "https://github.com/termux-user-repository/tur/blob/3b0446da/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/3b0446da/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/3b0446da/tur/pdfcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/50bfae61/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/50bfae61/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/50bfae61/tur/pdfcraft/0003-fix-print-unify-winprint-git-revision-with-craft-print.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/50bfae61/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/50bfae61/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/50bfae61/tur/pdfcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3b0446da/tur/pdfcraft/0001-point-hardcoded-system-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3b0446da/tur/pdfcraft/0002-termux-drop-eframe-glow-opengl-backend.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3b0446da/tur/pdfcraft/0003-unify-git-dependencies-for-cargo-vendor.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3b0446da/tur/pdfcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3b0446da/tur/pdfcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/3b0446da/tur/pdfcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -8521,15 +8521,15 @@
   },
   {
     "name": "tailcat",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
     "homepage": "https://github.com/tailscale/tailcat",
     "depends": [],
-    "srcurl": "https://github.com/tailscale/tailcat/archive/refs/tags/v0.7.0.tar.gz",
+    "srcurl": "https://github.com/tailscale/tailcat/archive/refs/tags/v0.8.0.tar.gz",
     "maintainer": "@ancientcatz",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/acdc5b71/tur/tailcat",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/acdc5b71/tur/tailcat/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/acdc5b71/tur/tailcat/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/18c6c7e3/tur/tailcat",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/18c6c7e3/tur/tailcat/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/18c6c7e3/tur/tailcat/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
