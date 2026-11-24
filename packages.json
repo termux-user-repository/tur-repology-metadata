@@ -1709,7 +1709,7 @@
   },
   {
     "name": "designcraft",
-    "version": "0.20.1",
+    "version": "0.21.1",
     "description": "An open-source, clean-room reimplementation of Adobe InDesign in pure Rust",
     "homepage": "https://getartcraft.com/apps/designcraft",
     "depends": [
@@ -1722,22 +1722,22 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/designcraft/archive/refs/tags/v0.20.1.tar.gz",
+    "srcurl": "https://github.com/storytold/designcraft/archive/refs/tags/v0.21.1.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/680acfe3/tur/designcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2df27fe9/tur/designcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2df27fe9/tur/designcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2df27fe9/tur/designcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/680acfe3/tur/designcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/2df27fe9/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/2df27fe9/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/2df27fe9/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/2df27fe9/tur/designcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/680acfe3/tur/designcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2df27fe9/tur/designcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2df27fe9/tur/designcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2df27fe9/tur/designcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/2df27fe9/tur/designcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -1962,7 +1962,7 @@
   },
   {
     "name": "dpp",
-    "version": "10.1.6",
+    "version": "10.1.7",
     "description": "D++ is a lightweight and simple library for Discord written in modern C++.",
     "homepage": "https://dpp.dev",
     "depends": [
@@ -1972,16 +1972,16 @@
       "openssl",
       "zlib"
     ],
-    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.1.6.tar.gz",
+    "srcurl": "https://github.com/brainboxdotcc/dpp/archive/refs/tags/v10.1.7.tar.gz",
     "maintainer": "@OrdinaryEnder",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/41d3fd46/tur/dpp",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/41d3fd46/tur/dpp/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/41d3fd46/tur/dpp/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1c8e1c72/tur/dpp",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1c8e1c72/tur/dpp/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1c8e1c72/tur/dpp/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/41d3fd46/tur/dpp/0001-fix-32bit.patch"
+      "https://github.com/termux-user-repository/tur/blob/1c8e1c72/tur/dpp/0001-fix-32bit.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/41d3fd46/tur/dpp/0001-fix-32bit.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1c8e1c72/tur/dpp/0001-fix-32bit.patch"
     ],
     "auto_updated": true
   },
@@ -2045,7 +2045,7 @@
   },
   {
     "name": "effectcraft",
-    "version": "0.24.1",
+    "version": "0.25.1",
     "description": "Native open-source motion-graphics and effects editor in pure Rust (eframe/wgpu)",
     "homepage": "https://github.com/storytold/effectcraft",
     "depends": [
@@ -2060,22 +2060,24 @@
       "alsa-lib",
       "alsa-plugins"
     ],
-    "srcurl": "https://github.com/storytold/effectcraft/archive/refs/tags/v0.24.1.tar.gz",
+    "srcurl": "https://github.com/storytold/effectcraft/archive/refs/tags/v0.25.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7dc61400/tur/effectcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/c50b25f1/tur/effectcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/c50b25f1/tur/effectcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/c50b25f1/tur/effectcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/7dc61400/tur/effectcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/c50b25f1/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/c50b25f1/tur/effectcraft/0002-unify-git-dependencies-for-cargo-vendor.patch",
+      "https://github.com/termux-user-repository/tur/blob/c50b25f1/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/c50b25f1/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/c50b25f1/tur/effectcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/7dc61400/tur/effectcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c50b25f1/tur/effectcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c50b25f1/tur/effectcraft/0002-unify-git-dependencies-for-cargo-vendor.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c50b25f1/tur/effectcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c50b25f1/tur/effectcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/c50b25f1/tur/effectcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -2695,7 +2697,7 @@
   },
   {
     "name": "ffdec",
-    "version": "26.4.0",
+    "version": "26.5.0",
     "description": "JPEXS Free Flash Decompiler",
     "homepage": "https://github.com/jindrapetrik/jpexs-decompiler",
     "depends": [
@@ -2704,14 +2706,14 @@
     ],
     "srcurl": "git+https://github.com/jindrapetrik/jpexs-decompiler",
     "maintainer": "@CosmyBeyondStars",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/4d02e27f/tur/ffdec",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/4d02e27f/tur/ffdec/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/4d02e27f/tur/ffdec/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/76a84a41/tur/ffdec",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/76a84a41/tur/ffdec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/76a84a41/tur/ffdec/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/4d02e27f/tur/ffdec/fix-paths.patch"
+      "https://github.com/termux-user-repository/tur/blob/76a84a41/tur/ffdec/fix-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/4d02e27f/tur/ffdec/fix-paths.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/76a84a41/tur/ffdec/fix-paths.patch"
     ],
     "auto_updated": true
   },
@@ -3467,6 +3469,21 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/c52c427b/tur/gridcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
       "https://raw.githubusercontent.com/termux-user-repository/tur/c52c427b/tur/gridcraft/wayland-cursor-no-shm.diff"
     ],
+    "auto_updated": true
+  },
+  {
+    "name": "gshell",
+    "version": "2.0.0",
+    "description": "Terminal client for Google Cloud Shell",
+    "homepage": "https://github.com/Spectra010s/gshell",
+    "depends": [],
+    "srcurl": "https://github.com/Spectra010s/gshell/archive/refs/tags/v2.0.0.tar.gz",
+    "maintainer": "@Spectra010s",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d1e1c5d2/tur/gshell",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d1e1c5d2/tur/gshell/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d1e1c5d2/tur/gshell/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
     "auto_updated": true
   },
   {
@@ -5792,26 +5809,26 @@
   },
   {
     "name": "nub",
-    "version": "0.11.1",
+    "version": "0.11.2",
     "description": "The fast all-in-one Node.js toolkit: TypeScript runner, script runner and package manager on top of stock node",
     "homepage": "https://nubjs.com",
     "depends": [
       "nodejs"
     ],
-    "srcurl": "https://github.com/nubjs/nub/archive/refs/tags/v0.11.1.tar.gz",
+    "srcurl": "https://github.com/nubjs/nub/archive/refs/tags/v0.11.2.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0ed38540/tur/nub",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0ed38540/tur/nub/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0ed38540/tur/nub/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ec84c95/tur/nub",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ec84c95/tur/nub/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ec84c95/tur/nub/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/0ed38540/tur/nub/0001-find-runtime-in-termux-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/0ed38540/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
-      "https://github.com/termux-user-repository/tur/blob/0ed38540/tur/nub/0003-disable-node-download-on-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/1ec84c95/tur/nub/0001-find-runtime-in-termux-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/1ec84c95/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
+      "https://github.com/termux-user-repository/tur/blob/1ec84c95/tur/nub/0003-disable-node-download-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0ed38540/tur/nub/0001-find-runtime-in-termux-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0ed38540/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/0ed38540/tur/nub/0003-disable-node-download-on-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec84c95/tur/nub/0001-find-runtime-in-termux-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec84c95/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec84c95/tur/nub/0003-disable-node-download-on-android.patch"
     ],
     "auto_updated": true
   },
@@ -6341,6 +6358,25 @@
       "https://raw.githubusercontent.com/termux-user-repository/tur/707edf7f/tur/openssl-1.1/Configurations-15-android.conf.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/707edf7f/tur/openssl-1.1/apps-ocsp.c.patch",
       "https://raw.githubusercontent.com/termux-user-repository/tur/707edf7f/tur/openssl-1.1/e_os.h.patch"
+    ],
+    "auto_updated": false
+  },
+  {
+    "name": "opentui",
+    "version": "0.4.3",
+    "description": "High-performance terminal user interface library",
+    "homepage": "https://github.com/anomalyco/opentui",
+    "depends": [],
+    "srcurl": "https://github.com/anomalyco/opentui/archive/refs/tags/v0.4.3.tar.gz",
+    "maintainer": "ULTRAXAS <contact@ultraxas.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/99ebcd25/tur/opentui",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/99ebcd25/tur/opentui/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/99ebcd25/tur/opentui/build.sh",
+    "package_patch_urls": [
+      "https://github.com/termux-user-repository/tur/blob/99ebcd25/tur/opentui/android-bionic.patch"
+    ],
+    "package_patch_raw_urls": [
+      "https://raw.githubusercontent.com/termux-user-repository/tur/99ebcd25/tur/opentui/android-bionic.patch"
     ],
     "auto_updated": false
   },
@@ -9214,6 +9250,24 @@
     "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ec51300/tur/xpenguins",
     "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ec51300/tur/xpenguins/build.sh",
     "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ec51300/tur/xpenguins/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": false
+  },
+  {
+    "name": "xro",
+    "version": "3.0.1",
+    "description": "Xro 8.6 autonomous AI coding agent CLI by ULTRAXAS",
+    "homepage": "https://github.com/ULTRAXAS/xro",
+    "depends": [
+      "bun",
+      "opentui"
+    ],
+    "srcurl": "https://github.com/ULTRAXAS/xro/archive/refs/tags/v3.0.1.tar.gz",
+    "maintainer": "ULTRAXAS <contact@ultraxas.com>",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/99ebcd25/tur/xro",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/99ebcd25/tur/xro/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/99ebcd25/tur/xro/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": false
