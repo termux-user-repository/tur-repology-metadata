@@ -5100,15 +5100,15 @@
   },
   {
     "name": "mp3rgain",
-    "version": "3.16.2",
+    "version": "3.17.0",
     "description": "Lossless MP3 and AAC volume normalizer using ReplayGain, compatible with mp3gain",
     "homepage": "https://github.com/M-Igashi/mp3rgain",
     "depends": [],
-    "srcurl": "https://github.com/M-Igashi/mp3rgain/archive/refs/tags/v3.16.2.tar.gz",
+    "srcurl": "https://github.com/M-Igashi/mp3rgain/archive/refs/tags/v3.17.0.tar.gz",
     "maintainer": "@M-Igashi",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/67c60d64/tur/mp3rgain",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/67c60d64/tur/mp3rgain/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/67c60d64/tur/mp3rgain/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/e77e0030/tur/mp3rgain",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/e77e0030/tur/mp3rgain/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/e77e0030/tur/mp3rgain/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -7989,15 +7989,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.3.5",
+    "version": "0.3.6",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.3.5.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.3.6.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/aad23bc8/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/aad23bc8/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/aad23bc8/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/11ea9685/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/11ea9685/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/11ea9685/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -9406,22 +9406,22 @@
   },
   {
     "name": "afrog",
-    "version": "3.5.11",
+    "version": "3.5.12",
     "description": "A tool for finding vulnerabilities",
     "homepage": "https://github.com/zan8in/afrog",
     "depends": [],
-    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.5.11.tar.gz",
+    "srcurl": "https://github.com/zan8in/afrog/archive/refs/tags/v3.5.12.tar.gz",
     "maintainer": "@UtermuxBlog",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8eee50f0/tur-hacking/afrog",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8eee50f0/tur-hacking/afrog/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8eee50f0/tur-hacking/afrog/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/787df85d/tur-hacking/afrog",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/787df85d/tur-hacking/afrog/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/787df85d/tur-hacking/afrog/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8eee50f0/tur-hacking/afrog/0001-dm-int-type.patch32",
-      "https://github.com/termux-user-repository/tur/blob/8eee50f0/tur-hacking/afrog/0002-excelize-int-type.patch32"
+      "https://github.com/termux-user-repository/tur/blob/787df85d/tur-hacking/afrog/0001-dm-int-type.patch32",
+      "https://github.com/termux-user-repository/tur/blob/787df85d/tur-hacking/afrog/0002-excelize-int-type.patch32"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8eee50f0/tur-hacking/afrog/0001-dm-int-type.patch32",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8eee50f0/tur-hacking/afrog/0002-excelize-int-type.patch32"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/787df85d/tur-hacking/afrog/0001-dm-int-type.patch32",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/787df85d/tur-hacking/afrog/0002-excelize-int-type.patch32"
     ],
     "auto_updated": true
   },
