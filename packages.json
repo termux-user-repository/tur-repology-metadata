@@ -1019,7 +1019,7 @@
   },
   {
     "name": "chromium-beta",
-    "version": "159.0.8154.13",
+    "version": "159.0.8154.33",
     "description": "Chromium web browser",
     "homepage": "https://www.chromium.org/Home",
     "depends": [
@@ -1042,26 +1042,26 @@
       "pulseaudio",
       "zlib"
     ],
-    "srcurl": "https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/159.0.8154.13/chromium-159.0.8154.13-linux.tar.xz",
+    "srcurl": "https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/159.0.8154.33/chromium-159.0.8154.33-linux.tar.xz",
     "maintainer": "@licy183",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/8a473756/tur/chromium-beta",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/8a473756/tur/chromium-beta/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/8a473756/tur/chromium-beta/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/a0a52e70/tur/chromium-beta",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/a0a52e70/tur/chromium-beta/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/a0a52e70/tur/chromium-beta/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/8a473756/tur/chromium-beta/0107-components.patch",
-      "https://github.com/termux-user-repository/tur/blob/8a473756/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://github.com/termux-user-repository/tur/blob/8a473756/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/8a473756/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://github.com/termux-user-repository/tur/blob/8a473756/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://github.com/termux-user-repository/tur/blob/8a473756/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://github.com/termux-user-repository/tur/blob/a0a52e70/tur/chromium-beta/0107-components.patch",
+      "https://github.com/termux-user-repository/tur/blob/a0a52e70/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://github.com/termux-user-repository/tur/blob/a0a52e70/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/a0a52e70/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://github.com/termux-user-repository/tur/blob/a0a52e70/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://github.com/termux-user-repository/tur/blob/a0a52e70/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a473756/tur/chromium-beta/0107-components.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a473756/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a473756/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a473756/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a473756/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/8a473756/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a0a52e70/tur/chromium-beta/0107-components.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a0a52e70/tur/chromium-beta/9001-use-prebuilt-snapshot.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a0a52e70/tur/chromium-beta/9002-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a0a52e70/tur/chromium-beta/9003-v8-use-prebuilt-cross-tools.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a0a52e70/tur/chromium-beta/9004-use-prebuilt-pdfium.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/a0a52e70/tur/chromium-beta/9999-sysroot-disable-target-check.diff"
     ],
     "auto_updated": true
   },
@@ -1651,7 +1651,7 @@
   },
   {
     "name": "deckcraft",
-    "version": "0.18.1",
+    "version": "0.19.1",
     "description": "An open-source, clean-room presentation app in pure Rust",
     "homepage": "https://getartcraft.com/apps/deckcraft",
     "depends": [
@@ -1666,22 +1666,24 @@
       "alsa-lib",
       "alsa-plugins"
     ],
-    "srcurl": "https://github.com/storytold/deckcraft/archive/refs/tags/v0.18.1.tar.gz",
+    "srcurl": "https://github.com/storytold/deckcraft/archive/refs/tags/v0.19.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/620bf97d/tur/deckcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/5f405cb8/tur/deckcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/5f405cb8/tur/deckcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/5f405cb8/tur/deckcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/0001-point-hardcoded-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/620bf97d/tur/deckcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/5f405cb8/tur/deckcraft/0001-point-hardcoded-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/5f405cb8/tur/deckcraft/0002-unify-git-dependencies-for-cargo-vendor.patch",
+      "https://github.com/termux-user-repository/tur/blob/5f405cb8/tur/deckcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/5f405cb8/tur/deckcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/5f405cb8/tur/deckcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/0001-point-hardcoded-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/620bf97d/tur/deckcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5f405cb8/tur/deckcraft/0001-point-hardcoded-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5f405cb8/tur/deckcraft/0002-unify-git-dependencies-for-cargo-vendor.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5f405cb8/tur/deckcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5f405cb8/tur/deckcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/5f405cb8/tur/deckcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
@@ -7714,6 +7716,21 @@
     "auto_updated": false
   },
   {
+    "name": "qrcode-barcode-scanner",
+    "version": "0.12.0",
+    "description": "Offline QR code and barcode scanner for the command line (qrscan)",
+    "homepage": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust",
+    "depends": [],
+    "srcurl": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/releases/download/v0.12.0/qrcode-barcode-scanner-cli-0.12.0-source.tar.gz",
+    "maintainer": "@ThibautMelen",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/2a48302c/tur/qrcode-barcode-scanner",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/2a48302c/tur/qrcode-barcode-scanner/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/2a48302c/tur/qrcode-barcode-scanner/build.sh",
+    "package_patch_urls": [],
+    "package_patch_raw_urls": [],
+    "auto_updated": true
+  },
+  {
     "name": "qrupdate-ng",
     "version": "1:1.1.5",
     "description": "A Library for Fast Updating of QR and Cholesky Decompositions.",
@@ -9184,7 +9201,7 @@
   },
   {
     "name": "wordcraft",
-    "version": "0.18.1",
+    "version": "0.19.1",
     "description": "An open-source, clean-room word processor in pure Rust",
     "homepage": "https://getartcraft.com/apps/wordcraft",
     "depends": [
@@ -9197,22 +9214,22 @@
       "vulkan-loader-android",
       "hicolor-icon-theme"
     ],
-    "srcurl": "https://github.com/storytold/wordcraft/archive/refs/tags/v0.18.1.tar.gz",
+    "srcurl": "https://github.com/storytold/wordcraft/archive/refs/tags/v0.19.1.tar.gz",
     "maintainer": "@termux",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1fc175ed/tur/wordcraft",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/d7c02d95/tur/wordcraft",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/d7c02d95/tur/wordcraft/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/d7c02d95/tur/wordcraft/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://github.com/termux-user-repository/tur/blob/1fc175ed/tur/wordcraft/wayland-cursor-no-shm.diff"
+      "https://github.com/termux-user-repository/tur/blob/d7c02d95/tur/wordcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/d7c02d95/tur/wordcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/d7c02d95/tur/wordcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://github.com/termux-user-repository/tur/blob/d7c02d95/tur/wordcraft/wayland-cursor-no-shm.diff"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/0001-point-system-font-paths-at-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1fc175ed/tur/wordcraft/wayland-cursor-no-shm.diff"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7c02d95/tur/wordcraft/0001-point-system-font-paths-at-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7c02d95/tur/wordcraft/smithay-client-toolkit-0.19.2-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7c02d95/tur/wordcraft/smithay-client-toolkit-0.20.0-no-shm.diff",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/d7c02d95/tur/wordcraft/wayland-cursor-no-shm.diff"
     ],
     "auto_updated": true
   },
