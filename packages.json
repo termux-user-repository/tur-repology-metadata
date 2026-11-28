@@ -2699,7 +2699,7 @@
   },
   {
     "name": "ffdec",
-    "version": "26.5.0",
+    "version": "26.6.0",
     "description": "JPEXS Free Flash Decompiler",
     "homepage": "https://github.com/jindrapetrik/jpexs-decompiler",
     "depends": [
@@ -2708,14 +2708,14 @@
     ],
     "srcurl": "git+https://github.com/jindrapetrik/jpexs-decompiler",
     "maintainer": "@CosmyBeyondStars",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/76a84a41/tur/ffdec",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/76a84a41/tur/ffdec/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/76a84a41/tur/ffdec/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1e24ace6/tur/ffdec",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1e24ace6/tur/ffdec/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1e24ace6/tur/ffdec/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/76a84a41/tur/ffdec/fix-paths.patch"
+      "https://github.com/termux-user-repository/tur/blob/1e24ace6/tur/ffdec/fix-paths.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/76a84a41/tur/ffdec/fix-paths.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/1e24ace6/tur/ffdec/fix-paths.patch"
     ],
     "auto_updated": true
   },
@@ -5811,26 +5811,26 @@
   },
   {
     "name": "nub",
-    "version": "0.11.2",
+    "version": "0.11.3",
     "description": "The fast all-in-one Node.js toolkit: TypeScript runner, script runner and package manager on top of stock node",
     "homepage": "https://nubjs.com",
     "depends": [
       "nodejs"
     ],
-    "srcurl": "https://github.com/nubjs/nub/archive/refs/tags/v0.11.2.tar.gz",
+    "srcurl": "https://github.com/nubjs/nub/archive/refs/tags/v0.11.3.tar.gz",
     "maintainer": "Gouranga Das Samrat <gouranga.das.khulna@gmail.com>",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/1ec84c95/tur/nub",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/1ec84c95/tur/nub/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/1ec84c95/tur/nub/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/ede1934e/tur/nub",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/ede1934e/tur/nub/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/ede1934e/tur/nub/build.sh",
     "package_patch_urls": [
-      "https://github.com/termux-user-repository/tur/blob/1ec84c95/tur/nub/0001-find-runtime-in-termux-prefix.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec84c95/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
-      "https://github.com/termux-user-repository/tur/blob/1ec84c95/tur/nub/0003-disable-node-download-on-android.patch"
+      "https://github.com/termux-user-repository/tur/blob/ede1934e/tur/nub/0001-find-runtime-in-termux-prefix.patch",
+      "https://github.com/termux-user-repository/tur/blob/ede1934e/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
+      "https://github.com/termux-user-repository/tur/blob/ede1934e/tur/nub/0003-disable-node-download-on-android.patch"
     ],
     "package_patch_raw_urls": [
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec84c95/tur/nub/0001-find-runtime-in-termux-prefix.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec84c95/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
-      "https://raw.githubusercontent.com/termux-user-repository/tur/1ec84c95/tur/nub/0003-disable-node-download-on-android.patch"
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ede1934e/tur/nub/0001-find-runtime-in-termux-prefix.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ede1934e/tur/nub/0002-use-termux-prefix-in-generated-shims.patch",
+      "https://raw.githubusercontent.com/termux-user-repository/tur/ede1934e/tur/nub/0003-disable-node-download-on-android.patch"
     ],
     "auto_updated": true
   },
@@ -7717,15 +7717,15 @@
   },
   {
     "name": "qrcode-barcode-scanner",
-    "version": "0.12.1",
+    "version": "0.12.2",
     "description": "Offline QR code and barcode scanner for the command line (qrscan)",
     "homepage": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust",
     "depends": [],
-    "srcurl": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/releases/download/v0.12.1/qrcode-barcode-scanner-cli-0.12.1-source.tar.gz",
+    "srcurl": "https://github.com/qrcode-ai-com/qrcode-barcode-scanner-rust/releases/download/v0.12.2/qrcode-barcode-scanner-cli-0.12.2-source.tar.gz",
     "maintainer": "@ThibautMelen",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/7a748fd5/tur/qrcode-barcode-scanner",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/7a748fd5/tur/qrcode-barcode-scanner/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/7a748fd5/tur/qrcode-barcode-scanner/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/dae2980a/tur/qrcode-barcode-scanner",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/dae2980a/tur/qrcode-barcode-scanner/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/dae2980a/tur/qrcode-barcode-scanner/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
@@ -8006,15 +8006,15 @@
   },
   {
     "name": "rumdl",
-    "version": "0.3.7",
+    "version": "0.3.8",
     "description": "Markdown Linter and Formatter written in Rust",
     "homepage": "https://github.com/rvben/rumdl",
     "depends": [],
-    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.3.7.tar.gz",
+    "srcurl": "https://github.com/rvben/rumdl/archive/refs/tags/v0.3.8.tar.gz",
     "maintainer": "@termux-user-repository",
-    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/0ff318d9/tur/rumdl",
-    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/0ff318d9/tur/rumdl/build.sh",
-    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/0ff318d9/tur/rumdl/build.sh",
+    "package_sources_url": "https://github.com/termux-user-repository/tur/tree/73713fbb/tur/rumdl",
+    "package_recipe_url": "https://github.com/termux-user-repository/tur/blob/73713fbb/tur/rumdl/build.sh",
+    "package_recipe_url_raw": "https://raw.githubusercontent.com/termux-user-repository/tur/73713fbb/tur/rumdl/build.sh",
     "package_patch_urls": [],
     "package_patch_raw_urls": [],
     "auto_updated": true
